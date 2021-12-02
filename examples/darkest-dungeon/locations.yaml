@@ -1,0 +1,98 @@
+categories:
+  Locations:
+    createSubcontext: true
+    subcontextSettings:
+      contextConfig:
+        reservedTokens: 600
+lorebook:
+  - category: Locations
+    config:
+      searchRange: 2000
+    entries:
+      Available Dungeons:
+        forceActivation: TRUE
+        contextConfig:
+          budgetPriority: 800
+        text: >
+          [ Available Dungeons to Adventure In: the Old Road, the Weald, the
+          Ruins, the Farmstead ]
+      "Dungeon: the Farmstead":
+        keys:
+          - Farmstead
+          - Old Windmill
+        text: >
+          The Farmstead and its surrounding acres of land have been severely
+          altered by the otherworldly corruption ever since the Comet struck the
+          Old Windmill.
+          
+          As if the natural flow of time has been distorted beyond recognition;
+          once fertile fields are a lifeless wasteland where only crystallized
+          wheat and mutated pumpkins can grow, and the acres are littered with
+          fossilized remains of people, livestock, and petrified crops, as if
+          they have aged uncountable years in a blink of an eye. Even the stars
+          above the Farmstead are not right: none of the recognizable
+          constellations can be seen in the night sky, and the Northern Star is
+          in the wrong position, as if these night skies are not from this time
+          and place.
+          
+          [ Monsters: Farmhand, Foremen, Scarecrow ]
+      "Dungeon: the Old Road":
+        keys:
+          - Old Road
+        text: >
+          The Old Road is a poorly-maintained and bandit-plagued road that winds
+          through the Weald and connects the Estate to the outside world. The
+          Stage Coach carrying you to Hamlet suffers an accident because of the
+          apparent madness of its driver. The Old Road is located in the Weald,
+          and you have to to get through the Old Road to reach the Hamlet.
+          
+          [ Monsters: Brigand Bloodletter, Brigand Cutthroat, Brigand Fusilier ]
+      "Dungeon: the Ruins":
+        keys:
+          - Ruins
+        text: >
+          The former halls and seat of the Ancestor's power, the Ruins are now a
+          black, shifting maze of corridors firmly under the control of the
+          Necromancers and their continuously expanding undead army. After the
+          Ancestor's short-sighted revival of the powerful Necromancers, they
+          moved into the Ruins that once housed your family’s lineage. There
+          they desecrated the graves of soldiers and nobles alike, bringing them
+          back as a mindless skeletal horde.
+          
+          [ Monsters: Bone Rabble, Bone Soldier, Bone Courtier ]
+      "Dungeon: Weald":
+        keys:
+          - Weald
+        text: >
+          The only roads to the Hamlet pass through the woods of the Weald,
+          making it an important area to cleanse. The Weald plays host to a
+          widespread and unnatural fungal infestation, and the fruits and victims
+          of this spreading corruption are the primary dangers faced when
+          exploring here. In addition, the Brigands make their home here, with a
+          powerful cannon that protects them from their enemies.
+          
+          [ Weald Monsters: Fungal Artillery, Fungal Scratcher ]
+      "Location: Hamlet":
+        keys:
+          - Hamlet
+        text: >
+          "Welcome home, such as it is. This squalid hamlet, these corrupted
+          lands, they are yours now, and you are bound to them." - The Narrator
+          on entering the Hamlet for the first time.
+          
+          The Hamlet is a quiet, decayed settlement on the Estate's grounds where
+          a handful of people still cling to a squalid yet relatively civilized
+          existence.
+          
+          The Abbey allows the heroes to be relieved of the stress accumulated
+          during expeditions. Like the Abbey, the Tavern allows the relief of
+          accumulated stress for the heroes.
+          
+          The Guild is used to upgrade individual heroes' combat abilities,
+          allowing them to be more effective and reliable when fighting.
+          
+          At the Blacksmith, individual heroes' weapons and armor can be upgraded
+          for a hefty fee, strengthening various aspects of the adventurer's
+          defensive and offensive potential.
+          
+          [ Hamlet services: Abbey, Guild, Tavern ]

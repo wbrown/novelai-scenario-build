@@ -1,0 +1,23 @@
+lorebookVersion: 3
+entries:
+  contextConfig:
+    prefix: ""
+    suffix": "\n"
+    tokenBudget": 2048
+    reservedTokens": 0
+    budgetPriority": 400
+    trimDirection": "trimBottom"
+    insertionType": "newline"
+    maximumTrimType": "sentence"
+    insertionPosition": -1
+  enabled: true,
+  forceActivation: false,
+  keyRelative: false,
+  nonStoryActivatable: false,
+  loreBiasGroups:
+    - phrases:
+      bias: 0
+      ensure_sequence_finish: false,
+      generate_once: true,
+      enabled: true,
+      whenInactive: false
