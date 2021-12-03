@@ -54,41 +54,43 @@ lorebook:
 
           [ Fungal: Fungal Scratcher, Fungal Artillery, Unclean Giant, Crone, Ectoplasm ]
       "Faction: Beasts":
-      keys:
-        - Beast
-        - Beasts
-        - Animal
-        - Animals
-        - Wildlife
-      text: >
-        The Beasts encompasses all of the savage animals that have been tainted by
-        the spreading darkness or awakened by those who trespass into their ancient domain. 
+        keys:
+          - Beast
+          - Beasts
+          - Animal
+          - Animals
+          - Wildlife
+        text: >
+          The Beasts encompasses all of the savage animals that have been tainted by
+          the spreading darkness or awakened by those who trespass into their ancient domain. 
 
-        [ Beasts: Rabid Gnasher, Webber, Spitter, Maggot, Carrion Eater ]
+          [ Beasts: Rabid Gnasher, Webber, Spitter, Maggot, Carrion Eater ]
       "Faction: Cultists":
-        - Cultist
-        - Cultists
-        - Cult
-      text: >
-        The Cultists of these lands worship an Eldritch god. Revelation of the crawling
-        chaos and the entity slumbering below has a rather curious effect on the minds of men.
-        For most individuals these realizations irreparably twist and warp their minds, ceaselessly
-        tormenting them until they eventually descend into insanity. However, for a few individuals,
-        instead of madness these revelations inspire fanatical devotion. These zealots have flocked to
-        the Estate to worship the nascent god and have completely given themselves over to it in mind,
-        body and soul. They are ready, willing and eager to lay down their lives to protect it and 
-        those who worship it as well.
+        keys:
+          - Cultist
+          - Cultists
+          - Cult
+        text: >
+          The Cultists of these lands worship an Eldritch god. Revelation of the crawling
+          chaos and the entity slumbering below has a rather curious effect on the minds of men.
+          For most individuals these realizations irreparably twist and warp their minds, ceaselessly
+          tormenting them until they eventually descend into insanity. However, for a few individuals,
+          instead of madness these revelations inspire fanatical devotion. These zealots have flocked to
+          the Estate to worship the nascent god and have completely given themselves over to it in mind,
+          body and soul. They are ready, willing and eager to lay down their lives to protect it and 
+          those who worship it as well.
 
-        [ Cultists: Cultist Brawler, Cultist Acolyte ]
+          [ Cultists: Cultist Brawler, Cultist Acolyte ]
       "Faction: Swinefolk":
-        - Swinefolk
-        - Swine
-        - Swines
-        - Beast-man
-        - Beast-men
-      text: >
-        The Swinefolk are a hybrid of beast and men carrying numerous diseases.
-        They are the descendants of the Ancestor's experiments, a warrior race of pig men
-        whose only desire is to butcher and feed on any human they can get their claws on.
+        keys:
+          - Swinefolk
+          - Swine
+          - Swines
+          - Beast-man
+          - Beast-men
+        text: >
+          The Swinefolk are a hybrid of beast and men carrying numerous diseases.
+          They are the descendants of the Ancestor's experiments, a warrior race of pig men
+          whose only desire is to butcher and feed on any human they can get their claws on.
 
-        [ Swinefolk: Swine Chopper, Swine Wretch, Swine Drummer, Swine Slasher ]
+          [ Swinefolk: Swine Chopper, Swine Wretch, Swine Drummer, Swine Slasher ]
