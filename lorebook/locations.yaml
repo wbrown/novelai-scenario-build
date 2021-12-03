@@ -3,11 +3,18 @@ categories:
     createSubcontext: true
     subcontextSettings:
       contextConfig:
+        tokenBudget: 2048
         reservedTokens: 250
+        budgetPriority: 400
 lorebook:
   - category: Locations
     config:
       searchRange: 2000
+      contextConfig:
+        suffix": "\n"
+        tokenBudget: 2048
+        reservedTokens: 200
+        budgetPriority: 400
     entries:
       Available Dungeons:
         forceActivation: TRUE

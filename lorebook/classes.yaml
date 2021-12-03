@@ -3,175 +3,178 @@ categories:
     createSubcontext: true
     subcontextSettings:
       contextConfig:
+        tokenBudget: 2048
         reservedTokens: 600
-
+        budgetPriority: 400
 lorebook:
-    - category: Classes
-      config:
-        contextConfig:
-          suffix: "\n"
-          reservedTokens: 300
-          nonStoryActivatable: true
-      entries:  
-        "Class: Abomination":
-          keys:
-             - Abomination
-          text: >
-            The Abomination has been beaten, branded and imprisoned for untold decades. This furtive vagrant hides a terrible secret. The Eldritch poison coursing through his veins has given him unspeakable power, at a terrible cost. Protected by cursed chains and a thick, leathery hide, the Abomination can withstand the pressures of frontline combat as well as any plated footman. His terrible claws are each the size of daggers, and his progressive mutation manifests in unspeakable strength, speed, and a profusion of bile. 
+  - category: Classes
+    config:
+      contextConfig:
+        suffix": "\n"
+        tokenBudget: 2048
+        reservedTokens: 300
+        budgetPriority: 400
+        nonStoryActivatable: true
+    entries:  
+      "Class: Abomination":
+        keys:
+           - Abomination
+        text: >
+          The Abomination has been beaten, branded and imprisoned for untold decades. This furtive vagrant hides a terrible secret. The Eldritch poison coursing through his veins has given him unspeakable power, at a terrible cost. Protected by cursed chains and a thick, leathery hide, the Abomination can withstand the pressures of frontline combat as well as any plated footman. His terrible claws are each the size of daggers, and his progressive mutation manifests in unspeakable strength, speed, and a profusion of bile. 
 
-            As a human, the Abomination can use his Manacles to stun his enemies, while Beast's Bile inflicts them with poisonous blight, and Absolution is a self-healing skill. Transform causes the Abomination to unleash his inner monstrosity, healing him and supplying him with a boost to his offensive abilities as long as he remains transformed. The main two skills the transformed Abomination uses is Rake and Rage. Rage offers consistent damage to a single enemy, while Rake starts out weak but ramps up in damage for each use. Slam is a charge to return to the front of combat. If the going gets tough, a transformed Abomination can revert to his human self. If the Abomination is in Beast form when a battle ends, he automatically transforms back to Human form.
+          As a human, the Abomination can use his Manacles to stun his enemies, while Beast's Bile inflicts them with poisonous blight, and Absolution is a self-healing skill. Transform causes the Abomination to unleash his inner monstrosity, healing him and supplying him with a boost to his offensive abilities as long as he remains transformed. The main two skills the transformed Abomination uses is Rake and Rage. Rage offers consistent damage to a single enemy, while Rake starts out weak but ramps up in damage for each use. Slam is a charge to return to the front of combat. If the going gets tough, a transformed Abomination can revert to his human self. If the Abomination is in Beast form when a battle ends, he automatically transforms back to Human form.
 
-            [ Abomination Abilities: Transform, Manacles, Beast's Bile, Absolution, Rake, Rage, Slam ]
-        "Class: Antiquarian":
-          keys:
-             - Antiquarian
-          text: >
-            The Antiquarian is a scholar, researcher, and keen archaeologist. She is not well suited for combat. However, by making herself scarce in a fight, or demanding an ally protect her, she ensures her own survival. While the Antiquarian is a liability in combat, she makes up for it with her ability to detect treasure. She can find Antiques when she is searching for loot or whenever a battle is won, which can be traded in for gold.
+          [ Abomination Abilities: Transform, Manacles, Beast's Bile, Absolution, Rake, Rage, Slam ]
+      "Class: Antiquarian":
+        keys:
+           - Antiquarian
+        text: >
+          The Antiquarian is a scholar, researcher, and keen archaeologist. She is not well suited for combat. However, by making herself scarce in a fight, or demanding an ally protect her, she ensures her own survival. While the Antiquarian is a liability in combat, she makes up for it with her ability to detect treasure. She can find Antiques when she is searching for loot or whenever a battle is won, which can be traded in for gold.
 
-            The Antiquarian is by no means a fighter. Offensively, her Nervous Stab is merely a mediocre attack, and Festering Vapours inflicts middling Blight. Flashpowder reduces a single enemy's accuracy, Invigorating Vapours gives her allies a simple dodge boost, and while Fortifying Vapours is a reliable heal, it heals for very little. The Antiquarian is good at self-preservation, however. She is deceivingly skilled at evading attacks. Additionally, Get Down! gives herself a large dodge and speed boost and Protect Me! forces another ally to guard her while giving them a very good defensive boost in return.
+          The Antiquarian is by no means a fighter. Offensively, her Nervous Stab is merely a mediocre attack, and Festering Vapours inflicts middling Blight. Flashpowder reduces a single enemy's accuracy, Invigorating Vapours gives her allies a simple dodge boost, and while Fortifying Vapours is a reliable heal, it heals for very little. The Antiquarian is good at self-preservation, however. She is deceivingly skilled at evading attacks. Additionally, Get Down! gives herself a large dodge and speed boost and Protect Me! forces another ally to guard her while giving them a very good defensive boost in return.
 
-            [ Antiquarian Abilities: Nervous Stab, Festering Vapors, Get Down, Flashpowder, Fortifying Vapors, Invigorating Vapors, Protect Me ]
-        "Class: Arbalest":
-          keys:
-             - Arbalest
-          text: >
-            The Arbalest is a runaway turned soldier clad in heavy armor and able to vanquish foes with her massive crossbow. She is like a living embodiment of a cannon. Her life of war has given her many skills for the battlefield and her heavy crossbow allows her to snipe high priority targets from afar. Given enough time at camp, she can treat the wounds of all her allies, or even instruct them in how to be quicker than their adversaries. Or she may spend her night tending to her crossbow, her one companion since childhood. As long as she is given ample distance between herself and her quarry, no foe is safe from this sharpshooter's wrath.
+          [ Antiquarian Abilities: Nervous Stab, Festering Vapors, Get Down, Flashpowder, Fortifying Vapors, Invigorating Vapors, Protect Me ]
+      "Class: Arbalest":
+        keys:
+           - Arbalest
+        text: >
+          The Arbalest is a runaway turned soldier clad in heavy armor and able to vanquish foes with her massive crossbow. She is like a living embodiment of a cannon. Her life of war has given her many skills for the battlefield and her heavy crossbow allows her to snipe high priority targets from afar. Given enough time at camp, she can treat the wounds of all her allies, or even instruct them in how to be quicker than their adversaries. Or she may spend her night tending to her crossbow, her one companion since childhood. As long as she is given ample distance between herself and her quarry, no foe is safe from this sharpshooter's wrath.
 
-            In combat she can Mark a target with Sniper's Mark, which sets them up for the perfect Sniper Shot. The Arbalest has multiple utility skills that can be used in an advantageous situation, such as her heal, Battlefield Bandage, which also increases the potency of other healing effects on the target. A notable ability in her arsenal is Blindfire, which is the only attack she can use in close combat. Her Bola and Suppressing Fire are able to wreak havoc on entire enemy parties. Her Rallying Flare has the unique property of clearing marks and stun off allies.
+          In combat she can Mark a target with Sniper's Mark, which sets them up for the perfect Sniper Shot. The Arbalest has multiple utility skills that can be used in an advantageous situation, such as her heal, Battlefield Bandage, which also increases the potency of other healing effects on the target. A notable ability in her arsenal is Blindfire, which is the only attack she can use in close combat. Her Bola and Suppressing Fire are able to wreak havoc on entire enemy parties. Her Rallying Flare has the unique property of clearing marks and stun off allies.
 
-            [ Arbalest Abilities: Sniper Shot, Suppressing Fire, Sniper's Mark, Bola, Blindfire, Battlefield, Rallying ]
-        "Class: Bounty Hunter":
-          keys:
-             - Bounty Hunter
-          text: >
-            The Bounty Hunter is a brutally efficient single-target executioner and crowd control specialist. For him, planning is key - He has found that simply striking before thinking is an ineffective way to kill, so he has taught himself many ways to take advantage of his foe's vulnerabilities. Sinister and precise, the Bounty Hunter specializes in targeting a single foe to deliver its head for the reward. At camp, like in combat, the Bounty Hunter is all about preparedness. He can take time to study his notes, bettering his odds against typical foes or even specifically 'big game'. Scouting ahead can increase a party's knowledge of lurking threats, while tracking increases the party's chance of maintaining the element of surprise.
+          [ Arbalest Abilities: Sniper Shot, Suppressing Fire, Sniper's Mark, Bola, Blindfire, Battlefield, Rallying ]
+      "Class: Bounty Hunter":
+        keys:
+           - Bounty Hunter
+        text: >
+          The Bounty Hunter is a brutally efficient single-target executioner and crowd control specialist. For him, planning is key - He has found that simply striking before thinking is an ineffective way to kill, so he has taught himself many ways to take advantage of his foe's vulnerabilities. Sinister and precise, the Bounty Hunter specializes in targeting a single foe to deliver its head for the reward. At camp, like in combat, the Bounty Hunter is all about preparedness. He can take time to study his notes, bettering his odds against typical foes or even specifically 'big game'. Scouting ahead can increase a party's knowledge of lurking threats, while tracking increases the party's chance of maintaining the element of surprise.
 
-            If his enemies wear armor, he can find the weak points in it with Mark for Death and capitalize with Collect Bounty. If they are reeling from a hit, he'll make a surprise attack to Finish Him. Even the enemies who think they're safe behind their frontline will find that the Bounty Hunter's grappling hook can pull them in or slice them up when he uses Come Hither. And if all else fails, he can drop a Flashbang, Caltrops or Uppercut enemies to disorient them. No matter the situation, this calculating killer will have an answer for it.
+          If his enemies wear armor, he can find the weak points in it with Mark for Death and capitalize with Collect Bounty. If they are reeling from a hit, he'll make a surprise attack to Finish Him. Even the enemies who think they're safe behind their frontline will find that the Bounty Hunter's grappling hook can pull them in or slice them up when he uses Come Hither. And if all else fails, he can drop a Flashbang, Caltrops or Uppercut enemies to disorient them. No matter the situation, this calculating killer will have an answer for it.
 
-            [ Bounty Hunter Abilities: Collect Bounty, Mark for Death, Come Hither, Uppercut, Flashbang, Finish Him, Caltrops ]
-        "Class: Crusader":
-          keys:
-             - Crusader
-          text: >
-            The Crusader is a champion, a hero to rally otherwise common men to a righteous cause and lead them to victory. With holy blade in hand he smites the wicked and sends them back to the darkness from whence they crept. While his armor restricts his movement it affords him great protection, allowing him to stand in the frontline to take the blows that his weaker comrades cannot. No matter the pressures he faces he will remain strong, finding strength within himself to keep fighting on while inspiring others to do the same.
+          [ Bounty Hunter Abilities: Collect Bounty, Mark for Death, Come Hither, Uppercut, Flashbang, Finish Him, Caltrops ]
+      "Class: Crusader":
+        keys:
+           - Crusader
+        text: >
+          The Crusader is a champion, a hero to rally otherwise common men to a righteous cause and lead them to victory. With holy blade in hand he smites the wicked and sends them back to the darkness from whence they crept. While his armor restricts his movement it affords him great protection, allowing him to stand in the frontline to take the blows that his weaker comrades cannot. No matter the pressures he faces he will remain strong, finding strength within himself to keep fighting on while inspiring others to do the same.
 
-            The Crusader has a distinct edge against unholy enemies thanks to his Smite skill, making him a good choice for going into the Ruins. The Crusader also possesses some crowd control, with Stunning Blow to deal a reliable stun and Zealous Accusation to damage the front row enemies. Should the Crusader be pushed back, he can use Holy Lance to move him back to the front of combat, which has an added effect of being able to hit enemies hiding in the back. Meanwhile, his Bulwark of Faith will ensure that most enemy damage thrown his way does barely a scratch on him. For a party on the brink, he can use his modest Battle Heal and Inspiring Cry to keep the front line from collapsing, the fearful from snapping, and the darkness from taking hold.
+          The Crusader has a distinct edge against unholy enemies thanks to his Smite skill, making him a good choice for going into the Ruins. The Crusader also possesses some crowd control, with Stunning Blow to deal a reliable stun and Zealous Accusation to damage the front row enemies. Should the Crusader be pushed back, he can use Holy Lance to move him back to the front of combat, which has an added effect of being able to hit enemies hiding in the back. Meanwhile, his Bulwark of Faith will ensure that most enemy damage thrown his way does barely a scratch on him. For a party on the brink, he can use his modest Battle Heal and Inspiring Cry to keep the front line from collapsing, the fearful from snapping, and the darkness from taking hold.
 
-            [ Crusader Abilities: Smite, Zealous Accusation, Holy Lance, Stunning Blow, Bulwark of Faith, Battle Heal, Inspiring Cry ]
-        "Class: Flagellant":
-          keys:
-             - Flagellant
-          text: >
-            The Flagellant relishes the scars and abrasions that cover his body - drawing incomprehensible resilience from the tearing of his own flesh. His flail, a particularly cruel and merciless weapon, drips with his enemies' blood and his own. If there was ever such a thing as ‘weaponized suffering’, then the Flagellant would be the term made flesh. He will stand like a wall between his comrades and his foes, with his arms wide open, his body exposed, acting like a magnet for all harm that may come their way. The more the minions of darkness try to end his life, the stronger he becomes. 
+          [ Crusader Abilities: Smite, Zealous Accusation, Holy Lance, Stunning Blow, Bulwark of Faith, Battle Heal, Inspiring Cry ]
+      "Class: Flagellant":
+        keys:
+           - Flagellant
+        text: >
+          The Flagellant relishes the scars and abrasions that cover his body - drawing incomprehensible resilience from the tearing of his own flesh. His flail, a particularly cruel and merciless weapon, drips with his enemies' blood and his own. If there was ever such a thing as ‘weaponized suffering’, then the Flagellant would be the term made flesh. He will stand like a wall between his comrades and his foes, with his arms wide open, his body exposed, acting like a magnet for all harm that may come their way. The more the minions of darkness try to end his life, the stronger he becomes. 
 
-            The Flagellant uses skills Punish and Rain of Sorrows which focus on bleeding his enemies, as well as strong supportive skills that harm himself in return. Reclaim slowly heals an ally while bleeding himself, Endure greatly calms an ally, and Suffer transfers an ally's bleed, blight, and Marks to himself while gaining protection. The Flagellant's abilities are respectable on their own, but they only become more powerful as his body and mind are abused to their limit. Only then can he use Exsanguinate to render immense punishment against his foes, while Redeem restores his body as well as that of an ally.
+          The Flagellant uses skills Punish and Rain of Sorrows which focus on bleeding his enemies, as well as strong supportive skills that harm himself in return. Reclaim slowly heals an ally while bleeding himself, Endure greatly calms an ally, and Suffer transfers an ally's bleed, blight, and Marks to himself while gaining protection. The Flagellant's abilities are respectable on their own, but they only become more powerful as his body and mind are abused to their limit. Only then can he use Exsanguinate to render immense punishment against his foes, while Redeem restores his body as well as that of an ally.
 
-            [ Flagellant Abilities: Punish, Rain of Sorrows, Exsanguinate, Reclaim, Redeem, Endure, Suffer ]
-        "Class: Grave Robber":
-          keys:
-             - Grave Robber
-          text: >
-            The Grave Robber was born into money, and married into more. But when her husband's boorish lust and drunken temper became too much to bear, she had to take action. Years of decadence and financial mismanagement had left her estate in staggering debt. To preserve her social standing, she pilfered her late husband's tomb, but found the thrill too exhilarating to ever return to her old life and instead took on the life of a restless wanderer.
+          [ Flagellant Abilities: Punish, Rain of Sorrows, Exsanguinate, Reclaim, Redeem, Endure, Suffer ]
+      "Class: Grave Robber":
+        keys:
+           - Grave Robber
+        text: >
+          The Grave Robber was born into money, and married into more. But when her husband's boorish lust and drunken temper became too much to bear, she had to take action. Years of decadence and financial mismanagement had left her estate in staggering debt. To preserve her social standing, she pilfered her late husband's tomb, but found the thrill too exhilarating to ever return to her old life and instead took on the life of a restless wanderer.
 
-            If you simply need direct damage to do the job, a "Pick To the Face" can be just what you need, while her Lunge and Shadow Fade allow her to move across the battlefield, giving her stealth and a boost in offense. If she finds herself in the backline, she can Throw Daggers and Poison Darts. Her Flashing Daggers ability hits multiple enemies at once and finally her Toxin Trickery can heal herself of any ailments and give her just the edge she might need. She also has the highest trap disarm chance of any hero. To be as nimble as she needs to be, she only wears light armor, which makes her increasing her dodge chance to evade hits that would easily bring her to Death's Door.
+          If you simply need direct damage to do the job, a "Pick To the Face" can be just what you need, while her Lunge and Shadow Fade allow her to move across the battlefield, giving her stealth and a boost in offense. If she finds herself in the backline, she can Throw Daggers and Poison Darts. Her Flashing Daggers ability hits multiple enemies at once and finally her Toxin Trickery can heal herself of any ailments and give her just the edge she might need. She also has the highest trap disarm chance of any hero. To be as nimble as she needs to be, she only wears light armor, which makes her increasing her dodge chance to evade hits that would easily bring her to Death's Door.
 
-            [ Grave Robber Abilities: Pick to the Face, Lunge, Flashing Daggers, Shadow Fade, Thrown Dagger, Poison Dart, Toxin Trickery ]
-        "Class: Hellion":
-          keys:
-             - Hellion
-          text: >
-            The Hellion is wild, unpredictable, and utterly ruthless; She thrills to the spilling of blood! Her massive glaive affords her impressive reach in combat, while its razor sharp edge leaves lasting wounds on enemies. Versatile and unrelenting, she can hit the back row with her blade and devastate her foes. Certain skills leave her exhausted, however, and she may occasionally need to take a turn to recharge her adrenaline before entering the fray once again. Her versatility is only matched by her ferocity.
+          [ Grave Robber Abilities: Pick to the Face, Lunge, Flashing Daggers, Shadow Fade, Thrown Dagger, Poison Dart, Toxin Trickery ]
+      "Class: Hellion":
+        keys:
+           - Hellion
+        text: >
+          The Hellion is wild, unpredictable, and utterly ruthless; She thrills to the spilling of blood! Her massive glaive affords her impressive reach in combat, while its razor sharp edge leaves lasting wounds on enemies. Versatile and unrelenting, she can hit the back row with her blade and devastate her foes. Certain skills leave her exhausted, however, and she may occasionally need to take a turn to recharge her adrenaline before entering the fray once again. Her versatility is only matched by her ferocity.
 
-            She can use Breakthrough for excellent area damage from anywhere on the battlefield, Bleed Out to maim and bleed the closest enemy, and her Barbaric YAWP can stun more than one enemy at once. All these abilities leave the Hellion exhausted, reducing her effectiveness in long battles, and are crippling her when overused. As for her non-debilitating abilities, she can use her Wicked Hack to take down close enemies, If It Bleeds to bleed them out, and Iron Swan to pick off enemies far in the back. Adrenaline Rush buffs up her damage to help counter her exhaustion, and heals herself just enough to escape Death's Door.
+          She can use Breakthrough for excellent area damage from anywhere on the battlefield, Bleed Out to maim and bleed the closest enemy, and her Barbaric YAWP can stun more than one enemy at once. All these abilities leave the Hellion exhausted, reducing her effectiveness in long battles, and are crippling her when overused. As for her non-debilitating abilities, she can use her Wicked Hack to take down close enemies, If It Bleeds to bleed them out, and Iron Swan to pick off enemies far in the back. Adrenaline Rush buffs up her damage to help counter her exhaustion, and heals herself just enough to escape Death's Door.
 
-            [ Hellion Abilities: Wicked Hack, Iron Swan, Barbaric YAWP, If It Bleeds, Breakthrough, Adrenaline Rush, Bleed Out ]
-        "Class: Highwayman":
-          keys:
-             - Highwayman
-          text: >
-            The Highwayman is a bandit seeking redemption, and is able to dish out a lot of damage quickly. When night falls, the Highwayman relishes cynical preparedness and off-color jokes around the campfire. A life spent running and hiding has taught him the tenuous benefit of perimeter alarms, and late-night investigations into the encroaching shadows. But for what the Highwayman lacks in tact he makes up in unparalleled finesse. With a flintlock in one hand and a dirk in the other, the Highwayman is sure to make short work of his foes.
- 
-            He can pick off foes with his Pistol Shot from afar, and move forward with Duelist's Advance, which sets up a Riposte, retaliating attacks made against him. On medium range, he can perform a Wicked Slice on an enemy, use Open Vein to bleed them out, or damage multiple enemies with Grapeshot Blast, finishing off weakened enemies and softening up others. If he finds himself face-to-face with an enemy, he can use a Point Blank Shot to deal a huge amount of burst damage, while pushing him and the enemy back. To add to this, the Highwayman can use Tracking Shot to deal minor damage while buffing his offensive abilities for a short duration.
+          [ Hellion Abilities: Wicked Hack, Iron Swan, Barbaric YAWP, If It Bleeds, Breakthrough, Adrenaline Rush, Bleed Out ]
+      "Class: Highwayman":
+        keys:
+           - Highwayman
+        text: >
+          The Highwayman is a bandit seeking redemption, and is able to dish out a lot of damage quickly. When night falls, the Highwayman relishes cynical preparedness and off-color jokes around the campfire. A life spent running and hiding has taught him the tenuous benefit of perimeter alarms, and late-night investigations into the encroaching shadows. But for what the Highwayman lacks in tact he makes up in unparalleled finesse. With a flintlock in one hand and a dirk in the other, the Highwayman is sure to make short work of his foes.
 
-            [ Highwayman Abilities: Wicked Slice, Pistol Shot, Point Black Shot, Grapeshot Blast, Tracking Shot, Duelist's Advance, Open Vein ]
-        "Class: Houndmaster":
-          keys:
-             - Houndmaster
-          text: >
-            The Houndmaster is a tough and uncommonly compassionate ex-lawman. He and his faithful Wolfhound work in tandem to bring down their enemies and protect the innocent. Still clad in his worn Gendarme's uniform, the Houndmaster's focus is on evasion over mitigation. His cudgel is an effective stunning tool, but it is the Hound who delivers the pair's most crippling blows. At night this clever lawman knows the value of preparedness and information. To this end, the Houndmaster can send his Wolfhound to scout ahead, or put him on watch to ensure a good night's rest. If spirits are low, the dog's affectionate companionship can soften the heart, and ease the mind.
- 
-            During combat, the Houndmaster relies on his faithful dog to inflict bleed with both Hound's Rush and Hound's Harry. He is especially suited against enemies found in the Warrens or beasts that may attack the party. The Houndmaster also has a variety of support abilities. Target Whistle marks the target while revealing weakspots in it's defense. Cry Havoc puts the mind of his allies at ease, while Guard Dog protects them and raises his dog's defensive abilities. Lick Wounds provides a quick self-heal in a pinch while Blackjack stuns enemies for a short duration.
+          He can pick off foes with his Pistol Shot from afar, and move forward with Duelist's Advance, which sets up a Riposte, retaliating attacks made against him. On medium range, he can perform a Wicked Slice on an enemy, use Open Vein to bleed them out, or damage multiple enemies with Grapeshot Blast, finishing off weakened enemies and softening up others. If he finds himself face-to-face with an enemy, he can use a Point Blank Shot to deal a huge amount of burst damage, while pushing him and the enemy back. To add to this, the Highwayman can use Tracking Shot to deal minor damage while buffing his offensive abilities for a short duration.
 
-            [ Houndmaster Abilities: Hound's Rush, Hound's Harry, Target Whistle, Cry Havoc, Guard Dog, Lick Wounds, Blackjack ]
-        "Class: Jester":
-          keys:
-             - Jester
-          text: >
-            The Jester brings a good laugh, a merry song, and razor sharp blade into the darkest depths of these twisted lands. Clad only in mildewed cloth, the Jester makes a mockery of battle. As an entertainer, he can make a stressful night of camping turn into a night of merriment and wit. The melodious riffs of his lute will make any party member's mind quiet as he encourages them to strike quickly and precisely like a tiger. 
+          [ Highwayman Abilities: Wicked Slice, Pistol Shot, Point Black Shot, Grapeshot Blast, Tracking Shot, Duelist's Advance, Open Vein ]
+      "Class: Houndmaster":
+        keys:
+           - Houndmaster
+        text: >
+          The Houndmaster is a tough and uncommonly compassionate ex-lawman. He and his faithful Wolfhound work in tandem to bring down their enemies and protect the innocent. Still clad in his worn Gendarme's uniform, the Houndmaster's focus is on evasion over mitigation. His cudgel is an effective stunning tool, but it is the Hound who delivers the pair's most crippling blows. At night this clever lawman knows the value of preparedness and information. To this end, the Houndmaster can send his Wolfhound to scout ahead, or put him on watch to ensure a good night's rest. If spirits are low, the dog's affectionate companionship can soften the heart, and ease the mind.
 
-            For the Jester, combat is a power ballad - a slow build up, and a grand finale! He often relies on his trusty sickly to use either Slice Off or Harvest to great effect, leaving his enemies bleeding from deep cuts. With his Dirk Stab, the Jester can rush to the front of combat, where he can incite himself with Solo to buff his offensive abilities immensely. His Finale deals extraordinary damage to one enemy, but leaves the Jester open to any retaliation should it not finish his enemy off. Lastly, the Jester has two unique support abilities he can perform by playing a tune on his lute. Battle Ballad is an incredibly powerful buff that increases his allies offensive abilities, while a well-timed Inspiring Tune can put anyone at ease.
+          During combat, the Houndmaster relies on his faithful dog to inflict bleed with both Hound's Rush and Hound's Harry. He is especially suited against enemies found in the Warrens or beasts that may attack the party. The Houndmaster also has a variety of support abilities. Target Whistle marks the target while revealing weakspots in it's defense. Cry Havoc puts the mind of his allies at ease, while Guard Dog protects them and raises his dog's defensive abilities. Lick Wounds provides a quick self-heal in a pinch while Blackjack stuns enemies for a short duration.
 
-            [ Jester Abilities: Dirk Stab, Harvest, Finale, Solo, Slice Off, Battle Ballad, Inspiring Tune ]
-        "Class: Leper":
-          keys:
-             - Leper
-          text: >
-            The Leper a ruined man, a warrior and a poet. Struggle, and futility — all one's days are a constant toil to shelter life's ember through one more night. The Leper not only knows but embraces such solemnity. Tortured existence has taught him to count not on the care of others. He has learned to channel his energy inward, a kingdom within one man. His power can neither serve nor comfort others; but, drawing on it, he can gain strength others can but dream of, or the endurance to bear what no other could. And when his massive blade falls, death's call rings loud to all caught in its thunderous arc. However, such force falls not nimbly, and foes may lightly evade their execution. In the end, all will meet with death.
+          [ Houndmaster Abilities: Hound's Rush, Hound's Harry, Target Whistle, Cry Havoc, Guard Dog, Lick Wounds, Blackjack ]
+      "Class: Jester":
+        keys:
+           - Jester
+        text: >
+          The Jester brings a good laugh, a merry song, and razor sharp blade into the darkest depths of these twisted lands. Clad only in mildewed cloth, the Jester makes a mockery of battle. As an entertainer, he can make a stressful night of camping turn into a night of merriment and wit. The melodious riffs of his lute will make any party member's mind quiet as he encourages them to strike quickly and precisely like a tiger. 
 
-            The Leper can Chop his enemies to wound and kill whatever's in front on him, or he can Intimidate them to reduce their damage and defenses. He can also use Purge to knock back an enemy all the way to the back. The Leper also possesses self-buffs to increase his key strengths. Withstand gives him Protection and grants him resistances, while Solemnity heals himself and reduces his stress. Revenge grants the Leper a large boost in offense at the cost of lowering his defenses.
+          For the Jester, combat is a power ballad - a slow build up, and a grand finale! He often relies on his trusty sickly to use either Slice Off or Harvest to great effect, leaving his enemies bleeding from deep cuts. With his Dirk Stab, the Jester can rush to the front of combat, where he can incite himself with Solo to buff his offensive abilities immensely. His Finale deals extraordinary damage to one enemy, but leaves the Jester open to any retaliation should it not finish his enemy off. Lastly, the Jester has two unique support abilities he can perform by playing a tune on his lute. Battle Ballad is an incredibly powerful buff that increases his allies offensive abilities, while a well-timed Inspiring Tune can put anyone at ease.
 
-            [ Leper Abilities: Chop, Hew, Purge, Revenge, Withstand, Somnity, Intimidate ]
-        "Class: Man-at-Arms":
-          keys:
-             - Man-at-Arms
-          text: >
-            The Man-at-Arms is an old, battle-scarred veteran, who has seen enough war and bloodshed to last more than a dozen lifetimes. While he can no longer swing his great mace with the force he once could, no one should stand where he swings his mighty weapon. The Man-at-Arms is a seasoned veteran of combat, and has been rewarded for his toil with haunting guilt and stoic resilience in equal measure. Immovable, commanding, and focused, the Man-at-Arms breaks down enemy lines with his mace, buckler, and furious battle cries.
+          [ Jester Abilities: Dirk Stab, Harvest, Finale, Solo, Slice Off, Battle Ballad, Inspiring Tune ]
+      "Class: Leper":
+        keys:
+           - Leper
+        text: >
+          The Leper a ruined man, a warrior and a poet. Struggle, and futility — all one's days are a constant toil to shelter life's ember through one more night. The Leper not only knows but embraces such solemnity. Tortured existence has taught him to count not on the care of others. He has learned to channel his energy inward, a kingdom within one man. His power can neither serve nor comfort others; but, drawing on it, he can gain strength others can but dream of, or the endurance to bear what no other could. And when his massive blade falls, death's call rings loud to all caught in its thunderous arc. However, such force falls not nimbly, and foes may lightly evade their execution. In the end, all will meet with death.
 
-            The battlefield is a chaotic place, and the Man-at-Arms knows how to make himself heard. He has the ability to protect a teammate with Defender, redirecting an attack targeted at a vulnerable ally towards him and increasing his own protection. He can buff all allies with either Command to give them increased combat skills, or Bolster them to boost their defensive capabilities. Additionally, he can Bellow to shake the enemies resolve, giving your team the upper hand in turn order, and knock back and stun an enemy while moving himself into close-combat with Rampart. Retribution Marks himself and activates Riposte, countering any attacks attempted at him with a solid smack of his shield.
+          The Leper can Chop his enemies to wound and kill whatever's in front on him, or he can Intimidate them to reduce their damage and defenses. He can also use Purge to knock back an enemy all the way to the back. The Leper also possesses self-buffs to increase his key strengths. Withstand gives him Protection and grants him resistances, while Solemnity heals himself and reduces his stress. Revenge grants the Leper a large boost in offense at the cost of lowering his defenses.
 
-            [ Man-at-Arms Abilities: Crush, Rampart, Bellow, Defender, Retribution, Command, Bolster ]
-        "Class: Musketeer":
-          keys:
-             - Musketeer
-          text: >
-            The Musketeer is a competitive sharpshooter with little practical experience, and excels when enemies remain at a distance. Although outwardly inconspicuous, the Musketeer's regalia is reinforced with hardened leather underarmor, allowing her to sustain a considerable amount of punishment. Her musket's variable ammunition and trusty sidearm allow her to deal debilitating damage at range. The Musketeer understands that her weapon is a delicate instrument, and must be properly maintained if it to be relied upon in the heat of battle! 
+          [ Leper Abilities: Chop, Hew, Purge, Revenge, Withstand, Somnity, Intimidate ]
+      "Class: Man-at-Arms":
+        keys:
+           - Man-at-Arms
+        text: >
+          The Man-at-Arms is an old, battle-scarred veteran, who has seen enough war and bloodshed to last more than a dozen lifetimes. While he can no longer swing his great mace with the force he once could, no one should stand where he swings his mighty weapon. The Man-at-Arms is a seasoned veteran of combat, and has been rewarded for his toil with haunting guilt and stoic resilience in equal measure. Immovable, commanding, and focused, the Man-at-Arms breaks down enemy lines with his mace, buckler, and furious battle cries.
 
-            During combat, the Musketeer relies on Call the Shot to Mark her enemies and finish them off with a well-placed Aimed Shot. She can further hinder her enemies with either the use of Smokescreen to blind them, or knock them back with a Buckshot. Should she find herself in close quarters, however, a quick use of her Sidearm might buy her time to retreat to the back, where she can Patch Up her allies. She is quite adept at providing first aid to her companions, if only to keep them between her and her targets.
+          The battlefield is a chaotic place, and the Man-at-Arms knows how to make himself heard. He has the ability to protect a teammate with Defender, redirecting an attack targeted at a vulnerable ally towards him and increasing his own protection. He can buff all allies with either Command to give them increased combat skills, or Bolster them to boost their defensive capabilities. Additionally, he can Bellow to shake the enemies resolve, giving your team the upper hand in turn order, and knock back and stun an enemy while moving himself into close-combat with Rampart. Retribution Marks himself and activates Riposte, countering any attacks attempted at him with a solid smack of his shield.
 
-            [ Musketeer: Aimed Shot, Smokescreen, Call the Shot, Buckshot, Sidearm, Patch Up, Skeet Shot ]
-        "Class: Occultist":
-          keys:
-             - Occultist
-          text: >
-            The Occultist is living proof that the dark arts can be used to expunge darkness itself. He has utilized that same knowledge as the Ancestor to further his understanding of the eldritch. His pursuits have left his body fragile and weak, but it has made his mind sharp and his capabilities most versatile. In his younger years, the Occultist clashed with the Shambler and harness a portion of its power! In his folly, he had become a beacon - a conduit to unknown regions... and would be assailed by those blasphemous forces all the rest of his days.
+          [ Man-at-Arms Abilities: Crush, Rampart, Bellow, Defender, Retribution, Command, Bolster ]
+      "Class: Musketeer":
+        keys:
+           - Musketeer
+        text: >
+          The Musketeer is a competitive sharpshooter with little practical experience, and excels when enemies remain at a distance. Although outwardly inconspicuous, the Musketeer's regalia is reinforced with hardened leather underarmor, allowing her to sustain a considerable amount of punishment. Her musket's variable ammunition and trusty sidearm allow her to deal debilitating damage at range. The Musketeer understands that her weapon is a delicate instrument, and must be properly maintained if it to be relied upon in the heat of battle! 
 
-            With his Vulnerability Hex, he Marks and softens up enemies for his allies to take them down. His Weakening Curse can quickly nullify even the hardest-hitting enemy. With Daemon's Pull, he can wrench individuals to the front of the fray. Sacrificial Stab and Abyssal Artillery are massively more effective on Eldritch enemies. When he finds himself in the middle of the thick he can use Hands From the Abyss, a spell that sacrifices light in order to hit an enemy with accurate stun. His Wyrd Reconstruction can be used to reconstruct flesh and heal wounds. This technique is powerful, but unpredictable as it may restore his ally to perfect health or tear apart their flesh.
+          During combat, the Musketeer relies on Call the Shot to Mark her enemies and finish them off with a well-placed Aimed Shot. She can further hinder her enemies with either the use of Smokescreen to blind them, or knock them back with a Buckshot. Should she find herself in close quarters, however, a quick use of her Sidearm might buy her time to retreat to the back, where she can Patch Up her allies. She is quite adept at providing first aid to her companions, if only to keep them between her and her targets.
 
-            [ Occultist Abilities: Sacrificial Stab, Abyssal Artillery, Weakening Curse, Wyrd Reconstruction, Vulnerability Hex, Hands From the Abyss, Daemon's Pull ]
-        "Class: Plague Doctor":
-          keys:
-             - Plague Doctor
-          text: >
-            The Plague Doctor is brilliant and bold, her unconventional theories created nothing short of a scandal in her fourth year. The mysteries of the human body - of life and death itself - had always fascinated her. Ostracized, she had to prove herself, no matter the cost. And when her research was at a critical point a grim opportunity to proof her theories presented herself. In the weeks that followed, however, she found herself unable to focus, instead sitting motionless at her desk, paralyzed by the ceaseless wailing that reverberated in her mind. The Plague Doctor makes use of experimental remedies and risky healing practices to cure her companions' ailments, and restore their vigor. Eager to prove the effectiveness of her latest untested concoction, she will inject herself - blindly faithful in its beneficial results. 
+          [ Musketeer: Aimed Shot, Smokescreen, Call the Shot, Buckshot, Sidearm, Patch Up, Skeet Shot ]
+      "Class: Occultist":
+        keys:
+           - Occultist
+        text: >
+          The Occultist is living proof that the dark arts can be used to expunge darkness itself. He has utilized that same knowledge as the Ancestor to further his understanding of the eldritch. His pursuits have left his body fragile and weak, but it has made his mind sharp and his capabilities most versatile. In his younger years, the Occultist clashed with the Shambler and harness a portion of its power! In his folly, he had become a beacon - a conduit to unknown regions... and would be assailed by those blasphemous forces all the rest of his days.
 
-            She can blight enemies from afar with Noxious Blast or Plague Grenade, stun enemies in the back line with the very powerful Blinding Gas, and cure both herself and allies of blight and bleed while healing them with Battlefield Medicine. Closer to the front, she may use Incision to deal melee damage and bleed enemies. She may also increase the offensive capabilities of an ally using Emboldening Vapors, or shuffle the position of an enemy while stunning them using Disorienting Blast.
+          With his Vulnerability Hex, he Marks and softens up enemies for his allies to take them down. His Weakening Curse can quickly nullify even the hardest-hitting enemy. With Daemon's Pull, he can wrench individuals to the front of the fray. Sacrificial Stab and Abyssal Artillery are massively more effective on Eldritch enemies. When he finds himself in the middle of the thick he can use Hands From the Abyss, a spell that sacrifices light in order to hit an enemy with accurate stun. His Wyrd Reconstruction can be used to reconstruct flesh and heal wounds. This technique is powerful, but unpredictable as it may restore his ally to perfect health or tear apart their flesh.
 
-            [ Plague Doctor Abilities: Noxious Blast, Plague Granade, Blinding Gas, Incision, Battlefield Medicine, Emboldening Vapors ]
-        "Class: Shieldbreaker":
-          keys:
-             - Shieldbreaker
-          text: >
-            The Shieldbreaker hails from the distant windswept dunes of the east. Deadly as a viper, her iron will has been forged in the heat of the blazing desert sun. Though outwardly demure, her emancipation from the barren wastes came at a price so terrible, it haunts her dreams even now... Though quiet and demure while the campfire blazes, the Shieldbreaker is haunted by nightmares of her past. An unfortunate series of events forced the Shieldbreaker to cut her hand in order to survive, and now the images of the past haunt her to this day.
+          [ Occultist Abilities: Sacrificial Stab, Abyssal Artillery, Weakening Curse, Wyrd Reconstruction, Vulnerability Hex, Hands From the Abyss, Daemon's Pull ]
+      "Class: Plague Doctor":
+        keys:
+           - Plague Doctor
+        text: >
+          The Plague Doctor is brilliant and bold, her unconventional theories created nothing short of a scandal in her fourth year. The mysteries of the human body - of life and death itself - had always fascinated her. Ostracized, she had to prove herself, no matter the cost. And when her research was at a critical point a grim opportunity to proof her theories presented herself. In the weeks that followed, however, she found herself unable to focus, instead sitting motionless at her desk, paralyzed by the ceaseless wailing that reverberated in her mind. The Plague Doctor makes use of experimental remedies and risky healing practices to cure her companions' ailments, and restore their vigor. Eager to prove the effectiveness of her latest untested concoction, she will inject herself - blindly faithful in its beneficial results. 
 
-            In combat, the Shieldbreaker gracefully moves about the battlefield, wielding a spear and buckler to keep herself out of danger while she swiftly decimates the enemy defenses. Her dancer's garb is better suited to the stage than the dungeon; she must be quick to survive. She can completely ignore armor with Pierce, pull enemies on the front with Puncture, and reveal stealthed enemies with Expose. Her blight attacks, Adder's Kiss, Impale and Captivate, can deal high upfront damage on top of poisoning her enemies. Finally, with Serpent Sway raises her defensive abilities and often gets her out of harms way.
+          She can blight enemies from afar with Noxious Blast or Plague Grenade, stun enemies in the back line with the very powerful Blinding Gas, and cure both herself and allies of blight and bleed while healing them with Battlefield Medicine. Closer to the front, she may use Incision to deal melee damage and bleed enemies. She may also increase the offensive capabilities of an ally using Emboldening Vapors, or shuffle the position of an enemy while stunning them using Disorienting Blast.
 
-            [ Shieldbreaker Abilities: Pierce, Puncture, Adder's Kiss, Impale, Expose, Captivate, Serpent Sway ]
-        "Class: Vestal":
-          keys:
-             - Vestal
-          text: >
-            The Vestal is a sister of battle; Pious and unrelenting, she is determined to bring faith on the battlefield as a weapon against corruption. Prayers, chants, and blessings bring peace and solace to the Vestal and her party at nigh, heal the wounded and and protect from nighttime attacks. Blessed plate mail encases the Vestal as she delivers terrible violence and healing comfort in equal measure. A mace in one hand, and holy book in the other - a study in contrast and all the more effective for it! 
+          [ Plague Doctor Abilities: Noxious Blast, Plague Granade, Blinding Gas, Incision, Battlefield Medicine, Emboldening Vapors ]
+      "Class: Shieldbreaker":
+        keys:
+           - Shieldbreaker
+        text: >
+          The Shieldbreaker hails from the distant windswept dunes of the east. Deadly as a viper, her iron will has been forged in the heat of the blazing desert sun. Though outwardly demure, her emancipation from the barren wastes came at a price so terrible, it haunts her dreams even now... Though quiet and demure while the campfire blazes, the Shieldbreaker is haunted by nightmares of her past. An unfortunate series of events forced the Shieldbreaker to cut her hand in order to survive, and now the images of the past haunt her to this day.
 
-            The warrior nun channels her zeal for battle into healing abilities such as Divine Grace or Divine Comfort. Furthermore, she can render holy Judgement against her foes. Attacks such as Hand of Light and Mace Bash means she is not helpless if dragged to the front, but her specialty is hanging back and aiding her team with heals and her blinding Illumination and Dazzling Light abilities.
+          In combat, the Shieldbreaker gracefully moves about the battlefield, wielding a spear and buckler to keep herself out of danger while she swiftly decimates the enemy defenses. Her dancer's garb is better suited to the stage than the dungeon; she must be quick to survive. She can completely ignore armor with Pierce, pull enemies on the front with Puncture, and reveal stealthed enemies with Expose. Her blight attacks, Adder's Kiss, Impale and Captivate, can deal high upfront damage on top of poisoning her enemies. Finally, with Serpent Sway raises her defensive abilities and often gets her out of harms way.
 
-            [ Vestal Abilities: Mace Bash, Judgement, Dazzling Light, Divine Grace, Divine Comfort, Illumination, Hand of Light ]
+          [ Shieldbreaker Abilities: Pierce, Puncture, Adder's Kiss, Impale, Expose, Captivate, Serpent Sway ]
+      "Class: Vestal":
+        keys:
+           - Vestal
+        text: >
+          The Vestal is a sister of battle; Pious and unrelenting, she is determined to bring faith on the battlefield as a weapon against corruption. Prayers, chants, and blessings bring peace and solace to the Vestal and her party at nigh, heal the wounded and and protect from nighttime attacks. Blessed plate mail encases the Vestal as she delivers terrible violence and healing comfort in equal measure. A mace in one hand, and holy book in the other - a study in contrast and all the more effective for it! 
+
+          The warrior nun channels her zeal for battle into healing abilities such as Divine Grace or Divine Comfort. Furthermore, she can render holy Judgement against her foes. Attacks such as Hand of Light and Mace Bash means she is not helpless if dragged to the front, but her specialty is hanging back and aiding her team with heals and her blinding Illumination and Dazzling Light abilities.
+
+          [ Vestal Abilities: Mace Bash, Judgement, Dazzling Light, Divine Grace, Divine Comfort, Illumination, Hand of Light ]
