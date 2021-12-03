@@ -94,3 +94,15 @@ lorebook:
           whose only desire is to butcher and feed on any human they can get their claws on.
 
           [ Swinefolk: Swine Chopper, Swine Wretch, Swine Drummer, Swine Slasher ]
+      "Facion: Pelagic":
+        keys:
+          - Pelagic
+          - Fish-man
+          - Fish-men
+        text: >
+          The Pelagic are a race of ancient fishmen that live in the cove.
+          They were roused by the activity around their home, making it a habit to sink
+          and kill any sailors that come near their domain. They pose a great threat to the marine
+          shipments of provisions that the Hamlet relies on.
+
+          [ Pelagic: Pelagic Grouper, Pelagic Shaman, Pelagic Guardian ]
