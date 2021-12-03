@@ -19,10 +19,10 @@ lorebook:
           [ Brigand: Brigand Bloodletter, Brigand Cutthroat, Brigand Fusilier ]
       "Faction: Undead":
         keys:
-          - Undead
           - Unholy
           - Bone
           - Skeleton
+          - Skeletal
           - Ghoul
         text: >
           The Undead are twisted creatures defy the natural order by their mere existence,
@@ -106,3 +106,16 @@ lorebook:
           shipments of provisions that the Hamlet relies on.
 
           [ Pelagic: Pelagic Grouper, Pelagic Shaman, Pelagic Guardian ]
+      "Faction: Drowned":
+        keys:
+          - Drowned
+          - Sailors
+          - Zombies
+        text: >
+          The Drowned were once a a crew of particularly unsavory mariners,
+          who sailed the four corners at the Ancestor's behest. When they increased their tariffs,
+          he prepared an alternative payment. The ancestor hexed their anchor with every twisted
+          incantation he could muster and dragged craft and crew to the swirling depth. But it was not their end;
+          They managed to return to the surface - a Ghost Ship seeking vengeance.
+
+          [ Drowned: Drowned Thrall, Squiffy Ghast ]
