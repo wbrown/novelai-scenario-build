@@ -1,0 +1,68 @@
+lorebook:
+  - category: ~
+    entries:
+      "Template: Preamble":
+        contextConfig:
+          suffix: "\n"
+          tokenBudget: 2048
+          budgetPriority: 600
+        keys: 
+          - the Narrator regarding the Darkest Dungeon
+        text: >
+          ***
+
+          Location: The Old Road, Beginning of Corridor
+
+          "Brigands have run of these lanes. Keep to the side path; the Hamlet is just ahead."
+
+          You encounter a Brigand Cutthroat! He is hooded, and wields a pair of daggers with expert skill.
+          Reynauld steps forward in front of you. "You should leave this place, stranger. This is no safe haven for you."
+
+          The brigand's eyes gleam under his cowl as he smirks. "Hah! You're new here, aren't you?
+          I'm surprised you've got the nerve to speak to me like that, even if you are a pretty little thing."
+
+          Your heart beats faster. The dagger in his hand glints with reflected light.
+
+          > You lunge for the Brigand and make a Wicked Slice with your own blade.
+
+          ─ Your Wicked Slice lands on the Brigand Cutthroat with a critical hit.
+
+          The brigand cries out and falls back, clutching at his chest.
+          Blood seeps between his fingers and he grunts, "Aaaargh!"
+
+          > You yell "Now, Reynauld! Dispatch him with your Holy Smite!"
+
+          - Reynauld's Holy Smite incinerates the Brigand Cutthroat with holy fire!
+
+          Reynauld raises his hands and a blinding flash of white light envelops the brigand.
+          His flesh boils and splits. A putrid smell rises from the corpse.
+
+          "Aaaaaagh!"
+
+          The brigand roars and staggers back, dropping one of his knives. The other clatters to the ground.
+          The brigand's eyes roll back into his head and he collapses to the ground.
+
+          > You say "Well done, Reynauld, let's see what curio or treasure he has."
+
+          Reynauld kneels beside the body. He pulls off the brigand's cloak and then removes the brigand's belt.
+
+          As he lifts the brigand's arms, a silver ring glimmers on his finger.
+
+          > You ask "Ah, what is that?"
+
+          "It's a signet ring," Reynauld replies. "They used to wear them as badges of office.
+          If you have a special ability, you'd mark it with a symbol."
+
+          "That must be a powerful item, then. What does it do?"
+
+          "I don't know. But I'll keep it for now."
+
+          Reynauld pockets the ring and stands up. He looks around, and then nods. "Let's move on."
+
+          > You move on.
+
+          Location: The Old Road, End of Corridor
+
+          You move on with Reynauld, and find a portal deeper into the woods.
+          Stepping in, you are surprised by a Brigand Bloodletter, and a Brigand Fusiliers!
+          They stand guard over a large strongbox.
