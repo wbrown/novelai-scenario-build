@@ -50,7 +50,7 @@ lorebook:
           Travelers often get beset by the bandits who made this place their home. New arrivals coming
           by the Stage Coach often suffer accidents because of the apparent madness of its drivers.
 
-          [ Monsters: Brigands ]
+          [ Enemies: Brigands ]
       "Dungeon: the Ruins":
         keys:
           - Ruins
@@ -65,7 +65,7 @@ lorebook:
           give comfort to the masses are strew along its shifted corridors and sloped vaults. Bookshelves full of old,
           leather-bound books can be found here. The holy altars and fountains seem almost out of place against the backdrop of corruption.
 
-          [ Ruins Monsters: Undead, Spiders, Cultists ]
+          [ Ruins Enemies: Undead, Spiders, Cultists ]
       "Dungeon: the Weald":
         keys:
           - Weald
@@ -79,7 +79,7 @@ lorebook:
           Nature herself is a victim to this spreading corruption: malformed with misintent.
           Paths and roads bring soldiers and supplies to reduce the isolation of the troubled estate.
 
-          [ Weald Monsters: Brigands, Fungal, Wildlife, Cultists ]
+          [ Weald Enemies: Brigands, Witches, Fungal, Beasts, Cultists ]
       "Dungeon: the Warrens":
         keys:
           - Warrens
@@ -94,7 +94,7 @@ lorebook:
           underwhelming results. Now, the Warrens are now home to the descendants of those experiments,
           a warrior race of pig men whose only desire is to butcher and feed on any human they can get their claws on.
 
-          [ Warren Monsters: Swinefolk, Cultists, Wildlife ]
+          [ Warren Enemies: Swinefolk, Cultists, Beasts ]
       "Dungeon: the Cove":
         keys:
           - Cove
@@ -110,7 +110,7 @@ lorebook:
           Hamlet relies on. The smell of rotting fish is almost unbearable, but despite its morbid aspect,
           this twisted, cavernous maze seems almost traversable.
 
-          [ Monsters: Pelagic, Drowned ]
+          [ Cove Enemies: Pelagic, Drowned ]
       "Dungeon: the Courtyard":
         keys:
           - Courtyard
@@ -122,7 +122,7 @@ lorebook:
           of this place, only enhanced this place's malevolent aura. Don't be fooled by the calm appearance of the Courtyard.
           Thronging Hive's and Throbbing Coccoons, filled with bloodthirsty insects can be found around every corner.
 
-          [ Courtyard Monsters: Bloodsuckers ]
+          [ Courtyard Enemies: Bloodsuckers ]
 
       "Dungeon: the Farmstead":
         keys:
@@ -140,4 +140,4 @@ lorebook:
           Even the stars above the Farmstead are not right; None of the constellations can be seen in the sky, and the Northern Star
           is in the wrong position, as if these night skies are not from this time and place.
 
-          [ Farmstead Monsters: Husks ]
+          [ Farmstead Enemies: Husks ]
