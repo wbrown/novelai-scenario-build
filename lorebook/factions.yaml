@@ -16,7 +16,7 @@ lorebook:
           mercenaries turned to banditry, and they can be found raiding any of the
           areas surrounding the Hamlet. Expect no quarter from them, and offer none.
           
-          [ Brigand: Brigand Bloodletter, Brigand Cutthroat, Brigand Fusilier ]
+          [ Brigands: Brigand Bloodletter, Brigand Cutthroat, Brigand Fusilier ]
       "Faction: Undead":
         keys:
           - Unholy
@@ -119,3 +119,19 @@ lorebook:
           They managed to return to the surface - a Ghost Ship seeking vengeance.
 
           [ Drowned: Drowned Thrall, Squiffy Ghast ]
+      "Faction: Bloodsuckers":
+        keys:
+          - Bloodsucker
+          - Bloodsuckers
+          - Insects
+          - Swarm
+        text: >
+          Once a court of nobles who reigned alongside the Ancestor in his formative years.
+          An unpleasant encounter has transformed them into sinister creatures enthralled to
+          their need for 'The Blood'. They dwell within The Courtyard, once a palatial sanctuary
+          for the aristocracy that ruled over the Hamlet, Now sunken into the swamp. These grotesque
+          creatures thrive within its virulent waters. They are consumed by their hunger, although
+          they still cultivate a veneer of the humanity that has long since been lost. But the veneer
+          is just that, and a few sips of blood will bring out the monsters that lurk within.
+
+          [ Bloodsuckers: Chevalier, Courtesan, Esquire, Manservant ]
