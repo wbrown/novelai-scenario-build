@@ -33,14 +33,16 @@ lorebook:
           to be virtually immune; however, the corrosion that Blight provides will decay
           their abominable bodies back into the dust.
 
-          [ Unholy: Bone Arbalist, Bone Bearer, Bone Captain, Bone Courtier,
-          Bone Defender, Bone Rabble, Bone Soldier, Bone Spearman, Ghoul ]
+          [ Unholy: Bone Arbalist, Bone Captain, Bone Courtier, Bone Rabble, Bone Soldier, Ghoul ]
       "Faction: Fungal":
         keys:
+          - Fungus
           - Fungal
+          - Fungi
+          - Mushrooms
+          - Mushroom
           - Witch
           - Witches
-          - Mushrooms
           - Crone
           - Crones
         text: >
@@ -50,4 +52,31 @@ lorebook:
           infective mushroom that have taken over their bodies. While the Unclean Giants still cling
           to live, they are often accompanied and controlled by the Crones who have taken up residence in the Weald.
 
-          [ Fungal: Fungal Scratchers, Fungal Artillery, Unclean Giant, Crone ]
+          [ Fungal: Fungal Scratcher, Fungal Artillery, Unclean Giant, Crone, Ectoplasm ]
+      "Faction: Beasts":
+      keys:
+        - Beast
+        - Beasts
+        - Animal
+        - Animals
+        - Wildlife
+      text: >
+        The Beast type encompasses all of the savage animals that have been tainted by
+        the spreading darkness or awakened by those who trespass into their ancient domain. 
+
+        [ Beasts: Rabid Gnasher, Webber, Spitter, Maggot, Carrion Eater ]
+      "Faction: Cultists"
+        - Cultist
+        - Cultists
+        - Cult
+      text: >
+        The Cultists of these lands worship an Eldritch god. Revelation of the crawling
+        chaos and the entity slumbering below has a rather curious effect on the minds of men.
+        For most individuals these realizations irreparably twist and warp their minds, ceaselessly
+        tormenting them until they eventually descend into insanity. However, for a few individuals,
+        instead of madness these revelations inspire fanatical devotion. These zealots have flocked to
+        the Estate to worship the nascent god and have completely given themselves over to it in mind,
+        body and soul. They are ready, willing and eager to lay down their lives to protect it and 
+        those who worship it as well.
+
+        [ Cultists: Cultist Brawler, Cultist Acolyte ]
