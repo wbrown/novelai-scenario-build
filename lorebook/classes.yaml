@@ -3,6 +3,7 @@ categories:
     createSubcontext: true
     subcontextSettings:
       contextConfig:
+        suffix: "\n"
         tokenBudget: 2048
         reservedTokens: 600
         budgetPriority: 400
@@ -10,7 +11,7 @@ lorebook:
   - category: Classes
     config:
       contextConfig:
-        suffix": "\n"
+        suffix: "\n"
         tokenBudget: 2048
         reservedTokens: 300
         budgetPriority: 400

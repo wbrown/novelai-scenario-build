@@ -3,6 +3,7 @@ categories:
     createSubcontext: true
     subcontextSettings:
       contextConfig:
+        suffix: "\n"
         tokenBudget: 2048
         reservedTokens: 250
         budgetPriority: 400
@@ -11,7 +12,7 @@ lorebook:
     config:
       searchRange: 2000
       contextConfig:
-        suffix": "\n"
+        suffix: "\n"
         tokenBudget: 2048
         reservedTokens: 200
         budgetPriority: 400
@@ -19,7 +20,10 @@ lorebook:
       Available Dungeons:
         forceActivation: TRUE
         contextConfig:
-          budgetPriority: 800
+          suffix: "\n"
+          tokenBudget: 2048
+          reservedTokens: 200
+          budgetPriority: 200
         text: >
           [ Available Dungeons to Adventure In: the Old Road, the Weald, the Ruins, the Warrens, The Cove, the Courtyard, the Farmstead ]
       "Location: the Hamlet":
