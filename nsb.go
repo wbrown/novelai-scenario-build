@@ -153,13 +153,28 @@ func (def *Definition) ToJson(categories *CategoriesMap) []byte {
 	return jsonBytes
 }
 
+func (lorebook *Lorebook) ToPlaintext() string {
+	entryStrings := make([]string, 0)
+	for entryIdx := range lorebook.Entries {
+		entry := lorebook.Entries[entryIdx]
+		if entry.Enabled == nil || *entry.Enabled {
+			normalizedDisplayName := strings.Replace(*entry.DisplayName, ":", " -", -1)
+			entryStrings = append(entryStrings,
+				strings.Join([]string{normalizedDisplayName, *entry.Text}, ":\n"))
+		}
+	}
+	return strings.Join(entryStrings, "\n***\n")
+}
+
 func main() {
 	var outputFile string
+	var plaintext bool
 	flag.StringVar(&outputFile, "o", "output.lorebook", "output lorebook filename")
+	flag.BoolVar(&plaintext, "p", false, "plaintext output")
 	flag.Parse()
 	inputFiles := flag.Args()
 	if len(inputFiles) == 0 {
-		fmt.Println("Usage: nonflags.go [-o lorebook-file] definition.yaml ...")
+		fmt.Println("Usage: nsb [-o output-file] [-p] definition.yaml ...")
 		flag.PrintDefaults()
 		os.Exit(1)
 	}
@@ -172,11 +187,11 @@ func main() {
 		fileName := inputFiles[fileIdx]
 		data, err := ioutil.ReadFile(fileName)
 		if err != nil {
-			log.Fatal(err)
+			log.Fatal(fmt.Sprintf("Error reading %s:\n%v", fileName, err))
 		}
 		defs := Definition{}
 		if err := yaml.Unmarshal(data, &defs); err != nil {
-			log.Fatal(err)
+			log.Fatal(fmt.Sprintf("Error processing %s:\n%v", fileName, err))
 		}
 		defs.RealizeDefinition(&categories)
 		for lorebookGroupIdx := range defs.Lorebook {
@@ -189,9 +204,18 @@ func main() {
 	for categoryKey := range categories {
 		lorebook.Categories = append(lorebook.Categories, *(categories)[categoryKey])
 	}
-	jsonBytes, err := json.MarshalIndent(lorebook, "", " ")
-	if err != nil {
+	var outputBytes []byte
+	if plaintext {
+		text := lorebook.ToPlaintext()
+		outputBytes = []byte(text)
+	} else {
+		var err error
+		outputBytes, err = json.MarshalIndent(lorebook, "", " ")
+		if err != nil {
+			log.Fatal(err)
+		}
+	}
+	if err := ioutil.WriteFile(outputFile, outputBytes, 0755); err != nil {
 		log.Fatal(err)
 	}
-	ioutil.WriteFile(outputFile, jsonBytes, 0755)
 }
