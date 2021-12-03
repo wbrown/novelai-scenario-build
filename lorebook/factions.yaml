@@ -135,3 +135,21 @@ lorebook:
           is just that, and a few sips of blood will bring out the monsters that lurk within.
 
           [ Bloodsuckers: Chevalier, Courtesan, Esquire, Manservant ]
+      "Faction: Husks":
+        keys:
+          - Husk
+          - Husks
+          - Crystal
+          - Crystals
+          - Crystaline
+        text: >
+          Husks were once living, breathing, feeling beings before they were touched by the malevolent
+          crystalline corruption from the stars. Upon infection, the crystals rapidly spread throughout
+          the unfortunate victim and consume them from the inside out, turning them from beings of warm
+          flesh and blood into cold, empty and cruel mockeries made of crystal and stone. When a Husk dies,
+          the crystals inside its hollowed-out body quickly consume whatever remains of the body and blossoms
+          forth from it like a crystalline flower to spread its corrupting "pollen" or "seeds" in a rather explosive
+          fashion. Deadly shrapnel in form of crystalline shards and splinters lodge themselves into the body of
+          their victims; if not quickly removed, another poor soul will be turned into a Husk.
+
+          [ Husks: Farmhand, Foreman, Scarecrow, Plow Horse ]
