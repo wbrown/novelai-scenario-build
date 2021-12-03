@@ -65,7 +65,7 @@ lorebook:
         the spreading darkness or awakened by those who trespass into their ancient domain. 
 
         [ Beasts: Rabid Gnasher, Webber, Spitter, Maggot, Carrion Eater ]
-      "Faction: Cultists"
+      "Faction: Cultists":
         - Cultist
         - Cultists
         - Cult
@@ -80,7 +80,7 @@ lorebook:
         those who worship it as well.
 
         [ Cultists: Cultist Brawler, Cultist Acolyte ]
-      "Faction: Swinefolk"
+      "Faction: Swinefolk":
         - Swinefolk
         - Swine
         - Swines
