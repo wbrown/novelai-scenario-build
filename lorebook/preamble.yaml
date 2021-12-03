@@ -1,6 +1,5 @@
 lorebook:
-  - category: ~
-    entries:
+  - entries:
       "Template: Preamble":
         contextConfig:
           suffix: "\n"
