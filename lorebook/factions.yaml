@@ -61,7 +61,7 @@ lorebook:
         - Animals
         - Wildlife
       text: >
-        The Beast type encompasses all of the savage animals that have been tainted by
+        The Beasts encompasses all of the savage animals that have been tainted by
         the spreading darkness or awakened by those who trespass into their ancient domain. 
 
         [ Beasts: Rabid Gnasher, Webber, Spitter, Maggot, Carrion Eater ]
@@ -80,3 +80,15 @@ lorebook:
         those who worship it as well.
 
         [ Cultists: Cultist Brawler, Cultist Acolyte ]
+      "Faction: Swinefolk"
+        - Swinefolk
+        - Swine
+        - Swines
+        - Beast-man
+        - Beast-men
+      text: >
+        The Swinefolk are a hybrid of beast and men carrying numerous diseases.
+        They are the descendants of the Ancestor's experiments, a warrior race of pig men
+        whose only desire is to butcher and feed on any human they can get their claws on.
+
+        [ Swinefolk: Swine Chopper, Swine Wretch, Swine Drummer, Swine Slasher ]
