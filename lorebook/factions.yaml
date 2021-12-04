@@ -10,11 +10,12 @@ lorebook:
           - Brigands
           - Bandits
         text: >
-          The Brigands are hardened bandits and killers that the Ancestor hired as a
-          mercenary army to retake the Hamlet after the people rebelled against him.
-          Once the Ancestor died and no further payment seemed in sight, those same
-          mercenaries turned to banditry, and they can be found raiding any of the
-          areas surrounding the Hamlet. Expect no quarter from them, and offer none.
+          The Brigands are hardened bandits and killers that the Ancestor hired
+          as a mercenary army to retake the Hamlet after the people rebelled
+          against him. Once the Ancestor died and no further payment seemed in
+          sight, those same mercenaries turned to banditry, and they can be
+          found raiding any of the areas surrounding the Hamlet. Expect no
+          quarter from them, and offer none.
           
           [ Brigands: Brigand Bloodletter, Brigand Cutthroat, Brigand Fusilier ]
       "Faction: Undead":
@@ -25,15 +26,17 @@ lorebook:
           - Skeletal
           - Ghoul
         text: >
-          The Undead are twisted creatures defy the natural order by their mere existence,
-          often by being animated (or reanimated) by dark forces or by men tampering with
-          supernatural forces. Undead, Wraiths, and Ghouls are just a few of the macabre
-          horde of Unholy horrors with deep hatred for the Light and all that lives in its
-          loving embrace. Unholy creatures commonly have a high enough resistance to Bleed
-          to be virtually immune; however, the corrosion that Blight provides will decay
-          their abominable bodies back into the dust.
+          The Undead are twisted creatures defy the natural order by their
+          mere existence, often by being animated (or reanimated) by dark
+          forces or by men tampering with supernatural forces. Undead, Wraiths,
+          and Ghouls are just a few of the macabre horde of Unholy horrors with
+          deep hatred for the Light and all that lives in its loving embrace.
+          Unholy creatures commonly have a high enough resistance to Bleed to
+          be virtually immune; however, the corrosion that Blight provides will
+          decay their abominable bodies back into the dust.
 
-          [ Unholy: Bone Arbalist, Bone Captain, Bone Courtier, Bone Rabble, Bone Soldier, Ghoul ]
+          [ Unholy: Bone Arbalist, Bone Captain, Bone Courtier, Bone Rabble,
+          Bone Soldier, Ghoul ]
       "Faction: Fungal":
         keys:
           - Fungus
@@ -46,13 +49,16 @@ lorebook:
           - Crone
           - Crones
         text: >
-          The Fungal represent the twisted corruption by the fungous infection spread throughout
-          the Weald; The Fungal Scratchers and Artillery are humans and corpses resurrected and
-          controlled by the otherworldly spores. They are driven by the sole desire to spread the
-          infective mushroom that have taken over their bodies. While the Unclean Giants still cling
-          to live, they are often accompanied and controlled by the Crones who have taken up residence in the Weald.
+          The Fungal represent the twisted corruption by the fungous infection
+          spread throughout the Weald; The Fungal Scratchers and Artillery are
+          humans and corpses resurrected and controlled by the otherworldly
+          spores. They are driven by the sole desire to spread the infective
+          mushroom that have taken over their bodies. While the Unclean Giants
+          still cling to life, they are often accompanied and controlled by the
+          Crones who have taken up residence in the Weald.
 
-          [ Fungal: Fungal Scratcher, Fungal Artillery, Unclean Giant, Crone, Ectoplasm ]
+          [ Fungal: Fungal Scratcher, Fungal Artillery, Unclean Giant, Crone,
+          Ectoplasm ]
       "Faction: Beasts":
         keys:
           - Beast
@@ -61,8 +67,9 @@ lorebook:
           - Animals
           - Wildlife
         text: >
-          The Beasts encompasses all of the savage animals that have been tainted by
-          the spreading darkness or awakened by those who trespass into their ancient domain. 
+          The Beasts encompasses all of the savage animals that have been
+          tainted by the spreading darkness or awakened by those who trespass
+          into their ancient domain.
 
           [ Beasts: Rabid Gnasher, Webber, Spitter, Maggot, Carrion Eater ]
       "Faction: Cultists":
@@ -71,14 +78,16 @@ lorebook:
           - Cultists
           - Cult
         text: >
-          The Cultists of these lands worship an Eldritch god. Revelation of the crawling
-          chaos and the entity slumbering below has a rather curious effect on the minds of men.
-          For most individuals these realizations irreparably twist and warp their minds, ceaselessly
-          tormenting them until they eventually descend into insanity. However, for a few individuals,
-          instead of madness these revelations inspire fanatical devotion. These zealots have flocked to
-          the Estate to worship the nascent god and have completely given themselves over to it in mind,
-          body and soul. They are ready, willing and eager to lay down their lives to protect it and 
-          those who worship it as well.
+          The Cultists of these lands worship an Eldritch god. Revelation of
+          the crawling chaos and the entity slumbering below has a rather
+          curious effect on the minds of men. For most individuals these
+          realizations irreparably twist and warp their minds, ceaselessly
+          tormenting them until they eventually descend into insanity. However,
+          for a few individuals, instead of madness these revelations inspire
+          fanatical devotion. These zealots have flocked to the Estate to
+          worship the nascent god and have completely given themselves over to
+          it in mind, body and soul. They are ready, willing and eager to lay
+          down their lives to protect it and those who worship it as well.
 
           [ Cultists: Cultist Brawler, Cultist Acolyte ]
       "Faction: Swinefolk":
@@ -89,11 +98,13 @@ lorebook:
           - Beast-man
           - Beast-men
         text: >
-          The Swinefolk are a hybrid of beast and men carrying numerous diseases.
-          They are the descendants of the Ancestor's experiments, a warrior race of pig men
-          whose only desire is to butcher and feed on any human they can get their claws on.
+          The Swinefolk are a hybrid of beast and men carrying numerous
+          diseases. They are the descendants of the Ancestor's experiments, a
+          warrior race of pig men whose only desire is to butcher and feed on
+          any human they can get their claws on.
 
-          [ Swinefolk: Swine Chopper, Swine Wretch, Swine Drummer, Swine Slasher ]
+          [ Swinefolk: Swine Chopper, Swine Wretch, Swine Drummer, Swine
+          Slasher ]
       "Facion: Pelagic":
         keys:
           - Pelagic
@@ -101,9 +112,10 @@ lorebook:
           - Fish-men
         text: >
           The Pelagic are a race of ancient fishmen that live in the cove.
-          They were roused by the activity around their home, making it a habit to sink
-          and kill any sailors that come near their domain. They pose a great threat to the marine
-          shipments of provisions that the Hamlet relies on.
+          They were roused by the activity around their home, making it a habit
+          to sink and kill any sailors that come near their domain. They pose a
+          great threat to the marine shipments of provisions that the Hamlet
+          relies on.
 
           [ Pelagic: Pelagic Grouper, Pelagic Shaman, Pelagic Guardian ]
       "Faction: Drowned":
@@ -113,10 +125,12 @@ lorebook:
           - Zombies
         text: >
           The Drowned were once a a crew of particularly unsavory mariners,
-          who sailed the four corners at the Ancestor's behest. When they increased their tariffs,
-          he prepared an alternative payment. The ancestor hexed their anchor with every twisted
-          incantation he could muster and dragged craft and crew to the swirling depth. But it was not their end;
-          They managed to return to the surface - a Ghost Ship seeking vengeance.
+          who sailed the four corners at the Ancestor's behest. When they
+          increased their tariffs, he prepared an alternative payment. The
+          Ancestor hexed their anchor with every twisted incantation he could
+          muster and dragged craft and crew to the swirling depth. But it was
+          not their end; They managed to return to the surface - a Ghost Ship
+          seeking vengeance.
 
           [ Drowned: Drowned Thrall, Squiffy Ghast ]
       "Faction: Bloodsuckers":
@@ -126,13 +140,16 @@ lorebook:
           - Insects
           - Swarm
         text: >
-          Once a court of nobles who reigned alongside the Ancestor in his formative years.
-          An unpleasant encounter has transformed them into sinister creatures enthralled to
-          their need for 'The Blood'. They dwell within The Courtyard, once a palatial sanctuary
-          for the aristocracy that ruled over the Hamlet, Now sunken into the swamp. These grotesque
-          creatures thrive within its virulent waters. They are consumed by their hunger, although
-          they still cultivate a veneer of the humanity that has long since been lost. But the veneer
-          is just that, and a few sips of blood will bring out the monsters that lurk within.
+          Once a court of nobles who reigned alongside the Ancestor in his
+          formative years. An unpleasant encounter has transformed them into
+          sinister creatures enthralled to their need for 'The Blood'. They
+          dwell within The Courtyard, once a palatial sanctuary for the
+          aristocracy that ruled over the Hamlet, now sunken into the swamp.
+          These grotesque creatures thrive within its virulent waters. They are
+          consumed by their hunger, although they still cultivate a veneer of
+          the humanity that has long since been lost. But the veneer is just
+          that, and a few sips of blood will bring out the monsters that lurk
+          within.
 
           [ Bloodsuckers: Chevalier, Courtesan, Esquire, Manservant ]
       "Faction: Husks":
@@ -143,13 +160,17 @@ lorebook:
           - Crystals
           - Crystaline
         text: >
-          Husks were once living, breathing, feeling beings before they were touched by the malevolent
-          crystalline corruption from the stars. Upon infection, the crystals rapidly spread throughout
-          the unfortunate victim and consume them from the inside out, turning them from beings of warm
-          flesh and blood into cold, empty and cruel mockeries made of crystal and stone. When a Husk dies,
-          the crystals inside its hollowed-out body quickly consume whatever remains of the body and blossoms
-          forth from it like a crystalline flower to spread its corrupting "pollen" or "seeds" in a rather explosive
-          fashion. Deadly shrapnel in form of crystalline shards and splinters lodge themselves into the body of
-          their victims; if not quickly removed, another poor soul will be turned into a Husk.
+          Husks were once living, breathing, feeling beings before they were
+          touched by the malevolent crystalline corruption from the stars. Upon
+          infection, the crystals rapidly spread throughout the unfortunate
+          victim and consume them from the inside out, turning them from beings
+          of warm flesh and blood into cold, empty and cruel mockeries made of
+          crystal and stone. When a Husk dies, the crystals inside its
+          hollowed-out body quickly consume whatever remains of the body and
+          blossoms forth from it like a crystalline flower to spread its
+          corrupting "pollen" or "seeds" in a rather explosive fashion. Deadly
+          shrapnel in form of crystalline shards and splinters lodge themselves
+          into the body of their victims; if not quickly removed, another poor
+          soul will be turned into a Husk.
 
           [ Husks: Farmhand, Foreman, Scarecrow, Plow Horse ]
