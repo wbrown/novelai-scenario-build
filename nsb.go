@@ -5,6 +5,7 @@ import (
 	"flag"
 	"fmt"
 	uuid "github.com/nu7hatch/gouuid"
+	"github.com/wbrown/novelai-research-tool/gpt-bpe"
 	"gopkg.in/yaml.v3"
 	"io/ioutil"
 	"log"
@@ -12,6 +13,8 @@ import (
 	"reflect"
 	"strings"
 )
+
+var encoder gpt_bpe.GPTEncoder
 
 type Lorebook struct {
 	Version    int             `json:"lorebookVersion"`
@@ -35,28 +38,55 @@ type ContextConfig struct {
 	Force             *bool   `json:"forced,omitempty" yaml:"forced"`
 }
 
-type LorebookEntry struct {
-	Text                *string        `json:"text,omitempty" yaml:"text"`
-	ContextCfg          *ContextConfig `json:"contextConfig,omitempty" yaml:"contextConfig"`
-	LastUpdatedAt       *int           `json:"lastUpdatedAt,omitempty" yaml:"lastUpdatedAt""`
-	DisplayName         *string        `json:"displayName,omitempty" yaml:"displayName"`
-	Keys                *[]string      `json:"keys,omitempty" yaml:"keys"`
-	SearchRange         *int           `json:"searchRange,omitempty" yaml:"searchRange"`
-	Enabled             *bool          `json:"enabled,omitempty" yaml:"enabled"`
-	ForceActivation     *bool          `json:"forceActivation,omitempty" yaml:"forceActivation"`
-	KeyRelative         *bool          `json:"keyRelative,omitempty" yaml:"keyRelative"`
-	NonStoryActivatable *bool          `json:"nonStoryActivatable,omitempty" yaml:"nonStoryActivatable"`
-	CategoryId          *string        `json:"category,omitempty" yaml:"categoryId"`
+const (
+	BiasString    BiasType = 0
+	BiasTokens             = 1
+	BiasLitString          = 2
+)
+
+type BiasSequences struct {
+	Sequences []gpt_bpe.Tokens `json:"sequences"`
+	Type      BiasType         `json:"type"`
 }
 
+type LoreBiasGroup struct {
+	YamlPhrases          *[]string        `json:"-" yaml:"phrases"`
+	Phrases              *[]BiasSequences `json:"phrases,omitempty" yaml:"-"`
+	Bias                 *float64         `json:"bias,omitempty" yaml:"bias"`
+	EnsureSequenceFinish *bool            `json:"ensure_sequence_finish,omitempty" yaml:"ensureSequenceFinish"`
+	GenerateOnce         *bool            `json:"generate_once,omitempty" yaml:"generateOnce"`
+	Enabled              *bool            `json:"enabled,omitempty" yaml:"enabled"`
+	WhenInactive         *bool            `json:"whenInactive,omitempty" yaml:"whenInactive"`
+}
+
+type LoreBiasGroups []LoreBiasGroup
+
+type LorebookEntry struct {
+	Text                *string         `json:"text,omitempty" yaml:"text"`
+	ContextCfg          *ContextConfig  `json:"contextConfig,omitempty" yaml:"contextConfig"`
+	LastUpdatedAt       *int            `json:"lastUpdatedAt,omitempty" yaml:"lastUpdatedAt"`
+	DisplayName         *string         `json:"displayName,omitempty" yaml:"displayName"`
+	Keys                *[]string       `json:"keys,omitempty" yaml:"keys"`
+	SearchRange         *int            `json:"searchRange,omitempty" yaml:"searchRange"`
+	Enabled             *bool           `json:"enabled,omitempty" yaml:"enabled"`
+	ForceActivation     *bool           `json:"forceActivation,omitempty" yaml:"forceActivation"`
+	KeyRelative         *bool           `json:"keyRelative,omitempty" yaml:"keyRelative"`
+	NonStoryActivatable *bool           `json:"nonStoryActivatable,omitempty" yaml:"nonStoryActivatable"`
+	CategoryId          *string         `json:"category,omitempty" yaml:"categoryId"`
+	LoreBiasGroups      *LoreBiasGroups `json:"loreBiasGroups,omitempty" yaml:"loreBiasGroups"`
+}
+
+type BiasType uint
+
 type Category struct {
-	Name                *string        `json:"name,omitempty" yaml:"name"`
-	Id                  *string        `json:"id,omitempty" yaml:"id"`
-	Enabled             *bool          `json:"enabled,omitempty" yaml:"enabled"`
-	CreateSubcontext    *bool          `json:"createSubcontext,omitempty" yaml:"createSubcontext"`
-	SubcontextSettings  *LorebookEntry `json:"subcontextSettings,omitempty" yaml:"subcontextSettings"`
-	UseCategoryDefaults *bool          `json:"useCategoryDefaults,omitempty" yaml:"useCategoryDefaults"`
-	CategoryDefaults    *LorebookEntry `json:"categoryDefaults,omitempty" yaml:"categoryDefaults"`
+	Name                *string         `json:"name,omitempty" yaml:"name"`
+	Id                  *string         `json:"id,omitempty" yaml:"id"`
+	Enabled             *bool           `json:"enabled,omitempty" yaml:"enabled"`
+	CreateSubcontext    *bool           `json:"createSubcontext,omitempty" yaml:"createSubcontext"`
+	SubcontextSettings  *LorebookEntry  `json:"subcontextSettings,omitempty" yaml:"subcontextSettings"`
+	UseCategoryDefaults *bool           `json:"useCategoryDefaults,omitempty" yaml:"useCategoryDefaults"`
+	CategoryDefaults    *LorebookEntry  `json:"categoryDefaults,omitempty" yaml:"categoryDefaults"`
+	LoreBiasGroups      *LoreBiasGroups `json:"loreBiasGroups,omitempty" yaml:"loreBiasGroups"`
 }
 
 type Definition struct {
@@ -84,6 +114,30 @@ func (defaults *LorebookEntry) RealizeDefaults(entry *LorebookEntry) {
 	}
 }
 
+func (biasGroups *LoreBiasGroups) RealizeBiases() {
+	for biasIdx := range *biasGroups {
+		biasGroup := (*biasGroups)[biasIdx]
+		if biasGroup.YamlPhrases != nil {
+			if (*biasGroups)[biasIdx].Phrases == nil {
+				biasSequences := make([]BiasSequences, 0)
+				(*biasGroups)[biasIdx].Phrases = &biasSequences
+			}
+			for phraseIdx := range *biasGroup.YamlPhrases {
+				jsonifiedPhrase := BiasSequences{
+					Sequences: make([]gpt_bpe.Tokens, 0),
+					Type:      BiasLitString,
+				}
+				phraseString := (*biasGroup.YamlPhrases)[phraseIdx]
+				tokens := encoder.Encode(&phraseString)
+				jsonifiedPhrase.Sequences = append(jsonifiedPhrase.Sequences,
+					*tokens)
+				*(*biasGroups)[biasIdx].Phrases = append(
+					*(*biasGroups)[biasIdx].Phrases, jsonifiedPhrase)
+			}
+		}
+	}
+}
+
 func (categories *CategoriesMap) RealizeCategory(name string, category *Category) *Category {
 	if lookup, ok := (*categories)[name]; ok {
 		return lookup
@@ -101,6 +155,10 @@ func (categories *CategoriesMap) RealizeCategory(name string, category *Category
 		uuidStr := categoryUuid.String()
 		category.Id = &uuidStr
 	}
+	if category.LoreBiasGroups != nil {
+		category.LoreBiasGroups.RealizeBiases()
+	}
+
 	(*categories)[name] = category
 	return category
 }
@@ -122,6 +180,9 @@ func (def *Definition) RealizeDefinition(categories *CategoriesMap) {
 			*entry.Text = strings.TrimSuffix(*entry.Text, "\n")
 			if category != nil && entry.CategoryId == nil {
 				entry.CategoryId = category.Id
+			}
+			if entry.LoreBiasGroups != nil {
+				entry.LoreBiasGroups.RealizeBiases()
 			}
 			if lorebookGroup.Config != nil {
 				lorebookGroup.Config.RealizeDefaults(&entry)
@@ -164,6 +225,10 @@ func (lorebook *Lorebook) ToPlaintext() string {
 		}
 	}
 	return strings.Join(entryStrings, "\n***\n")
+}
+
+func init() {
+	encoder = gpt_bpe.NewEncoder()
 }
 
 func main() {
