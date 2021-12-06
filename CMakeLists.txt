@@ -9,11 +9,16 @@ if (NOT ${EXIT_CODE} EQUAL 0)
             "You need to have a `golang` environment installed with an appropriately set GOROOT.")
 endif()
 
-set(NSB_BINARY "${PROJECT_SOURCE_DIR}/nsb")
+if(WIN32)
+    set(NSB_BINARY "${PROJECT_SOURCE_DIR}/nsb.exe")
+else()
+    set(NSB_BINARY "${PROJECT_SOURCE_DIR}/nsb")
+endif()
 
 add_custom_command(
         OUTPUT "${NSB_BINARY}"
         WORKING_DIRECTORY "${PROJECT_SOURCE_DIR}"
+        DEPENDS nsb.go
         COMMAND go build nsb.go)
 
 macro(add_scenario_sources TARGET)
@@ -28,7 +33,9 @@ macro(generate_lorebook TARGET OUTPUT)
             OUTPUT "${PROJECT_SOURCE_DIR}/${OUTPUT}"
             WORKING_DIRECTORY "${PROJECT_SOURCE_DIR}"
             COMMAND ${NSB_BINARY} -o ${PROJECT_SOURCE_DIR}/${OUTPUT}
-                ${${TARGET}_SOURCES})
+                ${${TARGET}_SOURCES}
+            DEPENDS ${NSB_BINARY}
+                    ${${TARGET}_SOURCES})
     list(APPEND GEN_TARGETS ${PROJECT_SOURCE_DIR}/${OUTPUT})
 endmacro()
 
@@ -37,7 +44,8 @@ macro(generate_plaintext TARGET OUTPUT)
             OUTPUT "${PROJECT_SOURCE_DIR}/${OUTPUT}"
             WORKING_DIRECTORY "${PROJECT_SOURCE_DIR}"
             COMMAND ${NSB_BINARY} -p -o ${PROJECT_SOURCE_DIR}/${OUTPUT}
-                ${${TARGET}_SOURCES})
+                ${${TARGET}_SOURCES}
+            DEPENDS ${${TARGET}_SOURCES})
     list(APPEND GEN_TARGETS ${PROJECT_SOURCE_DIR}/${OUTPUT})
 endmacro()
 
