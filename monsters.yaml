@@ -1,0 +1,157 @@
+categories:
+  Monsters:
+    createSubcontext: true
+    subcontextSettings:
+      contextConfig:
+        suffix: "\n"
+        tokenBudget: 2048
+        reservedTokens: 200
+        budgetPriority: -200
+        insertionPosition: 0
+lorebook:
+  - category: Monsters
+    config:
+      contextConfig:
+        suffix: "\n"
+        tokenBudget: 2048
+        budgetPriority: -200
+        TrimDirection: doNotTrim
+    entries:
+      "Brigands: Brigand Bloodletter":
+        keys:
+          - Brigand Bloodletter
+          - Brigand Bloodletters
+        text: >
+          The Brigand Bloodletter is a hulking, battle-scarred brute who typically
+          shields his smaller allies. Armed with a vicious cat o' nine tails whip
+          and a deadly flintlock pistol, he is ready to give his enemies deep and
+          bloody scars to match his.
+          
+          The Brigand Bloodletter is always found accompanied by a Cutthroat or
+          a Fusilier. While his primary role is to protect his allies and soften
+          foes with widespread bleeding, his uncommon Point Blank Shot can inflict
+          massive wounds. Furthermore, he can dish out devastating Punishment with
+          his whip, while and Rain of Whips causes massive lacerations on his targets.
+  
+          [ Brigand Bloodletter Abilities: Rain Of Whips, Punishment, Point Blank Shot ]
+      "Brigands: Brigand Cutthroat":
+        keys:
+          - Brigand Cutthroat
+          - Brigand Cutthroats
+        text: >
+          Brigand Cutthroats are masterfully skilled with their blades, and able to
+          deliver deadly thrusts that can easily decimate even the toughest of
+          adventuring parties. While the Brigand Cutthroats may look fragile with
+          almost negligible protection, they have immense offensive capabilities.
+
+          The Brigand Cutthroat will usually start by weakening their opposition using
+          Slice And Dice attacks, before exploiting it with Shank. The Brigand Cutthroat
+          will use Uppercut Slice to push enemies back, should he feel threatened enough.
+          Finally, if he can't find a good opening for an attack, he will use Harmless
+          Poke in an attempt to close to gap to his target.
+
+          [ Brigand Cutthroat Abilities: Slice and Dice, Shank, Uppercut Slice, Harmless Poke ]
+      "Brigands: Brigand Fusilier":
+        keys:
+          - Brigand Fusilier
+          - Brigand Fusiliers
+        text: >
+          Brigand Fusiliers are armed with a blunderbuss which they use to suppress the
+          bandits' foes with sprays of lead. Their attacks also make it harder for you
+          dodge, allowing other Brigands to close the gap and wail upon your heroes with
+          their blades and whips. Be wary and do not underestimate this opponent.
+
+          The Brigand Fusilier is incredibily nimble and often the first one to act. He
+          uses Blanket Fire at every opportunity he gets. If the Fusilier finds himself
+          face to face with an opponent, he will use Rushed Shot to retreat to the safety
+          of the backline to continue his assault from there.
+
+          [ Brigand Fusilier Abilities: Blanket Fire, Rushed Shot ]
+      "Undead: Bone Rabble":
+        keys:
+          - Bone Rabble
+          - Bone Rabbles
+        text: >
+          The Bone Rabble is an Unholy-type enemy that can be found in almost
+          any area, although it is most common in the Ruins. It is often
+          encountered in pairs, with both individuals taking up the first two
+          ranks.
+          
+          With low HP, no protection, low speed, very poor resistances (save
+          for bleed), and weak, inaccurate attacks, this enemy is by far the
+          weakest of all Unholy enemies and should be considered a very low
+          priority in battle. Its main purpose is to use its body (or corpse)
+          to protect enemies in the back of the formation, although its Bump
+          in the Night attack can reduce the victim's Dodge abilities by a
+          fairly significant amount.
+          
+          [ Bone Soldier Abilities: Bump in the Night, Tic-Toc ]
+      "Undead: Bone Soldier":
+        keys:
+          - Bone Soldier
+          - Bone Soldiers
+        text: >
+          Bone Soldiers are common Unholy footsoldiers that are found within
+          the Ruins. Unlike the Bone Rabble, Bone Soldiers are better-armored
+          and wield more effective weapons, letting them hit harder and last
+          longer on the battlefield. Still, they remain relatively weak and are
+          easily dispatched.
+
+          [ Bone Soldier abilities: Graveyard Slash, Graveyard Stumble ]
+      "Undead: Bone Courtier":
+        keys:
+          - Bone Courtier
+          - Bone Courtier
+        text: >
+          The Bone Courtier is an enemy found in the Ruins, and often the first
+          type that adventurers encounters which is specialized for dealing
+          Stress damage. As the names of their more advanced forms indicate,
+          these were likely nobles and even royalty in life, though of an
+          unclear association with the Ancestor or his family. Though
+          ill-suited for combat, their signature Tempting Goblet is a
+          well-known source of Stress to adventuring parties.
+ 
+          The Bone Courtier is an Unholy enemy that appears in the halls of
+          the Ruins along with his fellow undead. The Bone Courtier always
+          appears at the back of an Unholy party. As long as he is in ranks 3
+          and 4, he continuously uses Tempting Goblet: a ranged attack that can
+          hit any rank of the player's party that deals low health damage,
+          while inflicting heavy stress. Since Stress damage is harder to heal
+          than health, leaving the Bone Courtier free to act will endanger the
+          rest of the mission with the threat of affliction, especially if
+          encountered early in longer expeditions.
+
+          [ Bone Courtier Abilities: Tempting Goblet, Knife in the Dark ]
+      "Undead: Bone Captain":
+        keys:
+          - Bone Captain
+          - Bone Captains
+        text: >
+          The Bone Captains are tough, heavy-hitting front-line attackers
+          clad in armor and wielding a mace. In life they stood as veterans
+          of war leading the charge and in death they play largely the same
+          role. The weight of their strikes can cause the very ground to quake,
+          leaving those affected dazed and reeling.
+
+          Its main ability is Ground Pound, a mighty smash that will shake the
+          very foundation beneath your feet. Sometimes it can perform a Crushing
+          Blow at those in it's reach, leaving their target disoriented from the
+          heavy impact.
+
+          [ Bone Captain Abilities: Crushing Blow, Ground Pound ]
+      "Undead: Bone Arbalist":
+        keys:
+          - Bone Arbalist
+          - Bone Arbalists
+        text: >
+          Bone Arbalists operate by firing crossbow bolts into the fray from the
+          safety of the back ranks, and end up in an awkward position if drawn to
+          the front.
+
+          The Bone Arbalist will use his Quarrel ability while in the rear ranks,
+          able to snipe off any opposition. This attack is already quite powerful
+          on its own, but is especially devastating to targets that have been Marked.
+          It will use a Bayonet Jab to retreat to the back, should it find itself
+          face-to-face with an enemy.
+
+          [ Bone Arbalist Abilities: Quarrel, Bayonet Jab ]

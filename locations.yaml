@@ -6,24 +6,25 @@ categories:
         suffix: "\n"
         tokenBudget: 2048
         reservedTokens: 250
-        budgetPriority: 400
+        budgetPriority: -400
+        insertionPosition: 0
 lorebook:
   - category: Locations
     config:
-      searchRange: 2000
       contextConfig:
         suffix: "\n"
         tokenBudget: 2048
-        reservedTokens: 200
-        budgetPriority: 400
+        budgetPriority: -100
+        TrimDirection: doNotTrim
     entries:
       Available Dungeons:
         forceActivation: TRUE
         contextConfig:
           suffix: "\n"
           tokenBudget: 2048
-          reservedTokens: 200
-          budgetPriority: 200
+          reservedTokens: -150
+          budgetPriority: 0
+          insertionPosition: 0
         text: >
           [ Available Dungeons to Adventure In: the Old Road, the Weald, the
           Ruins, the Warrens, The Cove, the Courtyard, the Farmstead ]
@@ -32,9 +33,8 @@ lorebook:
           - Hamlet
           - Village
         text: >
-          "Welcome home, such as it is. This squalid hamlet, these corrupted
-          lands, they are yours now, and you are bound to them." - the Narrator
-          regarding the Hamlet
+          'Welcome home, such as it is. This squalid hamlet, these corrupted
+          lands, they are yours now, and you are bound to them.'
 
           The Hamlet is a quiet, decayed settlement on the Estate's grounds
           where a handful of people still cling to a squalid yet relatively
@@ -51,8 +51,8 @@ lorebook:
         keys:
           - Old Road
         text: >
-          "Brigands have run of these lanes. Keep to the side-path, the Hamlet
-          is just ahead." - The Narrator regarding the Old Road.
+          'Brigands have run of these lanes. Keep to the side-path, the Hamlet
+          is just ahead.'
 
           The Old Road is a poorly-maintained and bandit-plagued road that
           winds through the Weald and connects the Estate to the outside world.
@@ -68,8 +68,8 @@ lorebook:
           - Castle
           - Estate
         text: >
-          "The fiends must be driven back. And what better place to begin than
-          the seat of our noble line?" - the Narrator regarding the Ruins
+          'The fiends must be driven back. And what better place to begin than
+          the seat of our noble line?'
 
           The Ruins are a crumbling castle, and the former halls and seat of
           the Ancestor's power are now a black, shifting maze of corridors
@@ -87,9 +87,8 @@ lorebook:
           - Weald
           - Forest
         text: >
-          "Corruption has soaked the soil, sapping all good life from these
-          groves. Let us burn out this evil." - the Narrator regarding the
-          Weald
+          'Corruption has soaked the soil, sapping all good life from these
+          groves. Let us burn out this evil.'
 
           The Weald is a stagnant, overgrown forest inhabited by bandits and
           the victims of parasitic fungus. The fruits and victims of this
@@ -106,8 +105,8 @@ lorebook:
           - Warrens
           - Aqueducts
         text: >
-          "They breed quickly down there in the dark, but perhaps we can slay
-          them even faster." - the Narrator regarding the Warrens
+          'They breed quickly down there in the dark, but perhaps we can slay
+          them even faster.'
 
           An incredibly ancient system of aqueducts and tunnels built for
           unknown purpose, it is now a corpse-choked cesspit that houses the
@@ -125,8 +124,8 @@ lorebook:
           - Beach
           - Sea
         text: >
-          "These salt-soaked caverns are teeming with pelagic nightmares -
-          they must be flushed out!" - the Narrator regarding the Cove
+          'These salt-soaked caverns are teeming with pelagic nightmares -
+          they must be flushed out!'
 
           The Ancestor once used the Cove as a means to deliver some of his
           more controversial artifacts, as well as a location to perform his
@@ -141,9 +140,8 @@ lorebook:
         keys:
           - Courtyard
         text: >
-          "Soaked and sinking, these stone terraces and sprawling gardens are
-          the site of long forgotten revelry...and well remembered regret." -
-          the Ancestor regarding the Courtyard
+          'Soaked and sinking, these stone terraces and sprawling gardens are
+          the site of long forgotten revelry...and well remembered regret.'
 
           The Courtyard houses the former lavish gardens and vistas of the
           estate, fallen to ruin and overtaken by a terrible, bloody
@@ -161,11 +159,11 @@ lorebook:
           - Farmstead
           - Old Windmill
         text: >
-          "Some blazing malevolence from beyond the stars has crashed upon the
+          'Some blazing malevolence from beyond the stars has crashed upon the
           Miller’s farm. Lands that have, in past years, yielded rich harvests
           are now sown with a new and terrifying seed — an unrelenting
           crystalline consumption that inches outward from the mill with each
-          passing season." - the Narrator regarding the Farmstead
+          passing season.'
 
           The Farmstead and its acres have been severely altered by the
           otherworldly corruption ever since the Comet struck

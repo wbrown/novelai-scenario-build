@@ -1,7 +1,21 @@
 categories:
   Factions:
+    createSubcontext: true
+    subcontextSettings:
+      contextConfig:
+        suffix: "\n"
+        tokenBudget: 2048
+        reservedTokens: 200
+        budgetPriority: -300
+        insertionPosition: 0
 lorebook:
   - category: Factions
+    config:
+      contextConfig:
+        suffix: "\n"
+        tokenBudget: 2048
+        budgetPriority: -200
+        TrimDirection: doNotTrim
     entries:
       "Faction: Brigands":
         keys:

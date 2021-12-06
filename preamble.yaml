@@ -1,19 +1,21 @@
 lorebook:
   - entries:
       "Template: Preamble":
+        keyRelative: true
         contextConfig:
           suffix: "\n"
           tokenBudget: 2048
-          budgetPriority: 600
+          reservedTokens: 0
+          budgetPriority: -50
+          insertionPosition: 2
         keys: 
-          - the Narrator regarding the Darkest Dungeon
+          - clutching shadows of the Darkest Dungeon
         text: >
-          ***
-
           Location: The Old Road, Beginning of Corridor
 
-          "Brigands have run of these lanes. Keep to the side path; the Hamlet
-          is just ahead." - the Narrator regarding the Old Road
+          You are Dismas, a male Highwayman, and you ponder the nature of your
+          profession and how you might best support your companion,
+          Reynauld who is a Crusader.
 
           You encounter a Brigand Cutthroat! He is hooded, and wields a pair of
           daggers with expert skill.
@@ -79,3 +81,5 @@ lorebook:
           You move on with Reynauld, and find a portal deeper into the woods.
           Stepping in, you are surprised by a Brigand Bloodletter, and a
           Brigand Fusilier! They stand guard over a large strongbox.
+
+          ***

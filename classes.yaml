@@ -6,16 +6,19 @@ categories:
         suffix: "\n"
         tokenBudget: 2048
         reservedTokens: 600
-        budgetPriority: 400
+        budgetPriority: -100
+        insertionPosition: 0
 lorebook:
   - category: Classes
     config:
+      searchRange: 3000
       contextConfig:
         suffix: "\n"
         tokenBudget: 2048
         reservedTokens: 300
-        budgetPriority: 400
+        budgetPriority: -100
         nonStoryActivatable: true
+        TrimDirection: doNotTrim
     entries:
       "Class: Abomination":
         keys:
