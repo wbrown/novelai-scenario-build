@@ -10,6 +10,7 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
+	"path/filepath"
 	"reflect"
 	"strings"
 )
@@ -237,13 +238,22 @@ func main() {
 	flag.StringVar(&outputFile, "o", "output.lorebook", "output lorebook filename")
 	flag.BoolVar(&plaintext, "p", false, "plaintext output")
 	flag.Parse()
-	inputFiles := flag.Args()
-	if len(inputFiles) == 0 {
+	inputFileArgs := flag.Args()
+	if len(inputFileArgs) == 0 {
 		fmt.Println("Usage: nsb [-o output-file] [-p] definition.yaml ...")
 		flag.PrintDefaults()
 		os.Exit(1)
 	}
-
+	// Windows requires us to do our own glob expansion.
+	inputFiles := make([]string, 0)
+	for inputArgIdx := range inputFileArgs {
+		candidate := inputFileArgs[inputArgIdx]
+		filePaths, err := filepath.Glob(candidate)
+		if err != nil {
+			log.Fatal(err)
+		}
+		inputFiles = append(inputFiles, filePaths...)
+	}
 	categories := make(CategoriesMap, 0)
 	lorebook := Lorebook{
 		Version: 3,
