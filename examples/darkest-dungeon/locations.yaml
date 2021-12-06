@@ -16,6 +16,13 @@ lorebook:
         text: >
           [ Available Dungeons to Adventure In: the Old Road, the Weald, the
           Ruins, the Farmstead ]
+        loreBiasGroups:
+          - phrases:
+              - " Old Road"
+              - " Weald"
+              - " Ruins"
+              - " Farmstead"
+            bias: 0.1
       "Dungeon: the Farmstead":
         keys:
           - Farmstead
