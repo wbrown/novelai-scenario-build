@@ -56,7 +56,7 @@ lorebook:
       "Undead: Bone Courtier":
         keys:
           - Bone Courtiers
-          - Courtier
+          - Bone Courtier
         text: >
           The Bone Courtier is an enemy found in the Ruins, and often the first
           type that adventurers encounters which is specialized for dealing
@@ -88,6 +88,19 @@ lorebook:
           their allies' combat abilities immensely.
           
           [ Foreman Abilities: Stir The Rabble, No Trespassers, Many Hands ]
+      "Husks: Scarecrow":
+        keys:
+          - Scarecrow
+          - Scarecrows
+        text: >
+          The crystalline Scarecrows are Husk type enemies found only in the
+          Farmstead. What they lack in defense, they more than make up in
+          viciousness. Their bodies are riddled with deadly shards of crystal,
+          making every attack a danger to your health.
+
+          [ Scarecrow Abilities: Haunting Revelation, Flail The Crops, Roots,
+          Shard of Growth ]
+      
       "Fungals: Fungal Scratchers":
         keys:
           - Fungal Scratchers
