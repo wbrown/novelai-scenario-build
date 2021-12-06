@@ -28,6 +28,13 @@ lorebook:
         text: >
           [ Available Dungeons to Adventure In: the Old Road, the Weald, the
           Ruins, the Warrens, The Cove, the Courtyard, the Farmstead ]
+        loreBiasGroups:
+          - phrases:
+              - " Old Road"
+              - " Weald"
+              - " Ruins"
+              - " Farmstead"
+            bias: 0.1
       "Location: the Hamlet":
         keys:
           - Hamlet
