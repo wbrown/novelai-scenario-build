@@ -72,54 +72,45 @@ lorebook:
           - Bone Rabble
           - Bone Rabbles
         text: >
-          The Bone Rabble is an Unholy-type enemy that can be found in almost
-          any area, although it is most common in the Ruins. It is often
-          encountered in pairs, with both individuals taking up the first two
-          ranks.
-          
-          With low HP, no protection, low speed, very poor resistances (save
-          for bleed), and weak, inaccurate attacks, this enemy is by far the
-          weakest of all Unholy enemies and should be considered a very low
-          priority in battle. Its main purpose is to use its body (or corpse)
-          to protect enemies in the back of the formation, although its Bump
-          in the Night attack can reduce the victim's Dodge abilities by a
-          fairly significant amount.
-          
-          [ Bone Soldier Abilities: Bump in the Night, Tic-Toc ]
+          Bone Rabbles are by far the weakest of all Unholy enemies you might encounters.
+          They usually don't pose a great threat and can be considered a very low priority
+          in battle. Their main purpose is to use their bodies (or corpse) to protect their
+          allies in the back.
+
+          The Bone Rabble main attack is called Bump in the Night, where it clobbers it's
+          target with a makeshift club. Should it be pushed back, it tries to use Tic-Toc
+          to close the gap.
+
+          [ Bone Rabble Abilities: Bump in the Night, Tic-Toc ]
       "Undead: Bone Soldier":
         keys:
           - Bone Soldier
           - Bone Soldiers
         text: >
-          Bone Soldiers are common Unholy footsoldiers that are found within
-          the Ruins. Unlike the Bone Rabble, Bone Soldiers are better-armored
-          and wield more effective weapons, letting them hit harder and last
-          longer on the battlefield. Still, they remain relatively weak and are
-          easily dispatched.
+          Bone Soldiers are the common footsoldiers of the Undead. They are sufficiently
+          equipped to hit hard and last some time on the battlefield. Still, they remain
+          relatively weak and are easily dispatched. The finesse it had in life persists
+          in death, allowing them to strike with a farther reach than many other monsters.
 
-          [ Bone Soldier abilities: Graveyard Slash, Graveyard Stumble ]
+          The Bone Soldier's main form of attack comes in the form of Graveyard Slash, a
+          skilled strike with its rusted, but deadly, blade. When pushed back, it attempts
+          to use Graveyard Stumble to get in reach for its weapon.
+
+          [ Bone Soldier Abilities: Graveyard Slash, Graveyard Stumble ]
       "Undead: Bone Courtier":
         keys:
           - Bone Courtier
           - Bone Courtier
         text: >
-          The Bone Courtier is an enemy found in the Ruins, and often the first
-          type that adventurers encounters which is specialized for dealing
-          Stress damage. As the names of their more advanced forms indicate,
-          these were likely nobles and even royalty in life, though of an
-          unclear association with the Ancestor or his family. Though
-          ill-suited for combat, their signature Tempting Goblet is a
-          well-known source of Stress to adventuring parties.
- 
-          The Bone Courtier is an Unholy enemy that appears in the halls of
-          the Ruins along with his fellow undead. The Bone Courtier always
-          appears at the back of an Unholy party. As long as he is in ranks 3
-          and 4, he continuously uses Tempting Goblet: a ranged attack that can
-          hit any rank of the player's party that deals low health damage,
-          while inflicting heavy stress. Since Stress damage is harder to heal
-          than health, leaving the Bone Courtier free to act will endanger the
-          rest of the mission with the threat of affliction, especially if
-          encountered early in longer expeditions.
+          Bone Courtiers, as their names indicate, were likely nobles and
+          even royalty in life, though of an unclear association with the Ancestor
+          or his family. These courtiers prefer to stay in the back rows, wielding
+          their signature goblets, whose contents is of most disturbing nature.
+
+          The Bone Courtier, though ill-suited for combat, uses its signature
+          Tempting Goblet to disturb even the most hardened adventurer. It's
+          not their only means of attacking though. They do carry daggers to stab
+          any of their targets who get too close with Knife in The Dark.
 
           [ Bone Courtier Abilities: Tempting Goblet, Knife in the Dark ]
       "Undead: Bone Captain":

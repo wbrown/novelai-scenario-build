@@ -27,7 +27,7 @@ lorebook:
           insertionPosition: 0
         text: >
           [ Available Dungeons to Adventure In: the Old Road, the Weald, the
-          Ruins, the Warrens, The Cove, the Courtyard, the Farmstead ]
+          Ruins, the Warrens, the Cove, the Courtyard, the Farmstead ]
         loreBiasGroups:
           - phrases:
               - " Old Road"
