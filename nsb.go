@@ -27,16 +27,18 @@ type Lorebook struct {
 }
 
 type ContextConfig struct {
-	Prefix            *string `json:"prefix,omitempty" yaml:"prefix"`
-	Suffix            *string `json:"suffix,omitempty" yaml:"suffix"`
-	TokenBudget       *int    `json:"tokenBudget,omitempty" yaml:"tokenBudget"`
-	ReservedTokens    *int    `json:"reservedTokens,omitempty" yaml:"reservedTokens"`
-	BudgetPriority    *int    `json:"budgetPriority,omitempty" yaml:"budgetPriority"`
-	TrimDirection     *string `json:"trimDirection,omitempty" yaml:"trimDirection"`
-	InsertionType     *string `json:"insertionType,omitempty" yaml:"insertionType"`
-	MaximumTrimType   *string `json:"maximumTrimType,omitempty" yaml:"maximumTrimType"`
-	InsertionPosition *int    `json:"insertionPosition,omitempty" yaml:"insertionPosition"`
-	Force             *bool   `json:"forced,omitempty" yaml:"forced"`
+	Prefix               *string `json:"prefix,omitempty" yaml:"prefix"`
+	Suffix               *string `json:"suffix,omitempty" yaml:"suffix"`
+	TokenBudget          *int    `json:"tokenBudget,omitempty" yaml:"tokenBudget"`
+	ReservedTokens       *int    `json:"reservedTokens,omitempty" yaml:"reservedTokens"`
+	BudgetPriority       *int    `json:"budgetPriority,omitempty" yaml:"budgetPriority"`
+	TrimDirection        *string `json:"trimDirection,omitempty" yaml:"trimDirection"`
+	InsertionType        *string `json:"insertionType,omitempty" yaml:"insertionType"`
+	MaximumTrimType      *string `json:"maximumTrimType,omitempty" yaml:"maximumTrimType"`
+	InsertionPosition    *int    `json:"insertionPosition,omitempty" yaml:"insertionPosition"`
+	AllowInnerInsertion  *bool   `json:"allowInnerInsertion" yaml:"allowInnerInsertion"`
+	AllowInsertionInside *bool   `json:"allowInsertionInside" yaml:"allowInsertionInside"`
+	Force                *bool   `json:"forced,omitempty" yaml:"forced"`
 }
 
 const (
