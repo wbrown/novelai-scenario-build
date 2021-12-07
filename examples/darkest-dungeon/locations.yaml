@@ -69,6 +69,10 @@ lorebook:
           apparent madness of its drivers.
 
           [ Enemies: Brigands ]
+        loreBiasGroups:
+          - phrases:
+              - " Brigands"
+            bias: 0.1
       "Dungeon: the Ruins":
         keys:
           - Ruins
@@ -89,6 +93,12 @@ lorebook:
           backdrop of corruption.
 
           [ Ruins Enemies: Undead, Beasts, Cultists ]
+        loreBiasGroups:
+          - phrases:
+              - " Undead"
+              - " Beasts"
+              - " Cultists"
+            bias: 0.1
       "Dungeon: the Weald":
         keys:
           - Weald
@@ -107,6 +117,13 @@ lorebook:
           troubled estate.
 
           [ Weald Enemies: Brigands, Fungal, Beasts, Cultists ]
+        loreBiasGroups:
+          - phrases:
+              - " Brigands"
+              - " Fungal"
+              - " Beasts"
+              - " Cultists"
+            bias: 0.1
       "Dungeon: the Warrens":
         keys:
           - Warrens
@@ -115,16 +132,23 @@ lorebook:
           'They breed quickly down there in the dark, but perhaps we can slay
           them even faster.'
 
-          The Warrens are an incredibly ancient system of aqueducts and tunnels
-          built for an unknown purpose. It is now a corpse-choked cesspit that
-          houses the ravenous, disease-ridden beast-men known as the Swinefolk,
-          and all those deranged or monstrous enough to ally with them. While
-          the Ancestor was trying his hand at blood rituals, he used the
-          ancient Warrens as a dumping grounds for his failures and
-          underwhelming results. Barrels that reeks of powerful liquors as well
-          as carts full of human remains can be found here.
+          The Warrens are an incredibly ancient system of
+          aqueducts and tunnels built for an unknown purpose. It is now a
+          corpse-choked cesspit that houses the ravenous, disease-ridden
+          beast-men known as the Swinefolk, and all those deranged or
+          monstrous enough to ally with them. The smell of refuse and rot
+          permeates the air. While the Ancestor was trying his hand at blood
+          rituals, he used the ancient Warrens as a dumping grounds for his
+          failures and underwhelming results. Barrels that reeks of powerful
+          liquors as well as carts full of human remains litter these tunnels.
 
           [ Warren Enemies: Swinefolk, Cultists, Beasts ]
+        loreBiasGroups:
+          - phrases:
+              - " Swinefolk"
+              - " Cultists"
+              - " Beasts"
+            bias: 0.1
       "Dungeon: the Cove":
         keys:
           - Cove
@@ -146,6 +170,11 @@ lorebook:
           sinister tunnels.
 
           [ Cove Enemies: Pelagic, Drowned ]
+        loreBiasGroups:
+          - phrases:
+              - " Pelagic"
+              - " Drowned"
+            bias: 0.1
       "Dungeon: the Courtyard":
         keys:
           - Courtyard
@@ -163,6 +192,10 @@ lorebook:
           around every corner.
 
           [ Courtyard Enemies: Bloodsuckers ]
+        loreBiasGroups:
+          - phrases:
+              - " Bloodsuckers"
+            bias: 0.1
       "Dungeon: the Farmstead":
         keys:
           - Farm
@@ -186,3 +219,7 @@ lorebook:
           night skies are not from this time and place.
 
           [ Farmstead Enemies: Husks ]
+        loreBiasGroups:
+          - phrases:
+              - " Husks"
+            bias: 0.1
