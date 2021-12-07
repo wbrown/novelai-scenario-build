@@ -71,39 +71,7 @@ lorebook:
           still cling to life, they are often accompanied and controlled by the
           Crones who have taken up residence in the Weald.
 
-          [ Fungal: Fungal Scratcher, Fungal Artillery, Unclean Giant, Crone,
-          Ectoplasm ]
-      "Faction: Beasts":
-        keys:
-          - Beast
-          - Beasts
-          - Animal
-          - Animals
-          - Wildlife
-        text: >
-          The Beasts encompasses all of the savage animals that have been
-          tainted by the spreading darkness or awakened by those who trespass
-          into their ancient domain.
-
-          [ Beasts: Rabid Gnasher, Webber, Spitter, Maggot, Carrion Eater ]
-      "Faction: Cultists":
-        keys:
-          - Cultist
-          - Cultists
-          - Cult
-        text: >
-          The Cultists of these lands worship an Eldritch god. Revelation of
-          the crawling chaos and the entity slumbering below has a rather
-          curious effect on the minds of men. For most individuals these
-          realizations irreparably twist and warp their minds, ceaselessly
-          tormenting them until they eventually descend into insanity. However,
-          for a few individuals, instead of madness these revelations inspire
-          fanatical devotion. These zealots have flocked to the Estate to
-          worship the nascent god and have completely given themselves over to
-          it in mind, body and soul. They are ready, willing and eager to lay
-          down their lives to protect it and those who worship it as well.
-
-          [ Cultists: Cultist Brawler, Cultist Acolyte ]
+          [ Fungal: Fungal Scratcher, Fungal Artillery, Unclean Giant ]
       "Faction: Swinefolk":
         keys:
           - Swinefolk
@@ -147,6 +115,37 @@ lorebook:
           seeking vengeance.
 
           [ Drowned: Drowned Thrall, Squiffy Ghast ]
+      "Faction: Beasts":
+        keys:
+          - Beast
+          - Beasts
+          - Animal
+          - Animals
+          - Wildlife
+        text: >
+          The Beasts encompasses all of the savage animals that have been
+          tainted by the spreading darkness or awakened by those who trespass
+          into their ancient domain.
+
+          [ Beasts: Rabid Gnasher, Webber, Spitter, Maggot, Carrion Eater ]
+      "Faction: Cultists":
+        keys:
+          - Cultist
+          - Cultists
+          - Cult
+        text: >
+          The Cultists of these lands worship an Eldritch god. Revelation of
+          the crawling chaos and the entity slumbering below has a rather
+          curious effect on the minds of men. For most individuals these
+          realizations irreparably twist and warp their minds, ceaselessly
+          tormenting them until they eventually descend into insanity. However,
+          for a few individuals, instead of madness these revelations inspire
+          fanatical devotion. These zealots have flocked to the Estate to
+          worship the nascent god and have completely given themselves over to
+          it in mind, body and soul. They are ready, willing and eager to lay
+          down their lives to protect it and those who worship it as well.
+
+          [ Cultists: Cultist Brawler, Cultist Acolyte ]
       "Faction: Bloodsuckers":
         keys:
           - Bloodsucker
