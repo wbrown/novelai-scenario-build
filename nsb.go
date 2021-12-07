@@ -17,13 +17,15 @@ import (
 
 var encoder gpt_bpe.GPTEncoder
 
+type LorebookSettings struct {
+	OrderByKeyLocations *bool `json:"orderByKeyLocations,omitempty" yaml:"orderByKeyLocations"`
+}
+
 type Lorebook struct {
-	Version    int             `json:"lorebookVersion"`
-	Entries    []LorebookEntry `json:"entries,omitempty"`
-	Categories []Category      `json:"categories,omitempty"`
-	Settings   *struct {
-		orderByKeyLocations bool
-	} `json:"settings,omitempty"`
+	Version    int               `json:"lorebookVersion"`
+	Entries    []LorebookEntry   `json:"entries,omitempty"`
+	Categories []Category        `json:"categories,omitempty"`
+	Settings   *LorebookSettings `json:"settings,omitempty"`
 }
 
 type ContextConfig struct {
@@ -93,8 +95,9 @@ type Category struct {
 }
 
 type Definition struct {
-	Categories map[string]*Category
-	Lorebook   []struct {
+	LorebookSettings *LorebookSettings `yaml:"lorebookSettings"`
+	Categories       map[string]*Category
+	Lorebook         []struct {
 		Category *string
 		Config   *LorebookEntry
 		Entries  map[string]LorebookEntry
@@ -248,6 +251,7 @@ func main() {
 	}
 	// Windows requires us to do our own glob expansion.
 	inputFiles := make([]string, 0)
+
 	for inputArgIdx := range inputFileArgs {
 		candidate := inputFileArgs[inputArgIdx]
 		filePaths, err := filepath.Glob(candidate)
@@ -260,6 +264,7 @@ func main() {
 	lorebook := Lorebook{
 		Version: 3,
 	}
+
 	for fileIdx := range inputFiles {
 		fileName := inputFiles[fileIdx]
 		data, err := ioutil.ReadFile(fileName)
@@ -276,6 +281,9 @@ func main() {
 			for entryName := range lorebookGroup.Entries {
 				lorebook.Entries = append(lorebook.Entries, lorebookGroup.Entries[entryName])
 			}
+		}
+		if defs.LorebookSettings != nil {
+			lorebook.Settings = defs.LorebookSettings
 		}
 	}
 	for categoryKey := range categories {
