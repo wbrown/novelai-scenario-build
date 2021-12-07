@@ -204,8 +204,8 @@ lorebook:
         hulking, the Choppers also wield heavy balls and chains to extend their range with
         head-ringing efficiency.
 
-        A Swine Chopper will often use its cleaver for a Butcher Cut, inflicting deep bleeding
-        wounds upon its target. Should this not suffice, the Swine Chopper will use Ball and Chain
+        A Swine Chopper often uses its cleaver for a Butcher Cut, inflicting deep bleeding
+        wounds upon its target. Should this not suffice, the Swine Chopper uses Ball and Chain
         to send anyone reeling from the impact.
 
         [ Swine Chopper Abilities: Butcher Cut, Ball and Chain ]
@@ -252,3 +252,44 @@ lorebook:
         from where it still can attack.
 
         [ Swine Slasher Ability: Hook Where It Hurts ]
+    "Pelagic: Pelagic Grouper":
+      keys:
+        - Pelagic Grouper
+        - Pelagic Groupers
+      text: >
+        Pelagic Groupers serve as the foot soldier of the seafolk. They wield both a spear and
+        a rusty cutlass. They are capable fighters on land as they are in water. Beware their bite
+        - as it seems that it can inflict a mind- and body-affection transformation, gradually turning
+        bitten humans into their kind and filling out their ranks.
+
+        The Pelagic Grouper either uses Seaward Slash in close-combat or Spearfishing
+        to pull its target into close range.
+
+        [ Pelagic Grouper Abilities: Seaward Slash, Spearfishing ]
+    "Pelagic: Pelagic Guardian":
+      keys:
+        - Pelagic Guardian
+        - Pelagic Guardians
+      text: >
+        Pelagic Guardians resemble, unlike their Pelagic brethren, octopuses, standing on several
+        of their tentacles. These grueling adversaries use their own bodies and massive shields
+        to protect their allies.
+
+        The Pelagic Guardian uses either Barnacle Barrier to shield another Seafolk from harm
+        or Octocestus to inflict deep bleeding cuts upon its enemy.
+
+        [ Pelagic Guardian Abilities: Barnacle Barrier, Octocestus ]
+    "Pelagic: Pelagic Shaman":
+      keys:
+        - Pelagic Shaman
+        - Pelagic Shamans
+      text: >
+        Pelagic Shamans use their eldritch magic to guide the seafolk, as well as terrifying
+        all that may oppose them.
+
+        A Pelagic Shaman uses Sea Breeze to heal their allies, a rare ability among the hordes
+        of horrors you face. It also may use Call of the Deep to enhance the offensive abilities
+        of one of its Pelagic brethren. The Shaman uses Ceremonial Cut against a foe,
+        should it be forced into close-combat.
+
+        [ Pelagic Shaman Abilities: Sea Breeze, Call of the Deep, Ceremonial Cut ]
