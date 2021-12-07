@@ -116,12 +116,13 @@ lorebook:
           them even faster.'
 
           The Warrens are an incredibly ancient system of aqueducts and tunnels
-          built for an unknown purpose. It is now a corpse-choked cesspit that houses
-          the ravenous, disease-ridden beast-men known as the Swinefolk, and all
-          those deranged or monstrous enough to ally with them. While the Ancestor
-          was trying his hand at blood rituals, he used the ancient Warrens as a
-          dumping grounds for his failures and underwhelming results. Barrels that
-          reeks of powerful liquors as well as carts full of human remains can be found here.
+          built for an unknown purpose. It is now a corpse-choked cesspit that
+          houses the ravenous, disease-ridden beast-men known as the Swinefolk,
+          and all those deranged or monstrous enough to ally with them. While
+          the Ancestor was trying his hand at blood rituals, he used the
+          ancient Warrens as a dumping grounds for his failures and
+          underwhelming results. Barrels that reeks of powerful liquors as well
+          as carts full of human remains can be found here.
 
           [ Warren Enemies: Swinefolk, Cultists, Beasts ]
       "Dungeon: the Cove":
@@ -133,15 +134,16 @@ lorebook:
           'These salt-soaked caverns are teeming with pelagic nightmares -
           they must be flushed out!'
 
-          The Cove is a twisted, cavernous maze near the sea. It is home to an ancient
-          race of seafolk, called the Pelagic, as well as the Drowned.The smell of
-          rotting fish is almost unbearable, but despite its morbid aspect, this
-          place seems almost traversable.
-          The Ancestor once used the Cove as a means to deliver some of his
-          more controversial artifacts, as well as a location to perform his
-          pacts with the ancient beings in the water when money was scarce.
-          Eerie Corals, unholy idols and the remains of destroyed ships adorn
-          these sinister tunnels. 
+          The Cove is a twisted, cavernous maze near the sea. Its eerie tunnels
+          house an ancient race of fish-men, called the Pelagic, as well as
+          the Drowned - undead sailors cursed to relive he moment of their
+          death. The smell of rotten fish is almost unbearable, but despite
+          its morbid aspect, this place seems almost traversable. The Ancestor
+          once used the Cove as a means to deliver some of his more
+          controversial artifacts, as well as a location to perform his pacts
+          with the ancient beings in the water when money was scarce. Eerie
+          Corals, unholy idols and the remains of destroyed ships adorn these
+          sinister tunnels.
 
           [ Cove Enemies: Pelagic, Drowned ]
       "Dungeon: the Courtyard":
@@ -149,13 +151,13 @@ lorebook:
           - Courtyard
         text: >
           'Soaked and sinking, these stone terraces and sprawling gardens are
-          the site of long forgotten revelry...and well remembered regret.'
+           the site of long forgotten revelry...and well remembered regret.'
 
           The Courtyard houses the former lavish gardens and vistas of the
           estate, fallen to ruin and overtaken by a terrible, bloody
           insect-borne infestation and its depraved victims. The constant
-          buzzing of insects as well as the eerie glow, called Bloodlight,
-          of this place, only enhanced this place's malevolent aura. Don't be
+          buzzing of insects as well as the eerie glow, called Bloodlight, of
+          this place, only enhanced this place's malevolent aura. Don't be
           fooled by the calm appearance of the Courtyard. Thronging Hive's and
           Throbbing Coccoons, filled with bloodthirsty insects can be found
           around every corner.
