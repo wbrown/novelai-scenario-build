@@ -146,3 +146,50 @@ lorebook:
           face-to-face with an enemy.
 
           [ Bone Arbalist Abilities: Quarrel, Bayonet Jab ]
+      "Fungal: Fungal Scratcher":
+        keys:
+          - Fungal Scratcher
+          - Fungal Scratchers
+        text: >
+          Fungal Scratchers were most likely lost travelers, that didn't get consumed
+          by the Hag. These zombies can take a surprising amount of punishment, while
+          their claws secrete a poison that burns the flesh of their victims.
+
+          A Fungal Scratcher, while possessing formidable protection, is not terribly
+          accurate, nor a heavy hitter by itself. However, if one of its allies Mark
+          a foe, it knows exactly where to strike, using Rend the Marked rather than
+          its typical Groping Swipe. If pushed to the back lines, it will stumble forward,
+          reaching out against its target with a Harmless Swipe.
+
+          [ Fungal Scratcher Abilities: Rend the Marked, Groping Swipe, Harmless Swipe ]
+      "Fungal: Fungal Artillery":
+        keys:
+          - Fungal Artillery
+          - Fungal Artilleries
+        text: >
+          Fungal Artilleries are infected corpses, twisted and controlled by the spreading
+          corruption - spreading poison and disease where they crawl. Though not as well-armored
+          as their counterpart - the Fungal Scratchers - the Fungal Artilleries possess more
+          potent poisons and carries the ability to mark their targets.
+
+          A Fungal Artillery will primarily use its Rain of Blight to inflict its target with
+          stinging poison. Furthermore, it can use Mark Prey to provide its allies an opening
+          on their enemies. Should it be drawn into close-combat, the Fungal Artillery will use
+          a poisonous Escape Cloud to retreat to safety.
+
+          [ Fungal Artillery Abilities: Mark Prey, Rain of Blight, Escape Cloud ]
+    "Fungal: Unclean Giant":
+        keys:
+          - Unclean Giant
+          - Unclean Giants
+        text: >
+          Unclean Giants are perhaps the oddest creature in the Weald. Their origin may be
+          unclear, but these lumbering monstrosities wield uprooted tree trunks like maces
+          and are capable of using the fungous growth on their back to spread confusion among
+          their enemies.
+
+          An Unclean Giant uses its Treebranch Smackdown to inflict devastating wounds upon its
+          target, knocking it back in the process. It will sometimes use either Confusion Spores
+          or Poison Spores to affect enemies, who try to stay out of reach.
+
+          [ Unclean Giant Abilities: Treebranch Smackdown, Confusion Spores, Poison Spores ]
