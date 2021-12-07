@@ -178,7 +178,7 @@ lorebook:
           a poisonous Escape Cloud to retreat to safety.
 
           [ Fungal Artillery Abilities: Mark Prey, Rain of Blight, Escape Cloud ]
-    "Fungal: Unclean Giant":
+      "Fungal: Unclean Giant":
         keys:
           - Unclean Giant
           - Unclean Giants
@@ -193,103 +193,128 @@ lorebook:
           or Poison Spores to affect enemies, who try to stay out of reach.
 
           [ Unclean Giant Abilities: Treebranch Smackdown, Confusion Spores, Poison Spores ]
-    "Swinefolk: Swine Chopper":
-      keys:
-        - Swine Chopper
-        - Swine Choppers
-      text: >
-        The Swine Choppers are large, brutish hybrids of man and pig. They are the healthier
-        specimens of Swinefolk. The Swine Choppers will happily test their bloody, serrated cleavers
-        upon the bodies of naive adventurers who might happen upon their squalid homes. Slow and
-        hulking, the Choppers also wield heavy balls and chains to extend their range with
-        head-ringing efficiency.
+      "Swinefolk: Swine Chopper":
+        keys:
+          - Swine Chopper
+          - Swine Choppers
+        text: >
+          The Swine Choppers are large, brutish hybrids of man and pig. They are the healthier
+          specimens of Swinefolk. The Swine Choppers will happily test their bloody, serrated cleavers
+          upon the bodies of naive adventurers who might happen upon their squalid homes. Slow and
+          hulking, the Choppers also wield heavy balls and chains to extend their range with
+          head-ringing efficiency.
 
-        A Swine Chopper often uses its cleaver for a Butcher Cut, inflicting deep bleeding
-        wounds upon its target. Should this not suffice, the Swine Chopper uses Ball and Chain
-        to send anyone reeling from the impact.
+          A Swine Chopper often uses its cleaver for a Butcher Cut, inflicting deep bleeding
+          wounds upon its target. Should this not suffice, the Swine Chopper uses Ball and Chain
+          to send anyone reeling from the impact.
 
-        [ Swine Chopper Abilities: Butcher Cut, Ball and Chain ]
-    "Swinefolk: Swine Wretch":
-      keys:
-        - Swine Wretch
-        - Swine Wretches
-      text: >
-        Swine Wretches are either the product of years of inbreeding or carry-overs from the
-        ancestor's failed experiments. Swine Wretches host innumerable, unnameable diseases withing
-        a body that has been twisted and contorted to an unfathomable design - a mangled amalgamation
-        of flesh that embodies the perverse crime against nature that created the Swinefolk. Always
-        screaming and squealing through the darkened corridors of its squalid home.
+          [ Swine Chopper Abilities: Butcher Cut, Ball and Chain ]
+      "Swinefolk: Swine Wretch":
+        keys:
+          - Swine Wretch
+          - Swine Wretches
+        text: >
+          Swine Wretches are either the product of years of inbreeding or carry-overs from the
+          ancestor's failed experiments. Swine Wretches host innumerable, unnameable diseases withing
+          a body that has been twisted and contorted to an unfathomable design - a mangled amalgamation
+          of flesh that embodies the perverse crime against nature that created the Swinefolk. Always
+          screaming and squealing through the darkened corridors of its squalid home.
 
-        The Swine Wretch poses no direct threat, but its Vomit is rampant with disease and
-        sickness and will inflict those upon its target.
+          The Swine Wretch poses no direct threat, but its Vomit is rampant with disease and
+          sickness and will inflict those upon its target.
 
-        [ Swine Wretch Ability: Vomit ]
-    "Swinefolk: Swine Drummer":
-      keys:
-        - Swine Drummer
-        - Swine Drummers
-      text: >
-        Swine Drummers carry drums made from the flayed skins of their victims. They act by
-        pounding on the drums as loudly as possible, thus coordinating their allies by Marking
-        targets to attack, but sometimes the sound of their drums alone, echoing in the enclosed
-        spaces of the Warrens, is enough to throw a person into despair.
+          [ Swine Wretch Ability: Vomit ]
+      "Swinefolk: Swine Drummer":
+        keys:
+          - Swine Drummer
+          - Swine Drummers
+        text: >
+          Swine Drummers carry drums made from the flayed skins of their victims. They act by
+          pounding on the drums as loudly as possible, thus coordinating their allies by Marking
+          targets to attack, but sometimes the sound of their drums alone, echoing in the enclosed
+          spaces of the Warrens, is enough to throw a person into despair.
 
-        A Swine Drummer either uses Drum of Debilitation to Mark an enemy or Drum of Doom to
-        drive it towards madness.
+          A Swine Drummer either uses Drum of Debilitation to Mark an enemy or Drum of Doom to
+          drive it towards madness.
 
-        [ Swine Drummer: Abilities: Drum of Debilitation, Drum of Doom ]
-    "Swinefolk: Swine Slasher":
-      keys:
-        - Swine Slasher
-        - Swine Slashers
-      text: >
-        Swine Slashers favor protection and encase themselves in layers of heavy armor and a
-        bucker attached to their arm. While small in stature, these beastly fiends can pose an
-        immense threat with their hook, they use to slash their prey.
+          [ Swine Drummer: Abilities: Drum of Debilitation, Drum of Doom ]
+      "Swinefolk: Swine Slasher":
+        keys:
+          - Swine Slasher
+          - Swine Slashers
+        text: >
+          Swine Slashers favor protection and encase themselves in layers of heavy armor and a
+          bucker attached to their arm. While small in stature, these beastly fiends can pose an
+          immense threat with their hook, they use to slash their prey.
 
-        A Swine Slasher's sole attack is Hook Where It Hurts. It uses its vicious hook to inflict
-        deep lacerations upon its target, while simutanously retreating to the back lines,
-        from where it still can attack.
+          A Swine Slasher's sole attack is Hook Where It Hurts. It uses its vicious hook to inflict
+          deep lacerations upon its target, while simutanously retreating to the back lines,
+          from where it still can attack.
 
-        [ Swine Slasher Ability: Hook Where It Hurts ]
-    "Pelagic: Pelagic Grouper":
-      keys:
-        - Pelagic Grouper
-        - Pelagic Groupers
-      text: >
-        Pelagic Groupers serve as the foot soldier of the seafolk. They wield both a spear and
-        a rusty cutlass. They are capable fighters on land as they are in water. Beware their bite
-        - as it seems that it can inflict a mind- and body-affection transformation, gradually turning
-        bitten humans into their kind and filling out their ranks.
+          [ Swine Slasher Ability: Hook Where It Hurts ]
+      "Pelagic: Pelagic Grouper":
+        keys:
+          - Pelagic Grouper
+          - Pelagic Groupers
+        text: >
+          Pelagic Groupers serve as the foot soldier of the seafolk. They wield both a spear and
+          a rusty cutlass. They are capable fighters on land as they are in water. Beware their bite
+          - as it seems that it can inflict a mind- and body-affection transformation, gradually turning
+          bitten humans into their kind and filling out their ranks.
 
-        The Pelagic Grouper either uses Seaward Slash in close-combat or Spearfishing
-        to pull its target into close range.
+          The Pelagic Grouper either uses Seaward Slash in close-combat or Spearfishing
+          to pull its target into close range.
 
-        [ Pelagic Grouper Abilities: Seaward Slash, Spearfishing ]
-    "Pelagic: Pelagic Guardian":
-      keys:
-        - Pelagic Guardian
-        - Pelagic Guardians
-      text: >
-        Pelagic Guardians resemble, unlike their Pelagic brethren, octopuses, standing on several
-        of their tentacles. These grueling adversaries use their own bodies and massive shields
-        to protect their allies.
+          [ Pelagic Grouper Abilities: Seaward Slash, Spearfishing ]
+      "Pelagic: Pelagic Guardian":
+        keys:
+          - Pelagic Guardian
+          - Pelagic Guardians
+        text: >
+          Pelagic Guardians resemble, unlike their Pelagic brethren, octopuses, standing on several
+          of their tentacles. These grueling adversaries use their own bodies and massive shields
+          to protect their allies.
 
-        The Pelagic Guardian uses either Barnacle Barrier to shield another Seafolk from harm
-        or Octocestus to inflict deep bleeding cuts upon its enemy.
+          The Pelagic Guardian uses either Barnacle Barrier to shield another Seafolk from harm
+          or Octocestus to inflict deep bleeding cuts upon its enemy.
 
-        [ Pelagic Guardian Abilities: Barnacle Barrier, Octocestus ]
-    "Pelagic: Pelagic Shaman":
-      keys:
-        - Pelagic Shaman
-        - Pelagic Shamans
-      text: >
-        Pelagic Shamans use their eldritch magic to guide the seafolk, as well as terrifying
-        all that may oppose them.
+          [ Pelagic Guardian Abilities: Barnacle Barrier, Octocestus ]
+      "Pelagic: Pelagic Shaman":
+        keys:
+          - Pelagic Shaman
+          - Pelagic Shamans
+        text: >
+          Pelagic Shamans use their eldritch magic to guide the seafolk, as well as terrifying
+          all that may oppose them.
 
-        A Pelagic Shaman uses Sea Breeze to heal their allies, a rare ability among the hordes
-        of horrors you face. It also may use Call of the Deep to enhance the offensive abilities
-        of one of its Pelagic brethren. The Shaman uses Ceremonial Cut against a foe,
-        should it be forced into close-combat.
+          A Pelagic Shaman uses Sea Breeze to heal their allies, a rare ability among the hordes
+          of horrors you face. It also may use Call of the Deep to enhance the offensive abilities
+          of one of its Pelagic brethren. The Shaman uses Ceremonial Cut against a foe,
+          should it be forced into close-combat.
 
-        [ Pelagic Shaman Abilities: Sea Breeze, Call of the Deep, Ceremonial Cut ]
+          [ Pelagic Shaman Abilities: Sea Breeze, Call of the Deep, Ceremonial Cut ]
+      "Cultists: Cultist Brawler":
+        keys:
+          - Cultist Brawler
+          - Cultist Brawlers
+        text: >
+          Cultist Brawlers are the helping hands of their Acolyte allies. Though frail compared
+          to the more eldritch creatures, these foes formidable foes still pose a threat.
+
+          A Cultist Brawler's main form of defense is Rend for Old Gods. He closes gaps with
+          a Stumbling Scratch.
+
+          [ Cultist Brawler Abilities: Rend for the Old Gods ]
+      "Cultists: Cultist Acolyte":
+        keys:
+          - Cultist Acolyte
+          - Cultist Acolytes
+        text: >
+          Cultist Acolytes are the followers of the Old Gods. They sow confusion and doubt
+          within the rank of those that oppose their eldritch masters.
+
+          The Cultist Acolyte invokes primarily a Stressful Incantation, assaulting the mind
+          and resolve of its target. Furthermore, the Acolyte can summon squirming tentacles to
+          either Eldritch Pull to or Eldritch Push away from them.
+
+          [ Cultist Acolyte Abilities: Stressful Incantation, Eldritch Push, Eldritch Pull ]
