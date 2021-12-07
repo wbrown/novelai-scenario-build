@@ -193,3 +193,62 @@ lorebook:
           or Poison Spores to affect enemies, who try to stay out of reach.
 
           [ Unclean Giant Abilities: Treebranch Smackdown, Confusion Spores, Poison Spores ]
+    "Swinefolk: Swine Chopper":
+      keys:
+        - Swine Chopper
+        - Swine Choppers
+      text: >
+        The Swine Choppers are large, brutish hybrids of man and pig. They are the healthier
+        specimens of Swinefolk. The Swine Choppers will happily test their bloody, serrated cleavers
+        upon the bodies of naive adventurers who might happen upon their squalid homes. Slow and
+        hulking, the Choppers also wield heavy balls and chains to extend their range with
+        head-ringing efficiency.
+
+        A Swine Chopper will often use its cleaver for a Butcher Cut, inflicting deep bleeding
+        wounds upon its target. Should this not suffice, the Swine Chopper will use Ball and Chain
+        to send anyone reeling from the impact.
+
+        [ Swine Chopper Abilities: Butcher Cut, Ball and Chain ]
+    "Swinefolk: Swine Wretch":
+      keys:
+        - Swine Wretch
+        - Swine Wretches
+      text: >
+        Swine Wretches are either the product of years of inbreeding or carry-overs from the
+        ancestor's failed experiments. Swine Wretches host innumerable, unnameable diseases withing
+        a body that has been twisted and contorted to an unfathomable design - a mangled amalgamation
+        of flesh that embodies the perverse crime against nature that created the Swinefolk. Always
+        screaming and squealing through the darkened corridors of its squalid home.
+
+        The Swine Wretch poses no direct threat, but its Vomit is rampant with disease and
+        sickness and will inflict those upon its target.
+
+        [ Swine Wretch Ability: Vomit ]
+    "Swinefolk: Swine Drummer":
+      keys:
+        - Swine Drummer
+        - Swine Drummers
+      text: >
+        Swine Drummers carry drums made from the flayed skins of their victims. They act by
+        pounding on the drums as loudly as possible, thus coordinating their allies by Marking
+        targets to attack, but sometimes the sound of their drums alone, echoing in the enclosed
+        spaces of the Warrens, is enough to throw a person into despair.
+
+        A Swine Drummer either uses Drum of Debilitation to Mark an enemy or Drum of Doom to
+        drive it towards madness.
+
+        [ Swine Drummer: Abilities: Drum of Debilitation, Drum of Doom ]
+    "Swinefolk: Swine Slasher":
+      keys:
+        - Swine Slasher
+        - Swine Slashers
+      text: >
+        Swine Slashers favor protection and encase themselves in layers of heavy armor and a
+        bucker attached to their arm. While small in stature, these beastly fiends can pose an
+        immense threat with their hook, they use to slash their prey.
+
+        A Swine Slasher's sole attack is Hook Where It Hurts. It uses its vicious hook to inflict
+        deep lacerations upon its target, while simutanously retreating to the back lines,
+        from where it still can attack.
+
+        [ Swine Slasher Ability: Hook Where It Hurts ]
