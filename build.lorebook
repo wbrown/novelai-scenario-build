@@ -1,0 +1,988 @@
+{
+ "lorebookVersion": 3,
+ "entries": [
+  {
+   "text": "The Heart of Darkness symbolizes the pinnacle of the Ancestor's ambitions, and represents the embodiment of the mystical forces that were responsible for the corruption of the Hamlet and its surroundings. In true Lovecraftian style, it is a slumbering, ethereal, and omnipresent deity manifested through the Ancestor's misdeeds, whose form became a vessel for the creature to cross over. It is the being that is revered by the cultists and priests of the Darkest Dungeon who have, under the influence of its cosmic power, become distorted entities of multiple mouths, eyes, and tentacled appendages. So terrible is its influence that the inhabitants of the Hamlet will appear momentarily disfigured in similar fashion to the Darkest Dungeon fiends after one has entered it and escaped.\n[ Heart of Darkness Abilities: Come Unto Your Maker, Dissolution, Puncture, Know This ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -200
+   },
+   "displayName": "Boss: Heart of Darkness",
+   "keys": [
+    "Heart of Darkness"
+   ],
+   "category": "b11b52fa-636e-46ce-7f1d-59b3e143fff9"
+  },
+  {
+   "text": "The Houndmaster is a tough and uncommonly compassionate ex-lawman. He and his faithful Wolfhound work in tandem to bring down their enemies and protect the innocent. Still clad in his worn Gendarme's uniform, the Houndmaster's focus is on evasion over mitigation. His cudgel is an effective stunning tool, but it is the Hound who delivers the pair's most crippling blows. At night this clever lawman knows the value of preparedness and information. To this end, the Houndmaster can send his Wolfhound to scout ahead, or put him on watch to ensure a good night's rest. If spirits are low, the dog's affectionate companionship can soften the heart, and ease the mind.\nDuring combat, the Houndmaster relies on his faithful dog to inflict bleed with both Hound's Rush and Hound's Harry. He is especially suited against enemies found in the Warrens or beasts that may attack the party. The Houndmaster also has a variety of support abilities. Target Whistle marks the target while revealing weakspots in it's defense. Cry Havoc puts the mind of his allies at ease, while Guard Dog protects them and raises his dog's defensive abilities. Lick Wounds provides a quick self-heal in a pinch while Blackjack stuns enemies for a short duration.\n[ Houndmaster Abilities: Hound's Rush, Hound's Harry, Target Whistle, Cry Havoc, Guard Dog, Lick Wounds, Blackjack ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "reservedTokens": 300,
+    "budgetPriority": -100
+   },
+   "displayName": "Class: Houndmaster",
+   "keys": [
+    "Houndmaster"
+   ],
+   "searchRange": 3000,
+   "category": "628af55c-cf8f-4008-706f-4c3990b3af11"
+  },
+  {
+   "text": "The Jester brings a good laugh, a merry song, and razor sharp blade into the darkest depths of these twisted lands. Clad only in mildewed cloth, the Jester makes a mockery of battle. As an entertainer, he can make a stressful night of camping turn into a night of merriment and wit. The melodious riffs of his lute will make any party member's mind quiet as he encourages them to strike quickly and precisely like a tiger.\nFor the Jester, combat is a power ballad - a slow build up, and a grand finale! He often relies on his trusty sickly to use either Slice Off or Harvest to great effect, leaving his enemies bleeding from deep cuts. With his Dirk Stab, the Jester can rush to the front of combat, where he can incite himself with Solo to buff his offensive abilities immensely. His Finale deals extraordinary damage to one enemy, but leaves the Jester open to any retaliation should it not finish his enemy off. Lastly, the Jester has two unique support abilities he can perform by playing a tune on his lute. Battle Ballad is an incredibly powerful buff that increases his allies offensive abilities, while a well-timed Inspiring Tune can put anyone at ease.\n[ Jester Abilities: Dirk Stab, Harvest, Finale, Solo, Slice Off, Battle Ballad, Inspiring Tune ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "reservedTokens": 300,
+    "budgetPriority": -100
+   },
+   "displayName": "Class: Jester",
+   "keys": [
+    "Jester"
+   ],
+   "searchRange": 3000,
+   "category": "628af55c-cf8f-4008-706f-4c3990b3af11"
+  },
+  {
+   "text": "The Musketeer is a competitive sharpshooter with little practical experience, and excels when enemies remain at a distance. Although outwardly inconspicuous, the Musketeer's regalia is reinforced with hardened leather underarmor, allowing her to sustain a considerable amount of punishment. Her musket's variable ammunition and trusty sidearm allow her to deal debilitating damage at range. The Musketeer understands that her weapon is a delicate instrument, and must be properly maintained if it to be relied upon in the heat of battle!\nDuring combat, the Musketeer relies on Call the Shot to Mark her enemies and finish them off with a well-placed Aimed Shot. She can further hinder her enemies with either the use of Smokescreen to blind them, or knock them back with a Buckshot. Should she find herself in close quarters, however, a quick use of her Sidearm might buy her time to retreat to the back, where she can Patch Up her allies. She is quite adept at providing first aid to her companions, if only to keep them between her and her targets.\n[ Musketeer: Aimed Shot, Smokescreen, Call the Shot, Buckshot, Sidearm, Patch Up, Skeet Shot ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "reservedTokens": 300,
+    "budgetPriority": -100
+   },
+   "displayName": "Class: Musketeer",
+   "keys": [
+    "Musketeer"
+   ],
+   "searchRange": 3000,
+   "category": "628af55c-cf8f-4008-706f-4c3990b3af11"
+  },
+  {
+   "text": "The Shieldbreaker hails from the distant windswept dunes of the east. Deadly as a viper, her iron will has been forged in the heat of the blazing desert sun. Though outwardly demure, her emancipation from the barren wastes came at a price so terrible, it haunts her dreams even now... Though quiet and demure while the campfire blazes, the Shieldbreaker is haunted by nightmares of her past. An unfortunate series of events forced the Shieldbreaker to cut her hand in order to survive, and now the images of the past haunt her to this day.\nIn combat, the Shieldbreaker gracefully moves about the battlefield, wielding a spear and buckler to keep herself out of danger while she swiftly decimates the enemy defenses. Her dancer's garb is better suited to the stage than the dungeon; she must be quick to survive. She can completely ignore armor with Pierce, pull enemies on the front with Puncture, and reveal stealthed enemies with Expose. Her blight attacks, Adder's Kiss, Impale and Captivate, can deal high upfront damage on top of poisoning her enemies. Finally, with Serpent Sway raises her defensive abilities and often gets her out of harms way.\n[ Shieldbreaker Abilities: Pierce, Puncture, Adder's Kiss, Impale, Expose, Captivate, Serpent Sway ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "reservedTokens": 300,
+    "budgetPriority": -100
+   },
+   "displayName": "Class: Shieldbreaker",
+   "keys": [
+    "Shieldbreaker"
+   ],
+   "searchRange": 3000,
+   "category": "628af55c-cf8f-4008-706f-4c3990b3af11"
+  },
+  {
+   "text": "The Abomination has been beaten, branded and imprisoned for untold decades. This furtive vagrant hides a terrible secret. The Eldritch poison coursing through his veins has given him unspeakable power, at a terrible cost. Protected by cursed chains and a thick, leathery hide, the Abomination can withstand the pressures of frontline combat as well as any plated footman. His terrible claws are each the size of daggers, and his progressive mutation manifests in unspeakable strength, speed, and a profusion of bile.\nAs a human, the Abomination can use his Manacles to stun his enemies, while Beast's Bile inflicts them with poisonous blight, and Absolution is a self-healing skill. Transform causes the Abomination to unleash his inner monstrosity, healing him and supplying him with a boost to his offensive abilities as long as he remains transformed. The main two skills the transformed Abomination uses is Rake and Rage. Rage offers consistent damage to a single enemy, while Rake starts out weak but ramps up in damage for each use. Slam is a charge to return to the front of combat. If the going gets tough, a transformed Abomination can revert to his human self. If the Abomination is in Beast form when a battle ends, he automatically transforms back to Human form.\n[ Abomination Abilities: Transform, Manacles, Beast's Bile, Absolution, Rake, Rage, Slam ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "reservedTokens": 300,
+    "budgetPriority": -100
+   },
+   "displayName": "Class: Abomination",
+   "keys": [
+    "Abomination"
+   ],
+   "searchRange": 3000,
+   "category": "628af55c-cf8f-4008-706f-4c3990b3af11"
+  },
+  {
+   "text": "The Crusader is a champion, a hero to rally otherwise common men to a righteous cause and lead them to victory. With holy blade in hand he smites the wicked and sends them back to the darkness from whence they crept. While his armor restricts his movement it affords him great protection, allowing him to stand in the frontline to take the blows that his weaker comrades cannot. No matter the pressures he faces he will remain strong, finding strength within himself to keep fighting on while inspiring others to do the same.\nThe Crusader has a distinct edge against unholy enemies thanks to his Smite skill, making him a good choice for going into the Ruins. The Crusader also possesses some crowd control, with Stunning Blow to deal a reliable stun and Zealous Accusation to damage the front row enemies. Should the Crusader be pushed back, he can use Holy Lance to move him back to the front of combat, which has an added effect of being able to hit enemies hiding in the back. Meanwhile, his Bulwark of Faith will ensure that most enemy damage thrown his way does barely a scratch on him. For a party on the brink, he can use his modest Battle Heal and Inspiring Cry to keep the front line from collapsing, the fearful from snapping, and the darkness from taking hold.\n[ Crusader Abilities: Smite, Zealous Accusation, Holy Lance, Stunning Blow, Bulwark of Faith, Battle Heal, Inspiring Cry ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "reservedTokens": 300,
+    "budgetPriority": -100
+   },
+   "displayName": "Class: Crusader",
+   "keys": [
+    "Crusader"
+   ],
+   "searchRange": 3000,
+   "category": "628af55c-cf8f-4008-706f-4c3990b3af11"
+  },
+  {
+   "text": "The Flagellant relishes the scars and abrasions that cover his body - drawing incomprehensible resilience from the tearing of his own flesh. His flail, a particularly cruel and merciless weapon, drips with his enemies' blood and his own. If there was ever such a thing as ‘weaponized suffering’, then the Flagellant would be the term made flesh. He will stand like a wall between his comrades and his foes, with his arms wide open, his body exposed, acting like a magnet for all harm that may come their way. The more the minions of darkness try to end his life, the stronger he becomes.\nThe Flagellant uses skills Punish and Rain of Sorrows which focus on bleeding his enemies, as well as strong supportive skills that harm himself in return. Reclaim slowly heals an ally while bleeding himself, Endure greatly calms an ally, and Suffer transfers an ally's bleed, blight, and Marks to himself while gaining protection. The Flagellant's abilities are respectable on their own, but they only become more powerful as his body and mind are abused to their limit. Only then can he use Exsanguinate to render immense punishment against his foes, while Redeem restores his body as well as that of an ally.\n[ Flagellant Abilities: Punish, Rain of Sorrows, Exsanguinate, Reclaim, Redeem, Endure, Suffer ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "reservedTokens": 300,
+    "budgetPriority": -100
+   },
+   "displayName": "Class: Flagellant",
+   "keys": [
+    "Flagellant"
+   ],
+   "searchRange": 3000,
+   "category": "628af55c-cf8f-4008-706f-4c3990b3af11"
+  },
+  {
+   "text": "The Vestal is a sister of battle; Pious and unrelenting, she is determined to bring faith on the battlefield as a weapon against corruption. Prayers, chants, and blessings bring peace and solace to the Vestal and her party at nigh, heal the wounded and and protect from nighttime attacks. Blessed plate mail encases the Vestal as she delivers terrible violence and healing comfort in equal measure. A mace in one hand, and holy book in the other - a study in contrast and all the more effective for it!\nThe warrior nun channels her zeal for battle into healing abilities such as Divine Grace or Divine Comfort. Furthermore, she can render Holy Judgement against her foes. Attacks such as Hand of Light and Mace Bash means she is not helpless if dragged to the front, but her specialty is hanging back and aiding her team with heals and her blinding Illumination and Dazzling Light abilities.\n[ Vestal Abilities: Mace Bash, Judgement, Dazzling Light, Divine Grace, Divine Comfort, Illumination, Hand of Light ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "reservedTokens": 300,
+    "budgetPriority": -100
+   },
+   "displayName": "Class: Vestal",
+   "keys": [
+    "Vestal"
+   ],
+   "searchRange": 3000,
+   "category": "628af55c-cf8f-4008-706f-4c3990b3af11"
+  },
+  {
+   "text": "The Bounty Hunter is a brutally efficient single-target executioner and crowd control specialist. For him, planning is key - He has found that simply striking before thinking is an ineffective way to kill, so he has taught himself many ways to take advantage of his foe's vulnerabilities. Sinister and precise, the Bounty Hunter specializes in targeting a single foe to deliver its head for the reward. At camp, like in combat, the Bounty Hunter is all about preparedness. He can take time to study his notes, bettering his odds against typical foes or even specifically 'big game'. Scouting ahead can increase a party's knowledge of lurking threats, while tracking increases the party's chance of maintaining the element of surprise.\nIf his enemies wear armor, he can find the weak points in it with Mark for Death and capitalize with Collect Bounty. If they are reeling from a hit, he'll make a surprise attack to Finish Him. Even the enemies who think they're safe behind their frontline will find that the Bounty Hunter's grappling hook can pull them in or slice them up when he uses Come Hither. And if all else fails, he can drop a Flashbang, Caltrops or Uppercut enemies to disorient them. No matter the situation, this calculating killer will have an answer for it.\n[ Bounty Hunter Abilities: Collect Bounty, Mark for Death, Come Hither, Uppercut, Flashbang, Finish Him, Caltrops ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "reservedTokens": 300,
+    "budgetPriority": -100
+   },
+   "displayName": "Class: Bounty Hunter",
+   "keys": [
+    "Bounty Hunter"
+   ],
+   "searchRange": 3000,
+   "category": "628af55c-cf8f-4008-706f-4c3990b3af11"
+  },
+  {
+   "text": "The Leper a ruined man, a warrior and a poet. Struggle, and futility — all one's days are a constant toil to shelter life's ember through one more night. The Leper not only knows but embraces such solemnity. Tortured existence has taught him to count not on the care of others. He has learned to channel his energy inward, a kingdom within one man. His power can neither serve nor comfort others; but, drawing on it, he can gain strength others can but dream of, or the endurance to bear what no other could. And when his massive blade falls, death's call rings loud to all caught in its thunderous arc. However, such force falls not nimbly, and foes may lightly evade their execution. In the end, all will meet with death.\nThe Leper can Chop his enemies to wound and kill whatever's in front on him, or he can Intimidate them to reduce their damage and defenses. He can also use Purge to knock back an enemy all the way to the back. The Leper also possesses self-buffs to increase his key strengths. Withstand gives him Protection and grants him resistances, while Solemnity heals himself and reduces his stress. Revenge grants the Leper a large boost in offense at the cost of lowering his defenses.\n[ Leper Abilities: Chop, Hew, Purge, Revenge, Withstand, Solemnity, Intimidate ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "reservedTokens": 300,
+    "budgetPriority": -100
+   },
+   "displayName": "Class: Leper",
+   "keys": [
+    "Leper"
+   ],
+   "searchRange": 3000,
+   "category": "628af55c-cf8f-4008-706f-4c3990b3af11"
+  },
+  {
+   "text": "The Plague Doctor is brilliant and bold, her unconventional theories created nothing short of a scandal in her fourth year. The mysteries of the human body - of life and death itself - had always fascinated her. Ostracized, she had to prove herself, no matter the cost. And when her research was at a critical point a grim opportunity to prove her theories presented herself. In the weeks that followed, however, she found herself unable to focus, instead sitting motionless at her desk, paralyzed by the ceaseless wailing that reverberated in her mind. The Plague Doctor makes use of experimental remedies and risky healing practices to cure her companions' ailments, and restore their vigor. Eager to prove the effectiveness of her latest untested concoction, she will inject herself - blindly faithful in its beneficial results.\nShe can blight enemies from afar with Noxious Blast or Plague Grenade, stun enemies in the back line with the very powerful Blinding Gas, and cure both herself and allies of blight and bleed while healing them with Battlefield Medicine. Closer to the front, she may use Incision to deal melee damage and bleed enemies. She may also increase the offensive capabilities of an ally using Emboldening Vapors, or shuffle the position of an enemy while stunning them using Disorienting Blast.\n[ Plague Doctor Abilities: Noxious Blast, Plague Granade, Blinding Gas, Incision, Battlefield Medicine, Emboldening Vapors ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "reservedTokens": 300,
+    "budgetPriority": -100
+   },
+   "displayName": "Class: Plague Doctor",
+   "keys": [
+    "Plague Doctor"
+   ],
+   "searchRange": 3000,
+   "category": "628af55c-cf8f-4008-706f-4c3990b3af11"
+  },
+  {
+   "text": "The Man-at-Arms is an old, battle-scarred veteran, who has seen enough war and bloodshed to last more than a dozen lifetimes. While he can no longer swing his great mace with the force he once could, no one should stand where he swings his mighty weapon. The Man-at-Arms is a seasoned veteran of combat, and has been rewarded for his toil with haunting guilt and stoic resilience in equal measure. Immovable, commanding, and focused, the Man-at-Arms breaks down enemy lines with his mace, buckler, and furious battle cries.\nThe battlefield is a chaotic place, and the Man-at-Arms knows how to make himself heard. He has the ability to protect a teammate with Defender, redirecting an attack targeted at a vulnerable ally towards him and increasing his own protection. He can buff all allies with either Command to give them increased combat skills, or Bolster them to boost their defensive capabilities. Additionally, he can Bellow to shake the enemies resolve, giving your team the upper hand in turn order, and knock back and stun an enemy while moving himself into close-combat with Rampart. Retribution Marks himself and activates Riposte, countering any attacks attempted at him with a solid smack of his shield.\n[ Man-at-Arms Abilities: Crush, Rampart, Bellow, Defender, Retribution, Command, Bolster ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "reservedTokens": 300,
+    "budgetPriority": -100
+   },
+   "displayName": "Class: Man-at-Arms",
+   "keys": [
+    "Man-at-Arms"
+   ],
+   "searchRange": 3000,
+   "category": "628af55c-cf8f-4008-706f-4c3990b3af11"
+  },
+  {
+   "text": "The Occultist is living proof that the dark arts can be used to expunge darkness itself. He has utilized that same knowledge as the Ancestor to further his understanding of the eldritch. His pursuits have left his body fragile and weak, but it has made his mind sharp and his capabilities most versatile. In his younger years, the Occultist clashed with the Shambler and harness a portion of its power! In his folly, he had become a beacon - a conduit to unknown regions... and would be assailed by those blasphemous forces all the rest of his days.\nWith his Vulnerability Hex, he Marks and softens up enemies for his allies to take them down. His Weakening Curse can quickly nullify even the hardest-hitting enemy. With Daemon's Pull, he can wrench individuals to the front of the fray. Sacrificial Stab and Abyssal Artillery are massively more effective on Eldritch enemies. When he finds himself in the middle of the thick he can use Hands From the Abyss, a spell that sacrifices light in order to hit an enemy with accurate stun. His Wyrd Reconstruction can be used to reconstruct flesh and heal wounds. This technique is powerful, but unpredictable as it may restore his ally to perfect health or tear apart their flesh.\n[ Occultist Abilities: Sacrificial Stab, Abyssal Artillery, Weakening Curse, Wyrd Reconstruction, Vulnerability Hex, Hands From the Abyss, Daemon's Pull ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "reservedTokens": 300,
+    "budgetPriority": -100
+   },
+   "displayName": "Class: Occultist",
+   "keys": [
+    "Occultist"
+   ],
+   "searchRange": 3000,
+   "category": "628af55c-cf8f-4008-706f-4c3990b3af11"
+  },
+  {
+   "text": "The Antiquarian is a scholar, researcher, and keen archaeologist. She is not well suited for combat. However, by making herself scarce in a fight, or demanding an ally protect her, she ensures her own survival. While the Antiquarian is a liability in combat, she makes up for it with her ability to detect treasure. She can find Antiques when she is searching for loot or whenever a battle is won, which can be traded in for gold.\nThe Antiquarian is by no means a fighter. Offensively, her Nervous Stab is merely a mediocre attack, and Festering Vapours inflicts middling Blight. Flashpowder reduces a single enemy's accuracy, Invigorating Vapours gives her allies a simple dodge boost, and while Fortifying Vapours is a reliable heal, it heals for very little. The Antiquarian is good at self-preservation, however. She is deceivingly skilled at evading attacks. Additionally, Get Down! gives herself a large dodge and speed boost and Protect Me! forces another ally to guard her while giving them a very good defensive boost in return.\n[ Antiquarian Abilities: Nervous Stab, Festering Vapors, Get Down, Flashpowder, Fortifying Vapors, Invigorating Vapors, Protect Me ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "reservedTokens": 300,
+    "budgetPriority": -100
+   },
+   "displayName": "Class: Antiquarian",
+   "keys": [
+    "Antiquarian"
+   ],
+   "searchRange": 3000,
+   "category": "628af55c-cf8f-4008-706f-4c3990b3af11"
+  },
+  {
+   "text": "The Arbalest is a runaway turned soldier clad in heavy armor and able to vanquish foes with her massive crossbow. She is like a living embodiment of a cannon. Her life of war has given her many skills for the battlefield and her heavy crossbow allows her to snipe high priority targets from afar. Given enough time at camp, she can treat the wounds of all her allies, or even instruct them in how to be quicker than their adversaries. Or she may spend her night tending to her crossbow, her one companion since childhood. As long as she is given ample distance between herself and her quarry, no foe is safe from this sharpshooter's wrath.\nIn combat she can Mark a target with Sniper's Mark, which sets them up for the perfect Sniper Shot. The Arbalest has multiple utility skills that can be used in an advantageous situation, such as her heal, Battlefield Bandage, which also increases the potency of other healing effects on the target. A notable ability in her arsenal is Blindfire, which is the only attack she can use in close combat. Her Bola and Suppressing Fire are able to wreak havoc on entire enemy parties. Her Rallying Flare has the unique property of clearing marks and stun off allies.\n[ Arbalest Abilities: Sniper Shot, Suppressing Fire, Sniper's Mark, Bola, Blindfire, Battlefield, Rallying ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "reservedTokens": 300,
+    "budgetPriority": -100
+   },
+   "displayName": "Class: Arbalest",
+   "keys": [
+    "Arbalest"
+   ],
+   "searchRange": 3000,
+   "category": "628af55c-cf8f-4008-706f-4c3990b3af11"
+  },
+  {
+   "text": "The Highwayman is a bandit seeking redemption, and is able to dish out a lot of damage quickly. When night falls, the Highwayman relishes cynical preparedness and off-color jokes around the campfire. A life spent running and hiding has taught him the tenuous benefit of perimeter alarms, and late-night investigations into the encroaching shadows. But for what the Highwayman lacks in tact he makes up in unparalleled finesse. With a flintlock in one hand and a dirk in the other, the Highwayman is sure to make short work of his foes.\nHe can pick off foes with his Pistol Shot from afar, and move forward with Duelist's Advance, which sets up a Riposte, retaliating attacks made against him. On medium range, he can perform a Wicked Slice on an enemy, use Open Vein to bleed them out, or damage multiple enemies with Grapeshot Blast, finishing off weakened enemies and softening up others. If he finds himself face-to-face with an enemy, he can use a Point Blank Shot to deal a huge amount of burst damage, while pushing him and the enemy back. To add to this, the Highwayman can use Tracking Shot to deal minor damage while buffing his offensive abilities for a short duration.\n[ Highwayman Abilities: Wicked Slice, Pistol Shot, Point Black Shot, Grapeshot Blast, Tracking Shot, Duelist's Advance, Open Vein ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "reservedTokens": 300,
+    "budgetPriority": -100
+   },
+   "displayName": "Class: Highwayman",
+   "keys": [
+    "Highwayman"
+   ],
+   "searchRange": 3000,
+   "category": "628af55c-cf8f-4008-706f-4c3990b3af11"
+  },
+  {
+   "text": "The Grave Robber was born into money, and married into more. But when her husband's boorish lust and drunken temper became too much to bear, she had to take action. Years of decadence and financial mismanagement had left her estate in staggering debt. To preserve her social standing, she pilfered her late husband's tomb, but found the thrill too exhilarating to ever return to her old life and instead took on the life of a restless wanderer.\nIf you simply need direct damage to do the job, a \"Pick To the Face\" can be just what you need, while her Lunge and Shadow Fade allow her to move across the battlefield, giving her stealth and a boost in offense. If she finds herself in the backline, she can Throw Daggers and Poison Darts. Her Flashing Daggers ability hits multiple enemies at once and finally her Toxin Trickery can heal herself of any ailments and give her just the edge she might need. She also has the highest trap disarm chance of any hero. To be as nimble as she needs to be, she only wears light armor, which makes her increasing her dodge chance to evade hits that would easily bring her to Death's Door.\n[ Grave Robber Abilities: Pick to the Face, Lunge, Flashing Daggers, Shadow Fade, Thrown Dagger, Poison Dart, Toxin Trickery ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "reservedTokens": 300,
+    "budgetPriority": -100
+   },
+   "displayName": "Class: Grave Robber",
+   "keys": [
+    "Grave Robber"
+   ],
+   "searchRange": 3000,
+   "category": "628af55c-cf8f-4008-706f-4c3990b3af11"
+  },
+  {
+   "text": "The Hellion is wild, unpredictable, and utterly ruthless; She thrills to the spilling of blood! Her massive glaive affords her impressive reach in combat, while its razor sharp edge leaves lasting wounds on enemies. Versatile and unrelenting, she can hit the back row with her blade and devastate her foes. Certain skills leave her exhausted, however, and she may occasionally need to take a turn to recharge her adrenaline before entering the fray once again. Her versatility is only matched by her ferocity.\nShe can use Breakthrough for excellent area damage from anywhere on the battlefield, Bleed Out to maim and bleed the closest enemy, and her Barbaric YAWP can stun more than one enemy at once. All these abilities leave the Hellion exhausted, reducing her effectiveness in long battles, and are crippling her when overused. As for her non-debilitating abilities, she can use her Wicked Hack to take down close enemies, If It Bleeds to bleed them out, and Iron Swan to pick off enemies far in the back. Adrenaline Rush buffs up her damage to help counter her exhaustion, and heals herself just enough to escape Death's Door.\n[ Hellion Abilities: Wicked Hack, Iron Swan, Barbaric YAWP, If It Bleeds, Breakthrough, Adrenaline Rush, Bleed Out ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "reservedTokens": 300,
+    "budgetPriority": -100
+   },
+   "displayName": "Class: Hellion",
+   "keys": [
+    "Hellion"
+   ],
+   "searchRange": 3000,
+   "category": "628af55c-cf8f-4008-706f-4c3990b3af11"
+  },
+  {
+   "text": "The Drowned were once a a crew of particularly unsavory mariners, who sailed the four corners at the Ancestor's behest. When they increased their tariffs, he prepared an alternative payment. The Ancestor hexed their anchor with every twisted incantation he could muster and dragged craft and crew to the swirling depth. But it was not their end; They managed to return to the surface - a Ghost Ship seeking vengeance.\n[ Drowned: Drowned Thrall, Squiffy Ghast ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -200
+   },
+   "displayName": "Faction: Drowned",
+   "keys": [
+    "Drowned",
+    "Sailors",
+    "Zombies"
+   ],
+   "category": "14906e58-c3e9-4538-59b5-5494e5e52a74"
+  },
+  {
+   "text": "Husks were once living, breathing, feeling beings before they were touched by the malevolent crystalline corruption from the stars. Upon infection, the crystals rapidly spread throughout the unfortunate victim and consume them from the inside out, turning them from beings of warm flesh and blood into cold, empty and cruel mockeries made of crystal and stone. When a Husk dies, the crystals inside its hollowed-out body quickly consume whatever remains of the body and blossoms forth from it like a crystalline flower to spread its corrupting \"pollen\" or \"seeds\" in a rather explosive fashion. Deadly shrapnel in form of crystalline shards and splinters lodge themselves into the body of their victims; if not quickly removed, another poor soul will be turned into a Husk.\n[ Husks: Farmhand, Foreman, Scarecrow, Plow Horse ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -200
+   },
+   "displayName": "Faction: Husks",
+   "keys": [
+    "Husk",
+    "Husks",
+    "Crystal",
+    "Crystals",
+    "Crystaline"
+   ],
+   "category": "14906e58-c3e9-4538-59b5-5494e5e52a74"
+  },
+  {
+   "text": "The Brigands are hardened bandits and killers that the Ancestor hired as a mercenary army to retake the Hamlet after the people rebelled against him. Once the Ancestor died and no further payment seemed in sight, those same mercenaries turned to banditry, and they can be found raiding any of the areas surrounding the Hamlet. Expect no quarter from them, and offer none.\n[ Brigands: Brigand Bloodletter, Brigand Cutthroat, Brigand Fusilier ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -200
+   },
+   "displayName": "Faction: Brigands",
+   "keys": [
+    "Brigand",
+    "Bandit",
+    "Brigands",
+    "Bandits"
+   ],
+   "category": "14906e58-c3e9-4538-59b5-5494e5e52a74"
+  },
+  {
+   "text": "The Swinefolk are a hybrid of beast and men carrying numerous diseases. They are the descendants of the Ancestor's experiments, a warrior race of pig men whose only desire is to butcher and feed on any human they can get their claws on.\n[ Swinefolk: Swine Chopper, Swine Wretch, Swine Drummer, Swine Slasher ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -200
+   },
+   "displayName": "Faction: Swinefolk",
+   "keys": [
+    "Swinefolk",
+    "Swine",
+    "Swines",
+    "Beast-man",
+    "Beast-men"
+   ],
+   "category": "14906e58-c3e9-4538-59b5-5494e5e52a74"
+  },
+  {
+   "text": "The Pelagic are a race of ancient fishmen that live in the cove. They were roused by the activity around their home, making it a habit to sink and kill any sailors that come near their domain. They pose a great threat to the marine shipments of provisions that the Hamlet relies on.\n[ Pelagic: Pelagic Grouper, Pelagic Shaman, Pelagic Guardian ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -200
+   },
+   "displayName": "Facion: Pelagic",
+   "keys": [
+    "Pelagic",
+    "Fish-man",
+    "Fish-men"
+   ],
+   "category": "14906e58-c3e9-4538-59b5-5494e5e52a74"
+  },
+  {
+   "text": "The Cultists of these lands worship an Eldritch god. Revelation of the crawling chaos and the entity slumbering below has a rather curious effect on the minds of men. For most individuals these realizations irreparably twist and warp their minds, ceaselessly tormenting them until they eventually descend into insanity. However, for a few individuals, instead of madness these revelations inspire fanatical devotion. These zealots have flocked to the Estate to worship the nascent god and have completely given themselves over to it in mind, body and soul. They are ready, willing and eager to lay down their lives to protect it and those who worship it as well.\n[ Cultists: Cultist Brawler, Cultist Acolyte ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -200
+   },
+   "displayName": "Faction: Cultists",
+   "keys": [
+    "Cultist",
+    "Cultists"
+   ],
+   "category": "14906e58-c3e9-4538-59b5-5494e5e52a74"
+  },
+  {
+   "text": "Once a court of nobles who reigned alongside the Ancestor in his formative years. An unpleasant encounter has transformed them into sinister creatures enthralled to their need for 'The Blood'. They dwell within The Courtyard, once a palatial sanctuary for the aristocracy that ruled over the Hamlet, now sunken into the swamp. These grotesque creatures thrive within its virulent waters. They are consumed by their hunger, although they still cultivate a veneer of the humanity that has long since been lost. But the veneer is just that, and a few sips of blood will bring out the monsters that lurk within.\n[ Bloodsuckers: Chevalier, Courtesan, Esquire, Manservant ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -200
+   },
+   "displayName": "Faction: Bloodsuckers",
+   "keys": [
+    "Bloodsucker",
+    "Bloodsuckers",
+    "Insects",
+    "Swarm"
+   ],
+   "category": "14906e58-c3e9-4538-59b5-5494e5e52a74"
+  },
+  {
+   "text": "The Undead are twisted creatures defy the natural order by their mere existence, often by being animated (or reanimated) by dark forces or by men tampering with supernatural forces. Undead, Wraiths, and Ghouls are just a few of the macabre horde of Unholy horrors with deep hatred for the Light and all that lives in its loving embrace. Unholy creatures commonly have a high enough resistance to Bleed to be virtually immune; however, the corrosion that Blight provides will decay their abominable bodies back into the dust.\n[ Unholy: Bone Arbalist, Bone Captain, Bone Courtier, Bone Rabble, Bone Soldier ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -200
+   },
+   "displayName": "Faction: Undead",
+   "keys": [
+    "Unholy",
+    "Bone",
+    "Skeleton",
+    "Skeletal",
+    "Ghoul"
+   ],
+   "category": "14906e58-c3e9-4538-59b5-5494e5e52a74"
+  },
+  {
+   "text": "The Fungal represent the twisted corruption by the fungous infection spread throughout the Weald; The Fungal Scratchers and Artillery are humans and corpses resurrected and controlled by the otherworldly spores. They are driven by the sole desire to spread the infective mushroom that have taken over their bodies. While the Unclean Giants still cling to life, they are often accompanied and controlled by the Crones who have taken up residence in the Weald.\n[ Fungal: Fungal Scratcher, Fungal Artillery, Unclean Giant ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -200
+   },
+   "displayName": "Faction: Fungal",
+   "keys": [
+    "Fungus",
+    "Fungal",
+    "Fungi",
+    "Mushrooms",
+    "Mushroom",
+    "Witch",
+    "Witches",
+    "Crone",
+    "Crones"
+   ],
+   "category": "14906e58-c3e9-4538-59b5-5494e5e52a74"
+  },
+  {
+   "text": "The Beasts encompasses all of the savage animals that have been tainted by the spreading darkness or awakened by those who trespass into their ancient domain.\n[ Beasts: Rabid Gnasher, Webber, Spitter, Maggot, Carrion Eater ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -200
+   },
+   "displayName": "Faction: Beasts",
+   "keys": [
+    "Beast",
+    "Beasts",
+    "Animal",
+    "Animals",
+    "Wildlife"
+   ],
+   "category": "14906e58-c3e9-4538-59b5-5494e5e52a74"
+  },
+  {
+   "text": "'The fiends must be driven back. And what better place to begin than the seat of our noble line?'\nThe Ruins are a crumbling castle, and the former halls and seat of the Ancestor's power are now a black, shifting maze of corridors firmly under the control of the Necromancers. They desecrated the graves of soldiers and nobles alike, bringing them back as a mindless skeletal horde. Scattered scraps of faith to give comfort to the masses are strew along its shifted corridors and sloped vaults. Bookshelves full of old, leather-bound books can be found here. The holy altars and fountains seem almost out of place against the backdrop of corruption.\n[ Ruins Enemies: Undead, Beasts, Cultists ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -100
+   },
+   "displayName": "Dungeon: the Ruins",
+   "keys": [
+    "Ruins",
+    "Castle",
+    "Estate"
+   ],
+   "category": "795c895b-53ff-4887-6db6-b85207ddac7e"
+  },
+  {
+   "text": "'Some blazing malevolence from beyond the stars has crashed upon the Miller’s farm. Lands that have, in past years, yielded rich harvests are now sown with a new and terrifying seed — an unrelenting crystalline consumption that inches outward from the mill with each passing season.'\nThe Farmstead and its acres have been severely altered by the otherworldly corruption ever since the Comet struck the Old Windmill. As if the natural flow of time has been distorted beyond recognition; The acres are littered with fossilized remains of people, livestock, and petrified crops, as if they have aged uncountable years in a blink of an eye. Even the stars above the Farmstead are not right; None of the constellations can be seen in the sky, and the Northern Star is in the wrong position, as if these night skies are not from this time and place.\n[ Farmstead Enemies: Husks ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -100
+   },
+   "displayName": "Dungeon: the Farmstead",
+   "keys": [
+    "Farm",
+    "Farmstead",
+    "Old Windmill"
+   ],
+   "category": "795c895b-53ff-4887-6db6-b85207ddac7e"
+  },
+  {
+   "text": "[ Available Dungeons to Adventure In: the Old Road, the Weald, the Ruins, the Warrens, the Cove, the Courtyard, the Farmstead ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "reservedTokens": -150,
+    "budgetPriority": 0,
+    "insertionPosition": 0
+   },
+   "displayName": "Available Dungeons",
+   "forceActivation": true,
+   "category": "795c895b-53ff-4887-6db6-b85207ddac7e",
+   "loreBiasGroups": [
+    {
+     "phrases": [
+      {
+       "sequences": [
+        [
+         5706,
+         5567
+        ]
+       ],
+       "type": 2
+      },
+      {
+       "sequences": [
+        [
+         775,
+         1940
+        ]
+       ],
+       "type": 2
+      },
+      {
+       "sequences": [
+        [
+         40247
+        ]
+       ],
+       "type": 2
+      },
+      {
+       "sequences": [
+        [
+         11272,
+         28044
+        ]
+       ],
+       "type": 2
+      }
+     ],
+     "bias": 0.1
+    }
+   ]
+  },
+  {
+   "text": "'Brigands have run of these lanes. Keep to the side-path, the Hamlet is just ahead.'\nThe Old Road is a poorly-maintained and bandit-plagued road that winds through the Weald and connects the Estate to the outside world. It is the only in and out of these plagued lands; Travelers often get beset by the bandits who made this place their home. New arrivals coming by the Stage Coach often suffer accidents because of the apparent madness of its drivers.\n[ Enemies: Brigands ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -100
+   },
+   "displayName": "Dungeon: the Old Road",
+   "keys": [
+    "Old Road"
+   ],
+   "category": "795c895b-53ff-4887-6db6-b85207ddac7e"
+  },
+  {
+   "text": "'They breed quickly down there in the dark, but perhaps we can slay them even faster.'\nThe Warrens are an incredibly ancient system of aqueducts and tunnels built for an unknown purpose. It is now a corpse-choked cesspit that houses the ravenous, disease-ridden beast-men known as the Swinefolk, and all those deranged or monstrous enough to ally with them. While the Ancestor was trying his hand at blood rituals, he used the ancient Warrens as a dumping grounds for his failures and underwhelming results. Barrels that reeks of powerful liquors as well as carts full of human remains can be found here.\n[ Warren Enemies: Swinefolk, Cultists, Beasts ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -100
+   },
+   "displayName": "Dungeon: the Warrens",
+   "keys": [
+    "Warrens",
+    "Aqueducts"
+   ],
+   "category": "795c895b-53ff-4887-6db6-b85207ddac7e"
+  },
+  {
+   "text": "'These salt-soaked caverns are teeming with pelagic nightmares - they must be flushed out!'\nThe Cove is a twisted, cavernous maze near the sea. It is home to an ancient race of seafolk, called the Pelagic, as well as the Drowned.The smell of rotting fish is almost unbearable, but despite its morbid aspect, this place seems almost traversable. The Ancestor once used the Cove as a means to deliver some of his more controversial artifacts, as well as a location to perform his pacts with the ancient beings in the water when money was scarce. Eerie Corals, unholy idols and the remains of destroyed ships adorn these sinister tunnels. \n[ Cove Enemies: Pelagic, Drowned ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -100
+   },
+   "displayName": "Dungeon: the Cove",
+   "keys": [
+    "Cove",
+    "Beach",
+    "Sea"
+   ],
+   "category": "795c895b-53ff-4887-6db6-b85207ddac7e"
+  },
+  {
+   "text": "'Soaked and sinking, these stone terraces and sprawling gardens are the site of long forgotten revelry...and well remembered regret.'\nThe Courtyard houses the former lavish gardens and vistas of the estate, fallen to ruin and overtaken by a terrible, bloody insect-borne infestation and its depraved victims. The constant buzzing of insects as well as the eerie glow, called Bloodlight, of this place, only enhanced this place's malevolent aura. Don't be fooled by the calm appearance of the Courtyard. Thronging Hive's and Throbbing Coccoons, filled with bloodthirsty insects can be found around every corner.\n[ Courtyard Enemies: Bloodsuckers ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -100
+   },
+   "displayName": "Dungeon: the Courtyard",
+   "keys": [
+    "Courtyard"
+   ],
+   "category": "795c895b-53ff-4887-6db6-b85207ddac7e"
+  },
+  {
+   "text": "'Welcome home, such as it is. This squalid hamlet, these corrupted lands, they are yours now, and you are bound to them.'\nThe Hamlet is a quiet, decayed settlement on the Estate's grounds where a handful of people still cling to a squalid yet relatively civilized existence. Two buildings are dedicated to easing the minds of its visitors: the Tavern, where heroes can drink, gamble, or visit the brothel, and the Abbey, allowing heroes to meditate, pray, or flagellate themselves. At the Blacksmith, weapons and armor can be bought for a hefty fee, while the Guild is more than eager to train with those that can pay their tuition.\n[ Hamlet Points-of-Interest: Abbey, Graveyard, Blacksmith, Guild, Nomad Wagon, Sanitarium, Survivalist, Tavern ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -100
+   },
+   "displayName": "Location: the Hamlet",
+   "keys": [
+    "Hamlet",
+    "Village"
+   ],
+   "category": "795c895b-53ff-4887-6db6-b85207ddac7e"
+  },
+  {
+   "text": "'Corruption has soaked the soil, sapping all good life from these groves. Let us burn out this evil.'\nThe Weald is a stagnant, overgrown forest inhabited by bandits and the victims of parasitic fungus. The fruits and victims of this spreading corruption are the primary dangers faced when exploring here. In addition, the Brigands make their home here, with a powerful cannon that protects them from their enemies. Nature herself is a victim to this spreading corruption: malformed with misintent. Paths and roads bring soldiers and supplies to reduce the isolation of the troubled estate.\n[ Weald Enemies: Brigands, Fungal, Beasts, Cultists ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -100
+   },
+   "displayName": "Dungeon: the Weald",
+   "keys": [
+    "Weald",
+    "Forest"
+   ],
+   "category": "795c895b-53ff-4887-6db6-b85207ddac7e"
+  },
+  {
+   "text": "Bone Soldiers are the common footsoldiers of the Undead. They are sufficiently equipped to hit hard and last some time on the battlefield. Still, they remain relatively weak and are easily dispatched. The finesse it had in life persists in death, allowing them to strike with a farther reach than many other monsters.\nThe Bone Soldier's main form of attack comes in the form of Graveyard Slash, a skilled strike with its rusted, but deadly, blade. When pushed back, it attempts to use Graveyard Stumble to get in reach for its weapon.\n[ Bone Soldier Abilities: Graveyard Slash, Graveyard Stumble ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -200
+   },
+   "displayName": "Undead: Bone Soldier",
+   "keys": [
+    "Bone Soldier",
+    "Bone Soldiers"
+   ],
+   "category": "b33aee1c-86e2-4cf1-7a7b-5a5057f854a8"
+  },
+  {
+   "text": "Bone Courtiers, as their names indicate, were likely nobles and even royalty in life, though of an unclear association with the Ancestor or his family. These courtiers prefer to stay in the back rows, wielding their signature goblets, whose contents is of most disturbing nature.\nThe Bone Courtier, though ill-suited for combat, uses its signature Tempting Goblet to disturb even the most hardened adventurer. It's not their only means of attacking though. They do carry daggers to stab any of their targets who get too close with Knife in The Dark.\n[ Bone Courtier Abilities: Tempting Goblet, Knife in the Dark ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -200
+   },
+   "displayName": "Undead: Bone Courtier",
+   "keys": [
+    "Bone Courtier",
+    "Bone Courtier"
+   ],
+   "category": "b33aee1c-86e2-4cf1-7a7b-5a5057f854a8"
+  },
+  {
+   "text": "Fungal Scratchers were most likely lost travelers, that didn't get consumed by the Hag. These zombies can take a surprising amount of punishment, while their claws secrete a poison that burns the flesh of their victims.\nA Fungal Scratcher, while possessing formidable protection, is not terribly accurate, nor a heavy hitter by itself. However, if one of its allies Mark a foe, it knows exactly where to strike, using Rend the Marked rather than its typical Groping Swipe. If pushed to the back lines, it will stumble forward, reaching out against its target with a Harmless Swipe.\n[ Fungal Scratcher Abilities: Rend the Marked, Groping Swipe, Harmless Swipe ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -200
+   },
+   "displayName": "Fungal: Fungal Scratcher",
+   "keys": [
+    "Fungal Scratcher",
+    "Fungal Scratchers"
+   ],
+   "category": "b33aee1c-86e2-4cf1-7a7b-5a5057f854a8"
+  },
+  {
+   "text": "Swine Wretches are either the product of years of inbreeding or carry-overs from the ancestor's failed experiments. Swine Wretches host innumerable, unnameable diseases withing a body that has been twisted and contorted to an unfathomable design - a mangled amalgamation of flesh that embodies the perverse crime against nature that created the Swinefolk. Always screaming and squealing through the darkened corridors of its squalid home.\nThe Swine Wretch poses no direct threat, but its Vomit is rampant with disease and sickness and will inflict those upon its target.\n[ Swine Wretch Ability: Vomit ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -200
+   },
+   "displayName": "Swinefolk: Swine Wretch",
+   "keys": [
+    "Swine Wretch",
+    "Swine Wretches"
+   ],
+   "category": "b33aee1c-86e2-4cf1-7a7b-5a5057f854a8"
+  },
+  {
+   "text": "Swine Slashers favor protection and encase themselves in layers of heavy armor and a bucker attached to their arm. While small in stature, these beastly fiends can pose an immense threat with their hook, they use to slash their prey.\nA Swine Slasher's sole attack is Hook Where It Hurts. It uses its vicious hook to inflict deep lacerations upon its target, while simutanously retreating to the back lines, from where it still can attack.\n[ Swine Slasher Ability: Hook Where It Hurts ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -200
+   },
+   "displayName": "Swinefolk: Swine Slasher",
+   "keys": [
+    "Swine Slasher",
+    "Swine Slashers"
+   ],
+   "category": "b33aee1c-86e2-4cf1-7a7b-5a5057f854a8"
+  },
+  {
+   "text": "Brigand Fusiliers are armed with a blunderbuss which they use to suppress the bandits' foes with sprays of lead. Their attacks also make it harder for you dodge, allowing other Brigands to close the gap and wail upon your heroes with their blades and whips. Be wary and do not underestimate this opponent.\nThe Brigand Fusilier is incredibily nimble and often the first one to act. He uses Blanket Fire at every opportunity he gets. If the Fusilier finds himself face to face with an opponent, he will use Rushed Shot to retreat to the safety of the backline to continue his assault from there.\n[ Brigand Fusilier Abilities: Blanket Fire, Rushed Shot ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -200
+   },
+   "displayName": "Brigands: Brigand Fusilier",
+   "keys": [
+    "Brigand Fusilier",
+    "Brigand Fusiliers"
+   ],
+   "category": "b33aee1c-86e2-4cf1-7a7b-5a5057f854a8"
+  },
+  {
+   "text": "Brigand Cutthroats are masterfully skilled with their blades, and able to deliver deadly thrusts that can easily decimate even the toughest of adventuring parties. While the Brigand Cutthroats may look fragile with almost negligible protection, they have immense offensive capabilities.\nThe Brigand Cutthroat will usually start by weakening their opposition using Slice And Dice attacks, before exploiting it with Shank. The Brigand Cutthroat will use Uppercut Slice to push enemies back, should he feel threatened enough. Finally, if he can't find a good opening for an attack, he will use Harmless Poke in an attempt to close to gap to his target.\n[ Brigand Cutthroat Abilities: Slice and Dice, Shank, Uppercut Slice, Harmless Poke ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -200
+   },
+   "displayName": "Brigands: Brigand Cutthroat",
+   "keys": [
+    "Brigand Cutthroat",
+    "Brigand Cutthroats"
+   ],
+   "category": "b33aee1c-86e2-4cf1-7a7b-5a5057f854a8"
+  },
+  {
+   "text": "Fungal Artilleries are infected corpses, twisted and controlled by the spreading corruption - spreading poison and disease where they crawl. Though not as well-armored as their counterpart - the Fungal Scratchers - the Fungal Artilleries possess more potent poisons and carries the ability to mark their targets.\nA Fungal Artillery will primarily use its Rain of Blight to inflict its target with stinging poison. Furthermore, it can use Mark Prey to provide its allies an opening on their enemies. Should it be drawn into close-combat, the Fungal Artillery will use a poisonous Escape Cloud to retreat to safety.\n[ Fungal Artillery Abilities: Mark Prey, Rain of Blight, Escape Cloud ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -200
+   },
+   "displayName": "Fungal: Fungal Artillery",
+   "keys": [
+    "Fungal Artillery",
+    "Fungal Artilleries"
+   ],
+   "category": "b33aee1c-86e2-4cf1-7a7b-5a5057f854a8"
+  },
+  {
+   "text": "The Swine Choppers are large, brutish hybrids of man and pig. They are the healthier specimens of Swinefolk. The Swine Choppers will happily test their bloody, serrated cleavers upon the bodies of naive adventurers who might happen upon their squalid homes. Slow and hulking, the Choppers also wield heavy balls and chains to extend their range with head-ringing efficiency.\nA Swine Chopper often uses its cleaver for a Butcher Cut, inflicting deep bleeding wounds upon its target. Should this not suffice, the Swine Chopper uses Ball and Chain to send anyone reeling from the impact.\n[ Swine Chopper Abilities: Butcher Cut, Ball and Chain ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -200
+   },
+   "displayName": "Swinefolk: Swine Chopper",
+   "keys": [
+    "Swine Chopper",
+    "Swine Choppers"
+   ],
+   "category": "b33aee1c-86e2-4cf1-7a7b-5a5057f854a8"
+  },
+  {
+   "text": "Cultist Brawlers are the helping hands of their Acolyte allies. Though frail compared to the more eldritch creatures, these foes formidable foes still pose a threat.\nA Cultist Brawler's main form of defense is Rend for Old Gods. He closes gaps with a Stumbling Scratch.\n[ Cultist Brawler Abilities: Rend for the Old Gods ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -200
+   },
+   "displayName": "Cultists: Cultist Brawler",
+   "keys": [
+    "Cultist Brawler",
+    "Cultist Brawlers"
+   ],
+   "category": "b33aee1c-86e2-4cf1-7a7b-5a5057f854a8"
+  },
+  {
+   "text": "Cultist Acolytes are the followers of the Old Gods. They sow confusion and doubt within the rank of those that oppose their eldritch masters.\nThe Cultist Acolyte invokes primarily a Stressful Incantation, assaulting the mind and resolve of its target. Furthermore, the Acolyte can summon squirming tentacles to either Eldritch Pull to or Eldritch Push away from them.\n[ Cultist Acolyte Abilities: Stressful Incantation, Eldritch Push, Eldritch Pull ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -200
+   },
+   "displayName": "Cultists: Cultist Acolyte",
+   "keys": [
+    "Cultist Acolyte",
+    "Cultist Acolytes"
+   ],
+   "category": "b33aee1c-86e2-4cf1-7a7b-5a5057f854a8"
+  },
+  {
+   "text": "The Brigand Bloodletter is a hulking, battle-scarred brute who typically shields his smaller allies. Armed with a vicious cat o' nine tails whip and a deadly flintlock pistol, he is ready to give his enemies deep and bloody scars to match his.\nThe Brigand Bloodletter is always found accompanied by a Cutthroat or a Fusilier. While his primary role is to protect his allies and soften foes with widespread bleeding, his uncommon Point Blank Shot can inflict massive wounds. Furthermore, he can dish out devastating Punishment with his whip, while and Rain of Whips causes massive lacerations on his targets.\n[ Brigand Bloodletter Abilities: Rain Of Whips, Punishment, Point Blank Shot ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -200
+   },
+   "displayName": "Brigands: Brigand Bloodletter",
+   "keys": [
+    "Brigand Bloodletter",
+    "Brigand Bloodletters"
+   ],
+   "category": "b33aee1c-86e2-4cf1-7a7b-5a5057f854a8"
+  },
+  {
+   "text": "Swine Drummers carry drums made from the flayed skins of their victims. They act by pounding on the drums as loudly as possible, thus coordinating their allies by Marking targets to attack, but sometimes the sound of their drums alone, echoing in the enclosed spaces of the Warrens, is enough to throw a person into despair.\nA Swine Drummer either uses Drum of Debilitation to Mark an enemy or Drum of Doom to drive it towards madness.\n[ Swine Drummer: Abilities: Drum of Debilitation, Drum of Doom ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -200
+   },
+   "displayName": "Swinefolk: Swine Drummer",
+   "keys": [
+    "Swine Drummer",
+    "Swine Drummers"
+   ],
+   "category": "b33aee1c-86e2-4cf1-7a7b-5a5057f854a8"
+  },
+  {
+   "text": "Pelagic Groupers serve as the foot soldier of the seafolk. They wield both a spear and a rusty cutlass. They are capable fighters on land as they are in water. Beware their bite - as it seems that it can inflict a mind- and body-affection transformation, gradually turning bitten humans into their kind and filling out their ranks.\nThe Pelagic Grouper either uses Seaward Slash in close-combat or Spearfishing to pull its target into close range.\n[ Pelagic Grouper Abilities: Seaward Slash, Spearfishing ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -200
+   },
+   "displayName": "Pelagic: Pelagic Grouper",
+   "keys": [
+    "Pelagic Grouper",
+    "Pelagic Groupers"
+   ],
+   "category": "b33aee1c-86e2-4cf1-7a7b-5a5057f854a8"
+  },
+  {
+   "text": "Pelagic Shamans use their eldritch magic to guide the seafolk, as well as terrifying all that may oppose them.\nA Pelagic Shaman uses Sea Breeze to heal their allies, a rare ability among the hordes of horrors you face. It also may use Call of the Deep to enhance the offensive abilities of one of its Pelagic brethren. The Shaman uses Ceremonial Cut against a foe, should it be forced into close-combat.\n[ Pelagic Shaman Abilities: Sea Breeze, Call of the Deep, Ceremonial Cut ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -200
+   },
+   "displayName": "Pelagic: Pelagic Shaman",
+   "keys": [
+    "Pelagic Shaman",
+    "Pelagic Shamans"
+   ],
+   "category": "b33aee1c-86e2-4cf1-7a7b-5a5057f854a8"
+  },
+  {
+   "text": "The Bone Captains are tough, heavy-hitting front-line attackers clad in armor and wielding a mace. In life they stood as veterans of war leading the charge and in death they play largely the same role. The weight of their strikes can cause the very ground to quake, leaving those affected dazed and reeling.\nIts main ability is Ground Pound, a mighty smash that will shake the very foundation beneath your feet. Sometimes it can perform a Crushing Blow at those in it's reach, leaving their target disoriented from the heavy impact.\n[ Bone Captain Abilities: Crushing Blow, Ground Pound ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -200
+   },
+   "displayName": "Undead: Bone Captain",
+   "keys": [
+    "Bone Captain",
+    "Bone Captains"
+   ],
+   "category": "b33aee1c-86e2-4cf1-7a7b-5a5057f854a8"
+  },
+  {
+   "text": "Bone Arbalists operate by firing crossbow bolts into the fray from the safety of the back ranks, and end up in an awkward position if drawn to the front.\nThe Bone Arbalist will use his Quarrel ability while in the rear ranks, able to snipe off any opposition. This attack is already quite powerful on its own, but is especially devastating to targets that have been Marked. It will use a Bayonet Jab to retreat to the back, should it find itself face-to-face with an enemy.\n[ Bone Arbalist Abilities: Quarrel, Bayonet Jab ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -200
+   },
+   "displayName": "Undead: Bone Arbalist",
+   "keys": [
+    "Bone Arbalist",
+    "Bone Arbalists"
+   ],
+   "category": "b33aee1c-86e2-4cf1-7a7b-5a5057f854a8"
+  },
+  {
+   "text": "Unclean Giants are perhaps the oddest creature in the Weald. Their origin may be unclear, but these lumbering monstrosities wield uprooted tree trunks like maces and are capable of using the fungous growth on their back to spread confusion among their enemies.\nAn Unclean Giant uses its Treebranch Smackdown to inflict devastating wounds upon its target, knocking it back in the process. It will sometimes use either Confusion Spores or Poison Spores to affect enemies, who try to stay out of reach.\n[ Unclean Giant Abilities: Treebranch Smackdown, Confusion Spores, Poison Spores ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -200
+   },
+   "displayName": "Fungal: Unclean Giant",
+   "keys": [
+    "Unclean Giant",
+    "Unclean Giants"
+   ],
+   "category": "b33aee1c-86e2-4cf1-7a7b-5a5057f854a8"
+  },
+  {
+   "text": "Pelagic Guardians resemble, unlike their Pelagic brethren, octopuses, standing on several of their tentacles. These grueling adversaries use their own bodies and massive shields to protect their allies.\nThe Pelagic Guardian uses either Barnacle Barrier to shield another Seafolk from harm or Octocestus to inflict deep bleeding cuts upon its enemy.\n[ Pelagic Guardian Abilities: Barnacle Barrier, Octocestus ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -200
+   },
+   "displayName": "Pelagic: Pelagic Guardian",
+   "keys": [
+    "Pelagic Guardian",
+    "Pelagic Guardians"
+   ],
+   "category": "b33aee1c-86e2-4cf1-7a7b-5a5057f854a8"
+  },
+  {
+   "text": "Bone Rabbles are by far the weakest of all Unholy enemies you might encounters. They usually don't pose a great threat and can be considered a very low priority in battle. Their main purpose is to use their bodies (or corpse) to protect their allies in the back.\nThe Bone Rabble main attack is called Bump in the Night, where it clobbers it's target with a makeshift club. Should it be pushed back, it tries to use Tic-Toc to close the gap.\n[ Bone Rabble Abilities: Bump in the Night, Tic-Toc ]",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "budgetPriority": -200
+   },
+   "displayName": "Undead: Bone Rabble",
+   "keys": [
+    "Bone Rabble",
+    "Bone Rabbles"
+   ],
+   "category": "b33aee1c-86e2-4cf1-7a7b-5a5057f854a8"
+  },
+  {
+   "text": "Location: The Old Road, Beginning of Corridor\nYou are Dismas, a male Highwayman, and you ponder the nature of your profession and how you might best support your companion, Reynauld who is a Crusader.\nYou encounter a Brigand Cutthroat! He is hooded, and wields a pair of daggers with expert skill. Reynauld steps forward in front of you. \"You should leave this place, stranger. This is no safe haven for you.\"\nThe brigand's eyes gleam under his cowl as he smirks. \"Hah! You're new here, aren't you? I'm surprised you've got the nerve to speak to me like that, even if you are a pretty little thing.\"\nYour heart beats faster. The dagger in his hand glints with reflected light.\n\u003e You lunge for the Brigand and make a Wicked Slice with your own blade.\n─ Your Wicked Slice lands on the Brigand Cutthroat with a critical hit.\nThe brigand cries out and falls back, clutching at his chest. Blood seeps between his fingers and he grunts, \"Aaaargh!\"\n\u003e You yell \"Now, Reynauld! Dispatch him with your Holy Smite!\"\n- Reynauld's Holy Smite incinerates the Brigand Cutthroat with holy fire!\nReynauld raises his hands and a blinding flash of white light envelops the brigand. His flesh boils and splits. A putrid smell rises from the corpse.\n\"Aaaaaagh!\"\nThe brigand roars and staggers back, dropping one of his knives. The other clatters to the ground. The brigand's eyes roll back into his head and he collapses to the ground.\n\u003e You say \"Well done, Reynauld, let's see what curio or treasure he has.\"\nReynauld kneels beside the body. He pulls off the brigand's cloak and then removes the brigand's belt.\nAs he lifts the brigand's arms, a silver ring glimmers on his finger.\n\u003e You ask \"Ah, what is that?\"\n\"It's a signet ring,\" Reynauld replies. \"They used to wear them as badges of office. If you have a special ability, you'd mark it with a symbol.\"\n\"That must be a powerful item, then. What does it do?\"\n\"I don't know. But I'll keep it for now.\"\nReynauld pockets the ring and stands up. He looks around, and then nods. \"Let's move on.\"\n\u003e You move on.\nLocation: The Old Road, End of Corridor\nYou move on with Reynauld, and find a portal deeper into the woods. Stepping in, you are surprised by a Brigand Bloodletter, and a Brigand Fusilier! They stand guard over a large strongbox.\n***",
+   "contextConfig": {
+    "suffix": "\n",
+    "tokenBudget": 2048,
+    "reservedTokens": 0,
+    "budgetPriority": -50,
+    "insertionPosition": 2
+   },
+   "displayName": "Template: Preamble",
+   "keys": [
+    "clutching shadows of the Darkest Dungeon"
+   ],
+   "keyRelative": true
+  }
+ ],
+ "categories": [
+  {
+   "name": "Bosses",
+   "id": "b11b52fa-636e-46ce-7f1d-59b3e143fff9",
+   "createSubcontext": true,
+   "subcontextSettings": {
+    "contextConfig": {
+     "suffix": "\n",
+     "tokenBudget": 2048,
+     "reservedTokens": 200,
+     "budgetPriority": -150,
+     "insertionPosition": 0
+    }
+   }
+  },
+  {
+   "name": "Classes",
+   "id": "628af55c-cf8f-4008-706f-4c3990b3af11",
+   "createSubcontext": true,
+   "subcontextSettings": {
+    "contextConfig": {
+     "suffix": "\n",
+     "tokenBudget": 2048,
+     "reservedTokens": 600,
+     "budgetPriority": -100,
+     "insertionPosition": 0
+    }
+   }
+  },
+  {
+   "name": "Factions",
+   "id": "14906e58-c3e9-4538-59b5-5494e5e52a74",
+   "createSubcontext": true,
+   "subcontextSettings": {
+    "contextConfig": {
+     "suffix": "\n",
+     "tokenBudget": 2048,
+     "reservedTokens": 200,
+     "budgetPriority": -300,
+     "insertionPosition": 0
+    }
+   }
+  },
+  {
+   "name": "Locations",
+   "id": "795c895b-53ff-4887-6db6-b85207ddac7e",
+   "createSubcontext": true,
+   "subcontextSettings": {
+    "contextConfig": {
+     "suffix": "\n",
+     "tokenBudget": 2048,
+     "reservedTokens": 250,
+     "budgetPriority": -400,
+     "insertionPosition": 0
+    }
+   }
+  },
+  {
+   "name": "Monsters",
+   "id": "b33aee1c-86e2-4cf1-7a7b-5a5057f854a8",
+   "createSubcontext": true,
+   "subcontextSettings": {
+    "contextConfig": {
+     "suffix": "\n",
+     "tokenBudget": 2048,
+     "reservedTokens": 200,
+     "budgetPriority": -200,
+     "insertionPosition": 0
+    }
+   }
+  }
+ ]
+}
