@@ -6,7 +6,7 @@ lorebook:
           suffix: "\n"
           tokenBudget: 2048
           reservedTokens: 0
-          budgetPriority: -50
+          budgetPriority: -600
           insertionPosition: 2
         keys: 
           - clutching shadows of the Darkest Dungeon
@@ -83,3 +83,23 @@ lorebook:
           Brigand Fusilier! They stand guard over a large strongbox.
 
           ***
+      Available Dungeons:
+        forceActivation: TRUE
+        contextConfig:
+          suffix: "\n"
+          tokenBudget: 2048
+          reservedTokens: 30
+          budgetPriority: -150
+          insertionPosition: 0
+        text: >
+          [ Available Dungeons to Adventure In: the Old Road, the Weald, the
+          Ruins, the Warrens, the Cove ]
+        loreBiasGroups:
+          - phrases:
+              - " Old Road"
+              - " Ruins"
+              - " Weald"
+              - " Warrens"
+              - " Cove"
+              - " Hamlet"
+            bias: 0.1

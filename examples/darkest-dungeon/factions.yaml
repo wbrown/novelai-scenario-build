@@ -6,7 +6,7 @@ categories:
         suffix: "\n"
         tokenBudget: 2048
         reservedTokens: 200
-        budgetPriority: -300
+        budgetPriority: -400
         insertionPosition: 0
 lorebook:
   - category: Factions
@@ -17,21 +17,6 @@ lorebook:
         budgetPriority: -200
         TrimDirection: doNotTrim
     entries:
-      "Faction: Brigands":
-        keys:
-          - Brigand
-          - Bandit
-          - Brigands
-          - Bandits
-        text: >
-          The Brigands are hardened bandits and killers that the Ancestor hired
-          as a mercenary army to retake the Hamlet after the people rebelled
-          against him. Once the Ancestor died and no further payment seemed in
-          sight, those same mercenaries turned to banditry, and they can be
-          found raiding any of the areas surrounding the Hamlet. Expect no
-          quarter from them, and offer none.
-          
-          [ Brigands: Brigand Bloodletter, Brigand Cutthroat, Brigand Fusilier ]
       "Faction: Undead":
         keys:
           - Unholy
@@ -80,7 +65,7 @@ lorebook:
           - Beast-man
           - Beast-men
         text: >
-          The Swinefolk are a hybrid of beast and men carrying numerous
+          The Swinefolk are a hybrid-race of beast and men carrying numerous
           diseases. They are the descendants of the Ancestor's experiments, a
           warrior race of pig men whose only desire is to butcher and feed on
           any human they can get their claws on.
@@ -115,19 +100,21 @@ lorebook:
           seeking vengeance.
 
           [ Drowned: Drowned Thrall, Squiffy Ghast ]
-      "Faction: Beasts":
+      "Faction: Brigands":
         keys:
-          - Beast
-          - Beasts
-          - Animal
-          - Animals
-          - Wildlife
+          - Brigand
+          - Bandit
+          - Brigands
+          - Bandits
         text: >
-          The Beasts encompasses all of the savage animals that have been
-          tainted by the spreading darkness or awakened by those who trespass
-          into their ancient domain.
-
-          [ Beasts: Rabid Gnasher, Webber, Spitter, Maggot, Carrion Eater ]
+          The Brigands are hardened bandits and killers that the Ancestor hired
+          as a mercenary army to retake the Hamlet after the people rebelled
+          against him. Once the Ancestor died and no further payment seemed in
+          sight, those same mercenaries turned to banditry, and they can be
+          found raiding any of the areas surrounding the Hamlet. Expect no
+          quarter from them, and offer none.
+          
+          [ Brigands: Brigand Bloodletter, Brigand Cutthroat, Brigand Fusilier ]
       "Faction: Cultists":
         keys:
           - Cultist
@@ -145,44 +132,16 @@ lorebook:
           down their lives to protect it and those who worship it as well.
 
           [ Cultists: Cultist Brawler, Cultist Acolyte ]
-      "Faction: Bloodsuckers":
+      "Faction: Beasts":
         keys:
-          - Bloodsucker
-          - Bloodsuckers
-          - Insects
-          - Swarm
+          - Beast
+          - Beasts
+          - Animal
+          - Animals
+          - Wildlife
         text: >
-          Once a court of nobles who reigned alongside the Ancestor in his
-          formative years. An unpleasant encounter has transformed them into
-          sinister creatures enthralled to their need for 'The Blood'. They
-          dwell within The Courtyard, once a palatial sanctuary for the
-          aristocracy that ruled over the Hamlet, now sunken into the swamp.
-          These grotesque creatures thrive within its virulent waters. They are
-          consumed by their hunger, although they still cultivate a veneer of
-          the humanity that has long since been lost. But the veneer is just
-          that, and a few sips of blood will bring out the monsters that lurk
-          within.
+          The Beasts encompasses all of the savage animals that have been
+          tainted by the spreading darkness or awakened by those who trespass
+          into their ancient domain.
 
-          [ Bloodsuckers: Chevalier, Courtesan, Esquire, Manservant ]
-      "Faction: Husks":
-        keys:
-          - Husk
-          - Husks
-          - Crystal
-          - Crystals
-          - Crystaline
-        text: >
-          Husks were once living, breathing, feeling beings before they were
-          touched by the malevolent crystalline corruption from the stars. Upon
-          infection, the crystals rapidly spread throughout the unfortunate
-          victim and consume them from the inside out, turning them from beings
-          of warm flesh and blood into cold, empty and cruel mockeries made of
-          crystal and stone. When a Husk dies, the crystals inside its
-          hollowed-out body quickly consume whatever remains of the body and
-          blossoms forth from it like a crystalline flower to spread its
-          corrupting "pollen" or "seeds" in a rather explosive fashion. Deadly
-          shrapnel in form of crystalline shards and splinters lodge themselves
-          into the body of their victims; if not quickly removed, another poor
-          soul will be turned into a Husk.
-
-          [ Husks: Farmhand, Foreman, Scarecrow, Plow Horse ]
+          [ Beasts: Rabid Gnasher, Webber, Spitter, Maggot, Carrion Eater ]
