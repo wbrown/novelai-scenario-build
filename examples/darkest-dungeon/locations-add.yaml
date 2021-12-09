@@ -1,0 +1,96 @@
+categories:
+  Locations-Add:
+    createSubcontext: true
+    subcontextSettings:
+      contextConfig:
+        suffix: "\n"
+        tokenBudget: 2048
+        reservedTokens: 100
+        budgetPriority: -350
+        insertionPosition: -4
+lorebook:
+  - category: Locations-Add
+    config:
+      contextConfig:
+        suffix: "\n"
+        tokenBudget: 2048
+        reservedTokens: 50
+        budgetPriority: -100
+        TrimDirection: doNotTrim
+    entries:
+      "Location+: the Hamlet":
+        keys:
+          - Hamlet
+          - Village
+        text: >
+          [ Hamlet Points-of-Interest: Abbey, Graveyard, Blacksmith, Guild, Nomad Wagon, Sanitarium, Survivalist, Tavern ]
+        loreBiasGroups:
+          - phrases:
+              - " Abbey"
+              - " Graveyard"
+              - " Blacksmith"
+              - " Guild"
+              - " Nomad Wagon"
+              - " Sanitarium"
+              - " Survivalist"
+              - " Tavern"
+            bias: 0.0
+      "Dungeon+: the Old Road":
+        keys:
+          - Old Road
+        text: >
+          [ Old Road Enemies: Brigands ]
+        loreBiasGroups:
+          - phrases:
+              - " Brigands"
+            bias: 0.0
+      "Dungeon+: the Ruins":
+        keys:
+          - Ruins
+          - Castle
+          - Estate
+        text: >
+          [ Ruins Enemies: Undead, Beasts, Cultists ]
+        loreBiasGroups:
+          - phrases:
+              - " Undead"
+              - " Beasts"
+              - " Cultists"
+            bias: 0.0
+      "Dungeon+: the Weald":
+        keys:
+          - Weald
+          - Forest
+        text: >
+          [ Weald Enemies: Brigands, Fungal, Beasts, Cultists ]
+        loreBiasGroups:
+          - phrases:
+              - " Brigands"
+              - " Fungal"
+              - " Beasts"
+              - " Cultists"
+            bias: 0.0
+      "Dungeon+: the Warrens":
+        keys:
+          - Warrens
+          - Aqueducts
+        text: >
+          [ Warrens Enemies: Swinefolk, Beasts, Cultists ]
+        loreBiasGroups:
+          - phrases:
+              - " Swinefolk"
+              - " Cultists"
+              - " Beasts"
+            bias: 0.0
+      "Dungeon+: the Cove":
+        keys:
+          - Cove
+          - Beach
+          - Sea
+        text: >
+          [ Cove Enemies: Pelagic, Drowned ]
+        loreBiasGroups:
+          - phrases:
+              - " Pelagic"
+              - " Drowned"
+            bias: 0.0
