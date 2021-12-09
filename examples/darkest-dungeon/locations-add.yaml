@@ -50,7 +50,7 @@ lorebook:
           - Castle
           - Estate
         text: >
-          [ Ruins Enemies: Undead, Beasts, Cultists ]
+          [ Ruins Enemies: Undead, Brigands, Cultists ]
         loreBiasGroups:
           - phrases:
               - " Undead"
@@ -62,7 +62,7 @@ lorebook:
           - Weald
           - Forest
         text: >
-          [ Weald Enemies: Brigands, Fungal, Beasts, Cultists ]
+          [ Weald Enemies: Fungal, Brigands, Beasts, Cultists ]
         loreBiasGroups:
           - phrases:
               - " Brigands"
@@ -88,7 +88,7 @@ lorebook:
           - Beach
           - Sea
         text: >
-          [ Cove Enemies: Pelagic, Drowned ]
+          [ Cove Enemies: Pelagic, Drowned, Cultists ]
         loreBiasGroups:
           - phrases:
               - " Pelagic"
