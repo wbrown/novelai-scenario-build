@@ -1,0 +1,66 @@
+categories:
+  Factions-Add:
+    createSubcontext: true
+    subcontextSettings:
+      contextConfig:
+        suffix: "\n"
+        tokenBudget: 2048
+        reservedTokens: 200
+        budgetPriority: -450
+        insertionPosition: -8
+lorebook:
+  - category: Factions-Add
+    config:
+      contextConfig:
+        suffix: "\n"
+        tokenBudget: 2048
+        budgetPriority: -200
+        nonStoryActivatable: true
+        TrimDirection: doNotTrim
+    entries:
+      "Faction+: Undead":
+        keys:
+          - Ruins 
+        text: >
+          [ Undead: Bone Arbalist, Bone Captain, Bone Courtier, Bone Rabble, Bone Soldier ]
+      "Faction+: Fungal":
+        keys:
+          - Weald
+        text: >
+          [ Fungal: Fungal Scratcher, Fungal Artillery, Unclean Giant ]
+      "Faction+: Swinefolk":
+        keys:
+          - Warrens
+        text: >
+          [ Swinefolk: Swine Chopper, Swine Wretch, Swine Drummer, Swine Slasher ]
+      "Facion+: Pelagic":
+        keys:
+          - Cove
+        text: >
+          [ Pelagic: Pelagic Grouper, Pelagic Shaman, Pelagic Guardian ]
+      "Faction+: Drowned":
+        keys:
+          - Cove
+        text: >
+          [ Drowned: Drowned Thrall ]
+      "Faction+: Brigands":
+        keys:
+          - Old Road
+          - Ruins
+          - Weald
+        text: >
+          [ Brigands: Brigand Bloodletter, Brigand Cutthroat, Brigand Fusilier ]
+      "Faction+: Cultists":
+        keys:
+          - Ruins
+          - Weald
+          - Warrens
+          - Cove
+        text: >
+          [ Cultists: Cultist Brawler, Cultist Acolyte ]
+      "Faction+: Beasts":
+        keys:
+          - Weald
+          - Warrens
+        text: >
+          [ Beasts: Spitter, Webber, Rabid Gnasher ]

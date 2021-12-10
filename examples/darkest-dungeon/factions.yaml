@@ -14,16 +14,12 @@ lorebook:
       contextConfig:
         suffix: "\n"
         tokenBudget: 2048
-        budgetPriority: -200
+        budgetPriority: -400
         TrimDirection: doNotTrim
     entries:
       "Faction: Undead":
         keys:
-          - Unholy
-          - Bone
-          - Skeleton
-          - Skeletal
-          - Ghoul
+          - Undead
         text: >
           The Undead are twisted creatures defy the natural order by their
           mere existence, often by being animated (or reanimated) by dark
@@ -33,9 +29,6 @@ lorebook:
           Unholy creatures commonly have a high enough resistance to Bleed to
           be virtually immune; however, the corrosion that Blight provides will
           decay their abominable bodies back into the dust.
-
-          [ Unholy: Bone Arbalist, Bone Captain, Bone Courtier, Bone Rabble,
-          Bone Soldier ]
       "Faction: Fungal":
         keys:
           - Fungus
@@ -55,8 +48,6 @@ lorebook:
           mushroom that have taken over their bodies. While the Unclean Giants
           still cling to life, they are often accompanied and controlled by the
           Crones who have taken up residence in the Weald.
-
-          [ Fungal: Fungal Scratcher, Fungal Artillery, Unclean Giant ]
       "Faction: Swinefolk":
         keys:
           - Swinefolk
@@ -69,9 +60,6 @@ lorebook:
           diseases. They are the descendants of the Ancestor's experiments, a
           warrior race of pig men whose only desire is to butcher and feed on
           any human they can get their claws on.
-
-          [ Swinefolk: Swine Chopper, Swine Wretch, Swine Drummer, Swine
-          Slasher ]
       "Facion: Pelagic":
         keys:
           - Pelagic
@@ -83,8 +71,6 @@ lorebook:
           to sink and kill any sailors that come near their domain. They pose a
           great threat to the marine shipments of provisions that the Hamlet
           relies on.
-
-          [ Pelagic: Pelagic Grouper, Pelagic Shaman, Pelagic Guardian ]
       "Faction: Drowned":
         keys:
           - Drowned
@@ -98,8 +84,6 @@ lorebook:
           muster and dragged craft and crew to the swirling depth. But it was
           not their end; They managed to return to the surface - a Ghost Ship
           seeking vengeance.
-
-          [ Drowned: Drowned Thrall, Squiffy Ghast ]
       "Faction: Brigands":
         keys:
           - Brigand
@@ -113,8 +97,6 @@ lorebook:
           sight, those same mercenaries turned to banditry, and they can be
           found raiding any of the areas surrounding the Hamlet. Expect no
           quarter from them, and offer none.
-          
-          [ Brigands: Brigand Bloodletter, Brigand Cutthroat, Brigand Fusilier ]
       "Faction: Cultists":
         keys:
           - Cultist
@@ -130,8 +112,6 @@ lorebook:
           worship the nascent god and have completely given themselves over to
           it in mind, body and soul. They are ready, willing and eager to lay
           down their lives to protect it and those who worship it as well.
-
-          [ Cultists: Cultist Brawler, Cultist Acolyte ]
       "Faction: Beasts":
         keys:
           - Beast
@@ -143,5 +123,3 @@ lorebook:
           The Beasts encompasses all of the savage animals that have been
           tainted by the spreading darkness or awakened by those who trespass
           into their ancient domain.
-
-          [ Beasts: Rabid Gnasher, Webber, Spitter, Maggot, Carrion Eater ]
