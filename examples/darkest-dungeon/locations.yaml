@@ -14,7 +14,6 @@ lorebook:
       contextConfig:
         suffix: "\n"
         tokenBudget: 2048
-        budgetPriority: -100
         TrimDirection: doNotTrim
     entries:
       "Location: the Hamlet":
@@ -46,11 +45,11 @@ lorebook:
           is just ahead.'
 
           The Old Road is a poorly-maintained and bandit-plagued road that
-          winds through the Weald and connects the Estate to the outside world.
-          It is the only in and out of these plagued lands; Travelers often get
-          beset by the bandits who made this place their home. New arrivals
-          coming by the Stage Coach often suffer accidents because of the
-          apparent madness of its drivers.
+          connects the Estate to the outside world. It is the only in and out
+          of these plagued lands; Travelers often get beset by the bandits
+          who made this place their home. New arrivals coming by the Stage
+          Coach often suffer accidents because of the apparent madness of its
+          drivers.
         loreBiasGroups:
           - phrases:
               - " Old Road"
@@ -61,22 +60,22 @@ lorebook:
           - Castle
           - Estate
         text: >
-          'The fiends must be driven back. And what better place to begin than the seat of our noble line?'
+          'The fiends must be driven back. And what better place to begin than
+          the seat of our noble line?'
 
-          The Ruins are the crumbling remains of the Ancestor's
-          estate. All that remains of its former glory is a black, shifting
-          maze of corridors firmly under the control of the Necromancers.
-          They desecrated the graves of soldiers and nobles alike, bringing
-          them back as a mindless skeletal horde. Scattered scraps of faith
-          to give comfort to the masses are strew along its shifted corridors
-          and sloped vaults. Bookshelves full of old, leather-bound books can
-          be found here. The holy altars and fountains seem almost out of
-          place against the backdrop of corruption. 
+          The Ruins are the crumbling remains of the Ancestor's estate. All
+          that remains of its former glory is a black, shifting maze of
+          corridors; Firmly under the control of the Necromancers. The walls
+          of the Ruins are adorned with the fading emblems of the Ancestor
+          and bookshelves full of old, leather-bound books. The cold air is
+          filled with the stale smell of dust and abandonment. You can hear a
+          faint chanting in the background, just gnawing at the edge of your
+          mind.
         loreBiasGroups:
           - phrases:
-              - " Ruins"
-              - " Castle"
-              - " Estate"
+            - " Ruins"
+            - " Castle"
+            - " Estate"
             bias: 0.0
       "Dungeon: the Weald":
         keys:
@@ -89,11 +88,11 @@ lorebook:
           The Weald is a stagnant, overgrown forest inhabited by bandits and
           the victims of parasitic fungus. The fruits and victims of this
           spreading corruption are the primary dangers faced when exploring
-          here. In addition, the Brigands make their home here, with a powerful
-          cannon that protects them from their enemies. Nature herself is a
-          victim to this spreading corruption: malformed with misintent. Paths
-          and roads bring soldiers and supplies to reduce the isolation of the
-          troubled estate.
+          here. In addition, the Brigands make their home in the Weald,
+          backed by a powerful cannon that protects them from their enemies.
+          The trees are misshaping and covered in the fungous infection
+          spread by the local witches. The smell of rotting carcasses and the
+          sound of rabid wolves howling fills the air.
         loreBiasGroups:
           - phrases:
               - " Weald"
@@ -108,15 +107,14 @@ lorebook:
           slay them even faster.'
 
           The Warrens are an incredibly ancient system of aqueducts and tunnels
-          built for an unknown purpose. It is now a corpse-choked cesspit that
+          built for an unknown purpose. It is a corpse- choked cesspit that
           houses the ravenous, disease-ridden beast-men known as the Swinefolk
           and their allies. The ancient walls of the Warrens are beginning to
           crumble, while the tunnels are littered with barrels full of
           foul-smelling liquids and carts filled with human half-eaten human
           remains. The stench of those corpses, mixed with the smell of refuse,
           permeates the air. Always in the background, you can hear the
-          constant squealing and screeching of the pig-men that have made this
-          place their home. 
+          constant squealing and screeching of the pig-men. 
         loreBiasGroups:
           - phrases:
               - " Warrens"
@@ -131,16 +129,15 @@ lorebook:
           'These salt-soaked caverns are teeming with pelagic nightmares -
           they must be flushed out!'
 
-          The Cove is a twisted, maze-like cave near the sea. Its eerie tunnels
-          house an ancient race of fish-men, called the Pelagic, as well as
-          the Drowned - undead sailors cursed to relive he moment of their
-          death. The smell of rotten fish is almost unbearable, but despite
-          its morbid aspect, this place seems almost traversable. The Ancestor
-          once used the Cove as a means to deliver some of his more
-          controversial artifacts, as well as a location to perform his pacts
-          with the ancient beings in the water when money was scarce. Eerie
-          Corals, unholy idols and the remains of destroyed ships adorn these
-          sinister tunnels.
+          The Cove is a twisted, maze-like cavern close to the ocean. Its
+          otherworldly tunnels house an ancient race of fish-men, called the
+          Pelagic, as well as the Drowned - undead sailors cursed to relive
+          the moment of their death. The smell of rotten fish is almost
+          unbearable; a constant reminder of the nearby sea. The sound of
+          dripping water echoes through the Cove's passages. Eerie shimmering
+          corals provide the only natural light around here, while unholy
+          idols and the remains of destroyed ships lay scattered on the stony
+          cave-floor.
         loreBiasGroups:
           - phrases:
               - " Cove"
