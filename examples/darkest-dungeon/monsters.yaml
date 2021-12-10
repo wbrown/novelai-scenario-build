@@ -51,9 +51,9 @@ lorebook:
           its rusted, but deadly, blade. It attempts to use Graveyard Stumble
           wto get in reach for its weapon.
 
-          ─ Bone Soldier Abilities: Graveyard Slash, Graveyard Stumble
+          [ Bone Soldier Abilities: Graveyard Slash, Graveyard Stumble ]
 
-          ─ Bone Soldier Equipment: Rusty Sword, Light Armor
+          [ Bone Soldier Equipment: Rusty Sword, Light Armor ]
         loreBiasGroups:
           - phrases:
               - " Soldier"
