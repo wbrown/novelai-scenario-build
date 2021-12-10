@@ -8,6 +8,7 @@ lorebook:
           reservedTokens: 0
           budgetPriority: -600
           insertionPosition: 2
+          TrimDirection: trimTop
         keys: 
           - clutching shadows of the Darkest Dungeon
         text: >
