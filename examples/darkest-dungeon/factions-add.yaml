@@ -8,6 +8,7 @@ categories:
         reservedTokens: 200
         budgetPriority: -450
         insertionPosition: -8
+        allowInnerInsertion: true
 lorebook:
   - category: Factions-Add
     config:
