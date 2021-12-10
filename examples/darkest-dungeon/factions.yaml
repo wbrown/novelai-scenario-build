@@ -20,15 +20,14 @@ lorebook:
       "Faction: Undead":
         keys:
           - Undead
+          - Skeleton
+          - Skeletons
         text: >
           The Undead are twisted creatures defy the natural order by their
           mere existence, often by being animated (or reanimated) by dark
           forces or by men tampering with supernatural forces. Undead, Wraiths,
           and Ghouls are just a few of the macabre horde of Unholy horrors with
           deep hatred for the Light and all that lives in its loving embrace.
-          Unholy creatures commonly have a high enough resistance to Bleed to
-          be virtually immune; however, the corrosion that Blight provides will
-          decay their abominable bodies back into the dust.
       "Faction: Fungal":
         keys:
           - Fungus
@@ -104,14 +103,12 @@ lorebook:
         text: >
           The Cultists of these lands worship an Eldritch god. Revelation of
           the crawling chaos and the entity slumbering below has a rather
-          curious effect on the minds of men. For most individuals these
-          realizations irreparably twist and warp their minds, ceaselessly
-          tormenting them until they eventually descend into insanity. However,
-          for a few individuals, instead of madness these revelations inspire
-          fanatical devotion. These zealots have flocked to the Estate to
-          worship the nascent god and have completely given themselves over to
-          it in mind, body and soul. They are ready, willing and eager to lay
-          down their lives to protect it and those who worship it as well.
+          curious effect on the minds of men. However, a few individuals
+          revel in these revelations, and are driven to fanatical devotion.
+          These Cultists have flocked to the Estate to worship the nascent
+          god and have completely given themselves over to it in mind, body
+          and soul. They are ready, willing and eager to lay down their lives
+          to protect it from anyone.
       "Faction: Beasts":
         keys:
           - Beast
