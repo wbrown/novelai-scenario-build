@@ -8,16 +8,17 @@ categories:
         reservedTokens: 100
         budgetPriority: -350
         insertionPosition: -4
+        allowInnerInsertion: true
 lorebook:
   - category: Locations-Add
     config:
+      searchRange: 1500
       contextConfig:
         suffix: "\n"
         tokenBudget: 2048
         reservedTokens: 50
         budgetPriority: -100
         TrimDirection: doNotTrim
-        nonStoryActivatable: true
     entries:
       "Location+: the Hamlet":
         keys:
@@ -25,26 +26,11 @@ lorebook:
           - Village
         text: >
           [ Hamlet Points-of-Interest: Abbey, Graveyard, Blacksmith, Guild, Nomad Wagon, Sanitarium, Survivalist, Tavern ]
-        loreBiasGroups:
-          - phrases:
-              - " Abbey"
-              - " Graveyard"
-              - " Blacksmith"
-              - " Guild"
-              - " Nomad Wagon"
-              - " Sanitarium"
-              - " Survivalist"
-              - " Tavern"
-            bias: 0.0
       "Dungeon+: the Old Road":
         keys:
           - Old Road
         text: >
           [ Old Road Enemies: Brigands ]
-        loreBiasGroups:
-          - phrases:
-              - " Brigand"
-            bias: 0.0
       "Dungeon+: the Ruins":
         keys:
           - Ruins
@@ -52,37 +38,18 @@ lorebook:
           - Estate
         text: >
           [ Ruins Enemies: Undead, Brigand, Cultists ]
-        loreBiasGroups:
-          - phrases:
-              - " Undead"
-              - " Beasts"
-              - " Cultist"
-            bias: 0.0
       "Dungeon+: the Weald":
         keys:
           - Weald
           - Forest
         text: >
           [ Weald Enemies: Fungal, Brigands, Beasts, Cultists ]
-        loreBiasGroups:
-          - phrases:
-              - " Brigand"
-              - " Fungal"
-              - " Beasts"
-              - " Cultist"
-            bias: 0.0
       "Dungeon+: the Warrens":
         keys:
           - Warrens
           - Aqueducts
         text: >
           [ Warrens Enemies: Swinefolk, Beasts, Cultists ]
-        loreBiasGroups:
-          - phrases:
-              - " Swinefolk"
-              - " Cultist"
-              - " Beasts"
-            bias: 0.0
       "Dungeon+: the Cove":
         keys:
           - Cove
@@ -90,8 +57,3 @@ lorebook:
           - Sea
         text: >
           [ Cove Enemies: Pelagic, Drowned, Cultists ]
-        loreBiasGroups:
-          - phrases:
-              - " Pelagic"
-              - " Drowned"
-            bias: 0.0

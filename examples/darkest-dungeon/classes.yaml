@@ -11,13 +11,12 @@ categories:
 lorebook:
   - category: Classes
     config:
-      searchRange: 1000
+      nonStoryActivatable: true
       contextConfig:
         suffix: "\n"
         tokenBudget: 2048
         reservedTokens: 300
         budgetPriority: -100
-        nonStoryActivatable: true
         TrimDirection: doNotTrim
     entries:
       "Class: Abomination":

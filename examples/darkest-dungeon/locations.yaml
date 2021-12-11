@@ -11,11 +11,11 @@ categories:
 lorebook:
   - category: Locations
     config:
+      searchRange: 1500
       contextConfig:
         suffix: "\n"
         tokenBudget: 2048
         TrimDirection: doNotTrim
-        nonStoryActivatable: true
     entries:
       "Location: the Hamlet":
         keys:
@@ -57,6 +57,7 @@ lorebook:
             bias: 0.0
       "Dungeon: the Ruins":
         keys:
+          - Ruin
           - Ruins
           - Castle
           - Estate
@@ -74,6 +75,7 @@ lorebook:
           mind.
         loreBiasGroups:
           - phrases:
+            - " Ruin"
             - " Ruins"
             - " Castle"
             - " Estate"

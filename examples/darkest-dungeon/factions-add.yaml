@@ -12,11 +12,11 @@ categories:
 lorebook:
   - category: Factions-Add
     config:
+      searchRange: 1500
       contextConfig:
         suffix: "\n"
         tokenBudget: 2048
         budgetPriority: -200
-        nonStoryActivatable: true
         TrimDirection: doNotTrim
     entries:
       "Faction+: Undead":
@@ -63,7 +63,7 @@ lorebook:
               - " Drummer"
               - " Slasher"
             bias: 0.2
-      "Facion+: Pelagic":
+      "Faction+: Pelagic":
         keys:
           - Cove
         text: >
