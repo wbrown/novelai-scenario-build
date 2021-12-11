@@ -5,7 +5,7 @@ categories:
       contextConfig:
         suffix: "\n"
         tokenBudget: 2048
-        reservedTokens: 200
+        reservedTokens: 100
         budgetPriority: -450
         insertionPosition: -8
         allowInnerInsertion: true
@@ -24,26 +24,71 @@ lorebook:
           - Ruins 
         text: >
           [ Undead: Bone Arbalist, Bone Captain, Bone Courtier, Bone Rabble, Bone Soldier ]
+        loreBiasGroups:
+          - phrases:
+              - " Bone"
+            bias: 0.2
+          - phrases:
+              - " Arbalist"
+              - " Captain"
+              - " Courtier"
+              - " Soldier"
+            bias: 0.2
       "Faction+: Fungal":
         keys:
           - Weald
         text: >
           [ Fungal: Fungal Scratcher, Fungal Artillery, Unclean Giant ]
+        loreBiasGroups:
+          - phrases:
+              - " Fungal"
+            bias: 0.2
+          - phrases:
+              - " Scratcher"
+              - " Artillery"
+              - " Unclean Giant"
+            bias: 0.2
       "Faction+: Swinefolk":
         keys:
           - Warrens
         text: >
           [ Swinefolk: Swine Chopper, Swine Wretch, Swine Drummer, Swine Slasher ]
+        loreBiasGroups:
+          - phrases:
+              - " Swine"
+            bias: 0.2
+          - phrases:
+              - " Chopper"
+              - " Wretch"
+              - " Drummer"
+              - " Slasher"
+            bias: 0.2
       "Facion+: Pelagic":
         keys:
           - Cove
         text: >
           [ Pelagic: Pelagic Grouper, Pelagic Shaman, Pelagic Guardian ]
+        loreBiasGroups:
+          - phrases:
+              - " Pelagic"
+            bias: 0.2
+          - phrases:
+              - " Grouper"
+              - " Shaman"
+              - " Guardian"
+            bias: 0.2
       "Faction+: Drowned":
         keys:
           - Cove
         text: >
           [ Drowned: Drowned Thrall ]
+        loreBiasGroups:
+          - phrases:
+              - " Drowned"
+            bias: 0.2
+          - phrases:
+              - " Thrall"
+            bias: 0.2
       "Faction+: Brigands":
         keys:
           - Old Road
@@ -51,6 +96,15 @@ lorebook:
           - Weald
         text: >
           [ Brigands: Brigand Bloodletter, Brigand Cutthroat, Brigand Fusilier ]
+        loreBiasGroups:
+          - phrases:
+              - " Brigand"
+            bias: 0.2
+          - phrases:
+              - " Bloodletter"
+              - " Cutthroat"
+              - " Fusilier"
+            bias: 0.2
       "Faction+: Cultists":
         keys:
           - Ruins
@@ -59,9 +113,23 @@ lorebook:
           - Cove
         text: >
           [ Cultists: Cultist Brawler, Cultist Acolyte ]
+        loreBiasGroups:
+          - phrases:
+              - " Cultist"
+            bias: 0.2
+          - phrases:
+              - " Brawler"
+              - " Acolyte"
+            bias: 0.2
       "Faction+: Beasts":
         keys:
           - Weald
           - Warrens
         text: >
           [ Beasts: Spitter, Webber, Rabid Gnasher ]
+        loreBiasGroups:
+          - phrases:
+              - " Spitter"
+              - " Webber"
+              - " Rabid Gnasher"
+            bias: 0.2

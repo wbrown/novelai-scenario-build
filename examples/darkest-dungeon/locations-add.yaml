@@ -17,6 +17,7 @@ lorebook:
         reservedTokens: 50
         budgetPriority: -100
         TrimDirection: doNotTrim
+        nonStoryActivatable: true
     entries:
       "Location+: the Hamlet":
         keys:
@@ -42,7 +43,7 @@ lorebook:
           [ Old Road Enemies: Brigands ]
         loreBiasGroups:
           - phrases:
-              - " Brigands"
+              - " Brigand"
             bias: 0.0
       "Dungeon+: the Ruins":
         keys:
@@ -50,12 +51,12 @@ lorebook:
           - Castle
           - Estate
         text: >
-          [ Ruins Enemies: Undead, Brigands, Cultists ]
+          [ Ruins Enemies: Undead, Brigand, Cultists ]
         loreBiasGroups:
           - phrases:
               - " Undead"
               - " Beasts"
-              - " Cultists"
+              - " Cultist"
             bias: 0.0
       "Dungeon+: the Weald":
         keys:
@@ -65,10 +66,10 @@ lorebook:
           [ Weald Enemies: Fungal, Brigands, Beasts, Cultists ]
         loreBiasGroups:
           - phrases:
-              - " Brigands"
+              - " Brigand"
               - " Fungal"
               - " Beasts"
-              - " Cultists"
+              - " Cultist"
             bias: 0.0
       "Dungeon+: the Warrens":
         keys:
@@ -79,7 +80,7 @@ lorebook:
         loreBiasGroups:
           - phrases:
               - " Swinefolk"
-              - " Cultists"
+              - " Cultist"
               - " Beasts"
             bias: 0.0
       "Dungeon+: the Cove":

@@ -11,7 +11,7 @@ categories:
 lorebook:
   - category: Classes
     config:
-      searchRange: 3000
+      searchRange: 1000
       contextConfig:
         suffix: "\n"
         tokenBudget: 2048

@@ -2,15 +2,17 @@ lorebook:
   - entries:
       "Template: Preamble":
         keyRelative: true
+        searchRange: 3000
         contextConfig:
-          suffix: "\n"
+          prefix: "***\n"
+          suffix: "\n***\n"
           tokenBudget: 2048
           reservedTokens: 0
           budgetPriority: -600
           insertionPosition: 2
           TrimDirection: trimTop
         keys: 
-          - clutching shadows of the Darkest Dungeon
+          - /There is a place, beneath those ancient ruins, in the moor, that calls out to the boldest among them.../
         text: >
           Location: The Old Road, Beginning of Corridor
 
@@ -82,15 +84,13 @@ lorebook:
           You move on with Reynauld, and find a portal deeper into the woods.
           Stepping in, you are surprised by a Brigand Bloodletter, and a
           Brigand Fusilier! They stand guard over a large strongbox.
-
-          ***
       Available Dungeons:
         forceActivation: TRUE
         contextConfig:
           suffix: "\n"
           tokenBudget: 2048
           reservedTokens: 30
-          budgetPriority: -150
+          budgetPriority: -500
           insertionPosition: 0
         text: >
           [ Available Dungeons to Adventure In: the Old Road, the Weald, the

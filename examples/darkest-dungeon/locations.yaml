@@ -15,6 +15,7 @@ lorebook:
         suffix: "\n"
         tokenBudget: 2048
         TrimDirection: doNotTrim
+        nonStoryActivatable: true
     entries:
       "Location: the Hamlet":
         keys:
