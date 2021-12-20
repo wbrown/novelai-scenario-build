@@ -57,10 +57,9 @@ lorebook:
             bias: 0.0
       "Dungeon: the Ruins":
         keys:
-          - Ruin
           - Ruins
           - Castle
-          - Estate
+          - Manor
         text: >
           'The fiends must be driven back. And what better place to begin than
           the seat of our noble line?'
@@ -75,10 +74,9 @@ lorebook:
           mind.
         loreBiasGroups:
           - phrases:
-            - " Ruin"
             - " Ruins"
             - " Castle"
-            - " Estate"
+            - " Manor"
             bias: 0.0
       "Dungeon: the Weald":
         keys:

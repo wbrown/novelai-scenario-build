@@ -35,7 +35,7 @@ lorebook:
         keys:
           - Ruins
           - Castle
-          - Estate
+          - Manor
         text: >
           [ Ruins Enemies: Undead, Brigand, Cultists ]
       "Dungeon+: the Weald":
