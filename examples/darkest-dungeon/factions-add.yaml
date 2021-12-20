@@ -23,13 +23,13 @@ lorebook:
         keys:
           - Ruins 
         text: >
-          [ Undead: Bone Arbalist, Bone Captain, Bone Courtier, Bone Rabble, Bone Soldier ]
+          [ Undead: Bone Crossbowman, Bone Captain, Bone Courtier, Bone Rabble, Bone Soldier ]
         loreBiasGroups:
           - phrases:
               - " Bone"
             bias: 0.2
           - phrases:
-              - " Arbalist"
+              - " Crossbowman"
               - " Captain"
               - " Courtier"
               - " Soldier"

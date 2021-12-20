@@ -132,28 +132,28 @@ lorebook:
               - " Crushing Blow"
               - " Ground Pound"
             bias: 0.1
-      "Undead: Bone Arbalist":
+      "Undead: Bone Crossbowman":
         keys:
-          - Bone Arbalist
-          - Bone Arbalists
+          - Bone Crossbowman
+          - Bone Crossbowmen
         text: >
-          Bone Arbalists are skeletal rangers, who operate by firing crossbow
+          Bone Crossbowmen are skeletal rangers, who operate by firing crossbow
           bolts into the fray from the safety of the back ranks They end up in
           an awkward position if drawn to the front.
 
-          A Bone Arbalist uses its Quarrel ability, shooting from the
+          A Bone Crossbowman uses its Quarrel ability, shooting from the
           back line with deadly precision. It uses Bayonet Jab to retreat to
           the back, should it find itself face-to-face with an enemy.
 
-          [ Bone Arbalist Abilities: Quarrel, Bayonet Jab ]
+          [ Bone Crossbowman Abilities: Quarrel, Bayonet Jab ]
 
-          [ Bone Arbalist Equipment: Crossbow, Medium Armor ]
+          [ Bone Crossbowman Equipment: Crossbow, Medium Armor ]
         loreBiasGroups:
           - phrases:
-              - " Arbalist"
+              - " Crossbowman"
             bias: -0.1
           - phrases:
-              - " Arbalist"
+              - " Crossbowman"
             bias: 0
             whenInactive: true
           - phrases:
