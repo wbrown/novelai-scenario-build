@@ -38,8 +38,8 @@ type ContextConfig struct {
 	InsertionType        *string `json:"insertionType,omitempty" yaml:"insertionType"`
 	MaximumTrimType      *string `json:"maximumTrimType,omitempty" yaml:"maximumTrimType"`
 	InsertionPosition    *int    `json:"insertionPosition,omitempty" yaml:"insertionPosition"`
-	AllowInnerInsertion  *bool   `json:"allowInnerInsertion" yaml:"allowInnerInsertion"`
-	AllowInsertionInside *bool   `json:"allowInsertionInside" yaml:"allowInsertionInside"`
+	AllowInnerInsertion  *bool   `json:"allowInnerInsertion,omitempty" yaml:"allowInnerInsertion"`
+	AllowInsertionInside *bool   `json:"allowInsertionInside,omitempty" yaml:"allowInsertionInside"`
 	Force                *bool   `json:"forced,omitempty" yaml:"forced"`
 }
 
