@@ -8,7 +8,6 @@ categories:
         reservedTokens: 100
         budgetPriority: -350
         insertionPosition: -4
-        allowInnerInsertion: true
 lorebook:
   - category: Locations-Add
     config:
@@ -35,7 +34,6 @@ lorebook:
         keys:
           - Ruins
           - Castle
-          - Manor
         text: >
           [ Ruins Enemies: Undead, Brigand, Cultists ]
       "Dungeon+: the Weald":
