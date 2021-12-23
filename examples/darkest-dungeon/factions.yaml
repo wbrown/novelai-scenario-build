@@ -3,7 +3,7 @@ categories:
     createSubcontext: true
     subcontextSettings:
       contextConfig:
-        suffix: "\n"
+        suffix: "\n\n"
         tokenBudget: 2048
         reservedTokens: 200
         budgetPriority: -400
@@ -22,6 +22,8 @@ lorebook:
           - Undead
           - Skeleton
           - Skeletons
+          - Ghoul
+          - Ghouls
         text: >
           The Undead are twisted creatures defy the natural order by their
           mere existence, often by being animated (or reanimated) by dark
