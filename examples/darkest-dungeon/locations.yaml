@@ -3,7 +3,7 @@ categories:
     createSubcontext: true
     subcontextSettings:
       contextConfig:
-        suffix: "\n"
+        suffix: "\n\n"
         tokenBudget: 2048
         reservedTokens: 300
         budgetPriority: -300
@@ -37,7 +37,7 @@ lorebook:
           - phrases:
               - " Hamlet"
               - " Village"
-            bias: 0.0
+            bias: 0.05
       "Dungeon: the Old Road":
         keys:
           - Old Road
@@ -54,13 +54,12 @@ lorebook:
         loreBiasGroups:
           - phrases:
               - " Old Road"
-            bias: 0.0
+            bias: 0.05
       "Dungeon: the Ruins":
         keys:
-          - Ruin
           - Ruins
           - Castle
-          - Estate
+          - Manor
         text: >
           'The fiends must be driven back. And what better place to begin than
           the seat of our noble line?'
@@ -75,11 +74,10 @@ lorebook:
           mind.
         loreBiasGroups:
           - phrases:
-            - " Ruin"
             - " Ruins"
             - " Castle"
-            - " Estate"
-            bias: 0.0
+            - " Manor"
+            bias: 0.05
       "Dungeon: the Weald":
         keys:
           - Weald
@@ -100,7 +98,7 @@ lorebook:
           - phrases:
               - " Weald"
               - " Forest"
-            bias: 0.0
+            bias: 0.05
       "Dungeon: the Warrens":
         keys:
           - Warrens
@@ -122,7 +120,7 @@ lorebook:
           - phrases:
               - " Warrens"
               - " Aqueducts"
-            bias: 0.0
+            bias: 0.05
       "Dungeon: the Cove":
         keys:
           - Cove
@@ -146,4 +144,4 @@ lorebook:
               - " Cove"
               - " Beach"
               - " Sea"
-            bias: 0.0
+            bias: 0.05
