@@ -3,7 +3,7 @@ categories:
     createSubcontext: true
     subcontextSettings:
       contextConfig:
-        suffix: "\n"
+        suffix: "\n\n"
         tokenBudget: 2048
         reservedTokens: 200
         budgetPriority: -200
@@ -22,17 +22,11 @@ lorebook:
           - Bone Rabble
           - Bone Rabbles
         text: >
-          Bone Rabbles are the weakest kind of skeletal enemies you may
-          encounter. Barely held together by the Necromancer's magic, their
-          main purpose is to use their bodies to protect their allies.
+          Bone Rabbles are the weakest kind of skeletal enemies you may encounter. They are barely held together by the Necromancer's magic.
 
-          A Bone Rabble uses Bump in the Night, where it clobbers its
-          target with a makeshift club. It uses Tic-Toc to close the gap, if
-          pushed back.
+          Bone Rabbles' main purpose in combat is to use their bodies to protect their allies. Bump in the Night is a weak attack, where the Bone Rabble clobbers its target with a makeshift club. Tic-Toc closes the gap between the Bone Rabble and its target.
 
-          [ Bone Rabble Abilities: Bump in the Night, Tic-Toc ]
-
-          [ Bone Rabble Equipment: Club, Light Armor ]
+          [ Bone Rabble Abilities: Bump in the Night, Tic-Toc; Bone Rabble Equipment: Club, Light Armor ]
         loreBiasGroups:
           - phrases:
               - " Rabble"
@@ -50,18 +44,11 @@ lorebook:
           - Bone Soldier
           - Bone Soldiers
         text: >
-          Bone Soldiers are the common foot soldiers of the Undead. These
-          skeletal warriors are sufficiently equipped to hit hard and last some
-          time on the battlefield. The Bone Soldiers still remain relatively
-          weak and are easily dispatched.
+          Bone Soldiers are the common skeletal foot soldiers of the Undead. The Bone Soldiers still remain relatively weak and are easily dispatched.
 
-          A Bone Soldier uses Graveyard Slash - a skilled strike with
-          its rusted, but deadly, blade. It uses Graveyard Stumble to get in
-          reach for its weapon.
+          Bone Soldiers are sufficiently equipped to hit hard and last some time on the battlefield. Graveyard Slash is a skilled strike with its rusted, but deadly, blade. Graveyard Stumble gets the Bone Soldier into reach to strike with its weapon.
 
-          [ Bone Soldier Abilities: Graveyard Slash, Graveyard Stumble ]
-
-          [ Bone Soldier Equipment: Rusty Sword, Light Armor ]
+          [ Bone Soldier Abilities: Graveyard Slash, Graveyard Stumble; Bone Soldier Equipment: Rusty Sword, Light Armor ]
         loreBiasGroups:
           - phrases:
               - " Soldier"
@@ -80,17 +67,11 @@ lorebook:
           - Bone Courtier
           - Bone Courtiers
         text: >
-          Bone Courtiers were likely nobles in life, though of unclear
-          association with the Ancestor or his family. This skeletal royalty
-          act deceivers and advisors to the Necromancer's of the ruins.
+          Bone Courtiers were likely nobles in life, though of unclear association with the Ancestor or his family. This skeletal royalty act deceivers and advisors to the Necromancer's of the ruins. 
 
-          A Bone Courtier uses its signature Tempting Goblet to
-          disturb even the most hardened adventurer. It also uses Knife in The
-          Dark to stab with its dagger at a nearby target.
+          Bone Courtiers use their signature Tempting Goblet to disturb even the most hardened adventurer. Knife in The Dark is a vicious stab with its dagger at a nearby target.
 
-          [ Bone Courtier Abilities: Tempting Goblet, Knife in the Dark ]
-
-          [ Bone Courtier Equipment: Royal clothes, Golden Goblet, Dagger ]
+          [ Bone Courtier Abilities: Tempting Goblet, Knife in the Dark; Bone Courtier Equipment: Royal clothes, Golden Goblet, Dagger ]
         loreBiasGroups:
           - phrases:
               - " Courtier"
@@ -108,18 +89,11 @@ lorebook:
           - Bone Captain
           - Bone Captains
         text: >
-          Bone Captains are tough, hulking skeletal leaders, clad in heavy armor
-          and wielding a mace. In life they stood as veterans of war and in
-          death they play largely the same role.
+          Bone Captains are tough, hulking skeletal leaders, clad in heavy armor and wielding a mace. In life, they stood as veterans of war, and in death they play largely the same role.
 
-          A Bone Captain uses Ground Pound - a mighty smash that will
-          shake the very foundation beneath your feet. It also may perform a
-          Crushing Blow, leaving their target disoriented from the heavy
-          impact.
+          Bone Captains always go for the closest target and use their massive frame to shield their skeletal allies. Ground Pound is a mighty smash that shakes the very foundation beneath your feet. Crushing Blow leaves its target disoriented from the heavy impact.
 
-          [ Bone Captain Abilities: Crushing Blow, Ground Pound ]
-
-          [ Bone Captain Equipment: Heavy Armor, Giant Mace ]
+          [ Bone Captain Abilities: Crushing Blow, Ground Pound; Bone Captain Equipment: Heavy Armor, Giant Mace ]
         loreBiasGroups:
           - phrases:
               - " Captain"
@@ -132,50 +106,83 @@ lorebook:
               - " Crushing Blow"
               - " Ground Pound"
             bias: 0.1
-      "Undead: Bone Crossbowman":
+      "Undead: Bone Archer":
         keys:
-          - Bone Crossbowman
-          - Bone Crossbowmen
+          - Bone Archer
+          - Bone Archers
         text: >
-          Bone Crossbowmen are skeletal rangers, who operate by firing crossbow
-          bolts into the fray from the safety of the back ranks They end up in
-          an awkward position if drawn to the front.
+          Bone Archers are skeletal rangers, who operate by firing arrows into the fray from the safety of the back ranks. They end up in an awkward position if drawn to the front.
 
-          A Bone Crossbowman uses its Quarrel ability, shooting from the
-          back line with deadly precision. It uses Bayonet Jab to retreat to
-          the back, should it find itself face-to-face with an enemy.
+          Bone Archers hide behind their allies and focus on weaker armored targets. Quarrel is a deadly ranged attack against the back line. Dagger Jab allows the Bone Archer to retreat to the safety of the back line.
 
-          [ Bone Crossbowman Abilities: Quarrel, Bayonet Jab ]
-
-          [ Bone Crossbowman Equipment: Crossbow, Medium Armor ]
+          [ Bone Archer Abilities: Quarrel, Dagger Jab; Bone Archer Equipment: Bow, Medium Armor ]
         loreBiasGroups:
           - phrases:
-              - " Crossbowman"
+              - " Archer"
             bias: -0.1
           - phrases:
-              - " Crossbowman"
+              - " Archer"
             bias: 0
             whenInactive: true
           - phrases:
               - " Quarrel"
-              - " Bayonet Jab"
+              - " Dagger Jab"
+            bias: 0.1
+      "Undead: Bone Spearman":
+        keys:
+          - Bone Spearman
+          - bone Spearmen
+        text: >
+          Bone Spearmen are enemies found deeper within the Ruins. Their spears provide them with incredible reach, letting them strike any point from anywhere on the battlefield. Most dangerously, this same spear can impale multiple target at once.
+
+          Bone Spearmen aim simply to cause as much damage as possible, but is very susceptible to stuns. Spear Thrust is an attack against a single target, often driving it back and widening the gap between the Spearman and its enemy. Impale can hit multiple targets at once and can inflict nasty wounds.
+
+          [ Bone Spearman Abilities: Spear Thrust, Impale; Bone Spearman Equipment: Spear, Heavy Armor ]
+        loreBiasGroups:
+          - phrases:
+              - " Spearman"
+            bias: -0.1
+          - phrases:
+              - " Spearman"
+            bias: 0
+            whenInactive: true
+          - phrases:
+              - " Thrust"
+              - " Impale"
+            bias: 0.1
+      "Undead: Ghoul":
+        keys:
+          - Ghoul
+          - Ghouls
+        text: >
+          Ghouls are flesh-eating undead, often accompanied by Cultists. They are ruthless and difficult enemies, who primarily rely on behind hard to kill quickly.
+
+          Ghouls are incredibly vicious and quite tough opponents during combat. Rend is a brutal strike with the Ghouls massive claws. Howl shakes the resolve of anyone who hears it. Skull Toss is a ranged attack, as the Ghoul throws any nearby remains it can find at its target.
+
+          [ Ghoul Abilities: Rend, Howl, Skull Toss; Ghoul Equipment: Massive Claws ] 
+        loreBiasGroups:
+          - phrases:
+              - " Ghoul"
+            bias: -0.1
+          - phrases:
+              - " Ghoul"
+            bias: 0
+            whenInactive: true
+          - phrases:
+              - " Rend"
+              - " Howl"
+              - " Skull Toss"
             bias: 0.1
       "Fungal: Fungal Scratcher":
         keys:
           - Fungal Scratcher
           - Fungal Scratchers
         text: >
-          Fungal Scratchers were most likely lost travelers, who succumbed to
-          the infection spreading through the Weald. These zombies, covered in
-          thick layers of fungous growth, can take a surprising amount of
-          punishment, while their claws secrete a poison that burns the flesh
-          of their victims.
+          Fungal Scratchers were most likely lost travelers, who succumbed to the infection spreading through the Weald. These zombies, covered in thick layers of fungous growth, can take a surprising amount of punishment, while their claws secrete a poison that burns the flesh of their victims.
 
-          A Fungal Scratcher uses Rend the Marked against Marked
-          targets, otherwise it strikes simply with Groping Swipe. It uses
-          Harmless Swipe against targets out of normal reach.
+          Fungal Scratchers mindlessly attack the closest target to them, but become especially vicious when directed by their allies. Rend the Marked is a strike with the Scratchers poisonous claws. Harmless Swipe is an awkward charge attack.
 
-          [ Fungal Scratcher Abilities: Rend the Marked, Groping Swipe, Harmless Swipe ]
+          [ Fungal Scratcher Abilities: Rend the Marked, Harmless Swipe ]
         loreBiasGroups:
           - phrases:
               - " Scratcher"
@@ -186,27 +193,17 @@ lorebook:
             whenInactive: true
           - phrases:
               - " Rend the Marked"
-              - " Groping"
-              - " Harmless"
-              - " Swipe"
+              - " Harmless Swipe"
             bias: 0.1
       "Fungal: Fungal Artillery":
         keys:
           - Fungal Artillery
-          - Fungal Artilleries
         text: >
-          Fungal Artilleries are infected corpses, twisted and controlled by the
-          encroaching corruption, that spread poison and disease where they
-          crawl. Though not well-armored, the Fungal Artilleries possess very
-          potent poisons.
+          Fungal Artillery are infected corpses, twisted and controlled by the encroaching corruption. They spread poison and disease wherever they crawl. Though not well-armored, the Fungal Artillery possess very potent poisons.
 
-          A Fungal Artillery uses its Rain of Blight to inflict its
-          target with stinging poison. Furthermore, it can use Mark Prey to
-          provide its allies an opening on their enemies. Drawn to the
-          forefront, the Fungal Artillery will use a poisonous Escape Cloud to
-          retreat to safety.
+          Fungal Artillery stay in the far back, often unreachable for melee attacks, raining down poisonous blight upon their targets. Rain of Blight inflicts its target with stinging poison. Escape Cloud releases noxious gas, allowing the Fungal Artillery a quick retreat.
 
-          [ Fungal Artillery Abilities: Mark Prey, Rain of Blight, Escape Cloud ]
+          [ Fungal Artillery Abilities: Rain of Blight, Escape Cloud ]
         loreBiasGroups:
           - phrases:
               - " Artillery"
@@ -216,7 +213,6 @@ lorebook:
             bias: 0
             whenInactive: true
           - phrases:
-              - " Mark Prey"
               - " Rain of Blight"
               - " Escape Cloud"
             bias: 0.1
@@ -225,19 +221,11 @@ lorebook:
           - Unclean Giant
           - Unclean Giants
         text: >
-          Unclean Giants are perhaps the oddest creature in the Weald. Their
-          origin may be unclear, but these lumbering monstrosities wield
-          uprooted tree trunks like maces and are capable of using the fungous
-          growth on their back to spread confusion among their enemies.
+          Unclean Giants are perhaps the oddest creature in the Weald. Their origin may be unclear, but these lumbering monstrosities wield uprooted tree trunks like maces and are capable of using the fungous growth on their back to spread confusion among their enemies.
 
-          An Unclean Giant uses its Treebranch Smackdown to inflict devastating
-          wounds upon its target, knocking it back in the process. It uses
-          either Confusion Spores or Poison Spores to affect enemies, who try
-          to stay out of reach.
+          Unclean Giants are terrifying enemies in combat. Treebranch Smackdown inflicts devastating wounds upon its target and knocks it back. Confusion Spores muddles the mind of the target and disorients it. Poison Spores inflicts the target with devastating poison.
 
-          [ Unclean Giant Abilities: Treebranch Smackdown, Confusion Spores, Poison Spores ]
-
-          [ Unclean Giant Equipment: Tree Trunk, Light Armor ]
+          [ Unclean Giant Abilities: Treebranch Smackdown, Confusion Spores, Poison Spores; Unclean Giant Equipment: Tree Trunk, Light Armor ]
         loreBiasGroups:
           - phrases:
               - " Unclean Giant"
@@ -257,18 +245,11 @@ lorebook:
           - Swine Chopper
           - Swine Choppers
         text: >
-          The Swine Choppers are large, brutish hybrids of man and pig. They are
-          the healthier specimens of Swinefolk. The Swine Choppers will happily
-          test their bloody, serrated cleavers upon the bodies of naive
-          adventurers who might happen upon their squalid homes.
+          Swine Choppers are large, brutish hybrids of man and pig. They are the healthier specimens of Swinefolk.
 
-          A Swine Chopper uses its cleaver for a Butcher Cut, inflicting
-          deep bleeding wounds upon its target. It also uses Ball and Chain to
-          send anyone reeling from the impact.
+          Swine Choppers happily test their bloody, serrated cleavers upon the bodies of naive adventurers who might happen upon their squalid homes. Butcher Cut is a vicious attack, that inflicts deep bleeding wounds upon its target. Ball and Chain sends anyone reeling from the impact.
 
-          [ Swine Chopper Abilities: Butcher Cut, Ball and Chain ]
-
-          [ Swine Chopper Equipment: Cleaver, Ball and Chain, Medium Armor ]
+          [ Swine Chopper Abilities: Butcher Cut, Ball and Chain; Swine Chopper Equipment: Cleaver, Ball& Chain, Medium Armor ]
         loreBiasGroups:
           - phrases:
               - " Chopper"
@@ -286,15 +267,9 @@ lorebook:
           - Swine Wretch
           - Swine Wretches
         text: >
-          Swine Wretches are either the product of years of inbreeding or
-          carry-overs from the ancestor's failed experiments. Swine Wretches
-          host innumerable, unnameable diseases withing a body that has been
-          twisted and contorted to an unfathomable design - a mangled
-          amalgamation of flesh that embodies the perverse crime against nature
-          that created the Swinefolk.
+          Swine Wretches are either the product of years of inbreeding or carry-overs from the ancestor's failed experiments. Swine Wretches host innumerable, unnameable diseases withing a body that has been twisted and contorted to an unfathomable design - a mangled amalgamation of flesh that embodies the perverse crime against nature that created the Swinefolk.
 
-          A Swine Wretch uses its Vomit in combat to infect its target with
-          disease and sickness.
+          Swine Wretches don't pose much of a threat in combat, but their Vomit infects the target with disease and sickness.
 
           [ Swine Wretch Ability: Vomit ]
         loreBiasGroups:
@@ -313,18 +288,11 @@ lorebook:
           - Swine Drummer
           - Swine Drummers
         text: >
-          Swine Drummers carry drums made from the flayed skins of their
-          victims. They act by pounding on the drums as loudly as possible,
-          thus coordinating their allies by Marking targets to attack.
-          Sometimes the sound of their drums alone, echoing in the enclosed
-          spaces of the Warrens, is enough to throw a person into despair.
+          Swine Drummers carry drums made from the flayed skins of their victims. They constantly keep pounding on the drums as loud as possible, thus coordinating their allies. Sometimes the sound of their drums alone, echoing in the enclosed spaces of the Warrens, is enough to throw a person into despair.
 
-          A Swine Drummer either uses Drum of Debilitation to Mark an enemy or
-          use Drum of Doom to drive its target towards madness.
+          Swine Drummers often stay far in the back and support their allies from there. Drum of Debilitation signals to the Swine Drummers allies which target to attack. Drum of Doom drives its target towards madness.
 
-          [ Swine Drummer Abilities: Drum of Debilitation, Drum of Doom ]
-
-          [ Swine Drummer Equipment: Fleshy Drum, Light Clothes ]
+          [ Swine Drummer Abilities: Drum of Debilitation, Drum of Doom; Swine Drummer Equipment: Fleshy Drum, Light Clothes ]
         loreBiasGroups:
           - phrases:
               - " Drummer"
@@ -343,18 +311,11 @@ lorebook:
           - Swine Slasher
           - Swine Slashers
         text: >
-          Swine Slashers favor protection and encase themselves in layers of
-          heavy armor and a bucker attached to their arm. While small in
-          stature, these beastly fiends can pose an immense threat with their
-          hook, they use to slash their prey.
+          Swine Slashers favor protection and encase themselves in layers of heavy armor and a buckler attached to their arm. While small in stature, these beastly fiends can pose an immense threat with their hook, they use to slash at their prey.
 
-          A Swine Slasher uses its sole attack Hook Where It Hurts. It uses its
-          vicious hook to inflict deep lacerations upon its target, while
-          simutanously retreating to the back lines.
+          Swine Slashers are vicious little creatures, that attack without regards to their own safety. Hook Where It Hurts inflicts deep lacerations upon its target with the Slashers sharp hook.
 
-          [ Swine Slasher Ability: Hook Where It Hurts ]
-
-          [ Swine Slasher Equipment: Hook, Buckler, Heavy Armor ]
+          [ Swine Slasher Ability: Hook Where It Hurts; Swine Slasher Equipment: Hook, Buckler, Heavy Armor ]
         loreBiasGroups:
           - phrases:
               - " Slasher"
@@ -366,22 +327,61 @@ lorebook:
           - phrases:
               - " Hook Where It Hurts"
             bias: 0.1
+      "Swinefolk: Swine Skiver":
+        keys:
+          - Swine Skiver
+          - Swine Skivers
+        text: >
+          Swine Skivers delight in the manic cruelty of the hunt and there is no finer sport to the Swinefolk than the pursuit of screaming victims through the labyrinthine squalor.
+
+          Swine Skivers have an incredible bloodlust, but are not overly fond of drawn out chases. Thus, Skivers have been bred and trained as expert hunters. Spit to Roast is an incredibly accurate throw that can pierce armor. Cripple Them hits multiple targets, infecting them with paralytic toxins. Goring Flight allows the Skiver to retreat to the back.
+
+          [ Swine Skiver Abilities: Spit to Roast, Cripple Them, Goring Flight; Swine Skiver Equipment: Javelins ]
+        loreBiasGroups:
+          - phrases:
+              - " Skiver"
+            bias: -0.1
+          - phrases:
+              - " Skiver"
+            bias: 0
+            whenInactive: true
+          - phrases:
+              - " Spit to Roast"
+              - " Cripple Them"
+              - " Goring Flight"
+            bias: 0.1
+      "Swinefolk: Swinetaur":
+        keys:
+          - Swinetaur
+          - Swinetaurs
+        text: >
+          Swinetaurs are massive creatures roaming in the deeper tunnels of the Warren. These amalgamations of Swinefolk and centaurs operate like jousting knights, creating distance between themselves and their enemies before charging at them, delivering a powerful blow with its spear.
+
+          Swinetaurs can inflict massive damage across a large area. They are incredibly healthy and heavily protected by their heavy metal armor. Trot Retreat lets the Swinetaur take a run-up. Boar Rush is an incredibly devastating charge attack with its lance - the force from such an impact is enough to send one flying.
+
+          [ Swinetaur Abilities: Trot Retreat, Boar Rush; Swinetaur Equipment: Lance, Heavy Armor ]
+        loreBiasGroups:
+          - phrases:
+              - " Swinetaur"
+            bias: -0.1
+          - phrases:
+              - " Swinetaur"
+            bias: 0
+            whenInactive: true
+          - phrases:
+              - " Trot Retreat"
+              - " Boar Rush"
+            bias: 0.1
       "Pelagic: Pelagic Grouper":
         keys:
           - Pelagic Grouper
           - Pelagic Groupers
         text: >
-          Pelagic Groupers serve as the foot soldier of the seafolk. They are
-          capable fighters on land as they are in water. Beware their bite - as
-          it seems that it can inflict a mind- and body-affection
-          transformation, gradually turning bitten humans into their kind and
-          filling out their ranks.
+          Pelagic Groupers serve as the foot soldier of the seafolk. Beware their bite - as it seems that it can inflict a mind- and body-affection transformation, gradually turning bitten humans into their kind and filling out their ranks.
 
-          The Pelagic Grouper either uses Seaward Slash in close-combat or
-          Spearfishing to pull its target into close range.
+          Pelagic Groupers are capable fighters on land as they are in water. Seaward Slash is a close-combat attack with their rusted cutlass. Spearfishing pulls its target into close range towards the Grouper.
 
-          [ Pelagic Grouper Abilities: Seaward Slash, Spearfishing ]
-          [ Pelagic Grouper Equipment: Spear, Rusty Cutlass ]
+          [ Pelagic Grouper Abilities: Seaward Slash, Spearfishing; Pelagic Grouper Equipment: Spear, Rusty Cutlass ]
         loreBiasGroups:
           - phrases:
               - " Grouper"
@@ -399,16 +399,11 @@ lorebook:
           - Pelagic Guardian
           - Pelagic Guardians
         text: >
-          Pelagic Guardians resemble, unlike their Pelagic brethren, octopuses, standing on several
-          of their tentacles. These grueling adversaries use their own bodies and massive shields
-          to protect their allies.
+          Pelagic Guardians resemble, unlike their Pelagic brethren, octopuses, standing on several of their tentacles.
 
-          The Pelagic Guardian uses either Barnacle Barrier to shield another Seafolk from harm
-          or Octocestus to inflict deep bleeding cuts upon its enemy.
+          Pelagic Guardians use their own bodies and massive shields to protect their allies. Barnacle Barrier shields another Seafolk from harm. Octocestus inflicts deep bleeding cuts upon its enemy.
 
-          [ Pelagic Guardian Abilities: Barnacle Barrier, Octocestus ]
-
-          [ Pelagic Guardian Equipment: Cestus, Massive Shield, Medium Armor ]
+          [ Pelagic Guardian Abilities: Barnacle Barrier, Octocestus; Pelagic Guardian Equipment: Cestus, Massive Shield, Medium Armor ]
         loreBiasGroups:
           - phrases:
               - " Guardian"
@@ -426,16 +421,11 @@ lorebook:
           - Pelagic Shaman
           - Pelagic Shamans
         text: >
-          Pelagic Shamans use their eldritch magic to guide the seafolk, as well as terrifying
-          all that may oppose them.
+          Pelagic Shamans use their eldritch magic to guide the seafolk, as well as terrifying all that may oppose them. 
 
-          A Pelagic Shaman uses Sea Breeze to heal their allies. It also may use Call of the Deep to enhance the offensive abilities
-          of one of its Pelagic brethren. The Shaman uses Ceremonial Cut against a foe,
-          should it be forced into close-combat.
+          Pelagic Shamans stay in the far back and support their allies from there. Sea Breeze is a rare ability among the Seafolk and able to heal the target. Call of the Deep instigates the target, granting it increased offensive capabilities. Ceremonial Cut is a weak swipe with the Shaman's jagged knife.
 
-          [ Pelagic Shaman Abilities: Sea Breeze, Call of the Deep, Ceremonial Cut ]
-
-          [ Pelagic Shaman Equipment: Staff, Ceremonial Knife, Light Armor]
+          [ Pelagic Shaman Abilities: Sea Breeze, Call of the Deep, Ceremonial Cut; Pelagic Shaman Equipment: Staff, Ceremonial Knife, Light Armor]
         loreBiasGroups:
           - phrases:
               - " Shaman"
@@ -454,18 +444,12 @@ lorebook:
           - Brigand Bloodletter
           - Brigand Bloodletters
         text: >
-          The Brigand Bloodletters are hulking, battle-scarred brutes who typically
-          shields their smaller allies. Armed with vicious cat o' nine tails whips
-          and a deadly flintlock pistols, they are ready to give their enemies deep and
-          bloody scars to match theirs.
+          Brigand Bloodletters are hulking, battle-scarred brutes. They are with vicious cat o' nine tails whips
+          and a deadly flintlock pistols, ready to give their enemies deep and bloody scars to match theirs.
           
-          A Brigand Bloodletter uses his uncommon Point Blank Shot to inflict
-          massive wounds. Furthermore, he can use Punishment to inflict devastating damage with
-          his whip, while and Rain of Whips causes massive lacerations on his targets.
+          Brigand Bloodletters typically shield their smaller allies. Point Blank Shot inflict massive wounds against a close-quarter target. Rain of Whips causes massive lacerations on the Bloodletters targets.
   
-          [ Brigand Bloodletter Abilities: Rain Of Whips, Punishment, Point Blank Shot ]
-
-          [ Brigand Bloodletter Equipment: Flit-Lock-Pistol, Cat o' Nine Tails-Whip ]
+          [ Brigand Bloodletter Abilities: Rain Of Whips, Point Blank Shot; Brigand Bloodletter Equipment: Flit-Lock-Pistol, Cat o' Nine Tails-Whip ]
         loreBiasGroups:
           - phrases:
               - " Bloodletter"
@@ -476,7 +460,6 @@ lorebook:
             whenInactive: true
           - phrases:
               - " Rain of Whips"
-              - " Punishment"
               - " Point Blank Shot"
             bias: 0.1
       "Brigands: Brigand Cutthroat":
@@ -484,20 +467,11 @@ lorebook:
           - Brigand Cutthroat
           - Brigand Cutthroats
         text: >
-          Brigand Cutthroats are masterfully skilled with their blades, and able to
-          deliver deadly thrusts that can easily decimate even the toughest of
-          adventuring parties. While the Brigand Cutthroats may look fragile with
-          almost negligible protection, they have immense offensive capabilities.
+          Brigand Cutthroats may look fragile with almost negligible protection, but they have immense offensive capabilities.
 
-          A Brigand Cutthroat will usually start by weakening their opposition using
-          Slice And Dice attacks, before exploiting it with Shank. The Brigand Cutthroat
-          will use Uppercut Slice to push enemies back, should he feel threatened enough.
-          Finally, if he can't find a good opening for an attack, he will use Harmless
-          Poke in an attempt to close to gap to his target.
+          Brigand Cutthroats are masterfully skilled with their blades, and able to deliver deadly stabs that can decimate even the toughest of adventuring parties. Slice And Dice attacks is a skilled attack with the Cutthroat's twin blades. Uppercut Slice pushes enemies back, should the Cutthroat feel threatened enough. Harmless Poke is a weak attempt to close the gap to the Cutthroat's target.
 
-          [ Brigand Cutthroat Abilities: Slice and Dice, Shank, Uppercut Slice, Harmless Poke ]
-
-          [ Brigand Cutthroat Equipment: Two Daggers, Light Armor ]
+          [ Brigand Cutthroat Abilities: Slice and Dice, Shank, Uppercut Slice, Harmless Poke; Brigand Cutthroat Equipment: Two Daggers, Light Armor ]
         loreBiasGroups:
           - phrases:
               - " Cutthroat"
@@ -509,7 +483,6 @@ lorebook:
           - phrases:
               - " Slice"
               - " and Dice"
-              - " Shank"
               - " Uppercut"
               - " Harmless"
               - " Poke"
@@ -519,17 +492,11 @@ lorebook:
           - Brigand Fusilier
           - Brigand Fusiliers
         text: >
-          Brigand Fusiliers are armed with a blunderbuss which they use to suppress the
-          bandits' foes with sprays of lead. Their attacks also make it harder for you
-          dodge, allowing other Brigands to close the gap and wail upon your heroes with
-          their blades and whips. Be wary and do not underestimate this opponent.
+          Brigand Fusiliers are armed with a blunderbuss, which they use to suppress the bandits' foes with sprays of lead, allowing other Brigands to close the gap and wail upon your heroes with their blades and whips. Be wary and do not underestimate this opponent.
 
-          A Brigand uses Blanket Fire at every opportunity he gets. He will use Rushed Shot to retreat to the safety
-          of the backline if needed.
+          Brigand Fusiliers stick far behind their allies and wreak havoc from the safety of the back lines. Blanket Fire is an inaccurate attack that covers whole areas in bullets. Rushed Shot is a quick attack used to retreat to safety.
 
-          [ Brigand Fusilier Abilities: Blanket Fire, Rushed Shot ]
-
-          [ Brigand Fusilier Equipment: Blunderbuss, Light Armor ]
+          [ Brigand Fusilier Abilities: Blanket Fire, Rushed Shot; Brigand Fusilier Equipment: Blunderbuss, Light Armor ]
         loreBiasGroups:
           - phrases:
               - " Cutthroat"
@@ -547,15 +514,11 @@ lorebook:
           - Cultist Brawler
           - Cultist Brawlers
         text: >
-          Cultist Brawlers are the helping hands of their Acolyte allies. Though frail compared
-          to the more eldritch creatures, these foes formidable foes still pose a threat.
+          Cultist Brawlers are the helping hands of their Acolyte allies. Though frail compared to the more eldritch creatures, these foes formidable foes still pose a threat.
 
-          A Cultist Brawler uses Rend for Old Gods. He closes gaps with
-          a Stumbling Scratch.
+          Cultist Brawlers are the front line of the followers of the Elder God. They will gladly lay down their life in the service of their masters. Rend for Old Gods is a vicious attack with the Cultist Brawler's claws. Stumbling Scratch is a clumsy attempt at closing the gap against a target.
 
-          [ Cultist Brawler Abilities: Rend for the Old Gods ]
-
-          [ Cultist Brawler Equipment: Metal Claws, Light Armor, Cultist Attire ]
+          [ Cultist Brawler Abilities: Rend for the Old Gods; Cultist Brawler Equipment: Metal Claws, Light Armor, Cultist Attire ]
         loreBiasGroups:
           - phrases:
               - " Brawler"
@@ -573,12 +536,9 @@ lorebook:
           - Cultist Acolyte
           - Cultist Acolytes
         text: >
-          Cultist Acolytes are the followers of the Old Gods. They sow confusion and doubt
-          within the rank of those that oppose their eldritch masters.
+          Cultist Acolytes are the followers of the Old Gods. They sow confusion and doubt within the rank of those that oppose their eldritch masters. 
 
-          A Cultist Acolyte uses Stressful Incantation, assaulting the mind
-          and resolve of its target. Furthermore, the Acolyte can summon squirming tentacles to
-          either Eldritch Pull to or Eldritch Push away from them.
+          Cultist Acolytes stay behind their allies and chant incantations from there. Stressful Incantation assaults the mind and resolve of its target. Eldritch Pull summons a squirming tentacle to draw a target closer. Eldritch Push uses the same summoned otherworldly appendage to push a target back.
 
           [ Cultist Acolyte Abilities: Stressful Incantation, Eldritch Push, Eldritch Pull ]
         loreBiasGroups:
@@ -594,4 +554,70 @@ lorebook:
               - " Eldritch"
               - " Pull"
               - " Push"
+            bias: 0.1
+      "Beasts: Spiders":
+        keys:
+          - Spitter
+          - Spitters
+          - Webber
+          - Webbers
+        text: >
+          The spiders of these lands have been strengthened by the encroaching corruption and now prey on larger game, including humans. Webbers and Spitters often work in tandem. Bite is a vicious attack of these giant spiders, used to finish off their target.
+        loreBiasGroups:
+          - phrases:
+              - " Spitter"
+              - " Webber"
+            bias: -0.1
+          - phrases:
+              - " Spitter"
+              - " Webber"
+            bias: 0
+            whenInactive: true
+          - phrases:
+              - " Bite"
+            bias: 0.1
+      "Beasts: Spitters":
+        keys:
+          - Spitter
+          - Spitters
+        text: >
+          Spit launches a barrage of venom to further cripple the target by blinding and blighting them.
+
+          [ Spitter Abilities: Bite, Spit ]
+        loreBiasGroups:
+          - phrases:
+              - " Spit"
+            bias: 0.1
+      "Beasts: Webbers":
+        keys:
+          - Webber
+          - Webbers
+        text: >
+          Web ensnares prey in a mass of webbing, crippling their movement and opening them up for a vicious follow-up.
+
+          [ Webber Abilities: Bite, Web]
+        loreBiasGroups:
+          - phrases:
+              - " Web"
+            bias: 0.1
+      "Beasts: Rabid Gnashers":
+        keys:
+          - Rabid Gnasher
+          - Rabid Gnashers
+        text: >
+          Rabid Gnashers are wild dogs and wolves, corrupted by the darkness. These rabid beasts are incredibly fast and agile.
+
+          Rabid Gnashers rush forth and pounce on their prey. Rabid Rush is a biting attack that leave them bleeding out and potentially infected with the same disease that drive their feral behavior.
+
+          [ Rabid Gnasher Abilities: Rabid Rush ]
+        loreBiasGroups:
+          - phrases:
+              - " Rabid Gnashers"
+            bias: -0.1
+          - phrases:
+              - " Rabid Gnashers"
+            bias: 0
+            whenInactive: true
+          - phrases:
+              - " Rabid Rush"
             bias: 0.1

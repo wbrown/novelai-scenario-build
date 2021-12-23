@@ -7,8 +7,7 @@ categories:
         tokenBudget: 2048
         reservedTokens: 100
         budgetPriority: -450
-        insertionPosition: -8
-        allowInnerInsertion: true
+        insertionPosition: 0
 lorebook:
   - category: Factions-Add
     config:
@@ -21,18 +20,20 @@ lorebook:
     entries:
       "Faction+: Undead":
         keys:
-          - Ruins 
+          - Ruins
         text: >
-          [ Undead: Bone Crossbowman, Bone Captain, Bone Courtier, Bone Rabble, Bone Soldier ]
+          [ Undead: Bone Archer, Bone Captain, Bone Courtier, Bone Rabble, Bone Soldier, Bone Spearman, Ghoul ]
         loreBiasGroups:
           - phrases:
               - " Bone"
             bias: 0.2
           - phrases:
-              - " Crossbowman"
+              - " Archer"
               - " Captain"
               - " Courtier"
               - " Soldier"
+              - " Ghoul"
+              - " Spearman"
             bias: 0.2
       "Faction+: Fungal":
         keys:
@@ -52,7 +53,7 @@ lorebook:
         keys:
           - Warrens
         text: >
-          [ Swinefolk: Swine Chopper, Swine Wretch, Swine Drummer, Swine Slasher ]
+          [ Swinefolk: Swine Chopper, Swine Wretch, Swine Drummer, Swine Slasher, Swine Skiver, Swinetaur ]
         loreBiasGroups:
           - phrases:
               - " Swine"
@@ -62,6 +63,8 @@ lorebook:
               - " Wretch"
               - " Drummer"
               - " Slasher"
+              - " Skiver"
+              - "taur"
             bias: 0.2
       "Faction+: Pelagic":
         keys:
