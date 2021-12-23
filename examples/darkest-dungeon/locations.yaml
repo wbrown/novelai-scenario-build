@@ -3,7 +3,7 @@ categories:
     createSubcontext: true
     subcontextSettings:
       contextConfig:
-        suffix: "\n"
+        suffix: "\n\n"
         tokenBudget: 2048
         reservedTokens: 300
         budgetPriority: -300
@@ -37,7 +37,7 @@ lorebook:
           - phrases:
               - " Hamlet"
               - " Village"
-            bias: 0.0
+            bias: 0.05
       "Dungeon: the Old Road":
         keys:
           - Old Road
@@ -54,7 +54,7 @@ lorebook:
         loreBiasGroups:
           - phrases:
               - " Old Road"
-            bias: 0.0
+            bias: 0.05
       "Dungeon: the Ruins":
         keys:
           - Ruins
@@ -77,7 +77,7 @@ lorebook:
             - " Ruins"
             - " Castle"
             - " Manor"
-            bias: 0.0
+            bias: 0.05
       "Dungeon: the Weald":
         keys:
           - Weald
@@ -98,7 +98,7 @@ lorebook:
           - phrases:
               - " Weald"
               - " Forest"
-            bias: 0.0
+            bias: 0.05
       "Dungeon: the Warrens":
         keys:
           - Warrens
@@ -120,7 +120,7 @@ lorebook:
           - phrases:
               - " Warrens"
               - " Aqueducts"
-            bias: 0.0
+            bias: 0.05
       "Dungeon: the Cove":
         keys:
           - Cove
@@ -144,4 +144,4 @@ lorebook:
               - " Cove"
               - " Beach"
               - " Sea"
-            bias: 0.0
+            bias: 0.05
