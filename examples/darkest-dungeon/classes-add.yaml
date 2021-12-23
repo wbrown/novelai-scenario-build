@@ -1,0 +1,356 @@
+categories:
+  Classes-Add:
+    createSubcontext: true
+    subcontextSettings:
+      contextConfig:
+        suffix: "\n"
+        tokenBudget: 2048
+        reservedTokens: 150
+        budgetPriority: -150
+        insertionPosition: -4
+lorebook:
+  - category: Classes-Add
+    config:
+      nonStoryActivatable: true
+      searchRange: 1500
+      contextConfig:
+        suffix: "\n"
+        tokenBudget: 2048
+        reservedTokens: 100
+        budgetPriority: -100
+        TrimDirection: doNotTrim
+    entries:
+      "Class+: Abomination":
+        keys:
+          - Abomination
+        text: >
+          [ Abomination Weapons: Claws& Chains, Armor: Rags; Abomination Abilities: Transform, Manacles, Beast's Bile, Rake, Slam ]
+        loreBiasGroups:
+          - phrases:
+              - " claws"
+              - " chains"
+              - " rags"
+            bias: 0.2
+          - phrases:
+              - " Transform"
+              - " Manacles"
+              - " Beast's Bile"
+              - " Rake"
+              - " Slam"
+            bias: 0.2
+      "Class+: Antiquarian":
+        keys:
+          - Antiquarian
+        text: >
+          [ Antiquarian Weapon: Ceremonial Censer, Armor: Fancy Robe/ Skeleton Key; Antiquarian Abilities: Nervous Stab, Festering Vapors, Flashpowder, Get Down, Protect Me ]
+        loreBiasGroups:
+          - phrases:
+              - " censer"
+              - " robe"
+            bias: 0.2
+          - phrases:
+              - " Nervous Stab"
+              - " Festering Vapors"
+              - " Flashpowder"
+              - " Get Down"
+              - " Protect Me"
+            bias: 0.2
+      "Class+: Arbalest":
+        keys:
+          - Arbalest
+        text: >
+          [ Arbalest Weapons: Heavy Crossbow, Armor: Plate/ Bandages; Arbalest Abilities: Sniper Shot, Suppressing Fire, Bola, Battlefield Bandage ]
+        loreBiasGroups:
+          - phrases:
+              - " crossbow"
+              - " bola"
+              - " plate"
+            bias: 0.2
+          - phrases:
+              - " Sniper Shot"
+              - " Suppressing Fire"
+              - " Bola"
+              - " Battlefield Bandage"
+            bias: 0.2
+      "Class+: Bounty Hunter":
+        keys:
+          - Bounty Hunter
+        text: >
+          [ Bounty Hunter Weapons: Axe& Grappling Hook, Armor: reinforced leather; Bounty Hunter Abilities: Collect Bounty, Mark for Death, Come Hither, Flashbang ]
+        loreBiasGroups:
+          - phrases:
+              - " axe"
+              - " grappling hook"
+              - " leather"
+            bias: 0.2
+          - phrases:
+              - " Mark for Death"
+              - " Collect Bounty"
+              - " Come Hither"
+              - " Flashbang"
+            bias: 0.2
+      "Class+: Crusader":
+        keys:
+          - Crusader
+        text: >
+          [ Crusader Weapons: Greatsword, Armor: Plate& Chain/ Holy Water; Crusader Abilities: Smite, Holy Lance, Bulwark of Faith, Inspiring Cry ]
+        loreBiasGroups:
+          - phrases:
+              - " greatsword"
+              - " plate"
+              - " chain"
+              - " Holy Water"
+            bias: 0.2
+          - phrases:
+              - " Smite"
+              - " Holy Lance"
+              - " Bulwark of Faith"
+              - " Inspiring Cry"
+            bias: 0.2
+      "Class+: Flagellant":
+        keys:
+          - Flagellant
+        text: >
+          [ Flagellant Weapons: Flail, Armor: Ceremonial Garb; Flagellant Abilities: Punish, Reclaim, Exsanguinate, Redeem ]
+        loreBiasGroups:
+          - phrases:
+              - " flail"
+              - " garb"
+              - " blood"
+              - " scars"
+            bias: 0.2
+          - phrases:
+              - " Punish"
+              - " Reclaim"
+              - " Exsanguinate"
+              - " Redeem"
+            bias: 0.2
+      "Class+: Grave Robber":
+        keys:
+          - Grave Robber
+        text: >
+          [ Grave Robber Weapons: Pickaxe& Knives, Armor: Leather Jacket/ Shovel; Grave Robber Abilities: Pick to the Face, Lunge, Shadow Fade, Thrown Dagger, Poison Dart ]
+        loreBiasGroups:
+          - phrases:
+              - " pickaxe"
+              - " knives"
+              - " darts"
+              - " jacket"
+              - " Shovel"
+            bias: 0.2
+          - phrases:
+              - " Pick to the Face"
+              - " Lunge"
+              - " Shadow Fade"
+              - " Thrown Dagger"
+              - " Poison Dart"
+            bias: 0.2
+      "Class+: Hellion":
+        keys:
+          - Hellion
+        text: >
+          [ Hellion Weapons: Glaive, Armor: Leather& Fur; Hellion Abilities: Iron Swan, Breakthrough, Adrenaline Rush, Bleed Out ]
+        loreBiasGroups:
+          - phrases:
+              - " glaive"
+              - " leather"
+              - " fur"
+            bias: 0.2
+          - phrases:
+              - " Iron Swan"
+              - " Breakthrough"
+              - " Bleed Out"
+              - " Adrenaline Rush"
+            bias: 0.2
+      "Class+: Highwayman":
+        keys:
+          - Highwayman
+        text: >
+          [ Highwayman Weapons: Flintlock Pistol& Short Sword, Armor: Reinforced Overcoat; Highwayman Abilities: Wicked Slice, Pistol Shot, Point Blank Shot, Grapeshot Blast, Duelist's Advance ]
+        loreBiasGroups:
+          - phrases:
+              - " flintlock pistol"
+              - " pistol"
+              - " short sword"
+              - " dirk"
+              - " overcoat"
+            bias: 0.2
+          - phrases:
+              - " Pistol Shot"
+              - " Duelist's Advance"
+              - " Wicked Slice"
+              - " Grapeshot Blast"
+              - " Point Blank Shot"
+            bias: 0.2
+      "Class+: Houndmaster":
+        keys:
+          - Houndmaster
+        text: >
+          [ Houndmaster Weapons: Cudgel, Armor: Leather Vest/ Dog Treats; Houndmaster Abilities: Hound's Rush, Target Whistle, Cry Havoc, Guard Dog, Blackjack ]
+        loreBiasGroups:
+          - phrases:
+              - " cudgel"
+              - " dog"
+              - " hound"
+              - " leather vest"
+              - " Dog Treats"
+            bias: 0.2
+          - phrases:
+              - " Hound's Rush"
+              - " Target Whistle"
+              - " Cry Havoc"
+              - " Guard Dog"
+              - " Blackjack"
+            bias: 0.2
+      "Class+: Jester":
+        keys:
+          - Jester
+        text: >
+          [ Jester Weapons: Sickle& Dagger& Lute, Armor: Jester Garb/ Medicinal Herbs; Jester Abilities: Dirk Stab, Finale, Slice Off, Inspiring Tune ]
+        loreBiasGroups:
+          - phrases:
+              - " sickle"
+              - " dagger"
+              - " dirk"
+              - " lute"
+              - " jester garb"
+              - " Medicinal Herbs"
+            bias: 0.2
+          - phrases:
+              - " Slice Off"
+              - " Dirk Stab"
+              - " Finale"
+              - " Inspiring Tune"
+            bias: 0.2
+      "Class+: Leper":
+        keys:
+          - Leper
+        text: >
+          [ Leper Weapons: Executioner's Blade, Armor: Chestplate/ Medicinal Herbs; Leper Abilities: Chop, Intimidate, Purge, Withstand ]
+        loreBiasGroups:
+          - phrases:
+              - " executioner's blade"
+              - " broken blade"
+              - " greatsword"
+              - " chestplate"
+              - " Medicinal Herbs"
+            bias: 0.2
+          - phrases:
+              - " Chop"
+              - " Intimidate"
+              - " Purge"
+              - " Withstand"
+            bias: 0.2
+      "Class+: Man-at-Arms":
+        keys:
+          - Man-at-Arms
+        text: >
+          [ Man-at-Arms Weapons: Mace, Armor: Shield& Plate; Man-at-Arms Abilities: Defender, Rampart, Bellow, Retribution ]
+        loreBiasGroups:
+          - phrases:
+              - " mace"
+              - " shield"
+              - " plate"
+              - " veteran"
+            bias: 0.2
+          - phrases:
+              - " Defender"
+              - " Rampart"
+              - " Bellow"
+              - " Retribution"
+            bias: 0.2
+      "Class+: Musketeer":
+        keys:
+          - Musketeer
+        text: >
+          [ Musketeer Weapons: Musket, Armor: Leather Vest& Cloak/ Bandages; Musketeer: Aimed Shot, Smokescreen, Buckshot, Sidearm ]
+        loreBiasGroups:
+          - phrases:
+              - " musket"
+              - " leather vest"
+              - " cloak"
+              - " Bandages"
+            bias: 0.2
+          - phrases:
+              - " Aimed Shot"
+              - " Buck Shot"
+              - " Smokescreen"
+              - " Sidearm"
+            bias: 0.2
+      "Class+: Occultist":
+        keys:
+          - Occultist
+        text: >
+          [ Occultist Weapons: Polished Skull& Sacrificial Dagger, Armor: Scholarly Robes; Occultist Abilities: Sacrificial Stab, Abyssal Artillery, Wyrd Reconstruction, Daemon's Pull ]
+        loreBiasGroups:
+          - phrases:
+              - " sacrificial dagger"
+              - " dagger"
+              - " scholarly robes"
+              - " robes"
+              - " polished skull"
+              - " skull"
+            bias: 0.2
+          - phrases:
+              - " Daemon's Pull"
+              - " Sacrificial Stab"
+              - " Abyssal Artillery"
+              - " Wyrd Reconstruction"
+            bias: 0.2
+      "Class+: Plague Doctor":
+        keys:
+          - Plague Doctor
+        text: >
+          [ Plague Doctor Weapons: Toxic Grenades& Knife, Armor: Doctor's Garb, Antivenom; Plague Doctor Abilities: Plague Grenade, Blinding Gas, Incision, Battlefield Medicine ]
+        loreBiasGroups:
+          - phrases:
+              - " toxic grenades"
+              - " grenades"
+              - " knife"
+              - " doctor's garb"
+              - " garb"
+              - " Antivenom"
+            bias: 0.2
+          - phrases:
+              - " Plague Grenade"
+              - " Blinding Gas"
+              - " Incision"
+              - " Battlefield Medicine"
+            bias: 0.2
+      "Class+: Shieldbreaker":
+        keys:
+          - Shieldbreaker
+        text: >
+          [ Shieldbreaker Weapons: Spear, Armor: Buckler& Fine Bedlah; Shieldbreaker Abilities: Pierce, Adder's Kiss, Impale, Captivate, Serpent Sway ]
+        loreBiasGroups:
+          - phrases:
+              - " spear"
+              - " buckler"
+              - " bedlah"
+              - " dancer"
+            bias: 0.2
+          - phrases:
+              - " Pierce"
+              - " Captivate"
+              - " Adder's Kiss"
+              - " Serpent Sway"
+            bias: 0.2
+      "Class+: Vestal":
+        keys:
+          - Vestal
+        text: >
+          [ Vestal Weapons: Spiked Mace& Holy Book, Armor: Blessed Plate Mail; Vestal Abilities: Mace Bash, Judgement, Dazzling Light, Divine Grace ]
+        loreBiasGroups:
+          - phrases:
+              - " spiked mace"
+              - " mace"
+              - " holy book"
+              - " book"
+              - " blessed plate mail"
+            bias: 0.2
+          - phrases:
+              - " Mace Bash"
+              - " Divine Grace"
+              - " Judgement"
+              - " Dazzling Light"
+            bias: 0.2
