@@ -1,0 +1,99 @@
+title: "Darkest Dungeon: The Curse of Sigurd"
+author: OccultSage and Fuzzy
+tags: [goth, fantasy, 2nd person, text adventure, dungeon crawl]
+placeholders:
+  1Name:
+    description: Your name
+    default: Margot
+  2Gender:
+    description: Your gender
+    default: female
+  3Class:
+    description: Your class
+    default: Vestal
+    longDescription: >
+      Abomination * Antiquarian * Arbalest * Bounty Hunter * Crusader *
+      Flagellant * Grave Robber * Hellion * Highwayman * Houndmaster * Jester
+      * Leper * Man-at-Arms * Musketeer * Occultist * Plague Doctor * Vestal
+  4Companion:
+    description: Your companion's name
+    default: Reynauld
+  5CompGender:
+    description: Your companion's gender
+    default: male
+  6CompClass:
+    description: Your companion's class
+    longDescription: >
+      Abomination * Antiquarian * Arbalest * Bounty Hunter * Crusader *
+      Flagellant * Grave Robber * Hellion * Highwayman * Houndmaster * Jester
+      * Leper * Man-at-Arms * Musketeer * Occultist * Plague Doctor * Vestal
+    default: Crusader
+  7Dungeon:
+    description: Starting location
+    longDescripition: Hamlet * Old Road * Ruins * Weald * Warrens * Cove
+    default: Old Road
+prompt: >
+  ***
+  "There is a place, beneath those ancient ruins, in the moor, that calls out
+  to the boldest among them... 'We are the Flame!' they cry, 'And Darkness
+  fears us!' They descend, spurred on by fantasies of riches and redemption, to
+  lay bare whatever blasphemous abnormality may slumber restlessly in that
+  unholy abyss... But Darkness is insidious. Terror and Madness can find cracks
+  in the sturdiest of armors, the most resolute of minds... And below, in that
+  limitless chasm of Chaos, they will realize the truth of it. 'We are not the
+  Flame!' they will cry out, 'We are but moths, and we are DOOMED!' And their
+  screams will echo amidst the pitiless cyclopean stones... Of the Darkest
+  Dungeon.
+  
+  Ruin has come to our family. You remember our venerable house, opulent and
+  imperial. Gazing proudly from its stoic perch above the moor. I lived all my
+  years in that ancient, rumor-shadowed manor. Fattened by decadence and
+  luxury. And yet, I began to tire of conventional extravagance. Singular,
+  unsettling tales suggested the mansion itself was a gateway to some fabulous
+  and unnameable power. With relic and ritual, I bent every effort towards the
+  excavation and recovery of those long-buried secrets, exhausting what
+  remained of our family fortune on swarthy workmen and sturdy shovels. At
+  last, in the salt-soaked crags beneath the lowest foundations, we unearthed
+  that damnable portal of antediluvian evil. Our every step unsettled the
+  ancient earth, but we were in a realm of death and madness! In the end, I
+  alone fled, laughing and wailing through those blackened arcades of antiquity.
+  Until consciousness failed me. You remember our venerable house, opulent and
+  imperial. It is a festering monstrosity! I beg you, return home, claim your
+  birthright, and deliver our family from the ravenous clutching shadows of the
+  Darkest Dungeon."
+  
+  ## NOTE: You will want to click on generate a few times to let the Narrator
+  and Sigurd set things up for you.
+  
+  This is where it all begins.
+
+  You are ${1Name}, a ${2Gender} ${3Class}, and you ponder the nature of your
+  profession and how you might best support your adventuring companion,
+  ${4Companion}, who is a ${5CompGender} ${6CompClass}.
+  
+  Location: The ${7Dungeon}, Beginning
+  
+  The Ancestor's past words of warning ring in your head: "The ${7Dungeon}
+memory: >
+  You are ${1Name}, a ${2Gender} ${3Class} on an adventure accompanied by
+  ${4Companion}, a ${5CompGender} ${6CompClass}.
+authorsNote: >
+  [ Genre: Dark Fantasy; Tone: Sinister; Tags: Doomed Quest, Dungeon Crawl;
+  Setting: Darkest Dungeon ]
+  
+  [ you are: ${1Name}, ${3Class}, an adventurer; your companion: ${4Companion} ]
+  
+  [ ${4Companion}: your adventuring companion, ${6CompClass} ]
+biases:
+  - phrases: [ " You", "You"]
+    bias: 0.09
+  - phrases:
+    - "As"
+    - "..."
+    bias: -0.06
+  - phrases:
+    - "\n"
+    bias: 0.08
+  - phrases:
+    - "─"
+    bias: -0.4
