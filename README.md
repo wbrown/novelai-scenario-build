@@ -72,12 +72,12 @@ lorebook:
 A Windows executable is provided, `nsb.exe`, in the repository if you do not want to build it yourself on Windows.
 
 Invocation is simple:
-* `nsb.exe -o darkest-dungeon.lorebook examples/darkest-dungeon/*.yaml`
+* `nsb.exe -o darkest-dungeon examples/darkest-dungeon/*.yaml`
 
-This will create a `darkest-dungeon.lorebook` file out of all the YAML definitions in the `examples/darkest-dungeon` directory.
+This will create a `darkest-dungeon.lorebook` and `darkest-dungeon.scenario` file out of all the YAML definitions in the `examples/darkest-dungeon` directory.
 
 It also accepts a `-p` option to generate text files suitable for module training:
-* `nsb.exe -p -o darkest-dungeon.txt examples/darkest-dungeon/*.yaml`
+* `nsb.exe -p -o darkest-dungeon examples/darkest-dungeon/*.yaml`
 
 Binary Build Instructions
 -------------------------
