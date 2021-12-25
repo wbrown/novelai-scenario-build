@@ -6,9 +6,9 @@ import (
 	"fmt"
 	uuid "github.com/nu7hatch/gouuid"
 	"github.com/wbrown/novelai-research-tool/gpt-bpe"
+	"github.com/wbrown/novelai-research-tool/novelai-api"
 	"github.com/wbrown/novelai-research-tool/scenario"
 	"github.com/wbrown/novelai-research-tool/structs"
-	"github.com/wbrown/novelai-research-tool/novelai-api"
 	"gopkg.in/yaml.v3"
 	"io/ioutil"
 	"log"
@@ -20,6 +20,7 @@ import (
 var encoder gpt_bpe.GPTEncoder
 
 type CategoriesMap map[string]*scenario.Category
+
 func (categories *CategoriesMap) RealizeCategory(name string,
 	category *scenario.Category) *scenario.Category {
 	if lookup, ok := (*categories)[name]; ok {
@@ -53,6 +54,7 @@ type Definition struct {
 	Prompt            *string                    `yaml:"prompt"`
 	Memory            *string                    `yaml:"memory"`
 	AuthorsNote       *string                    `yaml:"authorsNote"`
+	ModuleFile        *string                    `yaml:"moduleFile"`
 	MemoryConfig      *scenario.ContextConfig    `yaml:"memoryConfig"`
 	AuthorsNoteConfig *scenario.ContextConfig    `yaml:"authorsNoteConfig"`
 	StoryConfig       *scenario.ContextConfig    `yaml:"storyConfig"`
@@ -131,7 +133,6 @@ func RealizeScenario(sc *scenario.Scenario, inputFiles []string) {
 				sc.Context = append(sc.Context,
 					scenario.ContextEntry{})
 			}
-			
 			if sc.Context[0].ContextCfg != nil {
 				log.Printf("WARNING: memoryConfig already set! " +
 					"Overwriting.")
@@ -139,6 +140,14 @@ func RealizeScenario(sc *scenario.Scenario, inputFiles []string) {
 			sc.Context[0].ContextCfg = defs.MemoryConfig
 		}
 		if defs.AuthorsNoteConfig != nil {
+			if len(sc.Context) < 1 {
+				sc.Context = append(sc.Context,
+					scenario.ContextEntry{})
+			}
+			if len(sc.Context) < 1 {
+				sc.Context = append(sc.Context,
+					scenario.ContextEntry{})
+			}
 			if sc.Context[1].ContextCfg != nil {
 				log.Printf("WARNING: authorsNoteConfig already set! " +
 					"Overwriting.")
@@ -163,18 +172,18 @@ func RealizeScenario(sc *scenario.Scenario, inputFiles []string) {
 			if sc.Settings.Parameters.LogitBiasGroups == nil {
 				sc.Settings.Parameters.LogitBiasGroups = defs.Biases
 			} else {
-				*sc.Settings.Parameters.LogitBiasGroups = 
+				*sc.Settings.Parameters.LogitBiasGroups =
 					append(*sc.Settings.Parameters.LogitBiasGroups,
-					*defs.Biases...)
+						*defs.Biases...)
 			}
 		}
-		if len(sc.PlaceholderMap) > 0 {
-			sc.PlaceholderMap.Realize()
-			sc.Placeholders = make([]scenario.Placeholder, 0)
-			for key := range sc.PlaceholderMap {
-				sc.Placeholders = append(sc.Placeholders,
-					*sc.PlaceholderMap[key])
-			}
+	}
+	if len(sc.PlaceholderMap) > 0 {
+		sc.PlaceholderMap.Realize()
+		sc.Placeholders = make([]scenario.Placeholder, 0)
+		for key := range sc.PlaceholderMap {
+			sc.Placeholders = append(sc.Placeholders,
+				*sc.PlaceholderMap[key])
 		}
 	}
 }
@@ -190,7 +199,7 @@ func (def *Definition) RealizeLorebookDefs(categories *CategoriesMap) {
 		lorebookGroup := def.Lorebook[lorebookGroupIdx]
 		var category *scenario.Category
 		if lorebookGroup.Category != nil {
-			category = categories.RealizeCategory(*lorebookGroup.Category, 
+			category = categories.RealizeCategory(*lorebookGroup.Category,
 				nil)
 		}
 		for entryKey := range lorebookGroup.Entries {
@@ -271,8 +280,6 @@ func RealizeLorebook(lorebook *scenario.Lorebook, categories *CategoriesMap,
 	}
 }
 
-
-
 func main() {
 	var outputFile string
 	var plaintext bool
@@ -304,7 +311,7 @@ func main() {
 	RealizeLorebook(&lorebook, &categories, inputFiles)
 	scenario := scenario.Scenario{
 		ScenarioVersion: 1,
-		Lorebook: lorebook,
+		Lorebook:        lorebook,
 		Context: []scenario.ContextEntry{
 			scenario.ContextEntry{},
 			scenario.ContextEntry{}},
@@ -318,13 +325,13 @@ func main() {
 	if plaintext {
 		lorebook.ToPlaintextFile(outputFile + ".txt")
 	}
-	lorebook.ToFile(outputFile + ".lorebook")	
+	lorebook.ToFile(outputFile + ".lorebook")
 	var err error
 	outputBytes, err = json.MarshalIndent(scenario, "", " ")
 	if err != nil {
 		log.Fatal(err)
 	}
-	if err := ioutil.WriteFile(outputFile + ".scenario", outputBytes, 
+	if err := ioutil.WriteFile(outputFile+".scenario", outputBytes,
 		0755); err != nil {
 		log.Fatal(err)
 	}

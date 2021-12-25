@@ -9,6 +9,15 @@ The reference example is `examples/darkest-dungeon` and contains examples of:
 * Lorebook Keys (with and without regex)
 * Category settings
 * Advanced features hidden from the NovelAI UI
+* Scenario settings.
+
+Partially working:
+* A/N, and Memory configuration -- you need to make sure your A/N and memory are set *after* the context configuration for these.
+
+The current unimplemented gaps pending addressing are:
+* Ephemeral context (who really uses these?)
+* Modules (you can just select on import)
+* Presets (select on import)
 
 Below is an example entry that shows the most essential fields.
 ```yaml
