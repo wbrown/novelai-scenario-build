@@ -1,0 +1,60 @@
+title: "A Courtesan in Feudal Kyōto"
+description: >
+  A courtesan of Gion, Kyōto's famous Yūkaku, seeks a client to entertain for
+  the night.
+author: Bunray, OccultSage
+tags: [edo, japan, historical, 1st person]
+placeholders:
+  1CourtesanName:
+    description: Your name
+    default: Mayumi
+    longDescription: "Can be a male or female name"
+  2CourtesanRole:
+    description: Your courtesan role
+    default: Yūjo
+    longDescription: "♀: Yūjo, Oiran, Geisha ♂: Yarō, Wakashu, Onnagata"
+memory: >
+  I am ${1CourtesanName}, a ${2CourtesanType}, residing in Gion, Kyōto's famous
+  Yūkaku. I need to find one of a client to service tonight.
+authorsNote: >
+  [ I am ${1CourtesanName}, a ${2CourtesanClass} / working in Gion / trying to
+  find client ]
+prompt: >
+  I am ${1CourtesanName}, a ${2CourtesanType}, residing in Gion, Kyōto's famous
+  Yūkaku. The evening sun, slowly sinking below the horizon, bathed the capital
+  of the Empire in a warm orange glow. The streets were filled with people
+  enjoying the last moments of daylight before nightfall, seeking out the
+  pleasures that only this part of the city offers. I was standing outside
+  the entrance of the district, looking up at the magnificent, towering
+  zelkovas that guard the gate, a gentle breeze brushing their leaves. As I
+  gazed back at the street, I saw a small group of geisha making their way
+  towards their establishment. All of them were dressed in beautiful kimonos,
+  with well groomed hair but without their characteristic makeup. They seemed
+  filled with excitement and joy, talking about something or other, enjoying
+  their time as friends before returning to the austerity of their duties.
+  
+  Further away, a kabuki theatre had its crowd slowly filling the streets.
+  Men and women of all sorts laughing and joking as they left from the last
+  performance of the day, having visibly enjoyed it. In the meanwhile, the
+  performers were resting a short while before engaging in their second job,
+  that of "entertaining" patrons more personally.
+  
+  As I watched, I noticed a woman walking along the edge of the river with a
+  rich-looking foreigner. The woman was dressed in elegant silks, her hair
+  adorned with flowers. She looked quite lovely, but rather too young for him.
+  Her companion was much older, probably in his sixties. Her outfit was also
+  rather exposing. It was clear the woman was not his wife, but an Oiran, one
+  of the highest class of courtesan. He seemed very pleased with himself,
+  smiling broadly and puffing out his chest. I could see he was already drunk,
+  but in good company at least.
+  
+  Orange lights began to pour out of the thin rice paper screens of several
+  buildings as silhouettes of young women began to show through, preparing to
+  entice clients within the various brothels dotted throughout Gion.
+  
+  As for me, it was also time I sought out a client of my own. The evening had
+  been enjoyable, but my regular customers would be expecting me soon enough.
+  I could stay here just as well, and one of them would find me, or I could
+  think of one I felt particularly fond off and head off to find them.
+  
+  In the end, I decided to follow my heart, and

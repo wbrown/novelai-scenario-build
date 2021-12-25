@@ -1,0 +1,240 @@
+title: "The White Samurai and the Ronin"
+description: >
+  A Westerner-turned Samurai seeks to prevent a plot by rogue Shinsengumi
+  members.
+author: Bunray, OccultSage
+tags: [edo, japan, historical, 1st person]
+placeholders:
+  1FirstName:
+    description: Your first name
+    default: Daniel
+  2LastName:
+    description: Your last name
+    default: Blackthorn
+  3HairColor:
+    description: Your hair color
+    longDescription: >
+      (e.g Red, brown, black...)
+    default: red
+  4Skin:
+    description: Your skin color
+    longDescription: >
+      (e.g dark, light, olive, pale...)
+    default: pale
+memory: >
+  I am ${1FirstName} ${2LastName}, a male soldier who fought for the
+  Confederates in the American Civil War. I went westward after their
+  defeat, fought in the Indian Wars, and went traveled overseas to Japan in
+  1867. I was hired to train the soldiers of the Japanese daimyōs in rifle
+  warfare and skirmishing tactics. I am nearly fluent in Japanese. I trained
+  in the samurai arts of the katana, and follow the code of Bushido. Today,
+  I am known as the White Samurai. As a gaijin, My ${3HairColor} hair and
+  ${4Skin} skin is viewed with near superstitious awe.
+authorsNote: >
+  [ I am ${1FirstName} ${2LastName} / westerner, samurai, helps Suganuma /
+  trying to uncover plot to overthrow daimyo in Nagoya ]
+prompt: >
+  I am ${1FirstName} ${2LastName}, a male soldier who fought for the
+  Confederates in the American Civil War. I went westward after their defeat,
+  fought in the Indian Wars, and went traveled overseas to Japan in 1867. I was
+  hired to train the soldiers of the Japanese daimyōs in rifle warfare and
+  skirmishing tactics. I am nearly fluent in Japanese. I trained in the samurai
+  arts of the katana, and follow the code of Bushido. Today, I am known as the
+  White Samurai. As a gaijin, my ${3HairColor} hair and ${4Skin} skin is viewed
+  with near superstitious awe.
+  
+  After serving the Shogun throughout the year, I began to notice the Shogunate
+  fraying at the seams. The nobility grew restless at Shogun Tokugawa's
+  wide-reaching reforms. It was becoming clear as day that he had consolidated
+  such power that no one could challenge him. At this point, the Tokugawa
+  lineage had become stronger than that of the Emperor's dynasty. This was a
+  time of great uncertainty and unrest: The Imperial Court is weak and
+  ineffective, and the Shogunate grows increasingly dominant. Tokugawa is
+  concerned that the powerful nobles in support of the Emperor will rebel
+  against him and depose him. He needs a strong ally.
+  
+  Having allied himself to some degree with the French and the British, it is
+  now time for the Shogun to take a stand. He decides to make a bold move,
+  receiving arms and experts to train his troops in the art of modern warfare.
+  Samurai now wield revolvers in addition to their sabres. Infantry lines of
+  riflemen are becoming increasingly popular among the Daimyōs' forces as they
+  attempt to consolidate their hold on their domains. Many Daimyōs have sent
+  their sons overseas to be taught Western languages and sciences in order to
+  guarantee the modernity of their legacy. Japan is entering a new era, and
+  fast.
+  
+  The Shogun not only recruited advisors and weapons from abroad, but also
+  recruited me to train his troops. For months, I have been training the
+  daimyōs' infantry. The Japanese troops are disciplined and receptive to the
+  changes brought by modernity. Although they are often described as stiff
+  and traditionalist, the Samurai and the rest of the troops I trained always
+  showed a keen interest in the innovations I introduced. Almost fascinated by
+  the possibilities of what they can learn, and how they might change the
+  world. Compared to soldiers in the United States who simply wished to be
+  given a gun and told how to use it and keep it working, the Japanese
+  soldiers would take considerable time disassembling and studying their
+  weapons, asking themselves and each other questions on how they functioned.
+  This not only led them to develop a form of respect for their expensive
+  weapons, but also make keen-eyed observations that led them to handle said
+  weapons with greater care.
+  
+  The Shogun's troops are disciplined and respectful. They treat their
+  equipment with great care, and follow orders without question. In the face of
+  danger, they are willing to sacrifice their lives for the sake of their
+  mission. They are brave, honorable, and loyal to their lord. It is a pleasure
+  to teach them. At first, the Shogun was hesitant about adopting modern
+  weaponry. After all, he wanted to maintain the integrity of the samurai
+  tradition. Yet, after seeing the results of fire arms on expertly-crafted
+  armor, and how any peasant could be trained to be a skilled rifle operator
+  in less than a month, the Shogun realized that his troops needed to be armed
+  with the latest technology if they were going to endure the coming conflicts.
+  
+  Even then, the Emperor's supporters are wealthy and just as interested in
+  keeping up with the times as the Shogun is. The Emperor is a man of peace,
+  and has little interest in war, but his faction is growing in influence. They
+  are determined to give him the power and influence he is owed as the
+  descendant of Amaterasu-no-Kami. The Shogun has been forced to adopt many
+  reforms in order to protect himself and his family. He is struggling to find
+  a way to appease both sides. The daimyōs are aching for a fight, but Tokugawa
+  refuses to let Japan descend into bloodshed.
+  
+  As several daimyōs were assassinated in the recent years, a special force
+  was created. Its objective was twofold: To protect the interests of the
+  Shogunate by guarding its dignitaries, and to contain the growing ronin
+  population. Its name: The Shinsengumi. They are impressive in their own
+  right. A group of isolated warriors from all across Japan, yet they share
+  a common purpose and goal. They have formed into a cohesive unit that follows
+  the rules of Bushido. They are dedicated to protecting the Shogun and the
+  daimyōs, far more than you would expect of a ragtag group of ronin. Their
+  loyalty to the Shogun is unquestionable. They are experts that far surpass
+  the skills of your average soldier. In a melee, a single one is enough to
+  take down an entire squad of regular infantry. Merely being present around
+  a daimyō is enough to deter most assassins.
+  
+  However, this may not remain true forever. My contact with the Shinsengumi,
+  Suganuma Koreshige, has been growing more and more strained over the past few
+  months. His fellows are becoming restless, and he has been unable to quell
+  their discontent. It seems clear that the tide is starting to turn in favor
+  of the Emperor's forces, and soon the Shogunate may crumble.
+  
+  I met Suganuma-san in front of Togetsukyōenji that evening. His expression
+  was grim behind his spectacles. He looked like the recent weeks had taken a
+  toll on him. "${2LastName}-san, it is a relief to see you healthy and well,
+  my friend." He voice was firm as ever, but a hint of sadness lingered in his
+  eyes. "I have heard of trouble stirring outside of Kyoto. Some daimyōs are
+  increasingly fearing for the lives. I would rush to assist, but I must admit
+  I am in a dire predicament, and I must ask for your help." He immediately
+  bowed quite deeply, showing how intense his need for aid was.
+  
+  "What sort of trouble?" I inquired, to which he straightened himself up and
+  reached out to take me by the shoulder. "Let us discuss this matter in more
+  discreet company."
+  ***
+  It was a cool evening. The wind whistled through the streets of Kyōto,
+  carrying the smell of the river. We walked along the banks of the Kamo River.
+  It was quiet, away from the hustle and bustle of the city. Suganuma-san spoke
+  softly, as if afraid of being overheard. "I cannot go into detail, but I fear
+  that the Shinsengumi is slowly losing control of the situation. The daimyōs
+  are becoming increasingly restless, and so are my fellow ronin. I am unsure
+  how much longer we can keep our heads above water."
+  
+  "Why do you say that?" I asked. "Are there signs of rebellion?"
+  
+  He shook his head. "Not exactly. I would not call it rebellion. I would call
+  it the spirit of Yamato slowly turning my fellows into protectors of the
+  Emperor. As I am sure you are aware, the Imperial clan is weakening. With
+  the Shogun having adopted modern technology, the Emperor is no longer able
+  to hide his weakness. I understand that Tokugawa knows what is best for the
+  nation, but his authority has grown so strong that the Emperor is practically
+  gathering a faction of his own. Soon, the Emperor will have the support of
+  the daimyōs who have understood the tide is turning. I believe that there is
+  a desire to return to the Empire's original order that is starting to divide
+  the whole nation."
+  
+  I was surprised. I had not expected the Shogun to be in such dire straits.
+  "I see. Is that why you are requesting my assistance?" Suganuma-san nodded.
+  "The Shinsengumi cannot be trusted any more. I need someone that I can rely
+  on. I can vouch for your honesty and reliability. If you agree to help, I
+  shall provide you with the means to service Ue-sama's cause. I am certain
+  that if the Shogunate comes to a dire end, he will be able to provide you
+  with comfortable accommodations, should you wish to stay in his employ."
+  
+  I thought it over. This offer was too good to be true. It seemed that the
+  Shogun was planning something big, but I could not tell what it was. "What is
+  Ue-sama's plan?" I tried to question Suganuma-san, but he shook his head in
+  response. "I am afraid that I cannot disclose the details, for I am not even
+  privy to them myself. But I know that it is important enough to risk my life
+  and the lives of my comrades."
+  
+  "I see. Then I shall trust you, Suganuma-san." I reached out to take his
+  hand, and he shook mine. "${2LastName}-san, I need you to help me protect
+  Ue-sama's right hand. I have reason to believe that his Shinsengumi retinue
+  will soon become divided. The soldiers will begin to question the direction
+  of their lord. You must ensure that they remain loyal to the Shogun, or be
+  convinced to leave. By diplomacy or by blade, I need your help to keep the
+  daimyō safe. Can I trust you to do this?"
+  
+  "Yes, I understand," I answered with conviction. "I am honored to be given
+  such a task. I will gladly help you."
+  
+  "Good. We shall depart as soon as possible. We are heading for Nagoya and
+  must reach it as soon as can be. I fear for the safety of the daimyō. We
+  must hurry." We departed from Kyōto at dawn the next day. Our destination
+  was Nagoya, but I asked Suganuma-san to let us mark a stop in Yokosuka so
+  that I may visit Anjin-sama's grave to pay my respects and ask for guidance.
+  We made it to Yokosuka before nightfall. It was a beautiful city, but we had
+  little time to spare. We spent the night in an inn upon arrival, then
+  immediately left at daybreak for the cemetery. At this time of day, it was
+  completely deserted. There were no other visitors here except for us. I knelt
+  down in front of Anjin-sama's grave and bowed my head in reverence. As the
+  first Westerner to become a Samurai, Anjin-sama had great respect for Japan's
+  potential. Just as I am, he worked for the Tokugawa Shogunate, two hundred
+  and fifty years ago, while it was still in its infancy.
+  
+  "Thank you for giving me the chance to become a Samurai, Anjin-sama. I hope
+  that I will prove worthy of your legacy." I felt a small lump in my throat
+  as I said these words. I bowed once more and stood up. "I must continue on
+  my journey now." I turned to face Suganuma-san once again. "Suganuma-san,
+  please rest assured that I will protect the Shogun's interests with all my
+  strength. Let us proceed."
+  
+  "I will be praying for our success, and that of the Shogun's cause,"
+  Suganuma-san replied.
+  
+  ***
+  
+  We arrived in Nagoya the following day. It was late afternoon when we finally
+  set foot in the city. Laying on the shore of the Bay of Ise, Nagoya was a
+  prosperous port city, and its harbor bustled with activity. It was a
+  strategic location for the Shogunate.
+  
+  Nagoya Castle was located in the center of the city. It was built on a hill
+  overlooking the bay, and the view from atop it was magnificent. We made our
+  way towards the castle and climbed the steep stairs leading to the top. From
+  there, we looked out over the city.
+  
+  "This is a splendid view," Suganuma-san wistfully remarked. "Every mission of
+  mine lets me see how gorgeous Yamato is. I never tire of it." "It certainly
+  is beautiful," I agreed. "Protecting its unity is one of the most important
+  duties of a Samurai." He turned to look at me. "Indeed. That is why our
+  mission is of paramount importance."
+  
+  "Of course," I replied. "Which of the Shinsengumi guard are you wary of in
+  Nagoya?" "I'm not sure yet. I want to make a careful assessment of the
+  situation. It is difficult to know how much danger we might be in. It is
+  possible that all of them are suspect, but I doubt it." I pondered his words
+  for a moment. "The Shinsengumi are a highly disciplined group, and they
+  always act in unison. Discord in the group would need to be extremely
+  serious for any of them to be disloyal. Would that mean that there is a
+  group of Shinsengumi who are plotting against the daimyō?"
+  
+  Suganuma-san took off his spectacles, wiping them clean with a cloth he took
+  from his pocket. He put them back on and gazed out over the city. "Yes, it is
+  possible that they are. The daimyōs are growing increasingly concerned about
+  their own personal guard. Perhaps the ronin are merely doubtful currently,
+  and not planning something dishonorable yet. It is possible we may solve
+  this problem without bloodshed, but we cannot discard the possibility of
+  violence."
+  
+  We watch over Nagoya for some time before turning back towards the castle.
+  It is time for us to choose how we will proceed.
