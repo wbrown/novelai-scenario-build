@@ -28,25 +28,19 @@ macro(add_scenario_sources TARGET)
     endforeach()
 endmacro()
 
-macro(generate_lorebook TARGET OUTPUT)
+macro(generate_artifacts TARGET OUTPUT)
     add_custom_command(
-            OUTPUT "${PROJECT_SOURCE_DIR}/${OUTPUT}"
-            WORKING_DIRECTORY "${PROJECT_SOURCE_DIR}"
-            COMMAND ${NSB_BINARY} -o ${PROJECT_SOURCE_DIR}/${OUTPUT}
-                ${${TARGET}_SOURCES}
-            DEPENDS ${NSB_BINARY}
-                    ${${TARGET}_SOURCES})
-    list(APPEND GEN_TARGETS ${PROJECT_SOURCE_DIR}/${OUTPUT})
-endmacro()
-
-macro(generate_plaintext TARGET OUTPUT)
-    add_custom_command(
-            OUTPUT "${PROJECT_SOURCE_DIR}/${OUTPUT}"
+            OUTPUT "${PROJECT_SOURCE_DIR}/${OUTPUT}.scenario"
+            OUTPUT "${PROJECT_SOURCE_DIR}/${OUTPUT}.lorebook"
+            OUTPUT "${PROJECT_SOURCE_DIR}/${OUTPUT}.txt"
             WORKING_DIRECTORY "${PROJECT_SOURCE_DIR}"
             COMMAND ${NSB_BINARY} -p -o ${PROJECT_SOURCE_DIR}/${OUTPUT}
                 ${${TARGET}_SOURCES}
-            DEPENDS ${${TARGET}_SOURCES})
-    list(APPEND GEN_TARGETS ${PROJECT_SOURCE_DIR}/${OUTPUT})
+            DEPENDS ${NSB_BINARY}
+                    ${${TARGET}_SOURCES})
+    list(APPEND GEN_TARGETS ${PROJECT_SOURCE_DIR}/${OUTPUT}.scenario
+                            ${PROJECT_SOURCE_DIR}/${OUTPUT}.lorebook
+                            ${PROJECT_SOURCE_DIR}/${OUTPUT}.txt)
 endmacro()
 
 macro(build_artifacts)
@@ -56,14 +50,21 @@ endmacro()
 ## User editable parts below.
 
 add_scenario_sources(darkest-dungeon
+        examples/darkest-dungeon/scenario.yaml
+        examples/darkest-dungeon/meta.yaml
         examples/darkest-dungeon/preamble.yaml
-        examples/darkest-dungeon/bosses.yaml
-        examples/darkest-dungeon/classes.yaml
+        examples/darkest-dungeon/classes-add.yaml
+        examples/darkest-dungeon/classes_D.yaml
+        examples/darkest-dungeon/classes_F.yaml
+        examples/darkest-dungeon/classes_M.yaml
+        examples/darkest-dungeon/classes_Y.yaml
+        examples/darkest-dungeon/factions-add.yaml
         examples/darkest-dungeon/factions.yaml
+        examples/darkest-dungeon/locations-add.yaml
+        examples/darkest-dungeon/locations.yaml
         examples/darkest-dungeon/monsters.yaml)
 
-generate_lorebook(darkest-dungeon darkest-dungeon.lorebook)
-generate_plaintext(darkest-dungeon darkest-dungeon.txt)
+generate_artifacts(darkest-dungeon examples/darkest-dungeon/darkest-dungeon)
 build_artifacts()
 
 
