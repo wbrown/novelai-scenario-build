@@ -1,0 +1,246 @@
+title: "The White Samurai and the Courtesan"
+description: >
+  A Westerner-turned Samurai seeks the pleasures of Gion, Kyōto's famous Yūkaku.
+author: Bunray, OccultSage
+tags: [edo, japan, historical, 2nd person]
+placeholders:
+  1FirstName:
+    description: Your first name
+    default: Daniel
+  2LastName:
+    description: Your last name
+    default: Blackthorn
+  3HairColor:
+    description: Your hair color
+    longDescription: >
+      (e.g Red, brown, black...)
+    default: red
+  4Skin:
+    description: Your skin color 
+    longDescription: >
+      (e.g dark, light, olive, pale...)
+    default: pale
+memory: >
+  I am ${1FirstName} ${2LastName}, an American soldier who became a Samurai.
+  I work for the Shogun Tokugawa. I sought entertainment from a courtesan with
+  the help of Kiyo-san.
+authorsNote: >
+  [ I am ${1FirstName} ${2LastName} / westerner, samurai / trying to find
+  courtesan in Gion ]
+prompt: >
+  I am ${1FirstName} ${2LastName}, a male soldier who fought for the
+  Confederates in the American Civil War. I went westward after their defeat,
+  fought in the Indian Wars, and traveled overseas to Japan in 1867. I was
+  hired to train the soldiers of the Japanese daimyōs in rifle warfare and
+  skirmishing tactics. I am nearly fluent in Japanese. I trained in the samurai
+  arts of the katana, and follow the code of Bushido. Today, I am known as the
+  White Samurai. As a gaijin, My ${3HairColor} hair and ${4Skin} skin are
+  viewed with near superstitious awe.
+
+  After serving the Shogun for so long, the memory of my dead wife has ceased
+  bringing pain and bereavement to my heart. The Shogun, having noticed, had
+  generously allowed me time off from training his soldiers. That way, I could
+  find a woman to entertain myself with, with the argument that it would help
+  me discover Kyoto's culture in further depth.
+
+  Unsure of where to go, I found myself wandering among the training grounds
+  of Shijōgahara, watching some of my trainees and Samurai from various
+  provinces engage in an assortment of exercises to perfect their martial
+  craft. I must have appeared lost in my thoughts, because I soon attracted
+  the attention of a familiar face: Suganuma Koreshige, one of the most
+  skilled swordsmen of the Shinsengumi, and regular sparring partner. We
+  exchanged friendly greetings, and began talking about old times. After we
+  finished reminiscing, he leaned towards me and spoke in a quieter voice.
+  
+  "I could not help but notice that you seem to seek answers, but to what, I
+  cannot say." He paused, looking at my puzzled expression. "Forgive me if this
+  seems rude, ${2LastName}-san, but did something unexpected befall you
+  recently?" His expression showed genuine care for my situation, the kind of
+  understanding only men can show through a strong bond.
+  
+  "Yes," I answered simply. "The shogun has offered me an exceptional
+  allotment of free time." Having heard that, Suganuma lifted a brow, his
+  spectacles glinting in the sun. He asked how much time. I replied that it
+  was merely a few days, and the Ronin's face slowly shifted with faint
+  amusement. "Surely, something like this should not be so troubling.", he
+  laughed. "You are a strange fellow, ${2LastName}-san, certainly, being
+  offered leave should not be so unusual. You need a companion, someone to
+  share the burden of solitude?" His hand reached out to hold my shoulder,
+  shaking it lightly.
+  
+  "As much as I would enjoy sharing a cup of sake or two, my friend, the
+  Shogun told me to seek out a different kind of company." My answer made
+  Suganuma-san nod. "I see. Then I believe I know just the thing." With these
+  words, he turned and started walking away. "Follow me, friend."
+  
+  We made our way to Gion, Kyoto's famous yūkaku, a Red Light District. The
+  district was very quiet that night, and the yūkaku's namesake red lanterns,
+  hanging from the many buildings, cast a warm light onto the pavement. Most of
+  the residents were either heading home or gone to some other part of the
+  city. Not too far away from here, there was an old shrine on a hill that
+  overlooks the city, Togetsukyōenji, which I admired for a short moment,
+  Suganuma-san pausing to wait for me before we resumed our walk. "There is a
+  woman you ought to meet." He suddenly sounded quite enthused. "She can teach
+  you all about the customs of this district, and direct you to the finest of
+  its courtesans."
+  
+  Suganuma-san led me down a narrow alleyway between two wooden fences. Ahead
+  of me, there was a short, narrow alleyway between two buildings. I had seen
+  no one since coming to this side of town. Curiosity took over me. As we
+  walked down this narrow alleyway, I could hear soft music emanating from
+  inside a building nearby. A light shone through a gap in the door to a
+  house opposite me, and I noticed that there were quite a few windows open
+  above, which means someone was probably enjoying themselves inside. I looked
+  for the sign that might indicate that the building is an okiya. The kanji
+  characters drawn over the fabric of the lantern confirm my suspicion, and I
+  knock politely on the door.
+  
+  The voice of a woman rose from within the building. "Come on in," she says
+  in Japanese, before approaching the door and looking up to me with a smile.
+  She turned slightly to look at Suganuma-san, and her eyes became even
+  brighter. "Why, if it isn't Suganuma-sama, welcome!"
+  
+  "Good evening, Kiyo-san", Suganuma-san greeted formally with a small bow.
+  The woman looked much older than he was, and had a serene presence about her.
+  Her hair seemed darker than it truly was, and hung loose around her
+  shoulders; a single lock fell over her right eye. In response, she bowed
+  deeply. Without waiting for me to speak, she pushed the sliding door open as
+  far as it could go, and beckoned us into her parlor. It was a quaint room
+  full of antiques, including several beautiful pieces of pottery, among which
+  a woodblock print by the master Katsushika Hokusai depicting the sun rising
+  over Fuji-yama.
+  
+  Suganuma-san and I sat down on comfortable cushions while Kiyo-san offered us
+  some roasted rice tea. She gave each of us a cup of the steaming hot drink,
+  and we both sipped the delicious beverage quietly, gazing at the artworks in
+  the room. Koreshige finally spoke to break the silence on my behalf. "My
+  esteemed friend here, ${2LastName}-san, is seeking a courtesan befitting his
+  noble station. He answers directly to the Shogun and has several days with
+  which to sample Gion's pleasures." He smiled at me with his dark eyes
+  sparkling in the reflection of the candles' flames. "With your guidance,
+  perhaps he will find his ideal match."
+  
+  Kiyo-san nodded in agreement with his assessment, setting aside her teacup
+  with great elegance as though handling a priceless antique. To be fair, it
+  was quite likely that the tea set was exactly that. "It has been quite a long
+  time since I have been tasked to cater to such an esteemed guest,
+  ${2LastName}-sama." She smiled again, as though in remembrance of happier
+  times. "However, as you may imagine, the taste of foreigners is quite
+  different from ours."
+  
+  "Well, thank you for taking the trouble to accommodate me." I bowed my head
+  out of respect for this undoubtedly venerable middlewoman, whom Suganuma-san
+  appeared to hold in high regard. "I am grateful for your assistance."
+  
+  "Please do not feel that you need to offer me such consideration. It is an
+  honor to assist one such as yourself, as well as a welcome challenge to my
+  abilities." She clearly felt quite skilled as a matchmaker, but as a
+  foreigner, I must have been something very different from her usual. "What I
+  should ask first and foremost, is whether you seek companionship,
+  entertainment, or intimacy?" I was somewhat surprised by the question, not
+  expecting Japan handling such a business with this much depth and diversity.
+  
+  "Could you elaborate?" I asked, genuinely curious as to what was expected
+  from me. "A gentleman often seeks multiple services from a lady, depending
+  on their preferences." Kiyo-san continued, "However, I should not be assuming
+  that it is a lady you seek. Courtesans can provide for both sexes equally.
+  Are you interested in women or men?"
+  
+  To me, this question made me think of Antiquity, the Greeks and the Romans.
+  In Europe, sex workers were primarily female, whereas Japan's traditional
+  culture saw them on equal footing. The Christian religion had forced the sex
+  industry underground and made homosexuality a taboo in Europe. Even then,
+  Japan, as a cultural enclave, remained much more liberal in that aspect.
+  
+  I would make the decision later. It was a curious offer and I was considering
+  it already. "Is this a choice I can decide later?" I asked Kiyo-san, who
+  nodded in response. "Absolutely, sir."
+  
+  The conversation moved on smoothly after that and we discussed various
+  matters pertaining to Gion's nightlife: Places to visit, how to request a
+  courtesan, what conduct is expected during my interactions with them, and so
+  forth. For my part, I found myself learning about some interesting aspects of
+  Japanese culture I did not know about before. Suganuma-san watched our
+  discussion in silence, although he had a pleased smile on his face throughout.
+  When we eventually finished talking about Gion's history, he got up and
+  excused himself. "I must return home now," he bowed once again. "Thank you,
+  Kiyo-san, for sharing so much of your wisdom to my friend."
+  
+  "Do come back anytime, Suganuma-sama," she responded, smiling warmly at him,
+  and he left, giving me a wink as he shut the door behind himself. Once he had
+  gone, I turned back towards Kiyo-san and she gestured towards a doorway which
+  was covered by a curtain. Almost immediately, someone stepped out: A woman
+  with striking white makeup all over her face and a lavish kimono covering
+  her body. She sat down quietly besides us, and I noticed she was carrying
+  a stringed instrument, which she began playing, to accompany herself singing
+  softly in a low voice. Both Kiyo-san and I sat silently listening to her
+  song until the mistress of the house spoke to me once again.
+  
+  "This young woman is a Geisha by the name of Mogami-san." As if not paying
+  attention, the girl continued to play her music and sing softly, as if she
+  was not meant to be noticed. "She is currently employed by me but has not yet
+  reached a level adequate for my clientele. However, with her talents, I
+  believe she could be an asset to any noble household before long." Kiyo-san
+  spoke of Mogami-san almost fondly. Her eyes glimmered with pride at her
+  protégée's talent. "Mogami-san has brought her shamisen with her tonight,
+  hoping that you might enjoy hearing her play."
+  
+  I nodded enthusiastically and Mogami put down her shamisen gently, bowing
+  to both of us. Her hands stayed in front of her lap as she remained with
+  her head tilted towards the floor. Kiyo-san continued describing a Geisha's
+  duties. "Mogami-san is a courtesan who seeks to entertain and engage their
+  customers on an artistic and intellectual level. If you see yourself as a man
+  of refinement, then Mogami-san will suit your needs perfectly." Mogami looked
+  up at me shyly, only for a moment. "A Geisha strikes the perfect balance
+  between a Yūjo and an Oiran as well. It is not... Expected of a Geisha to
+  offer her body, however."
+  
+  Mogami-san gave a small nod and said nothing to contradict that statement,
+  but I could tell by looking at her that she was quite content to remain
+  silent. Kiyo-san went onto detail what Yūjo and Oiran are. A Yūjo is mostly a
+  courtesan who aims to satisfy her client's desires sexually and caters mostly
+  to men of the lower class. An Oiran is an upper-class courtesan who not only
+  performs those duties, but is also just as capable, if not more than a
+  Geisha, at the arts of intellectual entertainment such as music and poetry.
+  
+  Effectively, you could choose whether you wanted your spirit or your heart
+  stimulated, or both. "When it comes to male courtesans, you will have to look
+  at a Kabuki theater to have a better chance at finding a handsome male
+  companion," she could tell my eyes went wide at this. A Kabuki theater?
+  That felt highly inappropriate, and yet, "most of the actors there," she
+  continued, "double as entertainers for both men and women. As you may be
+  aware, all the actors are men, but several pass as women when they are
+  onstage whe necessary for the role." She paused for effect but then quickly
+  added, "And yes, they carry this femininity outside of the theater as well.
+  You may find a masculine actor to keep you company, but the most popular
+  ones are those who look just like women. They are called Onnagata, although
+  you may also find Wakashu, who are somewhat less feminine in their
+  presentation."
+  
+  It seemed like the world was full with men willing to pretend to be women,
+  which was surprising given that such behavior was considered unusual in
+  modern society. However, here in Gion it was apparently common practice. So
+  much so that it seemed unnecessary for me to even consider the strangeness
+  of it as a Westerner.
+  
+  "So," I started again, trying not to sound too eager while at the same time
+  being honest with my intentions, "if I understand correctly, Yūjo are mostly
+  for sexual satisfaction, Geisha for intellectual satisfaction, Oiran for
+  both. For male courtesans, Yaro are less feminine than Wakashu, who are
+  less feminine than Onnagata. Is this all correct?" I asked Kiyo-san as I
+  tried to get her opinion on this matter.
+  
+  Kiyo-san nodded in agreement. "Yes, and luckily for you, I have a pick for
+  most of these. Namely." She pulled a small leather-bound book, probably an
+  imported journal, and began flicking through its pages. "Mogami-san will be
+  happy to cater to you as a Geisha. For Yūjo, I can offer to you the joyful
+  Asuza, the sweet Satsuki, and the shy Yusa. If you are willing to eagerly
+  spend for an Oiran's time, then I'm sure Mizuki would be an amazing match
+  for you. I also have contact with Kanou, who is a Wakashu actor and has
+  great experience serving men. If you are interested in an Onnagata, I can
+  request Mayoi, who would be fascinated by a Westerner. Finally, if you
+  desire someone as manly as you, then I am sure you'd appreciate Toramaru."
+  
+  She closed her journal swiftly and looked at me expectantly.
+  
+  "Have you made your choice, ${2LastName}-san?"
