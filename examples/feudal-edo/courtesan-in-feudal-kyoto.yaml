@@ -3,12 +3,14 @@ description: >
   A courtesan of Gion, Kyōto's famous Yūkaku, seeks a client to entertain for
   the night.
 author: Bunray, OccultSage
-tags: [edo, japan, historical, 1st person]
+tags: [ edo, japan, historical, 1st person ]
 placeholders:
   1CourtesanName:
     description: Your name
     default: Mayumi
-    longDescription: "Can be a male or female name"
+    longDescription: >
+      Suggested: Arata 革 for Yaro / Aoi 水 for Wakashu / Kiyoshi 白 for
+      Onnagata / Harumi 美 for Yujo / Kiyuu 久 for Geisha / Hato 鳩 for Oiran
   2CourtesanRole:
     description: Your courtesan role
     default: Yūjo
