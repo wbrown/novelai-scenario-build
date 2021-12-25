@@ -1,3 +1,4 @@
+## Class definitions for player's character
 categories:
   Classes:
     createSubcontext: true
@@ -23,147 +24,376 @@ lorebook:
         keys:
           - /You are [a-zA-Z]+, a [a-zA-Z]+ Abomination/
         text: >
-          You have been beaten, branded and imprisoned for untold decades. The Eldritch poison coursing through your veins has given you unspeakable power, at a terrible cost. Your progressive mutation manifests in unspeakable strength, speed, and a profusion of bile.
+          You have been beaten, branded and imprisoned for untold decades. The
+          Eldritch poison coursing through your veins has given you unspeakable
+          power, at a terrible cost. Your progressive mutation manifests in
+          unspeakable strength, speed, and a profusion of bile.
 
-          During combat, you are protected by cursed chains and a thick, leathery hide. You can withstand the pressures of frontline combat as well as any plated footman. Manacles stuns the target with a whack from the heavy chains wrapped around your wrists. Beast's Bile inflicts the target with poisonous blight. Transform unleashes your inner monstrosity, healing you and supplying you with claws as large as daggers as long as you remain transformed. Rake is a vicious melee attack, which starts out weak but ramps up in damage for each use. Slam is a charge attack, often leaving the target reeling.
+          During combat, you are protected by cursed chains and a thick,
+          leathery hide. You can withstand the pressures of frontline combat
+          as well as any plated footman. Manacles stuns the target with a
+          whack from the heavy chains wrapped around your wrists. Beast's
+          Bile inflicts the target with poisonous blight. Transform unleashes
+          your inner monstrosity, healing you and supplying you with claws as
+          large as daggers as long as you remain transformed. Rake is a vicious
+          melee attack, which starts out weak but ramps up in damage for each
+          use. Slam is a charge attack, often leaving the target reeling.
       "Class: You - Antiquarian":
         keys:
           - /You are [a-zA-Z]+, a [a-zA-Z]+ Antiquarian/
         text: >
-          You are is a scholar, researcher, and a keen archaeologist. While you are a liability in combat, you make up for it with your keen ability to detect treasure and the vast knowledge you bring about the various trinkets and charms that can be found in these doomed lands.
+          You are is a scholar, researcher, and a keen archaeologist. While you
+          are a liability in combat, you make up for it with your keen ability
+          to detect treasure and the vast knowledge you bring about the various
+          trinkets and charms that can be found in these doomed lands.
 
-          During combat, you make yourself scarce to ensure your own survival. Nervous Stab is a meek attack with your kukri. Festering Vapors emits noxious gas from your censer to inflict middling Blight. Flashpowder reduces a single enemy's accuracy. Get Down brings you out of harms reach. Protect Me forces an ally to guard you, while giving them an excellent defensive boost in return.
+          During combat, you make yourself scarce to ensure your own survival.
+          Nervous Stab is a meek attack with your kukri. Festering Vapors emits
+          noxious gas from your censer to inflict middling Blight. Flashpowder
+          reduces a single enemy's accuracy. Get Down brings you out of harms
+          reach. Protect Me forces an ally to guard you, while giving them an
+          excellent defensive boost in return.
       "Class: You - Arbalest":
         keys:
           - /You are [a-zA-Z]+, a [a-zA-Z]+ Arbalest/
         text: >
-          You are a runaway turned soldier clad in heavy armor and able to vanquish foes with your massive crossbow. Your life of war has given you many skills for the battlefield, and your heavy crossbow allows you to snipe high-priority targets from afar. At camp, you often spends your night tending to your crossbow - your one companion since childhood. As long as you are given ample distance between yourself and your quarry, no foe is safe from this sharpshooter's wrath.
+          You are a runaway turned soldier clad in heavy armor and able to
+          vanquish foes with your massive crossbow. Your life of war has given
+          you many skills for the battlefield, and your heavy crossbow allows
+          you to snipe high-priority targets from afar. At camp, you often
+          spends your night tending to your crossbow - your one companion since
+          childhood. As long as you are given ample distance between yourself
+          and your quarry, no foe is safe from this sharpshooter's wrath.
 
-          During combat, you will stay behind your allies and harass the enemies with well-placed shots from your giant crossbow. Sniper Shot is an incredibly skilled shot, able to hit any target from anywhere. Battlefield Bandage heals a target of its most grievous wounds. Bola hinders you target from movement. Suppressing Fire wreaks havoc on entire enemy parties.
+          During combat, you will stay behind your allies and harass the
+          enemies with well-placed shots from your giant crossbow. Sniper
+          Shot is an incredibly skilled shot, able to hit any target from
+          anywhere. Battlefield Bandage heals a target of its most grievous
+          wounds. Bola hinders you target from movement. Suppressing Fire
+          wreaks havoc on entire enemy parties.
       "Class: You - Bounty Hunter":
         keys:
           - /You are [a-zA-Z]+, a [a-zA-Z]+ Bounty Hunter/
         text: >
-          You are a brutally efficient hunter. For you, planning is key - you have found that simply striking before thinking is an ineffective way to kill, so you have taught yourself many ways to take advantage of your foe's vulnerabilities. At camp, like in combat, you are all about preparedness. You can take time to study your notes, bettering your odds against your foes.
+          You are a brutally efficient hunter. For you, planning is key -
+          you have found that simply striking before thinking is an ineffective
+          way to kill, so you have taught yourself many ways to take advantage
+          of your foe's vulnerabilities. At camp, like in combat, you are all
+          about preparedness. You can take time to study your notes, bettering
+          your odds against your foes.
 
-          During combat, you specialize in targeting a single foe to deliver its head for the reward. Mark for Death finds weak spots in your enemies' armor. Collect Bounty capitalizes on any opening found and delivers a devastating hit with your axe. Come Hither pulls the target in or slice them up with your sharp grappling hook. Flashbang disorients the target, leaving them blinded for a moment. No matter the situation, you will have an answer for it.
+          During combat, you specialize in targeting a single foe to deliver
+          its head for the reward. Mark for Death finds weak spots in your
+          enemies' armor. Collect Bounty capitalizes on any opening found and
+          delivers a devastating hit with your axe. Come Hither pulls the
+          target in or slice them up with your sharp grappling hook. Flashbang
+          disorients the target, leaving them blinded for a moment. No matter
+          the situation, you will have an answer for it.
       "Class: You - Crusader":
         keys:
           - /You are [a-zA-Z]+, a [a-zA-Z]+ Crusader/
         text: >
-          You are a champion - a hero to rally otherwise common men to a righteous cause. With holy blade in hand, you smites the wicked and sends them back to the darkness from whence they crept. No matter the pressures you faces, you will remain strong, finding strength within yourself to keep fighting on while inspiring others to do the same.
+          You are a champion - a hero to rally otherwise common men to a
+          righteous cause. With holy blade in hand, you smites the wicked and
+          sends them back to the darkness from whence they crept. No matter
+          the pressures you faces, you will remain strong, finding strength
+          within yourself to keep fighting on while inspiring others to do the
+          same.
 
-          During combat, you are restricted in movement, due to your heavy armor. Though, thanks to its great protection, you can stand in the frontline to take the blows that your weaker comrades cannot. Smite is a strike with your great sword and especially effective against the Undead. Holy Lance is a charge attack, able to hit even the furthest enemies. Bulwark of Faith will ensure that most enemy damage thrown your way does barely a scratch on you. Inspiring Cry keeps the front line from collapsing, the fearful from snapping, and the darkness from taking hold.
+          During combat, you are restricted in movement, due to your heavy
+          armor. Though, thanks to its great protection, you can stand in the
+          frontline to take the blows that your weaker comrades cannot. Smite
+          is a strike with your great sword and especially effective against
+          the Undead. Holy Lance is a charge attack, able to hit even the
+          furthest enemies. Bulwark of Faith will ensure that most enemy
+          damage thrown your way does barely a scratch on you. Inspiring
+          Cry keeps the front line from collapsing, the fearful from snapping,
+          and the darkness from taking hold.
       "Class: You - Flagellant":
         keys:
           - /You are [a-zA-Z]+, a [a-zA-Z]+ Flagellant/
         text: >
-          You relish the scars and abrasions that cover your body - drawing incomprehensible resilience from the tearing of your own flesh. Your flail, a particularly cruel and merciless weapon, drips with your enemies' blood and your own.
+          You relish the scars and abrasions that cover your body - drawing
+          incomprehensible resilience from the tearing of your own flesh.
+          Your flail, a particularly cruel and merciless weapon, drips with
+          your enemies' blood and your own.
 
-          During combat, you stand like a wall between your comrades and your foes, with your arms wide open, your body exposed, acting like a magnet for all harm that may come your way. Punish is a merciless strike with your flail - inflicting the target with bleeding wounds. Reclaim heals an ally while opening your own wounds in return. Your abilities are respectable on their own, but they only become more powerful as your body and mind are abused to their limit. Exsanguinate renders immense punishment against the Flagellant's foes. Redeem restores your body as well as that of an ally.
+          During combat, you stand like a wall between your comrades and
+          your foes, with your arms wide open, your body exposed, acting like
+          a magnet for all harm that may come your way. Punish is a merciless
+          strike with your flail - inflicting the target with bleeding wounds.
+          Reclaim heals an ally while opening your own wounds in return. Your
+          abilities are respectable on their own, but they only become more
+          powerful as your body and mind are abused to their limit.
+          Exsanguinate renders immense punishment against the Flagellant's
+          foes. Redeem restores your body as well as that of an ally.
       "Class: You - Grave Robber":
         keys:
           - /You are [a-zA-Z]+, a [a-zA-Z]+ Grave Robber/
         text: >
-          You were born into money, and married into more. But when your spouse's boorish lust and drunken temper became too much to bear, you had to act. Years of decadence and financial mismanagement had left your estate in staggering debt. To preserve your social standing, you pilfered your late spouse's tomb, but found the thrill too exhilarating to ever return to your old life and instead took on the life of a restless wanderer.
+          You were born into money, and married into more. But when your
+          spouse's boorish lust and drunken temper became too much to bear,
+          you had to act. Years of decadence and financial mismanagement had
+          left your estate in staggering debt. To preserve your social
+          standing, you pilfered your late spouse's tomb, but found the thrill
+          too exhilarating to ever return to your old life and instead took on
+          the life of a restless wanderer.
 
-          During combat, you are an incredibly nimble fighter, evading hits that would easily bring you to Death's Door. Pick To the Face is a melee attack with the your trusty pickaxe. Lunge is a charge attack with your dagger. Shadow Fade allows you to retreat to the back lines, giving you stealth and a boost in offense. Throw Daggers is a skilled ranged attack. Poison Darts inflicts the target with noxious blight.
+          During combat, you are an incredibly nimble fighter, evading hits
+          that would easily bring you to Death's Door. Pick To the Face is a
+          melee attack with the your trusty pickaxe. Lunge is a charge attack
+          with your dagger. Shadow Fade allows you to retreat to the back
+          lines, giving you stealth and a boost in offense. Throw Daggers is a
+          skilled ranged attack. Poison Darts inflicts the target with noxious
+          blight.
       "Class: You - Hellion":
         keys:
           - /You are [a-zA-Z]+, a [a-zA-Z]+ Hellion/
         text: >
-          You are wild, unpredictable, and utterly ruthless; You thrill to the spilling of blood! Your massive glaive affords you impressive reach in combat, while its razor sharp edge leaves lasting wounds on enemies. Versatile and unrelenting, you can hit the back row with your blade and devastate your foes. Your versatility is only matched by your ferocity.
+          You are wild, unpredictable, and utterly ruthless; You thrill to the
+          spilling of blood! Your massive glaive affords you impressive reach
+          in combat, while its razor sharp edge leaves lasting wounds on
+          enemies. Versatile and unrelenting, you can hit the back row with
+          your blade and devastate your foes. Your versatility is only matched
+          by your ferocity.
 
-          During combat, you will face any enemy head-on and can pick on even the furthest enemies thanks to your giant glaive. Breakthrough is a wide swing against multiple enemies. Bleed Out maims the target and inflicts them with deep bleeding wounds. These abilities leave you exhausted, reducing your effectiveness in long battles, and are crippling to you when overused. Iron Swan is an exquisite option to pick off enemies far in the back. Adrenaline Rush buffs up your damage to help counter you exhaustion.
+          During combat, you will face any enemy head-on and can pick on even
+          the furthest enemies thanks to your giant glaive. Breakthrough is a
+          wide swing against multiple enemies. Bleed Out maims the target and
+          inflicts them with deep bleeding wounds. These abilities leave you
+          exhausted, reducing your effectiveness in long battles, and are
+          crippling to you when overused. Iron Swan is an exquisite option
+          to pick off enemies far in the back. Adrenaline Rush buffs up your
+          damage to help counter you exhaustion.
       "Class: You - Highwayman":
         keys:
           - /You are [a-zA-Z]+, a [a-zA-Z]+ Highwayman/
         text: >
-          You are a bandit seeking redemption. When night falls, you relish cynical preparedness and off-color jokes around the campfire. A life spent running and hiding has taught you the tenuous benefit of perimeter alarms, and late-night investigations into the encroaching shadows.
+          You are a bandit seeking redemption. When night falls, you relish
+          cynical preparedness and off-color jokes around the campfire. A
+          life spent running and hiding has taught you the tenuous benefit of
+          perimeter alarms, and late-night investigations into the encroaching
+          shadows.
 
-          During combat, you show unparalleled finesse and ferocity. Pistol Shot picks off foes from afar. Duelist's Advance moves you forward with and sets up a Riposte, retaliating attacks made against you. Wicked Slice is a melee attack with your dirk. Grapeshot Blast is a devastating attack against multiple enemies, finishing off weakened enemies and softening up others. Point Blank Shot is a close-combat shot, used to inflict massive damage against your foe.
+          During combat, you show unparalleled finesse and ferocity. Pistol
+          Shot picks off foes from afar. Duelist's Advance moves you forward
+          with and sets up a Riposte, retaliating attacks made against you.
+          Wicked Slice is a melee attack with your dirk. Grapeshot Blast is a
+          devastating attack against multiple enemies, finishing off weakened
+          enemies and softening up others. Point Blank Shot is a close-combat
+          shot, used to inflict massive damage against your foe.
       "Class: You - Houndmaster (female)":
         keys:
           - /You are [a-zA-Z]+, a female Houndmaster/
         text: >
-          You are a tough and uncommonly compassionate ex-lawoman. You and your faithful Wolfhound work in tandem to bring down your enemies and protect the innocent. Still clad in your worn Gendarme's uniform, your focus is on evasion over mitigation. Your cudgel is an effective, stunning tool, but it is the Hound who delivers your pair's most crippling blows.
+          You are a tough and uncommonly compassionate ex-lawoman. You and
+          your faithful Wolfhound work in tandem to bring down your enemies
+          and protect the innocent. Still clad in your worn Gendarme's uniform,
+          your focus is on evasion over mitigation. Your cudgel is an
+          effective, stunning tool, but it is the Hound who delivers your
+          pair's most crippling blows.
 
-          During combat, you rely on your faithful dog and will put yourself into harms way to protect your trusty companion. Hound's Rush sends forth Wolfhound against one target. Target Whistle reveals weak spots in the foe's defense. Cry Havoc puts the mind of your allies at ease. Guard Dog protects an ally and raises the dog's defensive abilities. Lick Wounds provides a quick self-heal in a pinch. Blackjack stuns enemies with a heavy wack of the cudgel.
+          During combat, you rely on your faithful dog and will put yourself
+          into harms way to protect your trusty companion. Hound's Rush sends
+          forth Wolfhound against one target. Target Whistle reveals weak spots
+          in the foe's defense. Cry Havoc puts the mind of your allies at ease.
+          Guard Dog protects an ally and raises the dog's defensive abilities.
+          Lick Wounds provides a quick self-heal in a pinch. Blackjack stuns
+          enemies with a heavy wack of the cudgel.
       "Class: You - Houndmaster (male)":
         keys:
           - /You are [a-zA-Z]+, a male Houndmaster/
         text: >
-          You are a tough and uncommonly compassionate ex-lawman. You and your faithful Wolfhound work in tandem to bring down your enemies and protect the innocent. Still clad in your worn Gendarme's uniform, your focus is on evasion over mitigation. Your cudgel is an effective, stunning tool, but it is the Hound who delivers your pair's most crippling blows.
+          You are a tough and uncommonly compassionate ex-lawman. You and your
+          faithful Wolfhound work in tandem to bring down your enemies and
+          protect the innocent. Still clad in your worn Gendarme's uniform,
+          your focus is on evasion over mitigation. Your cudgel is an
+          effective, stunning tool, but it is the Hound who delivers your
+          pair's most crippling blows.
 
-          During combat, you rely on your faithful dog and will put yourself into harms way to protect your trusty companion. Hound's Rush sends forth Wolfhound against one target. Target Whistle reveals weak spots in the foe's defense. Cry Havoc puts the mind of your allies at ease. Guard Dog protects an ally and raises the dog's defensive abilities. Lick Wounds provides a quick self-heal in a pinch. Blackjack stuns enemies with a heavy wack of the cudgel.
+          During combat, you rely on your faithful dog and will put yourself
+          into harms way to protect your trusty companion. Hound's Rush sends
+          forth Wolfhound against one target. Target Whistle reveals weak
+          spots in the foe's defense. Cry Havoc puts the mind of your allies
+          at ease. Guard Dog protects an ally and raises the dog's defensive
+          abilities. Lick Wounds provides a quick self-heal in a pinch.
+          Blackjack stuns enemies with a heavy wack of the cudgel.
       "Class: You - Jester":
         keys:
           - /You are [a-zA-Z]+, a [a-zA-Z]+ Jester/
         text: >
-          You bring a good laugh, a merry song, and a razor sharp blade into the darkest depths of these twisted lands. Clad only in mildewed cloth, you make a mockery of battle. As an entertainer, you can turn a stressful night of camping into a night of merriment and wit. For you, combat is a power ballad - a slow build up, and a grand finale!
+          You bring a good laugh, a merry song, and a razor sharp blade into
+          the darkest depths of these twisted lands. Clad only in mildewed
+          cloth, you make a mockery of battle. As an entertainer, you can
+          turn a stressful night of camping into a night of merriment and
+          wit. For you, combat is a power ballad - a slow build up, and a
+          grand finale!
 
-          During combat, you easily moves through enemy lines, often relying both on luck and skill. Slice Off is a skillful attack with your sickle, leaving your enemies bleeding. Dirk Stab, moves you to the front of combat. Finale deals extraordinary damage to one enemy. This leaves you open to any retaliation should it not finish your enemy off. Inspiring Tune is a unique support ability; You can perform by playing a tune on your lute to put anyone's mind at ease.
+          During combat, you easily moves through enemy lines, often relying
+          both on luck and skill. Slice Off is a skillful attack with your
+          sickle, leaving your enemies bleeding. Dirk Stab, moves you to the
+          front of combat. Finale deals extraordinary damage to one enemy.
+          This leaves you open to any retaliation should it not finish your
+          enemy off. Inspiring Tune is a unique support ability; You can
+          perform by playing a tune on your lute to put anyone's mind at
+          ease.
       "Class: You - Leper (female)":
         keys:
           - /You are [a-zA-Z]+, a female Leper/
         text: >
-          You are a ruined woman, a warrior and a poet. Struggle, and futility — all one's days are a constant toil to shelter life's ember through one more night. You not only knows but embrace such solemnity. Tortured existence has taught you to count not on the care of others. You can gain strength others can but dream of, or the endurance to bear what no other could. And when your massive blade falls, death's call rings loud to all caught in its thunderous arc. However, such force falls not nimbly, and foes may lightly evade your execution.
+          You are a ruined woman, a warrior and a poet. Struggle, and futility
+          — all one's days are a constant toil to shelter life's ember through
+          one more night. You not only knows but embrace such solemnity.
+          Tortured existence has taught you to count not on the care of others.
+          You can gain strength others can but dream of, or the endurance to
+          bear what no other could. And when your massive blade falls, death's
+          call rings loud to all caught in its thunderous arc. However, such
+          force falls not nimbly, and foes may lightly evade your execution.
 
-          During Combat, you will face any opposition head on. Chop is a devastating strike with your execution's blade against a close target. Intimidate shakes the target's resolve. Purge knocks back an enemy back. Withstand gives you increased resistances.
+          During Combat, you will face any opposition head on. Chop is a
+          devastating strike with your execution's blade against a close
+          target. Intimidate shakes the target's resolve. Purge knocks back an
+          enemy back. Withstand gives you increased resistances.
       "Class: You - Leper (male)":
         keys:
           - /You are [a-zA-Z]+, a male Leper/
         text: >
-          You are a ruined man, a warrior and a poet. Struggle, and futility — all one's days are a constant toil to shelter life's ember through one more night. You not only knows but embrace such solemnity. Tortured existence has taught you to count not on the care of others. You can gain strength others can but dream of, or the endurance to bear what no other could. And when your massive blade falls, death's call rings loud to all caught in its thunderous arc. However, such force falls not nimbly, and foes may lightly evade your execution.
+          You are a ruined man, a warrior and a poet. Struggle, and futility —
+          all one's days are a constant toil to shelter life's ember through
+          one more night. You not only knows but embrace such solemnity.
+          Tortured existence has taught you to count not on the care of others.
+          You can gain strength others can but dream of, or the endurance to
+          bear what no other could. And when your massive blade falls, death's
+          call rings loud to all caught in its thunderous arc. However, such
+          force falls not nimbly, and foes may lightly evade your execution.
 
-          During Combat, you will face any opposition head on. Chop is a devastating strike with your execution's blade against a close target. Intimidate shakes the target's resolve. Purge knocks back an enemy back. Withstand gives you increased resistances.
+          During Combat, you will face any opposition head on. Chop is a
+          devastating strike with your execution's blade against a close
+          target. Intimidate shakes the target's resolve. Purge knocks back an
+          enemy back. Withstand gives you increased resistances.
       "Class: You - Man-at-Arms":
         keys:
           - /You are [a-zA-Z]+, a [a-zA-Z]+ Man-at-Arms/
         text: >
-          You are an old, battle-scarred veteran, who has seen enough war and bloodshed to last more than a dozen lifetimes. While you can no longer swing your great mace with the force you once could, no one should stand where you swing your mighty weapon. You are a seasoned veteran, and have been rewarded for your toil with haunting guilt and stoic resilience. You break down enemy lines with your mace, shield, and furious battle cries.
+          You are an old, battle-scarred veteran, who has seen enough war and
+          bloodshed to last more than a dozen lifetimes. While you can no
+          longer swing your great mace with the force you once could, no one
+          should stand where you swing your mighty weapon. You are a seasoned
+          veteran, and have been rewarded for your toil with haunting guilt
+          and stoic resilience. You break down enemy lines with your mace,
+          shield, and furious battle cries.
 
-          During combat, you protects your allies with Defender, redirecting an attack towards you. Bellow shakes the enemies resolve, giving your team the upper hand in combat. Rampart knocks back and stun an enemy, while moving you into close combat. Retribution activates Riposte, countering any attacks attempted at you with a solid smack of your shield.
+          During combat, you protects your allies with Defender, redirecting
+          an attack towards you. Bellow shakes the enemies resolve, giving
+          your team the upper hand in combat. Rampart knocks back and stun an
+          enemy, while moving you into close combat. Retribution activates
+          Riposte, countering any attacks attempted at you with a solid smack
+          of your shield.
       "Class: You - Musketeer":
         keys:
           - /You are [a-zA-Z]+, a [a-zA-Z]+ Musketeer/
         text: >
-          You are a competitive sharpshooter with little practical experience, and excel when enemies remain at a distance. Although outwardly inconspicuous, your regalia is reinforced with hardened leather under armor, allowing you to sustain a considerable amount of punishment. Your musket's variable ammunition and trusty sidearm allow you to deal debilitating damage at range.
+          You are a competitive sharpshooter with little practical experience,
+          and excel when enemies remain at a distance. Although outwardly
+          inconspicuous, your regalia is reinforced with hardened leather
+          under armor, allowing you to sustain a considerable amount of
+          punishment. Your musket's variable ammunition and trusty sidearm
+          allow you to deal debilitating damage at range.
 
-          During combat, you stay in the far back, relying on your immaculate aim. Aimed Shot is a well-placed shot against enemies in the back. Smokescreen blind the target. Buckshot knocks its target back. Sidearm buys you time to retreat to the safety of the back line.
+          During combat, you stay in the far back, relying on your immaculate
+          aim. Aimed Shot is a well-placed shot against enemies in the back.
+          Smokescreen blind the target. Buckshot knocks its target back.
+          Sidearm buys you time to retreat to the safety of the back line.
       "Class: You - Occultist":
         keys:
           - /You are [a-zA-Z]+, a [a-zA-Z]+ Occultist/
         text: >
-          You are living proof that the dark arts can be used to expunge darkness itself. you have utilized that same knowledge as the Ancestor to further your understanding of the eldritch. Your pursuits have left your body fragile and weak, but it has made your mind sharp and your capabilities most versatile. In your younger years, you clashed with the Shambler and harness a portion of its power.
+          You are living proof that the dark arts can be used to expunge
+          darkness itself. you have utilized that same knowledge as the
+          Ancestor to further your understanding of the eldritch. Your
+          pursuits have left your body fragile and weak, but it has made
+          your mind sharp and your capabilities most versatile. In your
+          younger years, you clashed with the Shambler and harness a portion
+          of its power.
 
-          During combat, you call upon the dark arts to serve you. Daemon's Pull wrenches individuals to the front of the fray. Sacrificial Stab is a melee attack that is especially effective against Eldritch horrors. Abyssal Artillery calls forth otherworldly tentacles to harass and harm groups of enemies. Wyrd Reconstruction reconstructs flesh and heal wounds. This technique is powerful, but unpredictable, as it may restore your ally to perfect health or tear apart their flesh.
+          During combat, you call upon the dark arts to serve you. Daemon's
+          Pull wrenches individuals to the front of the fray. Sacrificial
+          Stab is a melee attack that is especially effective against Eldritch
+          horrors. Abyssal Artillery calls forth otherworldly tentacles to
+          harass and harm groups of enemies. Wyrd Reconstruction reconstructs
+          flesh and heal wounds. This technique is powerful, but unpredictable,
+          as it may restore your ally to perfect health or tear apart their
+          flesh.
       "Class: You - Plague Doctor":
         keys:
           - /You are [a-zA-Z]+, a [a-zA-Z]+ Plague Doctor/
         text: >
-          You are brilliant and bold; Your unconventional theories created nothing short of a scandal during your education. The mysteries of the human body - of life and death itself - had always fascinated you. When your research was at a critical point, a grim opportunity to prove your theories presented itself. In the weeks that followed, however, you found yourself unable to focus, instead sitting motionless at your desk, paralyzed by the ceaseless wailing that reverberated in your mind. You make use of experimental remedies and risky healing practices to cure your companions' ailments, and restore their vigor.
+          You are brilliant and bold; Your unconventional theories created
+          nothing short of a scandal during your education. The mysteries of
+          the human body - of life and death itself - had always fascinated
+          you. When your research was at a critical point, a grim opportunity
+          to prove your theories presented itself. In the weeks that followed,
+          however, you found yourself unable to focus, instead sitting
+          motionless at your desk, paralyzed by the ceaseless wailing that
+          reverberated in your mind. You make use of experimental remedies and
+          risky healing practices to cure your companions' ailments, and
+          restore their vigor.
 
-          During combat, you stay far in the back, throwing your various concoctions at your enemies. Plague Grenade inflicts your enemies with noxious blight. Blinding Gas is a powerful stun. Battlefield Medicine  cures both you and allies of any ailments. Incision is a melee attack, that inflicts bleeding wounds on the target.
-
+          During combat, you stay far in the back, throwing your various
+          concoctions at your enemies. Plague Grenade inflicts your enemies
+          with noxious blight. Blinding Gas is a powerful stun. Battlefield
+          Medicine  cures both you and allies of any ailments. Incision is a
+          melee attack, that inflicts bleeding wounds on the target.
       "Class: You - Shieldbreaker":
         keys:
           - /You are [a-zA-Z]+, a [a-zA-Z]+ Shieldbreaker/
         text: >
-          You hail from the distant windswept dunes of the east. Deadly as a viper, your iron will has been forged in the heat of the blazing desert sun. Though outwardly demure, your emancipation from the barren wastes came at a price so terrible, it haunts your dreams even now... An unfortunate series of events forced you to cut your hand to survive, and the images of the past haunt you until today.
+          You hail from the distant windswept dunes of the east. Deadly as a
+          viper, your iron will has been forged in the heat of the blazing
+          desert sun. Though outwardly demure, your emancipation from the
+          barren wastes came at a price so terrible, it haunts your dreams
+          even now... An unfortunate series of events forced you to cut your
+          hand to survive, and the images of the past haunt you until today.
 
-          During combat, you gracefully move about the battlefield, wielding a spear and buckler to keep yourself out of danger while you swiftly decimates the enemy defenses. Your dancer's garb is better suited to the stage than the dungeon; you must be quick to survive. Pierce entirely ignores armor. Captivate pulls enemies to the front. Adder's Kiss is a devastating attack, that infects the target with blight. Serpent Sway raises your defensive abilities and often gets you out of harms way.
+          During combat, you gracefully move about the battlefield, wielding
+          a spear and buckler to keep yourself out of danger while you swiftly
+          decimates the enemy defenses. Your dancer's garb is better suited to
+          the stage than the dungeon; you must be quick to survive. Pierce
+          entirely ignores armor. Captivate pulls enemies to the front. Adder's
+          Kiss is a devastating attack, that infects the target with blight.
+          Serpent Sway raises your defensive abilities and often gets you out
+          of harms way.
       "Class: You - Vestal (female)":
         keys:
           - /You are [a-zA-Z]+, a female Vestal/
         text: >
-          You are a sister of battle; Pious and unrelenting, you are determined to bring faith on the battlefield as a weapon against corruption. Prayers, chants, and blessings bring peace and solace to you and your party at night, heal the wounded and protect from nighttime attacks. Blessed plate mail encases you as you deliver terrible violence and healing comfort in equal measure.
+          You are a sister of battle; Pious and unrelenting, you are determined
+          to bring faith on the battlefield as a weapon against corruption.
+          Prayers, chants, and blessings bring peace and solace to you and your
+          party at night, heal the wounded and protect from nighttime attacks.
+          Blessed plate mail encases you as you deliver terrible violence and
+          healing comfort in equal measure.
           
-          During combat, you wield a mace in one hand, and a holy book in the other. You often channel your zeal for battle into healing abilities. Divine Grace heals the target of its most grievous injuries. Holy Judgement calls upon the light itself to strike against your foes. Mace Bash is a strong melee attack. Dazzling Light blinds the target with the your divine powers.
+          During combat, you wield a mace in one hand, and a holy book in the
+          other. You often channel your zeal for battle into healing abilities.
+          Divine Grace heals the target of its most grievous injuries. Holy
+          Judgement calls upon the light itself to strike against your foes.
+          Mace Bash is a strong melee attack. Dazzling Light blinds the target
+          with the your divine powers.
       "Class: You - Vestal (male)":
         keys:
           - /You are [a-zA-Z]+, a male Vestal/
         text: >
-          You are a brother of battle; Pious and unrelenting, you are determined to bring faith on the battlefield as a weapon against corruption. Prayers, chants, and blessings bring peace and solace to you and your party at night, heal the wounded and protect from nighttime attacks. Blessed plate mail encases you as you deliver terrible violence and healing comfort in equal measure.
+          You are a brother of battle; Pious and unrelenting, you are
+          determined to bring faith on the battlefield as a weapon against
+          corruption. Prayers, chants, and blessings bring peace and solace
+          to you and your party at night, heal the wounded and protect from
+          nighttime attacks. Blessed plate mail encases you as you deliver
+          terrible violence and healing comfort in equal measure.
           
-          During combat, you wield a mace in one hand, and a holy book in the other. You often channel your zeal for battle into healing abilities. Divine Grace heals the target of its most grievous injuries. Holy Judgement calls upon the light itself to strike against your foes. Mace Bash is a strong melee attack. Dazzling Light blinds the target with the your divine powers.
+          During combat, you wield a mace in one hand, and a holy book in the
+          other. You often channel your zeal for battle into healing abilities.
+          Divine Grace heals the target of its most grievous injuries. Holy
+          Judgement calls upon the light itself to strike against your foes.
+          Mace Bash is a strong melee attack. Dazzling Light blinds the target
+          with the your divine powers.

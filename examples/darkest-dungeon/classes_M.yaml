@@ -1,3 +1,4 @@
+## Class definitions for male companions
 categories:
   Classes:
     createSubcontext: true
@@ -23,126 +24,338 @@ lorebook:
         keys:
           - /accompanied by [a-zA-Z]+, a male Abomination/
         text: >
-          The Abomination has been beaten, branded and imprisoned for untold decades. The Eldritch poison coursing through his veins has given him unspeakable power, at a terrible cost. His progressive mutation manifests in unspeakable strength, speed, and a profusion of bile.
+          The Abomination has been beaten, branded and imprisoned for untold
+          decades. The Eldritch poison coursing through his veins has given him
+          unspeakable power, at a terrible cost. His progressive mutation
+          manifests in unspeakable strength, speed, and a profusion of bile.
 
-          During combat, the Abomination is protected by cursed chains and a thick, leathery hide. He can withstand the pressures of frontline combat as well as any plated footman. Manacles stuns the target with a whack from the heavy chains wrapped around the Abomination's wrists. Beast's Bile inflicts the target with poisonous blight. Transform unleashes the Abomination's inner monstrosity, healing him and supplying him with claws as large as daggers as long as he remains transformed. Rake is a vicious melee attack, which starts out weak but ramps up in damage for each use. Slam is a charge attack, often leaving the target reeling.
+          During combat, the Abomination is protected by cursed chains and a
+          thick, leathery hide. He can withstand the pressures of frontline
+          combat as well as any plated footman. Manacles stuns the target with
+          a whack from the heavy chains wrapped around the Abomination's
+          wrists. Beast's Bile inflicts the target with poisonous blight.
+          Transform unleashes the Abomination's inner monstrosity, healing
+          him and supplying him with claws as large as daggers as long as he
+          remains transformed. Rake is a vicious melee attack, which starts out
+          weak but ramps up in damage for each use. Slam is a charge attack,
+          often leaving the target reeling.
       "Class: male Antiquarian":
         keys:
           - /accompanied by [a-zA-Z]+, a male Antiquarian/
         text: >
-          The Antiquarian is a scholar, researcher, and a keen archaeologist. While the Antiquarian is a liability in combat, he makes up for it with his keen ability to detect treasure and the vast knowledge he brings about the various trinkets and charms that can be found in these doomed lands.
+          The Antiquarian is a scholar, researcher, and a keen archaeologist.
+          While the Antiquarian is a liability in combat, he makes up for it
+          with his keen ability to detect treasure and the vast knowledge he
+          brings about the various trinkets and charms that can be found in
+          these doomed lands.
 
-          During combat, the Antiquarian makes himself scarce to ensure his own survival. Nervous Stab is a meek attack with his kukri. Festering Vapors emits noxious gas from the Antiquarian's censer to inflict middling Blight. Flashpowder reduces a single enemy's accuracy. Get Down brings the Antiquarian out of harms reach. Protect Me forces an ally to guard him, while giving them an excellent defensive boost in return.
+          During combat, the Antiquarian makes himself scarce to ensure his
+          own survival. Nervous Stab is a meek attack with his kukri. Festering
+          Vapors emits noxious gas from the Antiquarian's censer to inflict
+          middling Blight. Flashpowder reduces a single enemy's accuracy. Get
+          Down brings the Antiquarian out of harms reach. Protect Me forces an
+          ally to guard him, while giving them an excellent defensive boost in
+          return.
       "Class: male Arbalest":
         keys:
           - /accompanied by [a-zA-Z]+, a male Arbalest/
         text: >
-          The Arbalest is a runaway turned soldier clad in heavy armor and able to vanquish foes with his massive crossbow. His life of war has given him many skills for the battlefield, and his heavy crossbow allows him to snipe high-priority targets from afar. At camp, the Arbalest often spends his night tending to his crossbow - his one companion since childhood. As long as he is given ample distance between himself and his quarry, no foe is safe from this sharpshooter's wrath.
+          The Arbalest is a runaway turned soldier clad in heavy armor and able
+          to vanquish foes with his massive crossbow. His life of war has given
+          him many skills for the battlefield, and his heavy crossbow allows
+          him to snipe high-priority targets from afar. At camp, the Arbalest
+          often spends his night tending to his crossbow - his one companion
+          since childhood. As long as he is given ample distance between
+          himself and his quarry, no foe is safe from this sharpshooter's
+          wrath.
 
-          During combat, the Arbalest will stay behind his allies and harass the enemies with well-placed shots from his giant crossbow. Sniper Shot is an incredibly skilled shot, able to hit any target from anywhere. Battlefield Bandage heal a target of its most grievous wounds. Bola hinders the Arbalest's target from movement. Suppressing Fire wreaks havoc on entire enemy parties.
+          During combat, the Arbalest will stay behind his allies and harass
+          the enemies with well-placed shots from his giant crossbow. Sniper
+          Shot is an incredibly skilled shot, able to hit any target from
+          anywhere. Battlefield Bandage heal a target of its most grievous
+          wounds. Bola hinders the Arbalest's target from movement. Suppressing
+          Fire wreaks havoc on entire enemy parties.
       "Class: male Bounty Hunter":
         keys:
           - /accompanied by [a-zA-Z]+, a male Bounty Hunter/
         text: >
-          The Bounty Hunter is a brutally efficient hunter. For him, planning is key - He has found that simply striking before thinking is an ineffective way to kill, so he has taught himself many ways to take advantage of his foe's vulnerabilities. At camp, like in combat, the Bounty Hunter is all about preparedness. He can take time to study his notes, bettering his odds against his foes.
+          The Bounty Hunter is a brutally efficient hunter. For him, planning
+          is key - He has found that simply striking before thinking is an
+          ineffective way to kill, so he has taught himself many ways to take
+          advantage of his foe's vulnerabilities. At camp, like in combat, the
+          Bounty Hunter is all about preparedness. He can take time to study
+          his notes, bettering his odds against his foes.
 
-          During combat, the Bounty Hunter specializes in targeting a single foe to deliver its head for the reward. Mark for Death finds weak spots in his enemies' armor. Collect Bounty capitalizes on any opening found and delivers a devastating hit with the Bounty Hunter's axe. Come Hither pulls the target in or slice them up with his sharp grappling hook. Flashbang disorients the target, leaving them blinded for a moment. No matter the situation, this calculating killer will have an answer for it.
+          During combat, the Bounty Hunter specializes in targeting a single
+          foe to deliver its head for the reward. Mark for Death finds weak
+          spots in his enemies' armor. Collect Bounty capitalizes on any
+          opening found and delivers a devastating hit with the Bounty Hunter's
+          axe. Come Hither pulls the target in or slice them up with his sharp
+          grappling hook. Flashbang disorients the target, leaving them blinded
+          for a moment. No matter the situation, this calculating killer will
+          have an answer for it.
       "Class: male Crusader":
         keys:
           - /accompanied by [a-zA-Z]+, a male Crusader/
         text: >
-          The Crusader is a champion - a hero to rally otherwise common men to a righteous cause. With holy blade in hand, he smites the wicked and sends them back to the darkness from whence they crept. No matter the pressures he faces, he will remain strong, finding strength within himself to keep fighting on while inspiring others to do the same.
+          The Crusader is a champion - a hero to rally otherwise common men to
+          a righteous cause. With holy blade in hand, he smites the wicked and
+          sends them back to the darkness from whence they crept. No matter
+          the pressures he faces, he will remain strong, finding strength
+          within himself to keep fighting on while inspiring others to do the
+          same.
 
-          During combat, The Crusader is restricted in movement, due to his heavy armor. Though, thanks to its great protection, he can stand in the frontline to take the blows that his weaker comrades cannot. Smite is a strike with the Crusader's great sword and especially effective against the Undead. Holy Lance is a charge attack, able to hit even the furthest enemies. Bulwark of Faith will ensure that most enemy damage thrown then Crusader's way does barely a scratch on him. Inspiring Cry keeps the front line from collapsing, the fearful from snapping, and the darkness from taking hold.
+          During combat, The Crusader is restricted in movement, due to his
+          heavy armor. Though, thanks to its great protection, he can stand
+          in the frontline to take the blows that his weaker comrades cannot.
+          Smite is a strike with the Crusader's great sword and especially
+          effective against the Undead. Holy Lance is a charge attack, able
+          to hit even the furthest enemies. Bulwark of Faith will ensure that
+          most enemy damage thrown then Crusader's way does barely a scratch
+          on him. Inspiring Cry keeps the front line from collapsing, the
+          fearful from snapping, and the darkness from taking hold.
       "Class: male Flagellant":
         keys:
           - /accompanied by [a-zA-Z]+, a male Flagellant/
         text: >
-          The Flagellant relishes the scars and abrasions that cover his body - drawing incomprehensible resilience from the tearing of his own flesh. His flail, a particularly cruel and merciless weapon, drips with his enemies' blood and his own.
+          The Flagellant relishes the scars and abrasions that cover his body
+          - drawing incomprehensible resilience from the tearing of his own
+          flesh. His flail, a particularly cruel and merciless weapon, drips
+          with his enemies' blood and his own.
 
-          During combat, the Flagellant stands like a wall between his comrades and his foes, with his arms wide open, his body exposed, acting like a magnet for all harm that may come their way. Punish is a merciless strike with his flail - inflicting the target with bleeding wounds. Reclaim heals an ally while opening the Flagellants own wounds in return. The Flagellant's abilities are respectable on their own, but they only become more powerful as his body and mind are abused to their limit. Exsanguinate renders immense punishment against the Flagellant's foes. Redeem restores his body as well as that of an ally.
+          During combat, the Flagellant stands like a wall between his comrades
+          and his foes, with his arms wide open, his body exposed, acting like
+          a magnet for all harm that may come their way. Punish is a merciless
+          strike with his flail - inflicting the target with bleeding wounds.
+          Reclaim heals an ally while opening the Flagellants own wounds in
+          return. The Flagellant's abilities are respectable on their own, but
+          they only become more powerful as his body and mind are abused to
+          their limit. Exsanguinate renders immense punishment against the
+          Flagellant's foes. Redeem restores his body as well as that of an
+          ally.
       "Class: male Grave Robber":
         keys:
           - /accompanied by [a-zA-Z]+, a male Grave Robber/
         text: >
-          The Grave Robber was born into money, and married into more. But when his spouse's boorish lust and drunken temper became too much to bear, he had to act. Years of decadence and financial mismanagement had left his estate in staggering debt. To preserve his social standing, he pilfered his late spouse's tomb, but found the thrill too exhilarating to ever return to his old life and instead took on the life of a restless wanderer.
+          The Grave Robber was born into money, and married into more. But
+          when his spouse's boorish lust and drunken temper became too much
+          to bear, he had to act. Years of decadence and financial
+          mismanagement had left his estate in staggering debt. To preserve
+          his social standing, he pilfered his late spouse's tomb, but found
+          the thrill too exhilarating to ever return to his old life and
+          instead took on the life of a restless wanderer.
 
-          During combat, the Grave Robber is an incredibly nimble fighter, evading hits that would easily bring him to Death's Door. Pick To the Face is a melee attack with the Grave Robber's trusty pickaxe. Lunge is a charge attack with his dagger. Shadow Fade allows him to retreat to the back lines, giving him stealth and a boost in offense. Throw Daggers is a skilled ranged attack. Poison Darts inflicts the target with noxious blight.
+          During combat, the Grave Robber is an incredibly nimble fighter,
+          evading hits that would easily bring him to Death's Door. Pick to
+          the Face is a melee attack with the Grave Robber's trusty pickaxe.
+          Lunge is a charge attack with his dagger. Shadow Fade allows him to
+          retreat to the back lines, giving him stealth and a boost in offense.
+          Throw Daggers is a skilled ranged attack. Poison Darts inflicts the
+          target with noxious blight.
       "Class: male Hellion":
         keys:
           - /accompanied by [a-zA-Z]+, a male Hellion/
         text: >
-          The Hellion is wild, unpredictable, and utterly ruthless; He thrills to the spilling of blood! His massive glaive affords him impressive reach in combat, while its razor sharp edge leaves lasting wounds on enemies. Versatile and unrelenting, he can hit the back row with his blade and devastate his foes. His versatility is only matched by his ferocity.
+          The Hellion is wild, unpredictable, and utterly ruthless; He thrills
+          to the spilling of blood! His massive glaive affords him impressive
+          reach in combat, while its razor sharp edge leaves lasting wounds on
+          enemies. Versatile and unrelenting, he can hit the back row with his
+          blade and devastate his foes. His versatility is only matched by his
+          ferocity.
 
-          During combat, the Hellion will face any enemy head-on and can pick on even the furthest enemies thanks to his giant glaive. Breakthrough is a wide swing against multiple enemies. Bleed Out maims the target and inflicts them with deep bleeding wounds. These abilities leave the Hellion exhausted, reducing his effectiveness in long battles, and are crippling to him when overused. Iron Swan is an exquisite option to pick off enemies far in the back. Adrenaline Rush buffs up the Hellion's damage to help counter him exhaustion.
+          During combat, the Hellion will face any enemy head-on and can pick
+          on even the furthest enemies thanks to his giant glaive. Breakthrough
+          is a wide swing against multiple enemies. Bleed Out maims the target
+          and inflicts them with deep bleeding wounds. These abilities leave
+          the Hellion exhausted, reducing his effectiveness in long battles,
+          and are crippling to him when overused. Iron Swan is an exquisite
+          option to pick off enemies far in the back. Adrenaline Rush buffs up
+          the Hellion's damage to help counter him exhaustion.
       "Class: male Highwayman":
         keys:
           - /accompanied by [a-zA-Z]+, a male Highwayman/
         text: >
-          The Highwayman is a bandit seeking redemption. When night falls, the Highwayman relishes cynical preparedness and off-color jokes around the campfire. A life spent running and hiding has taught him the tenuous benefit of perimeter alarms, and late-night investigations into the encroaching shadows.
+          The Highwayman is a bandit seeking redemption. When night falls, the
+          Highwayman relishes cynical preparedness and off-color jokes around
+          the campfire. A life spent running and hiding has taught him the
+          tenuous benefit of perimeter alarms, and late-night investigations
+          into the encroaching shadows.
 
-          During combat, the Highwayman shows unparalleled finesse and ferocity. Pistol Shot picks off foes from afar. Duelist's Advance moves the Highwayman forward with and sets up a Riposte, retaliating attacks made against him. Wicked Slice is a melee attack with his dirk. Grapeshot Blast is a devastating attack against multiple enemies, finishing off weakened enemies and softening up others. Point Blank Shot is a close-combat shot, used to inflict massive damage against the Highwayman's foe.
+          During combat, the Highwayman shows unparalleled finesse and
+          ferocity. Pistol Shot picks off foes from afar. Duelist's Advance
+          moves the Highwayman forward with and sets up a Riposte, retaliating
+          attacks made against him. Wicked Slice is a melee attack with his
+          dirk. Grapeshot Blast is a devastating attack against multiple
+          enemies, finishing off weakened enemies and softening up others.
+          Point Blank Shot is a close-combat shot, used to inflict massive
+          damage against the Highwayman's foe.
       "Class: male Houndmaster":
         keys:
           - /accompanied by [a-zA-Z]+, a male Houndmaster/
         text: >
-          The Houndmaster is a tough and uncommonly compassionate ex-lawman. He and his faithful Wolfhound work in tandem to bring down their enemies and protect the innocent. Still clad in his worn Gendarme's uniform, the Houndmaster's focus is on evasion over mitigation. His cudgel is an effective, stunning tool, but it is the Hound who delivers the pair's most crippling blows.
+          The Houndmaster is a tough and uncommonly compassionate ex-lawman.
+          He and his faithful Wolfhound work in tandem to bring down their
+          enemies and protect the innocent. Still clad in his worn Gendarme's
+          uniform, the Houndmaster's focus is on evasion over mitigation. His
+          cudgel is an effective, stunning tool, but it is the Hound who
+          delivers the pair's most crippling blows.
 
-          During combat, the Houndmaster relies on his faithful dog and will put himself into harms way to protect his trusty companion. Hound's Rush sends forth Wolfhound against one target. Target Whistle reveals weak spots in the foe's defense. Cry Havoc puts the mind of the Houndmaster's allies at ease. Guard Dog protects an ally and raises the dog's defensive abilities. Lick Wounds provides a quick self-heal in a pinch. Blackjack stuns enemies with a heavy wack of the cudgel.
+          During combat, the Houndmaster relies on his faithful dog and will
+          put himself into harms way to protect his trusty companion. Hound's
+          Rush sends forth Wolfhound against one target. Target Whistle reveals
+          weak spots in the foe's defense. Cry Havoc puts the mind of the
+          Houndmaster's allies at ease. Guard Dog protects an ally and raises
+          the dog's defensive abilities. Lick Wounds provides a quick self-heal
+          in a pinch. Blackjack stuns enemies with a heavy wack of the cudgel.
       "Class: male Jester":
         keys:
           - /accompanied by [a-zA-Z]+, a male Jester/
         text: >
-          The Jester brings a good laugh, a merry song, and a razor sharp blade into the darkest depths of these twisted lands. Clad only in mildewed cloth, the Jester makes a mockery of battle. As an entertainer, he can turn a stressful night of camping into a night of merriment and wit. For the Jester, combat is a power ballad - a slow build up, and a grand finale!
+          The Jester brings a good laugh, a merry song, and a razor sharp blade
+          into the darkest depths of these twisted lands. Clad only in mildewed
+          cloth, the Jester makes a mockery of battle. As an entertainer, he
+          can turn a stressful night of camping into a night of merriment and
+          wit. For the Jester, combat is a power ballad - a slow build up, and
+          a grand finale!
 
-          During combat, the Jester easily moves through enemy lines, often relying both on luck and skill. Slice Off is a skillful attack with the Jester's sickle, leaving his enemies bleeding. Dirk Stab, moves the Jester to the front of combat. Finale deals extraordinary damage to one enemy. This leaves the Jester open to any retaliation should it not finish his enemy off. Inspiring Tune is a unique support ability; The Jester can perform by playing a tune on his lute to put anyone's mind at ease.
+          During combat, the Jester easily moves through enemy lines, often
+          relying both on luck and skill. Slice Off is a skillful attack with
+          the Jester's sickle, leaving his enemies bleeding. Dirk Stab, moves
+          the Jester to the front of combat. Finale deals extraordinary damage
+          to one enemy. This leaves the Jester open to any retaliation should
+          it not finish his enemy off. Inspiring Tune is a unique support
+          ability; The Jester can perform by playing a tune on his lute to put
+          anyone's mind at ease.
       "Class: male Leper":
         keys:
           - /accompanied by [a-zA-Z]+, a male Leper/
         text: >
-          The Leper is a ruined man, a warrior and a poet. Struggle, and futility — all one's days are a constant toil to shelter life's ember through one more night. The Leper not only knows but embraces such solemnity. Tortured existence has taught him to count not on the care of others. The Leper can gain strength others can but dream of, or the endurance to bear what no other could. And when his massive blade falls, death's call rings loud to all caught in its thunderous arc. However, such force falls not nimbly, and foes may lightly evade their execution.
+          The Leper is a ruined man, a warrior and a poet. Struggle, and
+          futility — all one's days are a constant toil to shelter life's
+          ember through one more night. The Leper not only knows but embraces
+          such solemnity. Tortured existence has taught him to count not on
+          the care of others. The Leper can gain strength others can but
+          dream of, or the endurance to bear what no other could. And when
+          his massive blade falls, death's call rings loud to all caught
+          in its thunderous arc. However, such force falls not nimbly, and
+          foes may lightly evade their execution.
 
-          During Combat, the Leper will face any opposition head on. Chop is a devastating strike with his execution's blade against a close target. Intimidate shakes the target's resolve. Purge knocks back an enemy back. Withstand gives the Leper increased resistances.
+          During Combat, the Leper will face any opposition head on. Chop
+          is a devastating strike with his execution's blade against a close
+          target. Intimidate shakes the target's resolve. Purge knocks back
+          an enemy back. Withstand gives the Leper increased resistances.
       "Class: male Man-at-Arms":
         keys:
           - /accompanied by [a-zA-Z]+, a male Man-at-Arms/
         text: >
-          The Man-at-Arms is an old, battle-scarred veteran, who has seen enough war and bloodshed to last more than a dozen lifetimes. While he can no longer swing his great mace with the force he once could, no one should stand where he swings his mighty weapon. The Man-at-Arms is a seasoned veteran, and has been rewarded for his toil with haunting guilt and stoic resilience. The Man-at-Arms breaks down enemy lines with his mace, shield, and furious battle cries.
+          The Man-at-Arms is an old, battle-scarred veteran, who has seen
+          enough war and bloodshed to last more than a dozen lifetimes. While
+          he can no longer swing his great mace with the force he once could,
+          no one should stand where he swings his mighty weapon. The
+          Man-at-Arms is a seasoned veteran, and has been rewarded for his
+          toil with haunting guilt and stoic resilience. The Man-at-Arms
+          breaks down enemy lines with his mace, shield, and furious battle
+          cries.
 
-          During combat, the Man-at-Arms protects his allies with Defender, redirecting an attack towards him. Bellow shakes the enemies resolve, giving your team the upper hand in combat. Rampart knocks back and stun an enemy, while moving the Man-at-Arms into close combat. Retribution activates Riposte, countering any attacks attempted at him with a solid smack of his shield.
+          During combat, the Man-at-Arms protects his allies with Defender,
+          redirecting an attack towards him. Bellow shakes the enemies resolve,
+          giving your team the upper hand in combat. Rampart knocks back and
+          stun an enemy, while moving the Man-at-Arms into close combat.
+          Retribution activates Riposte, countering any attacks attempted at
+          him with a solid smack of his shield.
       "Class: male Musketeer":
         keys:
           - /accompanied by [a-zA-Z]+, a male Musketeer/
         text: >
-          The Musketeer is a competitive sharpshooter with little practical experience, and excels when enemies remain at a distance. Although outwardly inconspicuous, the Musketeer's regalia is reinforced with hardened leather under armor, allowing him to sustain a considerable amount of punishment. His musket's variable ammunition and trusty sidearm allow him to deal debilitating damage at range.
+          The Musketeer is a competitive sharpshooter with little practical
+          experience, and excels when enemies remain at a distance. Although
+          outwardly inconspicuous, the Musketeer's regalia is reinforced with
+          hardened leather under armor, allowing him to sustain a considerable
+          amount of punishment. His musket's variable ammunition and trusty
+          sidearm allow him to deal debilitating damage at range.
 
-          During combat, the Musketeer stays in the far back, relying on his immaculate aim. Aimed Shot is a well-placed shot against enemies in the back. Smokescreen blind the target. Buckshot knocks its target back. Sidearm buys the Musketeer time to retreat to the safety of the back line.
+          During combat, the Musketeer stays in the far back, relying on his
+          immaculate aim. Aimed Shot is a well-placed shot against enemies in
+          the back. Smokescreen blind the target. Buckshot knocks its target
+          back. Sidearm buys the Musketeer time to retreat to the safety of
+          the back line.
       "Class: male Occultist":
         keys:
           - /accompanied by [a-zA-Z]+, a male Occultist/
         text: >
-          The Occultist is living proof that the dark arts can be used to expunge darkness itself. He has utilized that same knowledge as the Ancestor to further his understanding of the eldritch. His pursuits have left his body fragile and weak, but it has made his mind sharp and his capabilities most versatile. In his younger years, the Occultist clashed with the Shambler and harness a portion of its power.
+          The Occultist is living proof that the dark arts can be used to
+          expunge darkness itself. He has utilized that same knowledge as the
+          Ancestor to further his understanding of the eldritch. His pursuits
+          have left his body fragile and weak, but it has made his mind sharp
+          and his capabilities most versatile. In his younger years, the
+          Occultist clashed with the Shambler and harness a portion of its
+          power.
 
-          During combat, the Occultist calls upon the dark arts to serve him. Daemon's Pull wrenches individuals to the front of the fray. Sacrificial Stab is a melee attack that is especially effective against Eldritch horrors. Abyssal Artillery calls forth otherworldly tentacles to harass and harm groups of enemies. Wyrd Reconstruction reconstructs flesh and heal wounds. This technique is powerful, but unpredictable, as it may restore his ally to perfect health or tear apart their flesh.
+          During combat, the Occultist calls upon the dark arts to serve him.
+          Daemon's Pull wrenches individuals to the front of the fray.
+          Sacrificial Stab is a melee attack that is especially effective
+          against Eldritch horrors. Abyssal Artillery calls forth otherworldly
+          tentacles to harass and harm groups of enemies. Wyrd Reconstruction
+          reconstructs flesh and heal wounds. This technique is powerful, but
+          unpredictable, as it may restore his ally to perfect health or tear
+          apart their flesh.
       "Class: male Plague Doctor":
         keys:
           - /accompanied by [a-zA-Z]+, a male Plague Doctor/
         text: >
-          The Plague Doctor is brilliant and bold; His unconventional theories created nothing short of a scandal during his education. The mysteries of the human body - of life and death itself - had always fascinated him. When his research was at a critical point, a grim opportunity to prove his theories presented himself. In the weeks that followed, however, he found himself unable to focus, instead sitting motionless at his desk, paralyzed by the ceaseless wailing that reverberated in his mind. The Plague Doctor makes use of experimental remedies and risky healing practices to cure his companions' ailments, and restore their vigor.
+          The Plague Doctor is brilliant and bold; His unconventional theories
+          created nothing short of a scandal during his education. The
+          mysteries of the human body - of life and death itself - had always
+          fascinated him. When his research was at a critical point, a grim
+          opportunity to prove his theories presented himself. In the weeks
+          that followed, however, he found himself unable to focus, instead
+          sitting motionless at his desk, paralyzed by the ceaseless wailing
+          that reverberated in his mind. The Plague Doctor makes use of
+          experimental remedies and risky healing practices to cure his
+          companions' ailments, and restore their vigor.
 
-          During combat, the Plague Doctor stays far in the back, throwing his various concoctions at his enemies. Plague Grenade inflicts his enemies with noxious blight. Blinding Gas is a powerful stun. Battlefield Medicine  cures both the Plague Doctor and allies of any ailments. Incision is a melee attack, that inflicts bleeding wounds on the target.
-
+          During combat, the Plague Doctor stays far in the back, throwing
+          his various concoctions at his enemies. Plague Grenade inflicts
+          his enemies with noxious blight. Blinding Gas is a powerful stun.
+          Battlefield Medicine  cures both the Plague Doctor and allies of
+          any ailments. Incision is a melee attack, that inflicts bleeding
+          wounds on the target.
       "Class: male Shieldbreaker":
         keys:
           - /accompanied by [a-zA-Z]+, a male Shieldbreaker/
         text: >
-          The Shieldbreaker hails from the distant windswept dunes of the east. Deadly as a viper, his iron will has been forged in the heat of the blazing desert sun. Though outwardly demure, his emancipation from the barren wastes came at a price so terrible, it haunts his dreams even now... An unfortunate series of events forced the Shieldbreaker to cut his hand to survive, and the images of the past haunt him until today.
+          The Shieldbreaker hails from the distant windswept dunes of the east.
+          Deadly as a viper, his iron will has been forged in the heat of the
+          blazing desert sun. Though outwardly demure, his emancipation from
+          the barren wastes came at a price so terrible, it haunts his dreams
+          even now... An unfortunate series of events forced the Shieldbreaker
+          to cut his hand to survive, and the images of the past haunt him
+          until today.
 
-          During combat, the Shieldbreaker gracefully moves about the battlefield, wielding a spear and buckler to keep himself out of danger while he swiftly decimates the enemy defenses. His dancer's garb is better suited to the stage than the dungeon; he must be quick to survive. Pierce entirely ignores armor. Captivate pulls enemies to the front. Adder's Kiss is a devastating attack, that infects the target with blight. Serpent Sway raises the Shieldbreaker's defensive abilities and often gets him out of harms way.
+          During combat, the Shieldbreaker gracefully moves about the
+          battlefield, wielding a spear and buckler to keep himself out of
+          danger while he swiftly decimates the enemy defenses. His dancer's
+          garb is better suited to the stage than the dungeon; he must be
+          quick to survive. Pierce entirely ignores armor. Captivate pulls
+          enemies to the front. Adder's Kiss is a devastating attack, that
+          infects the target with blight. Serpent Sway raises the
+          Shieldbreaker's defensive abilities and often gets him out of
+          harms way.
       "Class: male Vestal":
         keys:
           - /accompanied by [a-zA-Z]+, a male Vestal/
         text: >
-          The Vestal is a brother of battle; Pious and unrelenting, he is determined to bring faith on the battlefield as a weapon against corruption. Prayers, chants, and blessings bring peace and solace to the Vestal and his party at night, heal the wounded and protect from nighttime attacks. Blessed plate mail encases the Vestal as he delivers terrible violence and healing comfort in equal measure.
+          The Vestal is a brother of battle; Pious and unrelenting, he is
+          determined to bring faith on the battlefield as a weapon against
+          corruption. Prayers, chants, and blessings bring peace and solace
+          to the Vestal and his party at night, heal the wounded and protect
+          from nighttime attacks. Blessed plate mail encases the Vestal as
+          he delivers terrible violence and healing comfort in equal measure.
           
-          During combat, the Vestal wields a mace in one hand, and a holy book in the other. This warrior monk often channels his zeal for battle into healing abilities. Divine Grace heals the target of its most grievous injuries. Holy Judgement calls upon the light itself to strike against the Vestal's foes. Mace Bash is a strong melee attack. Dazzling Light blinds the target with the Vestal's divine powers.
+          During combat, the Vestal wields a mace in one hand, and a holy
+          book in the other. This warrior monk often channels his zeal for
+          battle into healing abilities. Divine Grace heals the target of
+          its most grievous injuries. Holy Judgement calls upon the light
+          itself to strike against the Vestal's foes. Mace Bash is a strong
+          melee attack. Dazzling Light blinds the target with the Vestal's
+          divine powers.

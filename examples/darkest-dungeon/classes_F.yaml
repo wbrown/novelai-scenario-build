@@ -1,3 +1,4 @@
+## Class definitions for female companions
 categories:
   Classes:
     createSubcontext: true
@@ -23,126 +24,335 @@ lorebook:
         keys:
           - /accompanied by [a-zA-Z]+, a female Abomination/
         text: >
-          The Abomination has been beaten, branded and imprisoned for untold decades. The Eldritch poison coursing through her veins has given her unspeakable power, at a terrible cost. Her progressive mutation manifests in unspeakable strength, speed, and a profusion of bile.
+          The Abomination has been beaten, branded and imprisoned for untold
+          decades. The Eldritch poison coursing through her veins has given her
+          unspeakable power, at a terrible cost. Her progressive mutation
+          manifests in unspeakable strength, speed, and a profusion of bile.
 
-          During combat, the Abomination is protected by cursed chains and a thick, leathery hide. She can withstand the pressures of frontline combat as well as any plated footman. Manacles stuns the target with a whack from the heavy chains wrapped around the Abomination's wrists. Beast's Bile inflicts the target with poisonous blight. Transform unleashes the Abomination's inner monstrosity, healing her and supplying her with claws as large as daggers as long as she remains transformed. Rake is a vicious melee attack, which starts out weak but ramps up in damage for each use. Slam is a charge attack, often leaving the target reeling.
+          During combat, the Abomination is protected by cursed chains and a
+          thick, leathery hide. She can withstand the pressures of frontline
+          combat as well as any plated footman. Manacles stuns the target with
+          a whack from the heavy chains wrapped around the Abomination's wrist
+          s. Beast's Bile inflicts the target with poisonous blight. Transform
+          unleashes the Abomination's inner monstrosity, healing her and
+          supplying her with claws as large as daggers as long as she remains
+          transformed. Rake is a vicious melee attack, which starts out weak
+          but ramps up in damage for each use. Slam is a charge attack, often
+          leaving the target reeling.
       "Class: female Antiquarian":
         keys:
           - /accompanied by [a-zA-Z]+, a female Antiquarian/
         text: >
-          The Antiquarian is a scholar, researcher, and a keen archaeologist. While the Antiquarian is a liability in combat, she makes up for it with her keen ability to detect treasure and the vast knowledge she brings about the various trinkets and charms that can be found in these doomed lands.
+          The Antiquarian is a scholar, researcher, and a keen archaeologist.
+          While the Antiquarian is a liability in combat, she makes up for it
+          with her keen ability to detect treasure and the vast knowledge she
+          brings about the various trinkets and charms that can be found in
+          these doomed lands.
 
-          During combat, the Antiquarian makes herself scarce to ensure her own survival. Nervous Stab is a meek attack with her kukri. Festering Vapors emits noxious gas from the Antiquarian's censer to inflict middling Blight. Flashpowder reduces a single enemy's accuracy. Get Down brings the Antiquarian out of harms reach. Protect Me forces an ally to guard her, while giving them an excellent defensive boost in return.
+          During combat, the Antiquarian makes herself scarce to ensure her
+          own survival. Nervous Stab is a meek attack with her kukri. Festering
+          Vapors emits noxious gas from the Antiquarian's censer to inflict
+          middling Blight. Flashpowder reduces a single enemy's accuracy. Get
+          Down brings the Antiquarian out of harms reach. Protect Me forces an
+          ally to guard her, while giving them an excellent defensive boost in
+          return.
       "Class: female Arbalest":
         keys:
           - /accompanied by [a-zA-Z]+, a female Arbalest/
         text: >
-          The Arbalest is a runaway turned soldier clad in heavy armor and able to vanquish foes with her massive crossbow. Her life of war has given her many skills for the battlefield, and her heavy crossbow allows her to snipe high-priority targets from afar. At camp, the Arbalest often spends her night tending to her crossbow - her one companion since childhood. As long as she is given ample distance between herself and her quarry, no foe is safe from this sharpshooter's wrath.
+          The Arbalest is a runaway turned soldier clad in heavy armor and able
+          to vanquish foes with her massive crossbow. Her life of war has given
+          her many skills for the battlefield, and her heavy crossbow allows
+          her to snipe high-priority targets from afar. At camp, the Arbalest
+          often spends her night tending to her crossbow - her one companion
+          since childhood. As long as she is given ample distance between
+          herself and her quarry, no foe is safe from this sharpshooter's
+          wrath.
 
-          During combat, the Arbalest will stay behind her allies and harass the enemies with well-placed shots from her giant crossbow. Sniper Shot is an incredibly skilled shot, able to hit any target from anywhere. Battlefield Bandage heal a target of its most grievous wounds. Bola hinders the Arbalest's target from movement. Suppressing Fire wreaks havoc on entire enemy parties.
+          During combat, the Arbalest will stay behind her allies and harass
+          the enemies with well-placed shots from her giant crossbow. Sniper
+          Shot is an incredibly skilled shot, able to hit any target from
+          anywhere. Battlefield Bandage heal a target of its most grievous
+          wounds. Bola hinders the Arbalest's target from movement. Suppressing
+          Fire wreaks havoc on entire enemy parties.
       "Class: female Bounty Hunter":
         keys:
           - /accompanied by [a-zA-Z]+, a female Bounty Hunter/
         text: >
-          The Bounty Hunter is a brutally efficient hunter. For her, planning is key - She has found that simply striking before thinking is an ineffective way to kill, so she has taught herself many ways to take advantage of her foe's vulnerabilities. At camp, like in combat, the Bounty Hunter is all about preparedness. She can take time to study her notes, bettering her odds against her foes.
+          The Bounty Hunter is a brutally efficient hunter. For her, planning
+          is key - She has found that simply striking before thinking is an
+          ineffective way to kill, so she has taught herself many ways to take
+          advantage of her foe's vulnerabilities. At camp, like in combat, the
+          Bounty Hunter is all about preparedness. She can take time to study
+          her notes, bettering her odds against her foes.
 
-          During combat, the Bounty Hunter specializes in targeting a single foe to deliver its head for the reward. Mark for Death finds weak spots in her enemies' armor. Collect Bounty capitalizes on any opening found and delivers a devastating hit with the Bounty Hunter's axe. Come Hither pulls the target in or slice them up with her sharp grappling hook. Flashbang disorients the target, leaving them blinded for a moment. No matter the situation, this calculating killer will have an answer for it.
+          During combat, the Bounty Hunter specializes in targeting a single
+          foe to deliver its head for the reward. Mark for Death finds weak
+          spots in her enemies' armor. Collect Bounty capitalizes on any
+          opening found and delivers a devastating hit with the Bounty Hunter's
+          axe. Come Hither pulls the target in or slice them up with her sharp
+          grappling hook. Flashbang disorients the target, leaving them blinded
+          for a moment. No matter the situation, this calculating killer will
+          have an answer for it.
       "Class: female Crusader":
         keys:
           - /accompanied by [a-zA-Z]+, a female Crusader/
         text: >
-          The Crusader is a champion - a hero to rally otherwise common men to a righteous cause. With holy blade in hand, she smites the wicked and sends them back to the darkness from whence they crept. No matter the pressures she faces, she will remain strong, finding strength within herself to keep fighting on while inspiring others to do the same.
+          The Crusader is a champion - a hero to rally otherwise common men to
+          a righteous cause. With holy blade in hand, she smites the wicked and
+          sends them back to the darkness from whence they crept. No matter the
+          pressures she faces, she will remain strong, finding strength within
+          herself to keep fighting on while inspiring others to do the same.
 
-          During combat, The Crusader is restricted in movement, due to her heavy armor. Though, thanks to its great protection, she can stand in the frontline to take the blows that her weaker comrades cannot. Smite is a strike with the Crusader's great sword and especially effective against the Undead. Holy Lance is a charge attack, able to hit even the furthest enemies. Bulwark of Faith will ensure that most enemy damage thrown then Crusader's way does barely a scratch on her. Inspiring Cry keeps the front line from collapsing, the fearful from snapping, and the darkness from taking hold.
+          During combat, The Crusader is restricted in movement, due to her
+          heavy armor. Though, thanks to its great protection, she can stand
+          in the frontline to take the blows that her weaker comrades cannot.
+          Smite is a strike with the Crusader's great sword and especially
+          effective against the Undead. Holy Lance is a charge attack, able to
+          hit even the furthest enemies. Bulwark of Faith will ensure that most
+          enemy damage thrown then Crusader's way does barely a scratch on her.
+          Inspiring Cry keeps the front line from collapsing, the fearful from
+          snapping, and the darkness from taking hold.
       "Class: female Flagellant":
         keys:
           - /accompanied by [a-zA-Z]+, a female Flagellant/
         text: >
-          The Flagellant relishes the scars and abrasions that cover her body - drawing incomprehensible resilience from the tearing of her own flesh. Her flail, a particularly cruel and merciless weapon, drips with her enemies' blood and her own.
+          The Flagellant relishes the scars and abrasions that cover her body -
+          drawing incomprehensible resilience from the tearing of her own
+          flesh. Her flail, a particularly cruel and merciless weapon, drips
+          with her enemies' blood and her own.
 
-          During combat, the Flagellant stands like a wall between her comrades and her foes, with her arms wide open, her body exposed, acting like a magnet for all harm that may come their way. Punish is a merciless strike with her flail - inflicting the target with bleeding wounds. Reclaim heals an ally while opening the Flagellants own wounds in return. The Flagellant's abilities are respectable on their own, but they only become more powerful as her body and mind are abused to their limit. Exsanguinate renders immense punishment against the Flagellant's foes. Redeem restores her body as well as that of an ally.
+          During combat, the Flagellant stands like a wall between her
+          comrades and her foes, with her arms wide open, her body exposed,
+          acting like a magnet for all harm that may come their way. Punish
+          is a merciless strike with her flail - inflicting the target with
+          bleeding wounds. Reclaim heals an ally while opening the Flagellants
+          own wounds in return. The Flagellant's abilities are respectable on
+          their own, but they only become more powerful as her body and mind
+          are abused to their limit. Exsanguinate renders immense punishment
+          against the Flagellant's foes. Redeem restores her body as well as
+          that of an ally.
       "Class: female Grave Robber":
         keys:
           - /accompanied by [a-zA-Z]+, a female Grave Robber/
         text: >
-          The Grave Robber was born into money, and married into more. But when her spouse's boorish lust and drunken temper became too much to bear, she had to act. Years of decadence and financial mismanagement had left her estate in staggering debt. To preserve her social standing, she pilfered her late spouse's tomb, but found the thrill too exhilarating to ever return to her old life and instead took on the life of a restless wanderer.
+          The Grave Robber was born into money, and married into more. But when
+          her spouse's boorish lust and drunken temper became too much to bear,
+          she had to act. Years of decadence and financial mismanagement had
+          left her estate in staggering debt. To preserve her social standing,
+          she pilfered her late spouse's tomb, but found the thrill too
+          exhilarating to ever return to her old life and instead took on the
+          life of a restless wanderer.
 
-          During combat, the Grave Robber is an incredibly nimble fighter, evading hits that would easily bring her to Death's Door. Pick To the Face is a melee attack with the Grave Robber's trusty pickaxe. Lunge is a charge attack with her dagger. Shadow Fade allows her to retreat to the back lines, giving her stealth and a boost in offense. Throw Daggers is a skilled ranged attack. Poison Darts inflicts the target with noxious blight.
+          During combat, the Grave Robber is an incredibly nimble fighter,
+          evading hits that would easily bring her to Death's Door. Pick to the
+          Face is a melee attack with the Grave Robber's trusty pickaxe. Lunge
+          is a charge attack with her dagger. Shadow Fade allows her to retreat
+          to the back lines, giving her stealth and a boost in offense. Throw
+          Daggers is a skilled ranged attack. Poison Darts inflicts the target
+          with noxious blight.
       "Class: female Hellion":
         keys:
           - /accompanied by [a-zA-Z]+, a female Hellion/
         text: >
-          The Hellion is wild, unpredictable, and utterly ruthless; She thrills to the spilling of blood! Her massive glaive affords her impressive reach in combat, while its razor sharp edge leaves lasting wounds on enemies. Versatile and unrelenting, she can hit the back row with her blade and devastate her foes. Her versatility is only matched by her ferocity.
+          The Hellion is wild, unpredictable, and utterly ruthless; She thrills
+          to the spilling of blood! Her massive glaive affords her impressive
+          reach in combat, while its razor sharp edge leaves lasting wounds on
+          enemies. Versatile and unrelenting, she can hit the back row with her
+          blade and devastate her foes. Her versatility is only matched by her
+          ferocity.
 
-          During combat, the Hellion will face any enemy head-on and can pick on even the furthest enemies thanks to her giant glaive. Breakthrough is a wide swing against multiple enemies. Bleed Out maims the target and inflicts them with deep bleeding wounds. These abilities leave the Hellion exhausted, reducing her effectiveness in long battles, and are crippling to her when overused. Iron Swan is an exquisite option to pick off enemies far in the back. Adrenaline Rush buffs up the Hellion's damage to help counter her exhaustion.
+          During combat, the Hellion will face any enemy head-on and can pick
+          on even the furthest enemies thanks to her giant glaive. Breakthrough
+          is a wide swing against multiple enemies. Bleed Out maims the target
+          and inflicts them with deep bleeding wounds. These abilities leave
+          the Hellion exhausted, reducing her effectiveness in long battles,
+          and are crippling to her when overused. Iron Swan is an exquisite
+          option to pick off enemies far in the back. Adrenaline Rush buffs
+          up the Hellion's damage to help counter her exhaustion.
       "Class: female Highwayman":
         keys:
           - /accompanied by [a-zA-Z]+, a female Highwayman/
         text: >
-          The Highwayman is a bandit seeking redemption. When night falls, the Highwayman relishes cynical preparedness and off-color jokes around the campfire. A life spent running and hiding has taught her the tenuous benefit of perimeter alarms, and late-night investigations into the encroaching shadows.
+          The Highwayman is a bandit seeking redemption. When night falls, the
+          Highwayman relishes cynical preparedness and off-color jokes around
+          the campfire. A life spent running and hiding has taught her the
+          tenuous benefit of perimeter alarms, and late-night investigations
+          into the encroaching shadows.
 
-          During combat, the Highwayman shows unparalleled finesse and ferocity. Pistol Shot picks off foes from afar. Duelist's Advance moves the Highwayman forward with and sets up a Riposte, retaliating attacks made against her. Wicked Slice is a melee attack with her dirk. Grapeshot Blast is a devastating attack against multiple enemies, finishing off weakened enemies and softening up others. Point Blank Shot is a close-combat shot, used to inflict massive damage against the Highwayman's foe.
+          During combat, the Highwayman shows unparalleled finesse and
+          ferocity. Pistol Shot picks off foes from afar. Duelist's Advance
+          moves the Highwayman forward with and sets up a Riposte, retaliating
+          attacks made against her. Wicked Slice is a melee attack with her
+          dirk. Grapeshot Blast is a devastating attack against multiple
+          enemies, finishing off weakened enemies and softening up others.
+          Point Blank Shot is a close-combat shot, used to inflict massive
+          damage against the Highwayman's foe.
       "Class: female Houndmaster":
         keys:
           - /accompanied by [a-zA-Z]+, a female Houndmaster/
         text: >
-          The Houndmaster is a tough and uncommonly compassionate ex-lawwoman. She and her faithful Wolfhound work in tandem to bring down their enemies and protect the innocent. Still clad in her worn Gendarme's uniform, the Houndmaster's focus is on evasion over mitigation. Her cudgel is an effective, stunning tool, but it is the Hound who delivers the pair's most crippling blows.
+          The Houndmaster is a tough and uncommonly compassionate ex-lawwoman.
+          She and her faithful Wolfhound work in tandem to bring down their
+          enemies and protect the innocent. Still clad in her worn Gendarme's
+          uniform, the Houndmaster's focus is on evasion over mitigation. Her
+          cudgel is an effective, stunning tool, but it is the Hound who
+          delivers the pair's most crippling blows.
 
-          During combat, the Houndmaster relies on her faithful dog and will put herself into harms way to protect her trusty companion. Hound's Rush sends forth Wolfhound against one target. Target Whistle reveals weak spots in the foe's defense. Cry Havoc puts the mind of the Houndmaster's allies at ease. Guard Dog protects an ally and raises the dog's defensive abilities. Lick Wounds provides a quick self-heal in a pinch. Blackjack stuns enemies with a heavy wack of the cudgel.
+          During combat, the Houndmaster relies on her faithful dog and will
+          put herself into harms way to protect her trusty companion. Hound's
+          Rush sends forth Wolfhound against one target. Target Whistle reveals
+          weak spots in the foe's defense. Cry Havoc puts the mind of the
+          Houndmaster's allies at ease. Guard Dog protects an ally and raises
+          the dog's defensive abilities. Lick Wounds provides a quick self-heal
+          in a pinch. Blackjack stuns enemies with a heavy wack of the cudgel.
       "Class: female Jester":
         keys:
           - /accompanied by [a-zA-Z]+, a female Jester/
         text: >
-          The Jester brings a good laugh, a merry song, and a razor sharp blade into the darkest depths of these twisted lands. Clad only in mildewed cloth, the Jester makes a mockery of battle. As an entertainer, she can turn a stressful night of camping into a night of merriment and wit. For the Jester, combat is a power ballad - a slow build up, and a grand finale!
+          The Jester brings a good laugh, a merry song, and a razor sharp blade
+          into the darkest depths of these twisted lands. Clad only in mildewed
+          cloth, the Jester makes a mockery of battle. As an entertainer, she
+          can turn a stressful night of camping into a night of merriment and
+          wit. For the Jester, combat is a power ballad - a slow build up, and
+          a grand finale!
 
-          During combat, the Jester easily moves through enemy lines, often relying both on luck and skill. Slice Off is a skillful attack with the Jester's sickle, leaving her enemies bleeding. Dirk Stab, moves the Jester to the front of combat. Finale deals extraordinary damage to one enemy. This leaves the Jester open to any retaliation should it not finish her enemy off. Inspiring Tune is a unique support ability; The Jester can perform by playing a tune on her lute to put anyone's mind at ease.
+          During combat, the Jester easily moves through enemy lines, often
+          relying both on luck and skill. Slice Off is a skillful attack with
+          the Jester's sickle, leaving her enemies bleeding. Dirk Stab, moves
+          the Jester to the front of combat. Finale deals extraordinary damage
+          to one enemy. This leaves the Jester open to any retaliation should
+          it not finish her enemy off. Inspiring Tune is a unique support
+          ability; The Jester can perform by playing a tune on her lute to put
+          anyone's mind at ease.
       "Class: female Leper":
         keys:
           - /accompanied by [a-zA-Z]+, a female Leper/
         text: >
-          The Leper is a ruined woman, a warrior and a poet. Struggle, and futility — all one's days are a constant toil to shelter life's ember through one more night. The Leper not only knows but embraces such solemnity. Tortured existence has taught her to count not on the care of others. The Leper can gain strength others can but dream of, or the endurance to bear what no other could. And when her massive blade falls, death's call rings loud to all caught in its thunderous arc. However, such force falls not nimbly, and foes may lightly evade their execution.
+          The Leper is a ruined woman, a warrior and a poet. Struggle, and
+          futility — all one's days are a constant toil to shelter life's
+          ember through one more night. The Leper not only knows but embraces
+          such solemnity. Tortured existence has taught her to count not on the
+          care of others. The Leper can gain strength others can but dream of,
+          or the endurance to bear what no other could. And when her massive
+          blade falls, death's call rings loud to all caught in its thunderous
+          arc. However, such force falls not nimbly, and foes may lightly evade
+          their execution.
 
-          During Combat, the Leper will face any opposition head on. Chop is a devastating strike with her execution's blade against a close target. Intimidate shakes the target's resolve. Purge knocks back an enemy back. Withstand gives the Leper increased resistances.
+          During Combat, the Leper will face any opposition head on. Chop is a
+          devastating strike with her execution's blade against a close target.
+          Intimidate shakes the target's resolve. Purge knocks back an enemy
+          back. Withstand gives the Leper increased resistances.
       "Class: female Man-at-Arms":
         keys:
           - /accompanied by [a-zA-Z]+, a female Man-at-Arms/
         text: >
-          The Man-at-Arms is an old, battle-scarred veteran, who has seen enough war and bloodshed to last more than a dozen lifetimes. While she can no longer swing her great mace with the force she once could, no one should stand where she swings her mighty weapon. The Man-at-Arms is a seasoned veteran, and has been rewarded for her toil with haunting guilt and stoic resilience. The Man-at-Arms breaks down enemy lines with her mace, shield, and furious battle cries.
+          The Man-at-Arms is an old, battle-scarred veteran, who has seen
+          enough war and bloodshed to last more than a dozen lifetimes. While
+          she can no longer swing her great mace with the force she once could,
+          no one should stand where she swings her mighty weapon. The
+          Man-at-Arms is a seasoned veteran, and has been rewarded for her toil
+          with haunting guilt and stoic resilience. The Man-at-Arms breaks
+          down enemy lines with her mace, shield, and furious battle cries.
 
-          During combat, the Man-at-Arms protects her allies with Defender, redirecting an attack towards her. Bellow shakes the enemies resolve, giving your team the upper hand in combat. Rampart knocks back and stun an enemy, while moving the Man-at-Arms into close combat. Retribution activates Riposte, countering any attacks attempted at her with a solid smack of her shield.
+          During combat, the Man-at-Arms protects her allies with Defender,
+          redirecting an attack towards her. Bellow shakes the enemies resolve,
+          giving your team the upper hand in combat. Rampart knocks back and
+          stun an enemy, while moving the Man-at-Arms into close combat.
+          Retribution activates Riposte, countering any attacks attempted at
+          her with a solid smack of her shield.
       "Class: female Musketeer":
         keys:
           - /accompanied by [a-zA-Z]+, a female Musketeer/
         text: >
-          The Musketeer is a competitive sharpshooter with little practical experience, and excels when enemies remain at a distance. Although outwardly inconspicuous, the Musketeer's regalia is reinforced with hardened leather under armor, allowing her to sustain a considerable amount of punishment. Her musket's variable ammunition and trusty sidearm allow her to deal debilitating damage at range.
+          The Musketeer is a competitive sharpshooter with little practical
+          experience, and excels when enemies remain at a distance. Although
+          outwardly inconspicuous, the Musketeer's regalia is reinforced with
+          hardened leather under armor, allowing her to sustain a considerable
+          amount of punishment. Her musket's variable ammunition and trusty
+          sidearm allow her to deal debilitating damage at range.
 
-          During combat, the Musketeer stays in the far back, relying on her immaculate aim. Aimed Shot is a well-placed shot against enemies in the back. Smokescreen blind the target. Buckshot knocks its target back. Sidearm buys the Musketeer time to retreat to the safety of the back line.
+          During combat, the Musketeer stays in the far back, relying on her
+          immaculate aim. Aimed Shot is a well-placed shot against enemies in
+          the back. Smokescreen blind the target. Buckshot knocks its target
+          back. Sidearm buys the Musketeer time to retreat to the safety of the
+          back line.
       "Class: female Occultist":
         keys:
           - /accompanied by [a-zA-Z]+, a female Occultist/
         text: >
-          The Occultist is living proof that the dark arts can be used to expunge darkness itself. She has utilized that same knowledge as the Ancestor to further her understanding of the eldritch. Her pursuits have left her body fragile and weak, but it has made her mind sharp and her capabilities most versatile. In her younger years, the Occultist clashed with the Shambler and harness a portion of its power.
+          The Occultist is living proof that the dark arts can be used to
+          expunge darkness itself. She has utilized that same knowledge as the
+          Ancestor to further her understanding of the eldritch. Her pursuits
+          have left her body fragile and weak, but it has made her mind sharp
+          and her capabilities most versatile. In her younger years, the
+          Occultist clashed with the Shambler and harness a portion of its
+          power.
 
-          During combat, the Occultist calls upon the dark arts to serve her. Daemon's Pull wrenches individuals to the front of the fray. Sacrificial Stab is a melee attack that is especially effective against Eldritch horrors. Abyssal Artillery calls forth otherworldly tentacles to harass and harm groups of enemies. Wyrd Reconstruction reconstructs flesh and heal wounds. This technique is powerful, but unpredictable, as it may restore her ally to perfect health or tear apart their flesh.
+          During combat, the Occultist calls upon the dark arts to serve her.
+          Daemon's Pull wrenches individuals to the front of the fray.
+          Sacrificial Stab is a melee attack that is especially effective
+          against Eldritch horrors. Abyssal Artillery calls forth otherworldly
+          tentacles to harass and harm groups of enemies. Wyrd Reconstruction
+          reconstructs flesh and heal wounds. This technique is powerful, but
+          unpredictable, as it may restore her ally to perfect health or tear
+          apart their flesh.
       "Class: female Plague Doctor":
         keys:
           - /accompanied by [a-zA-Z]+, a female Plague Doctor/
         text: >
-          The Plague Doctor is brilliant and bold; Her unconventional theories created nothing short of a scandal during her education. The mysteries of the human body - of life and death itself - had always fascinated her. When her research was at a critical point, a grim opportunity to prove her theories presented herself. In the weeks that followed, however, she found herself unable to focus, instead sitting motionless at her desk, paralyzed by the ceaseless wailing that reverberated in her mind. The Plague Doctor makes use of experimental remedies and risky healing practices to cure her companions' ailments, and restore their vigor.
+          The Plague Doctor is brilliant and bold; Her unconventional theories
+          created nothing short of a scandal during her education. The
+          mysteries of the human body - of life and death itself - had always
+          fascinated her. When her research was at a critical point, a grim
+          opportunity to prove her theories presented herself. In the weeks
+          that followed, however, she found herself unable to focus, instead
+          sitting motionless at her desk, paralyzed by the ceaseless wailing
+          that reverberated in her mind. The Plague Doctor makes use of
+          experimental remedies and risky healing practices to cure her
+          companions' ailments, and restore their vigor.
 
-          During combat, the Plague Doctor stays far in the back, throwing her various concoctions at her enemies. Plague Grenade inflicts her enemies with noxious blight. Blinding Gas is a powerful stun. Battlefield Medicine  cures both the Plague Doctor and allies of any ailments. Incision is a melee attack, that inflicts bleeding wounds on the target.
-
+          During combat, the Plague Doctor stays far in the back, throwing
+          her various concoctions at her enemies. Plague Grenade inflicts her
+          enemies with noxious blight. Blinding Gas is a powerful stun.
+          Battlefield Medicine  cures both the Plague Doctor and allies of any
+          ailments. Incision is a melee attack, that inflicts bleeding wounds
+          on the target.
       "Class: female Shieldbreaker":
         keys:
           - /accompanied by [a-zA-Z]+, a female Shieldbreaker/
         text: >
-          The Shieldbreaker hails from the distant windswept dunes of the east. Deadly as a viper, her iron will has been forged in the heat of the blazing desert sun. Though outwardly demure, her emancipation from the barren wastes came at a price so terrible, it haunts her dreams even now... An unfortunate series of events forced the Shieldbreaker to cut her hand to survive, and the images of the past haunt her until today.
+          The Shieldbreaker hails from the distant windswept dunes of the east.
+          Deadly as a viper, her iron will has been forged in the heat of the
+          blazing desert sun. Though outwardly demure, her emancipation from
+          the barren wastes came at a price so terrible, it haunts her dreams
+          even now... An unfortunate series of events forced the Shieldbreaker
+          to cut her hand to survive, and the images of the past haunt her
+          until today.
 
-          During combat, the Shieldbreaker gracefully moves about the battlefield, wielding a spear and buckler to keep herself out of danger while she swiftly decimates the enemy defenses. Her dancer's garb is better suited to the stage than the dungeon; she must be quick to survive. Pierce entirely ignores armor. Captivate pulls enemies to the front. Adder's Kiss is a devastating attack, that infects the target with blight. Serpent Sway raises the Shieldbreaker's defensive abilities and often gets her out of harms way.
+          During combat, the Shieldbreaker gracefully moves about the
+          battlefield, wielding a spear and buckler to keep herself out of
+          danger while she swiftly decimates the enemy defenses. Her dancer's
+          garb is better suited to the stage than the dungeon; she must be
+          quick to survive. Pierce entirely ignores armor. Captivate pulls
+          enemies to the front. Adder's Kiss is a devastating attack, that
+          infects the target with blight. Serpent Sway raises the
+          Shieldbreaker's defensive abilities and often gets her out of harms
+          way.
       "Class: female Vestal":
         keys:
           - /accompanied by [a-zA-Z]+, a female Vestal/
         text: >
-          The Vestal is a sister of battle; Pious and unrelenting, she is determined to bring faith on the battlefield as a weapon against corruption. Prayers, chants, and blessings bring peace and solace to the Vestal and her party at night, heal the wounded and protect from nighttime attacks. Blessed plate mail encases the Vestal as she delivers terrible violence and healing comfort in equal measure.
+          The Vestal is a sister of battle; Pious and unrelenting, she is
+          determined to bring faith on the battlefield as a weapon against
+          corruption. Prayers, chants, and blessings bring peace and solace to
+          the Vestal and her party at night, heal the wounded and protect from
+          nighttime attacks. Blessed plate mail encases the Vestal as she
+          delivers terrible violence and healing comfort in equal measure.
           
-          During combat, the Vestal wields a mace in one hand, and a holy book in the other. This warrior nun often channels her zeal for battle into healing abilities. Divine Grace heals the target of its most grievous injuries. Holy Judgement calls upon the light itself to strike against the Vestal's foes. Mace Bash is a strong melee attack. Dazzling Light blinds the target with the Vestal's divine powers.
+          During combat, the Vestal wields a mace in one hand, and a holy book
+          in the other. This warrior nun often channels her zeal for battle
+          into healing abilities. Divine Grace heals the target of its most
+          grievous injuries. Holy Judgement calls upon the light itself to
+          strike against the Vestal's foes. Mace Bash is a strong melee attack.
+          Dazzling Light blinds the target with the Vestal's divine powers.

@@ -22,7 +22,8 @@ lorebook:
         keys:
           - Ruins
         text: >
-          [ Undead: Bone Archer, Bone Captain, Bone Courtier, Bone Rabble, Bone Soldier, Bone Spearman, Ghoul ]
+          [ Undead: Bone Archer, Bone Captain, Bone Courtier, Bone Rabble,
+          Bone Soldier, Bone Spearman, Ghoul ]
         loreBiasGroups:
           - phrases:
               - " Bone"
@@ -53,7 +54,8 @@ lorebook:
         keys:
           - Warrens
         text: >
-          [ Swinefolk: Swine Chopper, Swine Wretch, Swine Drummer, Swine Slasher, Swine Skiver, Swinetaur ]
+          [ Swinefolk: Swine Chopper, Swine Wretch, Swine Drummer, Swine
+          Slasher, Swine Skiver, Swinetaur ]
         loreBiasGroups:
           - phrases:
               - " Swine"
@@ -98,7 +100,8 @@ lorebook:
           - Ruins
           - Weald
         text: >
-          [ Brigands: Brigand Bloodletter, Brigand Cutthroat, Brigand Fusilier ]
+          [ Brigands: Brigand Bloodletter, Brigand Cutthroat, Brigand
+          Fusilier ]
         loreBiasGroups:
           - phrases:
               - " Brigand"

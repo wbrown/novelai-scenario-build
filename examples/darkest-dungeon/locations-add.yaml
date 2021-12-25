@@ -24,7 +24,8 @@ lorebook:
           - Hamlet
           - Village
         text: >
-          [ Hamlet Points-of-Interest: Abbey, Graveyard, Blacksmith, Guild, Nomad Wagon, Sanitarium, Survivalist, Tavern ]
+          [ Hamlet Points-of-Interest: Abbey, Graveyard, Blacksmith, Guild,
+          Nomad Wagon, Sanitarium, Survivalist, Tavern ]
       "Dungeon+: the Old Road":
         keys:
           - Old Road
