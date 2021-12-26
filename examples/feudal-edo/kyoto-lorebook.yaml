@@ -487,14 +487,21 @@ lorebook:
       "Summary: Azusa":
         keys:
           - Azusa
+          - Azusa-san
         text: >
           [ Azusa: yūjo / young woman; Azusa: playful& mischevious / slight
           maturity& edge; Azusa: lean&perky, well-shaped frame; Azusa: pale
           skin& elaborate makeup / naked under kimono ]
+        loreBiasGroups:
+          - phrases:
+            - " Azusa"
+            bias: 0.05
       "Summary: ${1FirstName} ${2LastName}":
         keys:
           - ${1FirstName}
+          - ${1FirstName}-san
           - ${2LastName}
+          - ${2LastName}-san
         text: >
           [ ${2LastName}: male foreign western soldier; ${2LastName}: works
           for tokugawa, is White Samurai; ${2LastName}: ${3HairColor} hair
@@ -503,24 +510,40 @@ lorebook:
         keys:
           - Kanou
           - Arisuke
+          - Arisuke-san
         text: >
           [ Kanou: Kagema& Wakashu/ beautiful young man; Kanou: happy
           disposition/ mature aura/ feminine appearance; Kanou: spry&
           elegant/ lightly tanned/ black hair/ green eyes ]
+        loreBiasGroups:
+          - phrases:
+              - " Kanou"
+              - " Arisuke"
+            bias: 0.05
       "Summary: Mayoi":
         keys:
           - Mayoi
+          - Mayoi-san
         text: >
-          [ Mayoi: Kagema& Onnagata/ looks female; Mayoi: shy& speaks
+          [ Mayoi: male Kagema& Onnagata/ very feminine; Mayoi: shy& speaks
           quietly/ lonely air/ curious about foreigners; Mayoi: delicate
           build& big dark eyes/ very girly ]
+        loreBiasGroups:
+          - phrases:
+              - " Mayoi"
+            bias: 0.05
       "Summary: Mizuki":
         keys:
           - Mizuki
+          - Mizuki-san
         text: >
           [ Mizuki: high ranking oiran/ intellect, wit, grace& natural beauty
           Mizuki: gorgeous/ full curves& faint toning, black hair & brown
           eyes; Mizuki: short red kimono / skilled at art& conversation ]
+        loreBiasGroups:
+          - phrases:
+              - " Mizuki"
+            bias: 0.1
       "Summary: Mogami Sechi":
         keys:
           - Sechi
@@ -529,6 +552,11 @@ lorebook:
           [ Mogami: geisha/ well educated, sweet& natural elegance; Mogami:
           pale, black hair, large eyes, air of mystery& disarming smile;
           Mogami: white kimono/ skilled entertainer& intellectual ]
+        loreBiasGroups:
+          - phrases:
+              - " Mogami"
+              - " Sechi"
+            bias: 0.0
       "Summary: Satsuki":
         keys:
           - Satsuki
@@ -536,6 +564,11 @@ lorebook:
           [ Satsuki: yūjo, shy& endearing smile; Satsuki: delicate& slim/
           sizable breasts& wavy black hair/ porcelain skin& faintly hunched;
           Satsuki: charming& naked under kimono ]
+        loreBiasGroups:
+          - phrases:
+              - " Satsuki"
+              - " yūjo"
+            bias: 0.05
       "Summary: Suganuma Koreshige":
         keys:
           - Suganuma
@@ -546,6 +579,11 @@ lorebook:
           Suganuma: brown hair, moustache, beard, spectacles& brown eyes;
           Suganuma: samurai outfit/ white haori, black overcoat, tabi socks,
           sandals, katana& wakizashi ]
+        loreBiasGroups:
+          - phrases:
+              - " Suganuma"
+              - " Koreshige"
+            bias: 0.05
       "Summary: Tokugawa Yoshinobu":
         keys:
           - Tokugawa
@@ -560,14 +598,28 @@ lorebook:
       "Summary: Toramaru":
         keys:
           - Toramaru
+          - Toramaru-san
         text: >
           [ Toramaru: Kagema& Yarō/ frank& friendly& understanding; Toramaru:
           tall& solid build young man/ face handsome& chiseled jawline;
           Toramaru: brown eyes& brown hair in topknot/ attracted to men ]
+        loreBiasGroups:
+          - phrases:
+              - " Toramaru"
+            bias: 0.05
       "Summary: Yusa":
         keys:
           - Yusa
+          - Yusa-san
         text: >
           [ Yusa: yūjo/ quiet, very shy& very assertive when aroused; Yusa:
           very pale, very petite& perky/ chestnut brown& hazel eyes; Yusa:
           innocent-looking& naked under kimono ]
+        loreBiasGroups:
+          - phrases:
+              - " Yusa"
+              - " yūjo"
+            bias: 0.1
+          - pharases:
+              - " Kiyo-san"
+            bias: -0.1

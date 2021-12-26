@@ -39,7 +39,7 @@
      "Shogun",
      "Tokugawa"
     ],
-    "category": "5df245e7-03f2-4039-503c-503ca8ec9ba5"
+    "category": "d591d392-df0e-4883-69b3-a4d3a2096f60"
    },
    {
     "text": "The American Civil War was fought in the United States between the Union and Confederacy. It ended two years ago. The Union sought to support President Abraham Lincoln's efforts to abolish slavery, whereas the Confederacy required them to sustain their economy. In the end, the Confederacy was defeated and is in considerable economic turmoil today. Slavery was abolished in the United States.",
@@ -53,7 +53,20 @@
      "Civil War",
      "America"
     ],
-    "category": "86c54bdb-5343-4f84-7d00-32fe6020caeb"
+    "category": "97d355e1-a9fc-4c07-7a0e-6021100a880f"
+   },
+   {
+    "text": "The Shinsengumi are a police force organized to protect the Shogunate and its dignitaries. It is constituted exclusively of Ronin.",
+    "contextConfig": {
+     "suffix": "\n",
+     "tokenBudget": 2048,
+     "budgetPriority": -400
+    },
+    "displayName": "Shinsengumi",
+    "keys": [
+     "Shinsengumi"
+    ],
+    "category": "a150eca3-ef60-4e54-7538-68ceaa89e8a4"
    },
    {
     "text": "Bushidō is a moral code codifying a Samurai's behavior and lifestyle, similar in concept to chivalry. Bushidō formalizes samurai moral values and ethics. A virtuous Samurai is sincere, frugal, loyal, a master of martial arts and honourable until death. Bushidō tempers the violence of a Samurai by wisdom, patience and serenity.",
@@ -68,7 +81,7 @@
      "way of the warrior",
      "samurai code"
     ],
-    "category": "2f56c96f-68a5-4234-6a94-a196555f6f1e"
+    "category": "a150eca3-ef60-4e54-7538-68ceaa89e8a4"
    },
    {
     "text": "A Gaijin is non-Japanese person, specifically non-Asian foreigners such as white and black people. Gaijin are often perceived as exotic by the Japanese and treated with respect.",
@@ -83,34 +96,20 @@
      "foreigner",
      "westerner"
     ],
-    "category": "2f56c96f-68a5-4234-6a94-a196555f6f1e"
+    "category": "a150eca3-ef60-4e54-7538-68ceaa89e8a4"
    },
    {
-    "text": "The Shinsengumi are a police force organized to protect the Shogunate and its dignitaries. It is constituted exclusively of Ronin.",
+    "text": "Azusa is a yūjo. She is a playful and mischevious young woman with a lovely smile. Nonetheless, she has a sense of maturity from her experience, and a bit of an edge. Azusa is a lean and slender woman with perky features, long legs and a well-shaped frame. She has an endearing face and well-groomed hair tired in a knot at the back of her head. Azusa's pale skin makes both her makeup and her natural blushing all the more striking. As a yūjo, Azusa makes use of her wonderful feminine wiles to entice clients, and wears nothing under her kimono.",
     "contextConfig": {
      "suffix": "\n",
      "tokenBudget": 2048,
      "budgetPriority": -400
     },
-    "displayName": "Shinsengumi",
+    "displayName": "Azusa",
     "keys": [
-     "Shinsengumi"
+     "Azusa"
     ],
-    "category": "2f56c96f-68a5-4234-6a94-a196555f6f1e"
-   },
-   {
-    "text": "Kanou Arisuke is a Kagema presenting as a Wakashu, and is a beautiful young man. He has a happy disposition, smiling and laughing often. Kanou carries himself with a mature aura despite his young age. Kanou is feminine in appearance: his body is spry and elegant; he is lightly tanned, has black hair and deep green, almond shaped eyes. His facial features are delicate and refined. He often dresses in a kimono wih nothing underneath, and makeup that presents him as a female. As a wakashu, Kanou serves as a courtesan to both males and females.",
-    "contextConfig": {
-     "suffix": "\n",
-     "tokenBudget": 2048,
-     "budgetPriority": -400
-    },
-    "displayName": "Arisuke Kanou",
-    "keys": [
-     "Kanou",
-     "Arisuke"
-    ],
-    "category": "94c524cb-0a77-4935-63f3-a06beb81ed9e"
+    "category": "16738159-967a-4936-5974-df0fb98476e0"
    },
    {
     "text": "Mayoi is a Kabuki actor who plays the role of Onnagata. He goes around under a female alias and his lithe, soft frame is so similar to that of a young woman that it is practically impossible to distinguish him from one. Mayoi speaks quietly with a very soft affect and is highly affectionate although rather shy. His large, dark eyes give off an air of loneliness, which is highly effective when coupled with his meek disposition, at attracting customers. As a Kagema, he mostly services women and charges a high premium for men, although he is curious about foreigners.",
@@ -123,60 +122,7 @@
     "keys": [
      "Mayoi"
     ],
-    "category": "94c524cb-0a77-4935-63f3-a06beb81ed9e"
-   },
-   {
-    "text": "Satsuki is a yūjo. She is somewhat shy, which makes her clients seek to make her smile all the more due to how endearing she is. Satsuki has delicate features and a slim body, although she has quite the motherly, sizable breasts. Her wavy black hair frames her flawless porcelain white skin and clear blue eyes. Her posture is faintly hunched, but she dissimulates it with her long legs. She is naked under her kimono, as is customary for her profession. As a yūjo, Satsuki uses her charming appearance to entice male clients.",
-    "contextConfig": {
-     "suffix": "\n",
-     "tokenBudget": 2048,
-     "budgetPriority": -400
-    },
-    "displayName": "Satsuki",
-    "keys": [
-     "Satsuki"
-    ],
-    "category": "94c524cb-0a77-4935-63f3-a06beb81ed9e"
-   },
-   {
-    "text": "Toramaru is a Kabuki actor who plays the role of Yarō. He speaks frankly and is a friendly an understanding fellow. Toramaru is a rather tall and solidly built young man. His face is handsome enough, with a finely chiseled jawline, piercing brown eyes and high cheekbones. He has lustrous brown hair, tied up in a topknot. He takes great care in grooming his strong-looking body and his prized stage clothes. Toramaru also services men and women as a Kagema, although he is more strongly attracted to men.",
-    "contextConfig": {
-     "suffix": "\n",
-     "tokenBudget": 2048,
-     "budgetPriority": -400
-    },
-    "displayName": "Toramaru",
-    "keys": [
-     "Toramaru"
-    ],
-    "category": "94c524cb-0a77-4935-63f3-a06beb81ed9e"
-   },
-   {
-    "text": "I'm ${1FirstName} ${2LastName}, a male soldier who fought for the Confederates in the American Civil War. I went westward after their defeat, fought in the Indian Wars, and went overseas to Japan in 1867. I was hired to train the soldiers of the Japanese daimyōs in rifle warfare and skirmishing tactics. I am nearly fluent in Japanese. I trained in the samurai arts of the katana, and follow the code of Bushido. I am known as the White Samurai. As a gaijin, My ${3HairColor} hair and ${4Skin} skin are viewed with near superstitious awe.",
-    "contextConfig": {
-     "suffix": "\n",
-     "tokenBudget": 2048,
-     "budgetPriority": -400
-    },
-    "displayName": "${1FirstName} ${2LastName}",
-    "keys": [
-     "${1FirstName}",
-     "${2LastName}"
-    ],
-    "category": "94c524cb-0a77-4935-63f3-a06beb81ed9e"
-   },
-   {
-    "text": "Mizuki is a high ranking oiran. She shines with intellect which only exhorts the virtues of her wit and natural beauty. Mizuki radiates with a kind of grace characteristic of the highest class of courtesan, and stirs the passion of men with playful ease. Her body is gorgeous with full curves and faint toning put on elegant display by her short red kimono barely edging her subtle tanlines. Mizuki's black hair pours like a lustrous cascade over her body, framing the sharp, fine features of her face and her hazel-brown eyes. As a oiran, she serves wealthy men and is skilled in several of the traditional arts of music and service.",
-    "contextConfig": {
-     "suffix": "\n",
-     "tokenBudget": 2048,
-     "budgetPriority": -400
-    },
-    "displayName": "Mizuki",
-    "keys": [
-     "Mizuki"
-    ],
-    "category": "94c524cb-0a77-4935-63f3-a06beb81ed9e"
+    "category": "16738159-967a-4936-5974-df0fb98476e0"
    },
    {
     "text": "Mogami Sechi is a geisha. She is well educated and her sweet personality meshes perfectly with her natural elegance. Even then, she carries an air of mystery at all times. Mogami is a pale young lady with large, almond shaped eyes and shiny black hair reaching to her shoulders. Her facial features seem full of elegance, making her smile particularly disarming. Her white silk kimono is adorned with red flowers embroidered on the sleeves, and a crimson obi. As a geisha, Mogami is a skilled entertainer and serves both men and women, receiving their guests and keeping them in a pleasant mood through shamisen music and engaging, intellectual conversation.",
@@ -190,21 +136,20 @@
      "Sechi",
      "Mogami"
     ],
-    "category": "94c524cb-0a77-4935-63f3-a06beb81ed9e"
+    "category": "16738159-967a-4936-5974-df0fb98476e0"
    },
    {
-    "text": "Suganuma Koreshige is a Ronin and member of the Shinsengumi. Suganuma is a tall man, in the prime of his life. He is dignified and carries himself with calm and composure, speaking with a gentle voice and a soft smile, although he is sharp, observant, and quite stern. Suganuma has brown hair, a small moustache over an arisocratic-looking beard, and wears spectacles for his dark brown eyes. Suganuma wears the traditional uniform of the samurai: a white haori, a black overcoat, tabi socks and sandals. He carries a katana and wakizashi.",
+    "text": "Satsuki is a yūjo. She is somewhat shy, which makes her clients seek to make her smile all the more due to how endearing she is. Satsuki has delicate features and a slim body, although she has quite the motherly, sizable breasts. Her wavy black hair frames her flawless porcelain white skin and clear blue eyes. Her posture is faintly hunched, but she dissimulates it with her long legs. She is naked under her kimono, as is customary for her profession. As a yūjo, Satsuki uses her charming appearance to entice male clients.",
     "contextConfig": {
      "suffix": "\n",
      "tokenBudget": 2048,
      "budgetPriority": -400
     },
-    "displayName": "Suganuma Koreshige",
+    "displayName": "Satsuki",
     "keys": [
-     "Suganuma",
-     "Koreshige"
+     "Satsuki"
     ],
-    "category": "94c524cb-0a77-4935-63f3-a06beb81ed9e"
+    "category": "16738159-967a-4936-5974-df0fb98476e0"
    },
    {
     "text": "Tokugawa Yoshinobu is current Shogun of Japan. Yoshinobu has just become the Shogun, and is performing a massive overhaul of the government, and is modernizing the military of the shogunate with gaijin assistance. At the age of 30, Yoshinobu is hopeful and hardworking but carries himself with the required grace and majesty expected of the Shogun. Yoshinobu is the commander of the Shinsengumi and employs me, ${1FirstName} ${2LastName}, to train the daimyōs' forces. He must be referred to as \"Ue-sama\" exclusively.",
@@ -220,7 +165,20 @@
      "Ue-sama",
      "Shogun"
     ],
-    "category": "94c524cb-0a77-4935-63f3-a06beb81ed9e"
+    "category": "16738159-967a-4936-5974-df0fb98476e0"
+   },
+   {
+    "text": "Toramaru is a Kabuki actor who plays the role of Yarō. He speaks frankly and is a friendly an understanding fellow. Toramaru is a rather tall and solidly built young man. His face is handsome enough, with a finely chiseled jawline, piercing brown eyes and high cheekbones. He has lustrous brown hair, tied up in a topknot. He takes great care in grooming his strong-looking body and his prized stage clothes. Toramaru also services men and women as a Kagema, although he is more strongly attracted to men.",
+    "contextConfig": {
+     "suffix": "\n",
+     "tokenBudget": 2048,
+     "budgetPriority": -400
+    },
+    "displayName": "Toramaru",
+    "keys": [
+     "Toramaru"
+    ],
+    "category": "16738159-967a-4936-5974-df0fb98476e0"
    },
    {
     "text": "Yusa is a yūjo. She is a quiet and very shy young woman. However, when aroused, Yusa becomes extremely assertive towards her partner due to her smouldering sex drive. Yusa is a very pale, very petite woman with a small yet perky chest. Her hair is chestnut brown and falls past her shoulders, and the thick eyebrows above her hazel eyes gives her face a very mature appearance. She is naked under her kimono, as is customary for her profession. As a yūjo, Yusa uses her frail and disarming appearance to entice male clients.",
@@ -233,20 +191,89 @@
     "keys": [
      "Yusa"
     ],
-    "category": "94c524cb-0a77-4935-63f3-a06beb81ed9e"
+    "category": "16738159-967a-4936-5974-df0fb98476e0"
    },
    {
-    "text": "Azusa is a yūjo. She is a playful and mischevious young woman with a lovely smile. Nonetheless, she has a sense of maturity from her experience, and a bit of an edge. Azusa is a lean and slender woman with perky features, long legs and a well-shaped frame. She has an endearing face and well-groomed hair tired in a knot at the back of her head. Azusa's pale skin makes both her makeup and her natural blushing all the more striking. As a yūjo, Azusa makes use of her wonderful feminine wiles to entice clients, and wears nothing under her kimono.",
+    "text": "I'm ${1FirstName} ${2LastName}, a male soldier who fought for the Confederates in the American Civil War. I went westward after their defeat, fought in the Indian Wars, and went overseas to Japan in 1867. I was hired to train the soldiers of the Japanese daimyōs in rifle warfare and skirmishing tactics. I am nearly fluent in Japanese. I trained in the samurai arts of the katana, and follow the code of Bushido. I am known as the White Samurai. As a gaijin, My ${3HairColor} hair and ${4Skin} skin are viewed with near superstitious awe.",
     "contextConfig": {
      "suffix": "\n",
      "tokenBudget": 2048,
      "budgetPriority": -400
     },
-    "displayName": "Azusa",
+    "displayName": "${1FirstName} ${2LastName}",
     "keys": [
-     "Azusa"
+     "${1FirstName}",
+     "${2LastName}"
     ],
-    "category": "94c524cb-0a77-4935-63f3-a06beb81ed9e"
+    "category": "16738159-967a-4936-5974-df0fb98476e0"
+   },
+   {
+    "text": "Kanou Arisuke is a Kagema presenting as a Wakashu, and is a beautiful young man. He has a happy disposition, smiling and laughing often. Kanou carries himself with a mature aura despite his young age. Kanou is feminine in appearance: his body is spry and elegant; he is lightly tanned, has black hair and deep green, almond shaped eyes. His facial features are delicate and refined. He often dresses in a kimono wih nothing underneath, and makeup that presents him as a female. As a wakashu, Kanou serves as a courtesan to both males and females.",
+    "contextConfig": {
+     "suffix": "\n",
+     "tokenBudget": 2048,
+     "budgetPriority": -400
+    },
+    "displayName": "Arisuke Kanou",
+    "keys": [
+     "Kanou",
+     "Arisuke"
+    ],
+    "category": "16738159-967a-4936-5974-df0fb98476e0"
+   },
+   {
+    "text": "Mizuki is a high ranking oiran. She shines with intellect which only exhorts the virtues of her wit and natural beauty. Mizuki radiates with a kind of grace characteristic of the highest class of courtesan, and stirs the passion of men with playful ease. Her body is gorgeous with full curves and faint toning put on elegant display by her short red kimono barely edging her subtle tanlines. Mizuki's black hair pours like a lustrous cascade over her body, framing the sharp, fine features of her face and her hazel-brown eyes. As a oiran, she serves wealthy men and is skilled in several of the traditional arts of music and service.",
+    "contextConfig": {
+     "suffix": "\n",
+     "tokenBudget": 2048,
+     "budgetPriority": -400
+    },
+    "displayName": "Mizuki",
+    "keys": [
+     "Mizuki"
+    ],
+    "category": "16738159-967a-4936-5974-df0fb98476e0"
+   },
+   {
+    "text": "Suganuma Koreshige is a Ronin and member of the Shinsengumi. Suganuma is a tall man, in the prime of his life. He is dignified and carries himself with calm and composure, speaking with a gentle voice and a soft smile, although he is sharp, observant, and quite stern. Suganuma has brown hair, a small moustache over an arisocratic-looking beard, and wears spectacles for his dark brown eyes. Suganuma wears the traditional uniform of the samurai: a white haori, a black overcoat, tabi socks and sandals. He carries a katana and wakizashi.",
+    "contextConfig": {
+     "suffix": "\n",
+     "tokenBudget": 2048,
+     "budgetPriority": -400
+    },
+    "displayName": "Suganuma Koreshige",
+    "keys": [
+     "Suganuma",
+     "Koreshige"
+    ],
+    "category": "16738159-967a-4936-5974-df0fb98476e0"
+   },
+   {
+    "text": "The Shogun is the military dictator of Japan. Nominally appointed by the Emperor, The Shogun is the de facto ruler of the Empire. The office of shogun is in practice hereditary, though over the course of the history of Japan several different clans held the position. All Daimyō serve directly under the Shogun. Tokugawa Yoshinobu is the Shogun. He must be referred to as \"Ue-sama\".",
+    "contextConfig": {
+     "suffix": "\n",
+     "tokenBudget": 2048,
+     "budgetPriority": -400
+    },
+    "displayName": "Shogun",
+    "keys": [
+     "Shogun"
+    ],
+    "category": "e926d329-70ff-44a6-7f7f-91ed42e58aed"
+   },
+   {
+    "text": "Daimyō are powerful Japanese feudal lords who, who rule Japan through the manpower and samurai of their vast, hereditary land holdings. Daimyōs are directly subordinate to the shōgun and only nominally to the Emperor.",
+    "contextConfig": {
+     "suffix": "\n",
+     "tokenBudget": 2048,
+     "budgetPriority": -400
+    },
+    "displayName": "Daimyō",
+    "keys": [
+     "Daimyō",
+     "Daimyo"
+    ],
+    "category": "e926d329-70ff-44a6-7f7f-91ed42e58aed"
    },
    {
     "text": "Geisha are a class of female courtesans specializing as entertainers. Geisha primarily work at parties and events, and entertain guests with shamisen or koto music, intellectually engaging conversation, dancing, and singing of traditional Japanese songs. They are respected and esteemed and considered \"middle class\" entertainers, mostly popular with the mercantile families. They can refuse a particular client if so desired. Geisha are not prostitutes but can seldom offer sexual favors.",
@@ -259,7 +286,7 @@
     "keys": [
      "geisha"
     ],
-    "category": "a86d8f38-c0ee-442f-75b4-948fe7ce1e01"
+    "category": "e926d329-70ff-44a6-7f7f-91ed42e58aed"
    },
    {
     "text": "Yūjo are a class of female courtesans. Yūjo are considered lower-class prostitutes catering mostly to men of the lower and middle class. Yūjo are females who cater majoritarily to a male clientele but seldom service other women. Yūjo are never married.",
@@ -273,7 +300,7 @@
      "yūjo",
      "yujo"
     ],
-    "category": "a86d8f38-c0ee-442f-75b4-948fe7ce1e01"
+    "category": "e926d329-70ff-44a6-7f7f-91ed42e58aed"
    },
    {
     "text": "Oiran are a class of female courtesans. Oiran are considered upper-class prostitutes catering mostly to wealthy men. Oiran distinguish themselves by a superior education and varied entertainment skills such as playing music, singing traditional songs, and dance. Oiran are female and cater majoritarily to a male clientele but seldom service other women. Oiran are never married.",
@@ -286,7 +313,7 @@
     "keys": [
      "oiran"
     ],
-    "category": "a86d8f38-c0ee-442f-75b4-948fe7ce1e01"
+    "category": "e926d329-70ff-44a6-7f7f-91ed42e58aed"
    },
    {
     "text": "Kagema are male prostitutes. Kagema regularly pass for Kabuki actors, but offer sexual services to both men and women through Kagema teahouses. Kagema often charge a premium compared to Yūjo and regularly service clients of a higher social standing. Kagema present as one of three types: \"Yarō\" or young man who presents in a masculine manner; \"Wakashū\" or adolescent boy who presents in a sweeter, more innocent form of masculinity; and \"Onnagata\" or feminine boy, who presents as strongly feminine to the point of passing as a young woman.",
@@ -304,7 +331,7 @@
      "Yaro",
      "Yarō"
     ],
-    "category": "a86d8f38-c0ee-442f-75b4-948fe7ce1e01"
+    "category": "e926d329-70ff-44a6-7f7f-91ed42e58aed"
    },
    {
     "text": "A Samurai is a hereditary military position. They are well paid warriors and retainers to a Daimyō, and enjoy high prestige and special privilege. Samurai are formally ordained through the granting of a Katana and Wakizashi. Samurai must follow the rules of Bushido or risk being cast down as dishonorable, and expected to commit Seppuku through Hara-Kiri. In the Edo period, Samurai also serve in managerial roles throughout their Daimyō's estate and are well educated. Ronin are Samurai that do not serve a Daimyō.",
@@ -318,34 +345,7 @@
      "Ronin",
      "Samurai"
     ],
-    "category": "a86d8f38-c0ee-442f-75b4-948fe7ce1e01"
-   },
-   {
-    "text": "The Shogun is the military dictator of Japan. Nominally appointed by the Emperor, The Shogun is the de facto ruler of the Empire. The office of shogun is in practice hereditary, though over the course of the history of Japan several different clans held the position. All Daimyō serve directly under the Shogun. Tokugawa Yoshinobu is the Shogun. He must be referred to as \"Ue-sama\".",
-    "contextConfig": {
-     "suffix": "\n",
-     "tokenBudget": 2048,
-     "budgetPriority": -400
-    },
-    "displayName": "Shogun",
-    "keys": [
-     "Shogun"
-    ],
-    "category": "a86d8f38-c0ee-442f-75b4-948fe7ce1e01"
-   },
-   {
-    "text": "Daimyō are powerful Japanese feudal lords who, who rule Japan through the manpower and samurai of their vast, hereditary land holdings. Daimyōs are directly subordinate to the shōgun and only nominally to the Emperor.",
-    "contextConfig": {
-     "suffix": "\n",
-     "tokenBudget": 2048,
-     "budgetPriority": -400
-    },
-    "displayName": "Daimyō",
-    "keys": [
-     "Daimyō",
-     "Daimyo"
-    ],
-    "category": "a86d8f38-c0ee-442f-75b4-948fe7ce1e01"
+    "category": "e926d329-70ff-44a6-7f7f-91ed42e58aed"
    },
    {
     "text": "Gion is a district of Kyoto, Japan, originating as an entertainment district, in front of Yasaka Shrine. The district was built to accommodate the needs of travellers and visitors to the shrine. It eventually evolved to become one of the most exclusive and well-known Yūkaku districts in all of Japan.",
@@ -358,7 +358,7 @@
     "keys": [
      "Gion"
     ],
-    "category": "413611cc-c10f-4cec-6f20-462f77f5f3f1"
+    "category": "9f2219a1-3373-4a55-6732-ede2f9d66783"
    },
    {
     "text": "The Palace is situated in the Kyōto-gyoen, a large rectangular enclosure. It also contains the Sentō Imperial Palace gardens and the Kyoto State Guest House.",
@@ -371,7 +371,7 @@
     "keys": [
      "Imperial Palace"
     ],
-    "category": "413611cc-c10f-4cec-6f20-462f77f5f3f1"
+    "category": "9f2219a1-3373-4a55-6732-ede2f9d66783"
    },
    {
     "text": "Kiyomizu Temple or Kiyomizu-dera is one of the most spectacular temples of Kyoto, situated on the slopes of the majestic Mount Higashiyama. It overlooks Gion district in Eastern Kyoto. A quaint narrow street dotted with numerous restaurants, shops and ryokans leads to the temple's main gate. The major draw of the temple is undeniably its main hall, Hondo, where Kannon Bodhisattva, the main deity of the temple, is housed.",
@@ -384,7 +384,7 @@
     "keys": [
      "$/Kiyomizu(-dera)?/"
     ],
-    "category": "413611cc-c10f-4cec-6f20-462f77f5f3f1"
+    "category": "9f2219a1-3373-4a55-6732-ede2f9d66783"
    },
    {
     "text": "Kyōto is the capital of Japan. Kyōto has temples such as the Kyomizu, and the Imperial Palace. Locations in Kyoto are: the Gion Yūkaku district, Kyomizu Temple, the Imperial Palace, Shijôgahara, and Togetsukyôenji.",
@@ -398,7 +398,7 @@
      "Kyōto",
      "Kyoto"
     ],
-    "category": "413611cc-c10f-4cec-6f20-462f77f5f3f1"
+    "category": "9f2219a1-3373-4a55-6732-ede2f9d66783"
    },
    {
     "text": "Shijōgahara is a large park located on the north side of the Kamo River, near the center of Kyoto. It is famous for its beauty and tranquility. It has been used as a training ground for martial arts since the 14th century. Shijōgahara is the site of many duels between samurai, and the grounds were considered to be off-limits to commoners.",
@@ -412,7 +412,7 @@
      "Shijōgahara",
      "Shijogahara"
     ],
-    "category": "413611cc-c10f-4cec-6f20-462f77f5f3f1"
+    "category": "9f2219a1-3373-4a55-6732-ede2f9d66783"
    },
    {
     "text": "Togetsukyōenji is a small Buddhist temple on the west bank of the Kamo River in Kyoto. It is said that it was built by Prince Shōtoku, the father of Emperor Tenmu, to commemorate his victory over the Nika Revolt.",
@@ -426,7 +426,7 @@
      "Togetsukyōenji",
      "Togetsukyoenji"
     ],
-    "category": "413611cc-c10f-4cec-6f20-462f77f5f3f1"
+    "category": "9f2219a1-3373-4a55-6732-ede2f9d66783"
    },
    {
     "text": "Yūkaku are legal red-light districts, where both brothels and prostitutes recognised by the Japanese government operated. Okiya gather Yujo, women of pleasure, and Kagemajaya gather Kagema, young men of pleasure. Oiran, high-class prostitutes, can frequent these districts if not servicing a client. Geishas are often found in okiyas as well and served more as surrogate wives for wealthy men.",
@@ -440,231 +440,7 @@
      "Yūkaku",
      "Yukaku"
     ],
-    "category": "413611cc-c10f-4cec-6f20-462f77f5f3f1"
-   },
-   {
-    "text": "[ Kanou: Kagema\u0026 Wakashu/ beautiful young man; Kanou: happy disposition/ mature aura/ feminine appearance; Kanou: spry\u0026 elegant/ lightly tanned/ black hair/ green eyes ]",
-    "contextConfig": {
-     "suffix": "\n",
-     "tokenBudget": 2048,
-     "reservedTokens": 100,
-     "budgetPriority": -1,
-     "insertionType": "newline",
-     "insertionPosition": -3,
-     "allowInnerInsertion": true
-    },
-    "displayName": "Summary: Arisuke Kanou",
-    "keys": [
-     "Kanou",
-     "Arisuke"
-    ],
-    "searchRange": 2000,
-    "enabled": true,
-    "forceActivation": false,
-    "keyRelative": true,
-    "nonStoryActivatable": true,
-    "category": "916c083d-4a25-48e3-42c3-18668956b495"
-   },
-   {
-    "text": "[ Mayoi: Kagema\u0026 Onnagata/ looks female; Mayoi: shy\u0026 speaks quietly/ lonely air/ curious about foreigners; Mayoi: delicate build\u0026 big dark eyes/ very girly ]",
-    "contextConfig": {
-     "suffix": "\n",
-     "tokenBudget": 2048,
-     "reservedTokens": 100,
-     "budgetPriority": -1,
-     "insertionType": "newline",
-     "insertionPosition": -3,
-     "allowInnerInsertion": true
-    },
-    "displayName": "Summary: Mayoi",
-    "keys": [
-     "Mayoi"
-    ],
-    "searchRange": 2000,
-    "enabled": true,
-    "forceActivation": false,
-    "keyRelative": true,
-    "nonStoryActivatable": true,
-    "category": "916c083d-4a25-48e3-42c3-18668956b495"
-   },
-   {
-    "text": "[ Satsuki: yūjo, shy\u0026 endearing smile; Satsuki: delicate\u0026 slim/ sizable breasts\u0026 wavy black hair/ porcelain skin\u0026 faintly hunched; Satsuki: charming\u0026 naked under kimono ]",
-    "contextConfig": {
-     "suffix": "\n",
-     "tokenBudget": 2048,
-     "reservedTokens": 100,
-     "budgetPriority": -1,
-     "insertionType": "newline",
-     "insertionPosition": -3,
-     "allowInnerInsertion": true
-    },
-    "displayName": "Summary: Satsuki",
-    "keys": [
-     "Satsuki"
-    ],
-    "searchRange": 2000,
-    "enabled": true,
-    "forceActivation": false,
-    "keyRelative": true,
-    "nonStoryActivatable": true,
-    "category": "916c083d-4a25-48e3-42c3-18668956b495"
-   },
-   {
-    "text": "[ Suganuma: Ronin\u0026 member Shinsengumi; Suganuma: tall man\u0026 prime of life/ dignified\u0026 calm\u0026 composed; Suganuma: sharp, observant\u0026 stern; Suganuma: brown hair, moustache, beard, spectacles\u0026 brown eyes; Suganuma: samurai outfit/ white haori, black overcoat, tabi socks, sandals, katana\u0026 wakizashi ]",
-    "contextConfig": {
-     "suffix": "\n",
-     "tokenBudget": 2048,
-     "reservedTokens": 100,
-     "budgetPriority": -1,
-     "insertionType": "newline",
-     "insertionPosition": -3,
-     "allowInnerInsertion": true
-    },
-    "displayName": "Summary: Suganuma Koreshige",
-    "keys": [
-     "Suganuma",
-     "Koreshige"
-    ],
-    "searchRange": 2000,
-    "enabled": true,
-    "forceActivation": false,
-    "keyRelative": true,
-    "nonStoryActivatable": true,
-    "category": "916c083d-4a25-48e3-42c3-18668956b495"
-   },
-   {
-    "text": "[ Toramaru: Kagema\u0026 Yarō/ frank\u0026 friendly\u0026 understanding; Toramaru: tall\u0026 solid build young man/ face handsome\u0026 chiseled jawline; Toramaru: brown eyes\u0026 brown hair in topknot/ attracted to men ]",
-    "contextConfig": {
-     "suffix": "\n",
-     "tokenBudget": 2048,
-     "reservedTokens": 100,
-     "budgetPriority": -1,
-     "insertionType": "newline",
-     "insertionPosition": -3,
-     "allowInnerInsertion": true
-    },
-    "displayName": "Summary: Toramaru",
-    "keys": [
-     "Toramaru"
-    ],
-    "searchRange": 2000,
-    "enabled": true,
-    "forceActivation": false,
-    "keyRelative": true,
-    "nonStoryActivatable": true,
-    "category": "916c083d-4a25-48e3-42c3-18668956b495"
-   },
-   {
-    "text": "[ Yusa: yūjo/ quiet, very shy\u0026 very assertive when aroused; Yusa: very pale, very petite\u0026 perky/ chestnut brown\u0026 hazel eyes; Yusa: innocent-looking\u0026 naked under kimono ]",
-    "contextConfig": {
-     "suffix": "\n",
-     "tokenBudget": 2048,
-     "reservedTokens": 100,
-     "budgetPriority": -1,
-     "insertionType": "newline",
-     "insertionPosition": -3,
-     "allowInnerInsertion": true
-    },
-    "displayName": "Summary: Yusa",
-    "keys": [
-     "Yusa"
-    ],
-    "searchRange": 2000,
-    "enabled": true,
-    "forceActivation": false,
-    "keyRelative": true,
-    "nonStoryActivatable": true,
-    "category": "916c083d-4a25-48e3-42c3-18668956b495"
-   },
-   {
-    "text": "[ Azusa: yūjo / young woman; Azusa: playful\u0026 mischevious / slight maturity\u0026 edge; Azusa: lean\u0026perky, well-shaped frame; Azusa: pale skin\u0026 elaborate makeup / naked under kimono ]",
-    "contextConfig": {
-     "suffix": "\n",
-     "tokenBudget": 2048,
-     "reservedTokens": 100,
-     "budgetPriority": -1,
-     "insertionType": "newline",
-     "insertionPosition": -3,
-     "allowInnerInsertion": true
-    },
-    "displayName": "Summary: Azusa",
-    "keys": [
-     "Azusa"
-    ],
-    "searchRange": 2000,
-    "enabled": true,
-    "forceActivation": false,
-    "keyRelative": true,
-    "nonStoryActivatable": true,
-    "category": "916c083d-4a25-48e3-42c3-18668956b495"
-   },
-   {
-    "text": "[ ${2LastName}: male foreign western soldier; ${2LastName}: works for tokugawa, is White Samurai; ${2LastName}: ${3HairColor} hair and ${4Skin} skin seen as exotic ]",
-    "contextConfig": {
-     "suffix": "\n",
-     "tokenBudget": 2048,
-     "reservedTokens": 100,
-     "budgetPriority": -1,
-     "insertionType": "newline",
-     "insertionPosition": -3,
-     "allowInnerInsertion": true
-    },
-    "displayName": "Summary: ${1FirstName} ${2LastName}",
-    "keys": [
-     "${1FirstName}",
-     "${2LastName}"
-    ],
-    "searchRange": 2000,
-    "enabled": true,
-    "forceActivation": false,
-    "keyRelative": true,
-    "nonStoryActivatable": true,
-    "category": "916c083d-4a25-48e3-42c3-18668956b495"
-   },
-   {
-    "text": "[ Mizuki: high ranking oiran/ intellect, wit, grace\u0026 natural beauty Mizuki: gorgeous/ full curves\u0026 faint toning, black hair \u0026 brown eyes; Mizuki: short red kimono / skilled at art\u0026 conversation ]",
-    "contextConfig": {
-     "suffix": "\n",
-     "tokenBudget": 2048,
-     "reservedTokens": 100,
-     "budgetPriority": -1,
-     "insertionType": "newline",
-     "insertionPosition": -3,
-     "allowInnerInsertion": true
-    },
-    "displayName": "Summary: Mizuki",
-    "keys": [
-     "Mizuki"
-    ],
-    "searchRange": 2000,
-    "enabled": true,
-    "forceActivation": false,
-    "keyRelative": true,
-    "nonStoryActivatable": true,
-    "category": "916c083d-4a25-48e3-42c3-18668956b495"
-   },
-   {
-    "text": "[ Mogami: geisha/ well educated, sweet\u0026 natural elegance; Mogami: pale, black hair, large eyes, air of mystery\u0026 disarming smile; Mogami: white kimono/ skilled entertainer\u0026 intellectual ]",
-    "contextConfig": {
-     "suffix": "\n",
-     "tokenBudget": 2048,
-     "reservedTokens": 100,
-     "budgetPriority": -1,
-     "insertionType": "newline",
-     "insertionPosition": -3,
-     "allowInnerInsertion": true
-    },
-    "displayName": "Summary: Mogami Sechi",
-    "keys": [
-     "Sechi",
-     "Mogami"
-    ],
-    "searchRange": 2000,
-    "enabled": true,
-    "forceActivation": false,
-    "keyRelative": true,
-    "nonStoryActivatable": true,
-    "category": "916c083d-4a25-48e3-42c3-18668956b495"
+    "category": "9f2219a1-3373-4a55-6732-ede2f9d66783"
    },
    {
     "text": "[ Tokugawa: current Shogun/ age 30 / overhauls government; Tokugawa: uses gaijin assistance/ hardworking/ graceful \u0026 majestuous; Tokugawa: employer of shinsengumi\u0026 ${2LastName}; Tokugawa: referred to as \"ue-sama\" ]",
@@ -689,7 +465,436 @@
     "forceActivation": false,
     "keyRelative": true,
     "nonStoryActivatable": true,
-    "category": "916c083d-4a25-48e3-42c3-18668956b495"
+    "category": "20affa0b-ab9e-4bb7-6a23-4cf301c7638d"
+   },
+   {
+    "text": "[ Yusa: yūjo/ quiet, very shy\u0026 very assertive when aroused; Yusa: very pale, very petite\u0026 perky/ chestnut brown\u0026 hazel eyes; Yusa: innocent-looking\u0026 naked under kimono ]",
+    "contextConfig": {
+     "suffix": "\n",
+     "tokenBudget": 2048,
+     "reservedTokens": 100,
+     "budgetPriority": -1,
+     "insertionType": "newline",
+     "insertionPosition": -3,
+     "allowInnerInsertion": true
+    },
+    "displayName": "Summary: Yusa",
+    "keys": [
+     "Yusa",
+     "Yusa-san"
+    ],
+    "searchRange": 2000,
+    "enabled": true,
+    "forceActivation": false,
+    "keyRelative": true,
+    "nonStoryActivatable": true,
+    "category": "20affa0b-ab9e-4bb7-6a23-4cf301c7638d",
+    "loreBiasGroups": [
+     {
+      "phrases": [
+       {
+        "sequences": [
+         [
+          575,
+          22064
+         ]
+        ],
+        "type": 2
+       },
+       {
+        "sequences": [
+         [
+          331,
+          20317,
+          7639
+         ]
+        ],
+        "type": 2
+       }
+      ],
+      "bias": 0.1
+     },
+     {
+      "bias": -0.1
+     }
+    ]
+   },
+   {
+    "text": "[ Mayoi: male Kagema\u0026 Onnagata/ very feminine; Mayoi: shy\u0026 speaks quietly/ lonely air/ curious about foreigners; Mayoi: delicate build\u0026 big dark eyes/ very girly ]",
+    "contextConfig": {
+     "suffix": "\n",
+     "tokenBudget": 2048,
+     "reservedTokens": 100,
+     "budgetPriority": -1,
+     "insertionType": "newline",
+     "insertionPosition": -3,
+     "allowInnerInsertion": true
+    },
+    "displayName": "Summary: Mayoi",
+    "keys": [
+     "Mayoi",
+     "Mayoi-san"
+    ],
+    "searchRange": 2000,
+    "enabled": true,
+    "forceActivation": false,
+    "keyRelative": true,
+    "nonStoryActivatable": true,
+    "category": "20affa0b-ab9e-4bb7-6a23-4cf301c7638d",
+    "loreBiasGroups": [
+     {
+      "phrases": [
+       {
+        "sequences": [
+         [
+          1737,
+          23013
+         ]
+        ],
+        "type": 2
+       }
+      ],
+      "bias": 0.05
+     }
+    ]
+   },
+   {
+    "text": "[ Mizuki: high ranking oiran/ intellect, wit, grace\u0026 natural beauty Mizuki: gorgeous/ full curves\u0026 faint toning, black hair \u0026 brown eyes; Mizuki: short red kimono / skilled at art\u0026 conversation ]",
+    "contextConfig": {
+     "suffix": "\n",
+     "tokenBudget": 2048,
+     "reservedTokens": 100,
+     "budgetPriority": -1,
+     "insertionType": "newline",
+     "insertionPosition": -3,
+     "allowInnerInsertion": true
+    },
+    "displayName": "Summary: Mizuki",
+    "keys": [
+     "Mizuki",
+     "Mizuki-san"
+    ],
+    "searchRange": 2000,
+    "enabled": true,
+    "forceActivation": false,
+    "keyRelative": true,
+    "nonStoryActivatable": true,
+    "category": "20affa0b-ab9e-4bb7-6a23-4cf301c7638d",
+    "loreBiasGroups": [
+     {
+      "phrases": [
+       {
+        "sequences": [
+         [
+          29975,
+          11308
+         ]
+        ],
+        "type": 2
+       }
+      ],
+      "bias": 0.1
+     }
+    ]
+   },
+   {
+    "text": "[ Mogami: geisha/ well educated, sweet\u0026 natural elegance; Mogami: pale, black hair, large eyes, air of mystery\u0026 disarming smile; Mogami: white kimono/ skilled entertainer\u0026 intellectual ]",
+    "contextConfig": {
+     "suffix": "\n",
+     "tokenBudget": 2048,
+     "reservedTokens": 100,
+     "budgetPriority": -1,
+     "insertionType": "newline",
+     "insertionPosition": -3,
+     "allowInnerInsertion": true
+    },
+    "displayName": "Summary: Mogami Sechi",
+    "keys": [
+     "Sechi",
+     "Mogami"
+    ],
+    "searchRange": 2000,
+    "enabled": true,
+    "forceActivation": false,
+    "keyRelative": true,
+    "nonStoryActivatable": true,
+    "category": "20affa0b-ab9e-4bb7-6a23-4cf301c7638d",
+    "loreBiasGroups": [
+     {
+      "phrases": [
+       {
+        "sequences": [
+         [
+          30926,
+          6277
+         ]
+        ],
+        "type": 2
+       },
+       {
+        "sequences": [
+         [
+          1001,
+          11072
+         ]
+        ],
+        "type": 2
+       }
+      ],
+      "bias": 0
+     }
+    ]
+   },
+   {
+    "text": "[ Satsuki: yūjo, shy\u0026 endearing smile; Satsuki: delicate\u0026 slim/ sizable breasts\u0026 wavy black hair/ porcelain skin\u0026 faintly hunched; Satsuki: charming\u0026 naked under kimono ]",
+    "contextConfig": {
+     "suffix": "\n",
+     "tokenBudget": 2048,
+     "reservedTokens": 100,
+     "budgetPriority": -1,
+     "insertionType": "newline",
+     "insertionPosition": -3,
+     "allowInnerInsertion": true
+    },
+    "displayName": "Summary: Satsuki",
+    "keys": [
+     "Satsuki"
+    ],
+    "searchRange": 2000,
+    "enabled": true,
+    "forceActivation": false,
+    "keyRelative": true,
+    "nonStoryActivatable": true,
+    "category": "20affa0b-ab9e-4bb7-6a23-4cf301c7638d",
+    "loreBiasGroups": [
+     {
+      "phrases": [
+       {
+        "sequences": [
+         [
+          311,
+          40063
+         ]
+        ],
+        "type": 2
+       },
+       {
+        "sequences": [
+         [
+          331,
+          20317,
+          7639
+         ]
+        ],
+        "type": 2
+       }
+      ],
+      "bias": 0.05
+     }
+    ]
+   },
+   {
+    "text": "[ Toramaru: Kagema\u0026 Yarō/ frank\u0026 friendly\u0026 understanding; Toramaru: tall\u0026 solid build young man/ face handsome\u0026 chiseled jawline; Toramaru: brown eyes\u0026 brown hair in topknot/ attracted to men ]",
+    "contextConfig": {
+     "suffix": "\n",
+     "tokenBudget": 2048,
+     "reservedTokens": 100,
+     "budgetPriority": -1,
+     "insertionType": "newline",
+     "insertionPosition": -3,
+     "allowInnerInsertion": true
+    },
+    "displayName": "Summary: Toramaru",
+    "keys": [
+     "Toramaru",
+     "Toramaru-san"
+    ],
+    "searchRange": 2000,
+    "enabled": true,
+    "forceActivation": false,
+    "keyRelative": true,
+    "nonStoryActivatable": true,
+    "category": "20affa0b-ab9e-4bb7-6a23-4cf301c7638d",
+    "loreBiasGroups": [
+     {
+      "phrases": [
+       {
+        "sequences": [
+         [
+          4022,
+          46893
+         ]
+        ],
+        "type": 2
+       }
+      ],
+      "bias": 0.05
+     }
+    ]
+   },
+   {
+    "text": "[ Azusa: yūjo / young woman; Azusa: playful\u0026 mischevious / slight maturity\u0026 edge; Azusa: lean\u0026perky, well-shaped frame; Azusa: pale skin\u0026 elaborate makeup / naked under kimono ]",
+    "contextConfig": {
+     "suffix": "\n",
+     "tokenBudget": 2048,
+     "reservedTokens": 100,
+     "budgetPriority": -1,
+     "insertionType": "newline",
+     "insertionPosition": -3,
+     "allowInnerInsertion": true
+    },
+    "displayName": "Summary: Azusa",
+    "keys": [
+     "Azusa",
+     "Azusa-san"
+    ],
+    "searchRange": 2000,
+    "enabled": true,
+    "forceActivation": false,
+    "keyRelative": true,
+    "nonStoryActivatable": true,
+    "category": "20affa0b-ab9e-4bb7-6a23-4cf301c7638d",
+    "loreBiasGroups": [
+     {
+      "phrases": [
+       {
+        "sequences": [
+         [
+          7578,
+          22064
+         ]
+        ],
+        "type": 2
+       }
+      ],
+      "bias": 0.05
+     }
+    ]
+   },
+   {
+    "text": "[ ${2LastName}: male foreign western soldier; ${2LastName}: works for tokugawa, is White Samurai; ${2LastName}: ${3HairColor} hair and ${4Skin} skin seen as exotic ]",
+    "contextConfig": {
+     "suffix": "\n",
+     "tokenBudget": 2048,
+     "reservedTokens": 100,
+     "budgetPriority": -1,
+     "insertionType": "newline",
+     "insertionPosition": -3,
+     "allowInnerInsertion": true
+    },
+    "displayName": "Summary: ${1FirstName} ${2LastName}",
+    "keys": [
+     "${1FirstName}",
+     "${1FirstName}-san",
+     "${2LastName}",
+     "${2LastName}-san"
+    ],
+    "searchRange": 2000,
+    "enabled": true,
+    "forceActivation": false,
+    "keyRelative": true,
+    "nonStoryActivatable": true,
+    "category": "20affa0b-ab9e-4bb7-6a23-4cf301c7638d"
+   },
+   {
+    "text": "[ Kanou: Kagema\u0026 Wakashu/ beautiful young man; Kanou: happy disposition/ mature aura/ feminine appearance; Kanou: spry\u0026 elegant/ lightly tanned/ black hair/ green eyes ]",
+    "contextConfig": {
+     "suffix": "\n",
+     "tokenBudget": 2048,
+     "reservedTokens": 100,
+     "budgetPriority": -1,
+     "insertionType": "newline",
+     "insertionPosition": -3,
+     "allowInnerInsertion": true
+    },
+    "displayName": "Summary: Arisuke Kanou",
+    "keys": [
+     "Kanou",
+     "Arisuke",
+     "Arisuke-san"
+    ],
+    "searchRange": 2000,
+    "enabled": true,
+    "forceActivation": false,
+    "keyRelative": true,
+    "nonStoryActivatable": true,
+    "category": "20affa0b-ab9e-4bb7-6a23-4cf301c7638d",
+    "loreBiasGroups": [
+     {
+      "phrases": [
+       {
+        "sequences": [
+         [
+          14248,
+          280
+         ]
+        ],
+        "type": 2
+       },
+       {
+        "sequences": [
+         [
+          943,
+          271,
+          4649
+         ]
+        ],
+        "type": 2
+       }
+      ],
+      "bias": 0.05
+     }
+    ]
+   },
+   {
+    "text": "[ Suganuma: Ronin\u0026 member Shinsengumi; Suganuma: tall man\u0026 prime of life/ dignified\u0026 calm\u0026 composed; Suganuma: sharp, observant\u0026 stern; Suganuma: brown hair, moustache, beard, spectacles\u0026 brown eyes; Suganuma: samurai outfit/ white haori, black overcoat, tabi socks, sandals, katana\u0026 wakizashi ]",
+    "contextConfig": {
+     "suffix": "\n",
+     "tokenBudget": 2048,
+     "reservedTokens": 100,
+     "budgetPriority": -1,
+     "insertionType": "newline",
+     "insertionPosition": -3,
+     "allowInnerInsertion": true
+    },
+    "displayName": "Summary: Suganuma Koreshige",
+    "keys": [
+     "Suganuma",
+     "Koreshige"
+    ],
+    "searchRange": 2000,
+    "enabled": true,
+    "forceActivation": false,
+    "keyRelative": true,
+    "nonStoryActivatable": true,
+    "category": "20affa0b-ab9e-4bb7-6a23-4cf301c7638d",
+    "loreBiasGroups": [
+     {
+      "phrases": [
+       {
+        "sequences": [
+         [
+          13691,
+          272,
+          7487
+         ]
+        ],
+        "type": 2
+       },
+       {
+        "sequences": [
+         [
+          3374,
+          1477,
+          10045
+         ]
+        ],
+        "type": 2
+       }
+      ],
+      "bias": 0.05
+     }
+    ]
    }
   ],
   "settings": {
@@ -698,7 +903,7 @@
   "categories": [
    {
     "name": "Concepts",
-    "id": "2f56c96f-68a5-4234-6a94-a196555f6f1e",
+    "id": "a150eca3-ef60-4e54-7538-68ceaa89e8a4",
     "createSubcontext": true,
     "subcontextSettings": {
      "contextConfig": {
@@ -712,7 +917,7 @@
    },
    {
     "name": "Characters",
-    "id": "94c524cb-0a77-4935-63f3-a06beb81ed9e",
+    "id": "16738159-967a-4936-5974-df0fb98476e0",
     "createSubcontext": true,
     "subcontextSettings": {
      "contextConfig": {
@@ -726,7 +931,7 @@
    },
    {
     "name": "Roles",
-    "id": "a86d8f38-c0ee-442f-75b4-948fe7ce1e01",
+    "id": "e926d329-70ff-44a6-7f7f-91ed42e58aed",
     "createSubcontext": true,
     "subcontextSettings": {
      "contextConfig": {
@@ -740,7 +945,7 @@
    },
    {
     "name": "Locations",
-    "id": "413611cc-c10f-4cec-6f20-462f77f5f3f1",
+    "id": "9f2219a1-3373-4a55-6732-ede2f9d66783",
     "createSubcontext": true,
     "subcontextSettings": {
      "contextConfig": {
@@ -754,12 +959,12 @@
    },
    {
     "name": "Summaries",
-    "id": "916c083d-4a25-48e3-42c3-18668956b495",
+    "id": "20affa0b-ab9e-4bb7-6a23-4cf301c7638d",
     "enabled": true
    },
    {
     "name": "Setting",
-    "id": "5df245e7-03f2-4039-503c-503ca8ec9ba5",
+    "id": "d591d392-df0e-4883-69b3-a4d3a2096f60",
     "createSubcontext": true,
     "subcontextSettings": {
      "contextConfig": {
@@ -773,7 +978,7 @@
    },
    {
     "name": "Background",
-    "id": "86c54bdb-5343-4f84-7d00-32fe6020caeb",
+    "id": "97d355e1-a9fc-4c07-7a0e-6021100a880f",
     "createSubcontext": true,
     "subcontextSettings": {
      "contextConfig": {
@@ -789,20 +994,6 @@
  },
  "placeholders": [
   {
-   "key": "2LastName",
-   "defaultValue": "Blackthorn",
-   "description": "Your last name",
-   "longDescription": "",
-   "value": ""
-  },
-  {
-   "key": "3HairColor",
-   "defaultValue": "red",
-   "description": "Your hair color",
-   "longDescription": "(e.g Red, brown, black...)\n",
-   "value": ""
-  },
-  {
    "key": "4Skin",
    "defaultValue": "pale",
    "description": "Your skin color",
@@ -814,6 +1005,20 @@
    "defaultValue": "Daniel",
    "description": "Your first name",
    "longDescription": "",
+   "value": ""
+  },
+  {
+   "key": "2LastName",
+   "defaultValue": "Blackthorn",
+   "description": "Your last name",
+   "longDescription": "",
+   "value": ""
+  },
+  {
+   "key": "3HairColor",
+   "defaultValue": "red",
+   "description": "Your hair color",
+   "longDescription": "(e.g Red, brown, black...)\n",
    "value": ""
   }
  ]
