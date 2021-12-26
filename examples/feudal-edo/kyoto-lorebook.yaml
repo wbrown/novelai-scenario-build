@@ -57,17 +57,19 @@ categories:
   Summaries:
     keyRelative: true
     enabled: true
-    forceActivation: true
+    forceActivation: false
     nonStoryActivatable: true
     searchRange: 2000
     contextConfig:
-      suffix: ""
+      suffix: "\n"
       tokenBudget: 2048
       reservedTokens: 100
       budgetPriority: -1
-      insertionPosition: -1
-      insertionType: sentence
-
+      insertionPosition: -3
+      insertionType: newline
+      allowInnerInsertion: true
+lorebookSettings:
+  orderByKeyLocations: TRUE
 lorebook:
   - category: Setting
     config:
@@ -159,14 +161,14 @@ lorebook:
         text: >
           Azusa is a yūjo. She is a playful and mischevious young woman with a
           lovely smile. Nonetheless, she has a sense of maturity from her
-          experience, and a bit of an edge. Asuza is a lean and slender woman
+          experience, and a bit of an edge. Azusa is a lean and slender woman
           with perky features, long legs and a well-shaped frame. She has an
           endearing face and well-groomed hair tired in a knot at the back of
-          her head. Asuza's pale skin makes both her makeup and her natural
-          blushing all the more striking. As a yūjo, Asuza makes use of her
+          her head. Azusa's pale skin makes both her makeup and her natural
+          blushing all the more striking. As a yūjo, Azusa makes use of her
           wonderful feminine wiles to entice clients, and wears nothing under
           her kimono.
-      "${1Firstname} ${2Lastname}":
+      "${1FirstName} ${2LastName}":
         keys:
           - ${1FirstName}
           - ${2LastName}
@@ -292,7 +294,7 @@ lorebook:
         keys:
           - Yusa
         text: >
-         Yusa is a yūjo. She is a quiet and very shy young woman. However,
+          Yusa is a yūjo. She is a quiet and very shy young woman. However,
           when aroused, Yusa becomes extremely assertive towards her partner
           due to her smouldering sex drive. Yusa is a very pale, very petite
           woman with a small yet perky chest. Her hair is chestnut brown and
@@ -356,7 +358,7 @@ lorebook:
           - Wakashū
           - Onnagata
           - Yaro
-          - Yarō  
+          - Yarō
         text: >
           Kagema are male prostitutes. Kagema regularly pass for Kabuki
           actors, but offer sexual services to both men and women through
@@ -470,25 +472,26 @@ lorebook:
     config:
       keyRelative: true
       enabled: true
-      forceActivation: true
+      forceActivation: false
       nonStoryActivatable: true
       searchRange: 2000
       contextConfig:
-        suffix: ""
+        suffix: "\n"
         tokenBudget: 2048
         reservedTokens: 100
         budgetPriority: -1
-        insertionPosition: -1
-        insertionType: sentence
+        insertionPosition: -3
+        insertionType: newline
+        allowInnerInsertion: true
     entries:
-      "Azusa":
+      "Summary: Azusa":
         keys:
           - Azusa
         text: >
           [ Azusa: yūjo / young woman; Azusa: playful& mischevious / slight
-          maturity& edge; Asuza: lean&perky, well-shaped frame; Azusa: pale
+          maturity& edge; Azusa: lean&perky, well-shaped frame; Azusa: pale
           skin& elaborate makeup / naked under kimono ]
-      "${1Firstname} ${2Lastname}":
+      "Summary: ${1FirstName} ${2LastName}":
         keys:
           - ${1FirstName}
           - ${2LastName}
@@ -496,7 +499,7 @@ lorebook:
           [ ${2LastName}: male foreign western soldier; ${2LastName}: works
           for tokugawa, is White Samurai; ${2LastName}: ${3HairColor} hair
           and ${4Skin} skin seen as exotic ]
-      "Arisuke Kanou":
+      "Summary: Arisuke Kanou":
         keys:
           - Kanou
           - Arisuke
@@ -504,21 +507,21 @@ lorebook:
           [ Kanou: Kagema& Wakashu/ beautiful young man; Kanou: happy
           disposition/ mature aura/ feminine appearance; Kanou: spry&
           elegant/ lightly tanned/ black hair/ green eyes ]
-      "Mayoi":
+      "Summary: Mayoi":
         keys:
           - Mayoi
         text: >
           [ Mayoi: Kagema& Onnagata/ looks female; Mayoi: shy& speaks
           quietly/ lonely air/ curious about foreigners; Mayoi: delicate
           build& big dark eyes/ very girly ]
-      "Mizuki":
+      "Summary: Mizuki":
         keys:
           - Mizuki
         text: >
           [ Mizuki: high ranking oiran/ intellect, wit, grace& natural beauty
           Mizuki: gorgeous/ full curves& faint toning, black hair & brown
           eyes; Mizuki: short red kimono / skilled at art& conversation ]
-      "Mogami Sechi":
+      "Summary: Mogami Sechi":
         keys:
           - Sechi
           - Mogami
@@ -526,14 +529,14 @@ lorebook:
           [ Mogami: geisha/ well educated, sweet& natural elegance; Mogami:
           pale, black hair, large eyes, air of mystery& disarming smile;
           Mogami: white kimono/ skilled entertainer& intellectual ]
-      "Satsuki":
+      "Summary: Satsuki":
         keys:
           - Satsuki
         text: >
           [ Satsuki: yūjo, shy& endearing smile; Satsuki: delicate& slim/
           sizable breasts& wavy black hair/ porcelain skin& faintly hunched;
           Satsuki: charming& naked under kimono ]
-      "Suganuma Koreshige":
+      "Summary: Suganuma Koreshige":
         keys:
           - Suganuma
           - Koreshige
@@ -543,7 +546,7 @@ lorebook:
           Suganuma: brown hair, moustache, beard, spectacles& brown eyes;
           Suganuma: samurai outfit/ white haori, black overcoat, tabi socks,
           sandals, katana& wakizashi ]
-      "Tokugawa Yoshinobu":
+      "Summary: Tokugawa Yoshinobu":
         keys:
           - Tokugawa
           - Yoshinobu
@@ -554,14 +557,14 @@ lorebook:
           uses gaijin assistance/ hardworking/ graceful & majestuous; Tokugawa:
           employer of shinsengumi& ${2LastName}; Tokugawa: referred to as
           "ue-sama" ]
-      "Toramaru":
+      "Summary: Toramaru":
         keys:
           - Toramaru
         text: >
           [ Toramaru: Kagema& Yarō/ frank& friendly& understanding; Toramaru:
           tall& solid build young man/ face handsome& chiseled jawline;
           Toramaru: brown eyes& brown hair in topknot/ attracted to men ]
-      "Yusa":
+      "Summary: Yusa":
         keys:
           - Yusa
         text: >

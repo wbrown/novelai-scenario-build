@@ -20,11 +20,11 @@ placeholders:
     longDescription: >
       (e.g dark, light, olive, pale...)
     default: pale
-memory: >
+memory: >-
   I am ${1FirstName} ${2LastName}, an American soldier who became a Samurai.
   I work for the Shogun Tokugawa. I sought entertainment from a courtesan with
   the help of Kiyo-san.
-authorsNote: >
+authorsNote: >-
   [ I am ${1FirstName} ${2LastName} / westerner, samurai / trying to find
   courtesan in Gion ]
 prompt: >
@@ -234,7 +234,7 @@ prompt: >
   most of these. Namely." She pulled a small leather-bound book, probably an
   imported journal, and began flicking through its pages. "Mogami-san will be
   happy to cater to you as a Geisha. For Yūjo, I can offer to you the joyful
-  Asuza, the sweet Satsuki, and the shy Yusa. If you are willing to eagerly
+  Azusa, the sweet Satsuki, and the shy Yusa. If you are willing to eagerly
   spend for an Oiran's time, then I'm sure Mizuki would be an amazing match
   for you. I also have contact with Kanou, who is a Wakashu actor and has
   great experience serving men. If you are interested in an Onnagata, I can
