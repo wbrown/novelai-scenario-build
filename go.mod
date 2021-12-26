@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	github.com/nu7hatch/gouuid v0.0.0-20131221200532-179d4d0c4d8d
-	github.com/wbrown/novelai-research-tool v0.0.0-20211226220250-285f1818e748
+	github.com/wbrown/novelai-research-tool v0.0.0-20211226222035-fcfb4fb49a76
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
 )
 
