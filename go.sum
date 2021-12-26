@@ -73,6 +73,8 @@ github.com/wbrown/novelai-research-tool v0.0.0-20211224204759-53d3111b094d h1:FD
 github.com/wbrown/novelai-research-tool v0.0.0-20211224204759-53d3111b094d/go.mod h1:yRJMOGrKwKJ8DDSJ3iNuF/sCfrPry8g6VDQv+op+uWE=
 github.com/wbrown/novelai-research-tool v0.0.0-20211224214033-465551dc857a h1:coogBSQfLiF/4L2qy8TL+78ah7moVtI6CGs9/TXnKyY=
 github.com/wbrown/novelai-research-tool v0.0.0-20211224214033-465551dc857a/go.mod h1:yRJMOGrKwKJ8DDSJ3iNuF/sCfrPry8g6VDQv+op+uWE=
+github.com/wbrown/novelai-research-tool v0.0.0-20211226220250-285f1818e748 h1:OzuryhsLkKsYdJwA5REv9RsrB+vuB+0KSrnLCtx/kO4=
+github.com/wbrown/novelai-research-tool v0.0.0-20211226220250-285f1818e748/go.mod h1:yRJMOGrKwKJ8DDSJ3iNuF/sCfrPry8g6VDQv+op+uWE=
 golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
 golang.org/x/crypto v0.0.0-20190510104115-cbcb75029529/go.mod h1:yigFU9vqHzYiE8UmvKecakEJjdnWj3jj499lnFckfCI=
 golang.org/x/crypto v0.0.0-20210711020723-a769d52b0f97 h1:/UOmuWzQfxxo9UtlXMwuQU8CMgg1eZXqTRwkSQJWKOI=

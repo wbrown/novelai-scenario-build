@@ -39,8 +39,8 @@ func (categories *CategoriesMap) RealizeCategory(name string,
 		uuidStr := categoryUuid.String()
 		category.Id = &uuidStr
 	}
-	if category.LoreBiasGroups != nil {
-		category.LoreBiasGroups.RealizeBiases()
+	if category.CategoryBiasGroups != nil {
+		category.CategoryBiasGroups.RealizeBiases()
 	}
 
 	(*categories)[name] = category
