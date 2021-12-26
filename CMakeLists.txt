@@ -65,16 +65,16 @@ add_scenario_sources(darkest-dungeon
         examples/darkest-dungeon/monsters.yaml)
 
 add_scenario_sources(white-samurai-and-ronin
-        examples/feudal-edo/white-samurai-and-ronin.yaml
-        examples/feudal-edo/kyoto-lorebook.yaml)
+        examples/feudal-edo/kyoto-lorebook.yaml
+        examples/feudal-edo/white-samurai-and-ronin.yaml)
 
 add_scenario_sources(white-samurai-and-courtesan
-        examples/feudal-edo/white-samurai-and-the-courtesan.yaml
-        examples/feudal-edo/kyoto-lorebook.yaml)
+        examples/feudal-edo/kyoto-lorebook.yaml
+        examples/feudal-edo/white-samurai-and-the-courtesan.yaml)
 
 add_scenario_sources(courtesan-in-feudal-kyoto
-        examples/feudal-edo/courtesan-in-feudal-kyoto.yaml
-        examples/feudal-edo/kyoto-lorebook.yaml)
+        examples/feudal-edo/kyoto-lorebook.yaml
+        examples/feudal-edo/courtesan-in-feudal-kyoto.yaml)
 
 generate_artifacts(darkest-dungeon
     examples/darkest-dungeon/darkest-dungeon)
