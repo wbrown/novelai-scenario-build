@@ -168,20 +168,6 @@ lorebook:
           blushing all the more striking. As a yūjo, Azusa makes use of her
           wonderful feminine wiles to entice clients, and wears nothing under
           her kimono.
-      "${1FirstName} ${2LastName}":
-        keys:
-          - ${1FirstName}
-          - ${2LastName}
-        text: >
-          I'm ${1FirstName} ${2LastName}, a male soldier who fought for the
-          Confederates in the American Civil War. I went westward after their
-          defeat, fought in the Indian Wars, and went overseas to Japan in 1867.
-          I was hired to train the soldiers of the Japanese daimyōs in rifle
-          warfare and skirmishing tactics. I am nearly fluent in Japanese. I
-          trained in the samurai arts of the katana, and follow the code of
-          Bushido. I am known as the White Samurai. As a gaijin, My
-          ${3HairColor} hair and ${4Skin} skin are viewed with near
-          superstitious awe.
       "Arisuke Kanou":
         keys:
           - Kanou
@@ -226,6 +212,7 @@ lorebook:
         keys:
           - Sechi
           - Mogami
+          - Mogami-san
         text: >
           Mogami Sechi is a geisha. She is well educated and her sweet
           personality meshes perfectly with her natural elegance. Even then,
@@ -240,6 +227,7 @@ lorebook:
       "Satsuki":
         keys:
           - Satsuki
+          - Satsuki-san
         text: >
           Satsuki is a yūjo. She is somewhat shy, which makes her clients seek
           to make her smile all the more due to how endearing she is. Satsuki
@@ -266,6 +254,7 @@ lorebook:
       "Tokugawa Yoshinobu":
         keys:
           - Tokugawa
+          - Tokugawa-san
           - Yoshinobu
           - Ue-sama
           - Shogun
@@ -293,6 +282,7 @@ lorebook:
       "Yusa":
         keys:
           - Yusa
+          - Yusa-san
         text: >
           Yusa is a yūjo. She is a quiet and very shy young woman. However,
           when aroused, Yusa becomes extremely assertive towards her partner
@@ -496,16 +486,7 @@ lorebook:
           - phrases:
             - " Azusa"
             bias: 0.05
-      "Summary: ${1FirstName} ${2LastName}":
-        keys:
-          - ${1FirstName}
-          - ${1FirstName}-san
-          - ${2LastName}
-          - ${2LastName}-san
-        text: >
-          [ ${2LastName}: male foreign western soldier; ${2LastName}: works
-          for tokugawa, is White Samurai; ${2LastName}: ${3HairColor} hair
-          and ${4Skin} skin seen as exotic ]
+
       "Summary: Arisuke Kanou":
         keys:
           - Kanou
@@ -556,7 +537,7 @@ lorebook:
           - phrases:
               - " Mogami"
               - " Sechi"
-            bias: 0.0
+            bias: -0.05
       "Summary: Satsuki":
         keys:
           - Satsuki
@@ -587,6 +568,7 @@ lorebook:
       "Summary: Tokugawa Yoshinobu":
         keys:
           - Tokugawa
+          - Tokugawa-san
           - Yoshinobu
           - Ue-sama
           - Shogun
@@ -606,7 +588,7 @@ lorebook:
         loreBiasGroups:
           - phrases:
               - " Toramaru"
-            bias: 0.05
+            bias: 0.075
       "Summary: Yusa":
         keys:
           - Yusa

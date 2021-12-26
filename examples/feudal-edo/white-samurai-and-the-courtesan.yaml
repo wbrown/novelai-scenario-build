@@ -27,6 +27,46 @@ memory: >-
 authorsNote: >-
   [ I am ${1FirstName} ${2LastName} / westerner, samurai / trying to find
   courtesan in Gion ]
+lorebook:
+  - category: Characters
+    entries:
+      "${1FirstName} ${2LastName}":
+        keys:
+          - ${1FirstName}
+          - ${2LastName}
+          - ${1FirstName}-san
+          - ${2LastName}-san
+        text: >
+          I'm ${1FirstName} ${2LastName}, a male soldier who fought for the
+          Confederates in the American Civil War. I went westward after their
+          defeat, fought in the Indian Wars, and went overseas to Japan in 1867.
+          I was hired to train the soldiers of the Japanese daimyōs in rifle
+          warfare and skirmishing tactics. I am nearly fluent in Japanese. I
+          trained in the samurai arts of the katana, and follow the code of
+          Bushido. I am known as the White Samurai. As a gaijin, my
+          ${3HairColor} hair and ${4Skin} skin are viewed with near
+          superstitious awe.
+      "Tokugawa Yoshinobu add'l":
+         keys:
+           - Tokugawa
+           - Yoshinobu
+           - Ue-sama
+           - Shogun
+         text: >
+           Yoshinobu is the commander of the Shinsengumi and employs me,
+           ${1FirstName} ${2LastName}, to train the daimyōs' forces.
+  - category: Summaries
+    entries:
+      "Summary: ${1FirstName} ${2LastName}":
+        keys:
+          - ${1FirstName}
+          - ${1FirstName}-san
+          - ${2LastName}
+          - ${2LastName}-san
+        text: >
+          [ ${2LastName}: male foreign western soldier; ${2LastName}: works
+          for tokugawa, is White Samurai; ${2LastName}: ${3HairColor} hair
+          and ${4Skin} skin seen as exotic ]
 prompt: >
   I am ${1FirstName} ${2LastName}, a male soldier who fought for the
   Confederates in the American Civil War. I went westward after their defeat,

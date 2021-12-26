@@ -1,5 +1,5 @@
 title: "A Courtesan in Feudal Kyōto"
-description: >
+description: >-
   A courtesan of Gion, Kyōto's famous Yūkaku, seeks a client to entertain for
   the night.
 author: Bunray, OccultSage
@@ -8,21 +8,44 @@ placeholders:
   1CourtesanName:
     description: Your name
     default: Mayumi
-    longDescription: >
-      Suggested: Arata 革 for Yaro / Aoi 水 for Wakashu / Kiyoshi 白 for
-      Onnagata / Harumi 美 for Yujo / Kiyuu 久 for Geisha / Hato 鳩 for Oiran
+    longDescription: >-
+      Suggested: ♂: Arata 革 for Yaro / Aoi 水 for Wakashu / Kiyoshi 白 for
+      Onnagata, ♀: Harumi 美 for Yujo / Kiyuu 久 for Geisha / Hato 鳩 for Oiran
   2CourtesanRole:
     description: Your courtesan role
     default: Yūjo
     longDescription: "♀: Yūjo, Oiran, Geisha ♂: Yarō, Wakashu, Onnagata"
-memory: >
-  I am ${1CourtesanName}, a ${2CourtesanType}, residing in Gion, Kyōto's famous
+  3Client:
+    description: Your client
+    default: Daniel
+    longDescription: "♂ Daniel, Tokugawa, Suganuma ♀: Mogami"
+memory: >-
+  I am ${1CourtesanName}, a ${2CourtesanRole}, residing in Gion, Kyōto's famous
   Yūkaku. I need to find one of a client to service tonight.
-authorsNote: >
-  [ I am ${1CourtesanName}, a ${2CourtesanClass} / working in Gion / trying to
+authorsNote: >-
+  [ I am ${1CourtesanName}, a ${2CourtesanRole} / working in Gion / trying to
   find client ]
-prompt: >
-  I am ${1CourtesanName}, a ${2CourtesanType}, residing in Gion, Kyōto's famous
+lorebook:
+  - category: Characters
+    entries:
+      "Daniel Blackthorn":
+        keys:
+          - Daniel
+          - Blackthorn
+          - Daniel-san
+          - Blackthorn-san
+        text: >
+          Daniel Blackthorn is a male soldier who fought for the Confederates
+          in the American Civil War. He went westward after their defeat,
+          fought in the Indian Wars, and went overseas to Japan in 1867.
+          He was hired to train the soldiers of the Japanese daimyōs in rifle
+          warfare and skirmishing tactics. Blackthorn-san is nearly fluent in
+          Japanese. He trained in the samurai arts of the katana, and follows
+          the code of Bushido. He is known as the White Samurai. As a gaijin,
+          his ${3HairColor} hair and ${4Skin} skin are viewed with near
+          superstitious awe.
+prompt: >-
+  I am ${1CourtesanName}, a ${2CourtesanRole}, residing in Gion, Kyōto's famous
   Yūkaku. The evening sun, slowly sinking below the horizon, bathed the capital
   of the Empire in a warm orange glow. The streets were filled with people
   enjoying the last moments of daylight before nightfall, seeking out the
@@ -59,4 +82,4 @@ prompt: >
   I could stay here just as well, and one of them would find me, or I could
   think of one I felt particularly fond off and head off to find them.
   
-  In the end, I decided to follow my heart, and
+  In the end, I decided to follow my heart, and find ${3Client}-san.

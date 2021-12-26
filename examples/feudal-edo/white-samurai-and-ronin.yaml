@@ -14,7 +14,7 @@ placeholders:
   3HairColor:
     description: Your hair color
     longDescription: >
-      (e.g Red, brown, black...)
+      (e.g red, brown, black...)
     default: red
   4Skin:
     description: Your skin color
@@ -28,11 +28,23 @@ memory: >
   1867. I was hired to train the soldiers of the Japanese daimyōs in rifle
   warfare and skirmishing tactics. I am nearly fluent in Japanese. I trained
   in the samurai arts of the katana, and follow the code of Bushido. Today,
-  I am known as the White Samurai. As a gaijin, My ${3HairColor} hair and
+  I am known as the White Samurai. As a gaijin, my ${3HairColor} hair and
   ${4Skin} skin is viewed with near superstitious awe.
 authorsNote: >
   [ I am ${1FirstName} ${2LastName} / westerner, samurai, helps Suganuma /
   trying to uncover plot to overthrow daimyo in Nagoya ]
+lorebook:
+  - category: Characters
+    entries:
+      "Tokugawa Yoshinobu add'l":
+        keys:
+          - Tokugawa
+          - Yoshinobu
+          - Ue-sama
+          - Shogun
+        text: >
+          Yoshinobu is the commander of the Shinsengumi and employs me,
+          ${1FirstName} ${2LastName}, to train the daimyōs' forces.
 prompt: >
   I am ${1FirstName} ${2LastName}, a male soldier who fought for the
   Confederates in the American Civil War. I went westward after their defeat,
