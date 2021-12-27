@@ -1,7 +1,13 @@
 title: "A Courtesan in Feudal Kyōto"
 description: >-
   A courtesan of Gion, Kyōto's famous Yūkaku, seeks a client to entertain for
-  the night.
+  the night. Below are descriptions of possible courtesan roles:
+  ♀ Yūjo: Sexual satisfaction
+  ♀ Oiran: Intellectual and sexual satisfaction
+  ♀ Geisha: Intellectual satisfaction
+  ♂ Yarō: Actor, male presentation
+  ♂ Wakashu: Actor, somewhat feminine presentation
+  ♂ Onnagata: Actor, very feminine presentation
 author: Bunray, OccultSage
 tags: [ edo, japan, historical, 1st person ]
 placeholders:
@@ -9,8 +15,8 @@ placeholders:
     description: Your name
     default: Mayumi
     longDescription: >-
-      Suggested: ♂: Arata 革 for Yaro / Aoi 水 for Wakashu / Kiyoshi 白 for
-      Onnagata, ♀: Harumi 美 for Yujo / Kiyuu 久 for Geisha / Hato 鳩 for Oiran
+      Suggested -- ♂- Arata 革 for Yaro / Aoi 水 for Wakashu / Kiyoshi 白 for
+      Onnagata; ♀- Harumi 美 for Yujo / Kiyuu 久 for Geisha / Hato 鳩 for Oiran
   2CourtesanRole:
     description: Your courtesan role
     default: Yūjo
@@ -21,10 +27,10 @@ placeholders:
     longDescription: "♂ Daniel, Tokugawa, Suganuma ♀: Mogami"
 memory: >-
   I am ${1CourtesanName}, a ${2CourtesanRole}, residing in Gion, Kyōto's famous
-  Yūkaku. I need to find one of a client to service tonight.
+  Yūkaku. I need to find my client ${3Client}-san to service tonight.
 authorsNote: >-
   [ I am ${1CourtesanName}, a ${2CourtesanRole} / working in Gion / trying to
-  find client ]
+  find ${3Client} ]
 lorebook:
   - category: Characters
     entries:
@@ -42,8 +48,18 @@ lorebook:
           warfare and skirmishing tactics. Blackthorn-san is nearly fluent in
           Japanese. He trained in the samurai arts of the katana, and follows
           the code of Bushido. He is known as the White Samurai. As a gaijin,
-          his ${3HairColor} hair and ${4Skin} skin are viewed with near
-          superstitious awe.
+          his red hair and pale skin are viewed with near superstitious awe.
+  - category: Summaries
+    entries:
+      "Summary: Daniel Blackthorn":
+        keys:
+          - Daniel
+          - Blackthorn
+          - Daniel-san
+          - Blackthorn-san
+        text: >-
+          [ Daniel Blackthorn: my client, American Southerner, samurai, Civil
+          War veteran, Daniel-san ]
 prompt: >-
   I am ${1CourtesanName}, a ${2CourtesanRole}, residing in Gion, Kyōto's famous
   Yūkaku. The evening sun, slowly sinking below the horizon, bathed the capital
@@ -80,6 +96,7 @@ prompt: >-
   As for me, it was also time I sought out a client of my own. The evening had
   been enjoyable, but my regular customers would be expecting me soon enough.
   I could stay here just as well, and one of them would find me, or I could
-  think of one I felt particularly fond off and head off to find them.
+  think of one I felt particularly fond of and head off to find them.
   
-  In the end, I decided to follow my heart, and find ${3Client}-san.
+  In the end, I decided to follow my heart, and find ${3Client}-san. I know
+  that ${3Client}-san can be found at

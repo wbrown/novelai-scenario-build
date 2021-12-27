@@ -264,9 +264,8 @@ lorebook:
           government, and is modernizing the military of the shogunate with
           gaijin assistance. At the age of 30, Yoshinobu is hopeful and
           hardworking but carries himself with the required grace and majesty
-          expected of the Shogun. Yoshinobu is the commander of the Shinsengumi
-          and employs me, ${1FirstName} ${2LastName}, to train the daimyōs'
-          forces. He must be referred to as "Ue-sama" exclusively.
+          expected of the Shogun. Yoshinobu is the commander of the Shinsengumi,
+          and must be referred to as "Ue-sama" exclusively.
       "Toramaru":
         keys:
           - Toramaru
@@ -575,8 +574,7 @@ lorebook:
         text: >
           [ Tokugawa: current Shogun/ age 30 / overhauls government; Tokugawa:
           uses gaijin assistance/ hardworking/ graceful & majestuous; Tokugawa:
-          employer of shinsengumi& ${2LastName}; Tokugawa: referred to as
-          "ue-sama" ]
+          employer of shinsengumi; Tokugawa: referred to as "ue-sama" ]
       "Summary: Toramaru":
         keys:
           - Toramaru
