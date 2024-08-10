@@ -1,0 +1,1499 @@
+{
+  "scenarioVersion": 3,
+  "title": "My Idol Group (v0.4)",
+  "description": "You are the producer of a Japanese idol group, and must build the White Roses up from nothing.",
+  "prompt": "As I rode the commuter train from Yokohama to Tokyo Station, I thought about how, despite all the recent technological advances, Japan's public transit systems were still extremely inefficient. The trains had been running on time when I was younger, but these days, delays were much more common than they had been. As a result, my once ten-minute commute into the city was now closer to thirty or forty minutes.\nOn the bright side, it allowed me to review my schedule and plans for the day. Being the producer for an idol group required me to be on top of my game at all times, so I used every bit of spare time to its fullest potential.\nI had been in this job for just over three years now, which was a fairly decent amount of time. First, as an assistant producer, I had been given an idol group to work with. A few months later, I became a senior assistant producer, and after that, I was made a regular producer. Now, I was an independent producer, which meant that I had been given one of the smaller, newer idol groups to build from scratch and oversee.\nToday was audition day, which meant that I would be meeting the new trainees who wanted to join my idol group. It was the most exciting yet scariest day of the year. After all, if they weren't talented enough, it would all be for nothing, so I had to be extremely careful with my selection process.\nI reviewed the list of names for the hundredth time as I checked their ages and experience. If they were still in school, I'd have to dismiss them right away since I couldn't afford to wait until they graduated. That, and underage idols had a tendency to be difficult. They wanted to party, drink alcohol, and date, but the company wouldn't let them do any of that. In my opinion, it was better to have idols that were older and had experience with the world outside of show business, though some people disagreed.\nAside from that, I also needed to make sure they had the right look. Idol groups consisted of four to six members, and when choosing them, I looked for girls who would complement each other well, as well as their leader. The center girl, the one who stood front and center during their performances, had to be a cut above the rest, so I would pick her first. She was also the one the audience would focus on the most, and she had to be visually appealing in every way.\nIt was a tough job, but it was also my dream position. I had always loved music, and I'd been a fan of idols ever since my school days. Working as a producer for them had been one of my long-held dreams, and I was finally making it come true.\n***\nI stepped into the audition venue, a small room in one of our company buildings. I was running a little late, so the other staff members had already arrived and were setting up their equipment. I hurried to the back of the room to put on my headphones and sit down in the seat assigned to me. I reviewed the candidates today, and noted the order of appearance: ${4Idols}.\nI checked my watch. It was ten o'clock on the dot, and I was ready. The auditions were about to begin.  I was the primary audience, and in the room were Mariko to help assess dancing by showing them a routine to follow, and Chikage to assist me personally.\nThe audition would consist of an interview, dance, and singing phase for each girl. I would be consulting with my staff for opinions as required.\n***\nI let my assessing eyes wander over the first girl's features, figure, and attire, noting them in detail, as she stepped up and bowed introducing herself, \"",
+  "tags": [],
+  "context": [
+    {
+      "text": "[ Author: Jacqueline Carey; Title: The Idols of ${3GroupName}; Tags: harem, contemporary, management, ecchi, Japan; Genre: fiction, contemporary ]\nI'm ${1Name}, a ${2Gender}, the producer of the ${3GroupName} idol group. Either part of my group or under consideration for audition are ${4Idols}.\nAll characters in this story are adults, attend university, work, or have graduated and are of age of majority.",
+      "contextConfig": {
+        "prefix": "",
+        "suffix": "\n",
+        "tokenBudget": 1,
+        "reservedTokens": 0,
+        "budgetPriority": 800,
+        "trimDirection": "trimBottom",
+        "insertionType": "newline",
+        "maximumTrimType": "sentence",
+        "insertionPosition": 0
+      }
+    },
+    {
+      "text": "[ Style: sensual, descriptive, detailed, evocative ]",
+      "contextConfig": {
+        "prefix": "",
+        "suffix": "\n",
+        "tokenBudget": 1,
+        "reservedTokens": 1,
+        "budgetPriority": -400,
+        "trimDirection": "trimBottom",
+        "insertionType": "newline",
+        "maximumTrimType": "sentence",
+        "insertionPosition": -4
+      }
+    }
+  ],
+  "ephemeralContext": [],
+  "placeholders": [
+    {
+      "key": "1Name",
+      "description": "Your  name",
+      "defaultValue": "Takeshi Hidoro"
+    },
+    {
+      "key": "2Gender",
+      "description": "Your gender identity",
+      "defaultValue": "male",
+      "longDescription": "male/female"
+    },
+    {
+      "key": "3GroupName",
+      "description": "Idol group name",
+      "defaultValue": "White Roses"
+    },
+    {
+      "key": "4Idols",
+      "description": "Idols",
+      "defaultValue": "Aimi Kobayashi, Aiko Hoshikawa, Yume Liu, and Mizuki Aozora",
+      "longDescription": "Default idols have lorebook entries, suggested to have at least a few."
+    }
+  ],
+  "settings": {
+    "parameters": {
+      "textGenerationSettingsVersion": 6,
+      "temperature": 1.21,
+      "max_length": 40,
+      "min_length": 1,
+      "top_k": 0,
+      "top_p": 0.912,
+      "top_a": 1,
+      "typical_p": 0.912,
+      "tail_free_sampling": 0.921,
+      "repetition_penalty": 1.21,
+      "repetition_penalty_range": 321,
+      "repetition_penalty_slope": 2.1,
+      "repetition_penalty_frequency": 0.00621,
+      "repetition_penalty_presence": 0,
+      "repetition_penalty_default_whitelist": false,
+      "cfg_scale": 1,
+      "cfg_uc": "",
+      "phrase_rep_pen": "light",
+      "top_g": 0,
+      "mirostat_tau": 0,
+      "mirostat_lr": 1,
+      "math1_temp": 1,
+      "math1_quad": 0,
+      "math1_quad_entropy_scale": 0,
+      "order": [
+        {
+          "id": "cfg",
+          "enabled": false
+        },
+        {
+          "id": "temperature",
+          "enabled": true
+        },
+        {
+          "id": "typical_p",
+          "enabled": true
+        },
+        {
+          "id": "tfs",
+          "enabled": true
+        },
+        {
+          "id": "top_p",
+          "enabled": true
+        },
+        {
+          "id": "top_k",
+          "enabled": true
+        },
+        {
+          "id": "top_a",
+          "enabled": false
+        },
+        {
+          "id": "top_g",
+          "enabled": false
+        },
+        {
+          "id": "mirostat",
+          "enabled": false
+        },
+        {
+          "id": "math1",
+          "enabled": false
+        }
+      ]
+    },
+    "preset": "32a177fb-584b-427c-9aba-c1f75cc9559e",
+    "trimResponses": true,
+    "banBrackets": true,
+    "prefix": "vanilla",
+    "dynamicPenaltyRange": false,
+    "prefixMode": 0,
+    "mode": 0,
+    "model": "kayra-v1"
+  },
+  "lorebook": {
+    "lorebookVersion": 5,
+    "entries": [
+      {
+        "text": "Mizuki Aozora\nType: character\nSetting: original\nAge: 20, twenty years old\nOccupation: idol, fashionista\nOrigin: Kyushu\nBody: small, delicate, larger breasts\nHair: brunette, long, wavy, dark brown\nEyes: brown\nDescription: Mizuki's body was slender and petite as she was slightly shorter than average, and her features were delicate and girlish but with feminine characteristics. Her long, wavy brunette hair fell past her shoulders, and framed eyes that were a warm, chocolate brown along with a cute button nose perched above lips that were full and pouty. One's eyes might be drawn to her well-proportioned figures with breasts that were full and round, along with curvaceous hips. Mizuki's pale skin was highlighted by expertly applied makeup. She wore clothing that was always fashionable and up-to-date. Overall, she was a beautiful and exotic-looking woman who commanded attention wherever she went.\nSummary: Mizuki Aozora was born in the southern prefecture of Kyushu to working-class parents. At a shy quiet ten years old, she was mesmerized by an idol concert on television. Her mother was a fan of idols as well, and so she was ecstatic when Aiko began to talk about them nonstop, begging her mother to take her to more concerts.\nMizuki had never had a lot of friends at school. She had one good friend, and while they were often together, they had no interest in playing with the boys, who preferred running around outside to girly things like make-believe. Her mother encouraged her to join clubs, so she tried joining the choir, but she couldn't stand being around the boys who often made fun of her singing.\nSo she stopped talking to other kids and focused on studying. Mizuki was an excellent student, and while she had to take care of her younger brother, she was happy just spending time with her mother.\nThe young lady's mother encouraged her to apply to a local college, but when the time came for her to fill out the application forms, she hesitated. She knew that her mother couldn't afford to pay for her tuition and living expenses. Her father had left them long ago, and her mother was forced to work two jobs just to keep food on the table. Mizuki didn't want to spend scarce family money on her education when there were more important things such as rent and food.\nSo, she took a good look at herself in the mirror and scrutinized herself carefully. Mizuki knew she wasn't exactly a beauty, but she wasn't ugly, either. In fact, she was quite pretty. Her skin was pale and creamy with a face was delicately boned. The young woman just needed to apply some makeup and put on a nice outfit, and she'd be all set.",
+        "contextConfig": {
+          "prefix": "----\n",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 350,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1723220008667,
+        "displayName": "*Fashionista Idol: Mizuki Aozora",
+        "id": "0cb226ef-93f2-4dd9-9a8a-e215624d2868",
+        "keys": [
+          "Mizuki",
+          "Aozora"
+        ],
+        "searchRange": 8000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "fbcbb104-8605-4df8-85e3-8410219f06e7",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ],
+        "hidden": false
+      },
+      {
+        "text": "Mei Fujimoto\nType: character\nSetting: original\nAge: 21\nOccupation: idol, dancer\nHair: red, shoulder-length, braided\nEyes: brown, large, expressive\nBody: petite, short, slender, athletic\nDescription: Mei Fujimoto's petite stature and vibrant red hair would stand out in a crowd. Standing at just over five feet tall, she has a slender, athletic build that's well-suited to her rigorous dance routines. Her shoulder-length hair, often styled in braids or pigtails, frames a delicate, oval face with large, expressive eyes and full lips. This combination of features gives her an almost doll-like appearance that's highly prized in the idol industry.\nSummary: Mei Fujimoto is a 21-year-old idol and dancer, known for her petite stature and vibrant red hair. Despite her current occupation and outward appearance, Mei's personality is more complex than the bubbly facade she presents to her fans. At her core, she remains the shy, quiet girl from Chiba prefecture, shaped by a childhood of loneliness and struggle. Raised by a single mother who worked long hours as a nurse, Mei learned early on to be self-reliant and resourceful.\nHer early experiences with bullying in middle school left deep emotional scars, leading her to develop a chameleon-like ability to adapt her personality to fit in. This skill serves her well in the idol industry, where she can effortlessly switch between her natural introverted self and the outgoing, energetic persona her fans expect.\nMei's passion for idol culture stems from a place of aspiration and escapism. The colorful, larger-than-life world of idols represents everything she felt she lacked in her own life - confidence, glamour, and adoration. Her dedication to mastering the art of being an idol is driven by a deep-seated desire for acceptance and validation.\nDespite her success, Mei often struggles with imposter syndrome, feeling like she's constantly playing a role rather than being her true self. This internal conflict manifests in moments of self-doubt and anxiety, which she carefully hides from the public eye.\nProfessionally, Mei is hardworking and disciplined, traits she developed during her time as a backup dancer. She takes her responsibilities seriously, always striving for perfection in her performances. Her background in dance gives her an edge in the physically demanding world of idols, and she often spends extra hours practicing to maintain her skills.\nIn her personal life, Mei values the few close friendships she's managed to form within the industry. These relationships provide a rare space where she can let her guard down and be herself. She maintains a close bond with her mother, often sending money home to support her.\nMei's experiences have left her with a keen eye for authenticity in others. She's wary of superficial relationships, having learned the hard way that popularity doesn't always equate to true friendship. This makes her an excellent judge of character, though she often keeps these observations to herself to maintain her public image.",
+        "contextConfig": {
+          "prefix": "----\n",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 350,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1721656788259,
+        "displayName": "*Dancer Idol: Mei Fujimoto",
+        "id": "b7c59ed3-a4f9-4563-9dce-f9f2ce21b986",
+        "keys": [
+          "Fujimoto",
+          "Mei"
+        ],
+        "searchRange": 8000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "fbcbb104-8605-4df8-85e3-8410219f06e7",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "Emi Sakomoto\nType: character\nSetting: original\nAge: 21\nOccupation: idol, dancer\nHair: chocolate brown, waist-length\nBody: tall, athletic, well-proportioned\nDescription: Standing tall for a Japanese woman, Emi's athletic build is a testament to her years of dedication to dance and physical fitness. Her long, shapely legs and well-proportioned figure give her a striking presence, accentuated by a small waist and graceful curves. Emi's face is a picture of classic Japanese beauty, with delicate features that include a small nose, full lips, and captivating almond-shaped eyes. Her crowning glory is her lustrous brown hair, which cascades down to her waist when not styled for performances.\nSummary: Emi Sakamoto is a 21-year-old idol and dancer who hails from Saitama, Japan. Growing up in a close-knit family that ran a small grocery store, Emi developed a strong work ethic and a deep appreciation for community. As a child, her natural confidence and outgoing nature made her a social butterfly, easily forming friendships and excelling in various sports. However, a pivotal moment in middle school - a falling out with her best friend over a romantic interest - drastically altered her social landscape. This experience of isolation led Emi to retreat into the world of idol shows, where she found solace and inspiration.\nThe loneliness of her adolescence proved to be a catalyst for Emi's future career. As she immersed herself in the glittering world of idols, she discovered a passion for performance that would shape her future. With determination born from her athletic background, Emi threw herself into practicing dance and vocals, honing her skills with the same dedication she once applied to sports.\nEmi's personality is a complex blend of her past experiences and current aspirations. While she maintains the friendly and outgoing demeanor of her childhood, there's an underlying vulnerability stemming from her middle school experiences. This has made her more empathetic and understanding of others' struggles, particularly when it comes to feelings of isolation or exclusion.\nHer time as a backup dancer has instilled in her a strong sense of professionalism and an appreciation for teamwork. Emi understands the importance of supporting others and working harmoniously in a group, skills that serve her well in the competitive world of idols.\nDespite her striking appearance and growing success, Emi remains grounded, often attributing this to her humble beginnings in her parents' grocery store. She has a strong work ethic and is known for her perseverance, always striving to improve her skills and push her boundaries.\nEmi's journey from a lonely teenager to a budding idol has given her a unique perspective on fame and connection. She values genuine relationships and strives to create a supportive community among her fellow performers and fans. Her performances are characterized not just by technical skill, but by an emotional authenticity that resonates with her audience.",
+        "contextConfig": {
+          "prefix": "----\n",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 350,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1721656792980,
+        "displayName": "*Dancer Idol: Emi Sakamoto",
+        "id": "e0329e42-dece-4b79-a8dc-d513c7513cad",
+        "keys": [
+          "Emi",
+          "Sakamoto"
+        ],
+        "searchRange": 8000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "fbcbb104-8605-4df8-85e3-8410219f06e7",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "Ayane Nakamura\nType: character\nSetting: original\nAge: 20, twenty years old\nBody: petite, slender, delicate, small bust\nOccupation: idol, dancer, university student\nHair: raven-haired, shoulder-length\nPersonality: attention-seeker, intelligent\nDescription: Standing at a modest height, Ayane's delicate features and small bust give her an almost ethereal appearance, further accentuated by her flawless, pale skin. The young woman's petite and slender frame belies a strength and determination that runs deep within her. Her raven-colored hair, falling just past her shoulders, frames a face that captivates with its large, expressive eyes and full lips. Ayane often wears her hair in practical styles like ponytails or braids, especially when dancing, but she knows how to style it to enhance her appearance when the occasion calls for it.\nSummary: Ayane Nakamura is a young woman of 20, navigating the complex world of adulthood while juggling her roles as an aspiring idol, dancer, and university student. \nBorn into wealth but raised in emotional poverty, Ayane's childhood experiences have shaped her into a complex individual. The loneliness of her early years, marked by absent parents and a revolving door of caretakers, instilled in her a deep-seated need for attention and validation. This manifests in her chosen career path as an idol and dancer, where she can bask in the adoration of fans and audiences.\nDespite the challenges of her upbringing, or perhaps because of them, Ayane has developed a sharp intelligence. She approaches her university studies with the same dedication she brings to her performances, understanding that knowledge is another form of power and attention. Her quick wit and ability to adapt to various social situations serve her well in both her academic and professional lives.\nAyane's personality is multifaceted. On the surface, she presents as cheerful and outgoing, a trait that has followed her from childhood. She has a natural charisma that draws people to her, making her the center of attention in many social settings. However, beneath this exterior lies a more vulnerable side, one that still bears the scars of childhood loneliness and teenage ridicule.\nHer need for attention, while a driving force in her life, is also a source of internal conflict. Ayane is aware of this trait and sometimes struggles with feelings of insecurity, wondering if people truly like her for who she is or merely for the image she projects. This self-awareness adds depth to her character, as she constantly balances her desire for the spotlight with her need for genuine connections.\nAs a dancer and aspiring idol, Ayane is disciplined and hardworking. She understands the competitive nature of the entertainment industry and pushes herself to excel. Her determination is evident in the long hours she spends practicing, perfecting her craft, and maintaining her image.\nIn her relationships with others, Ayane can be complex. While she craves attention and affection, she also guards herself against potential hurt. Her experiences with childhood isolation and teenage bullying have made her cautious about whom she truly lets into her inner circle. Those who do gain her trust, however, find a loyal and passionate friend.",
+        "contextConfig": {
+          "prefix": "----\n",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 350,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1721656797843,
+        "displayName": "*Dancer Idol: Ayane Nakamura",
+        "id": "104babb1-9624-4868-8148-1f5a2d30d77c",
+        "keys": [
+          "Ayane",
+          "Nakamura"
+        ],
+        "searchRange": 8000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "fbcbb104-8605-4df8-85e3-8410219f06e7",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "Aiko Hoshikawa\nType: character\nSetting: original\nAge: 20, twenty years old\nOccupation: idol, teaser\nBody: tall, slender\nHair: golden, blonde, long\nEyes: large, blue\nPersonality: tsundere, brat, flirtatious\nDescription: Physically, Aiko is a striking presence with a tall, slender frame that is accentuated by long, shapely legs and a narrow waist, giving her an elegant and graceful silhouette along with generous hips and bust. Her mixed heritage is evident in her features: golden blonde hair that cascades down her back, framing a face that blends delicate Asian features with more pronounced Western characteristics. High cheekbones, full lips, and a small, pointed chin contribute to her feminine allure, while her pale, flawless skin seems to glow under the spotlight. But it's her large, expressive blue eyes that truly captivate, a genetic gift from her American father that sets her apart in a sea of brown-eyed peers.\nSummary: Aiko Hoshikawa is a 20-year-old aspiring idol with a complex personality shaped by her unique background and experiences. Born to a Japanese mother and American father, Aiko has always felt like she straddled two worlds, never fully belonging to either. This sense of otherness, while initially a source of pain, has become a wellspring of strength and individuality as she's grown older.\nAiko's personality is as multifaceted as her appearance. On the surface, she often presents as a tsundere - cold or even hostile at first, gradually revealing a warmer, more vulnerable side to those who persevere. This behavior stems from years of building emotional walls to protect herself from bullying and rejection. Beneath her prickly exterior lies a sensitive soul, yearning for genuine connection but afraid of being hurt.\nHer bratty tendencies are another defense mechanism, a way of asserting control in a world that often made her feel powerless. She can be demanding and whimsical, testing the boundaries of those around her. Yet this brattiness is tempered by a sharp wit and playful charm that makes it hard for others to stay angry with her for long.\nFlirtatiousness comes naturally to Aiko, who learned early on to use her exotic looks to her advantage. She enjoys the attention and power that comes with being desired, often teasing and tantalizing those around her. However, this flirtatious nature is also a mask, allowing her to keep people at arm's length while still feeling connected.\nMusically gifted, Aiko finds solace and expression in her art. Her classical training in piano, guitar, and ballet gives her a versatility that sets her apart from her peers. When she performs, whether singing, dancing, or playing an instrument, she transforms - all her insecurities and walls fall away, leaving only pure, passionate artistry.\nDespite her confident exterior, Aiko still grapples with feelings of inadequacy and a fear of rejection. Her drive to succeed as an idol is fueled not just by ambition, but by a deep-seated need to prove her worth - to herself as much as to others. This vulnerability, hidden beneath layers of bravado and charm, adds depth to her character and fuels her relentless pursuit of her dreams.",
+        "contextConfig": {
+          "prefix": "----\n",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 350,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1723237537994,
+        "displayName": "*Brat Idol: Aiko Hoshikawa",
+        "id": "8a83bb85-5ac4-4543-8d18-30611ec9d7cb",
+        "keys": [
+          "Aiko",
+          "Hoshikawa"
+        ],
+        "searchRange": 8000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "fbcbb104-8605-4df8-85e3-8410219f06e7",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "Rie Namba\nType: character\nSetting: original\nAge: 18\nOccupation: idol, fashionista\nHeight: 185 cm\nHair: brown, shoulder-length\nBody: tall, elegant\nSummary: Rie Namba was born in Tokyo and was the only child of wealthy parents. Her father worked as a business executive for a large corporation, and her mother worked as a housewife.\nAs the only child in a wealthy household, Rie had no siblings or friends, and so she spent most of her childhood playing by herself. She often went outside and climbed trees, explored the city, and visited the local park to feed the pigeons.\nBecause her parents had money and didn't need to work, they spoiled their daughter rotten, showering her with gifts and money. By the age of ten, she owned a wardrobe that rivaled those of her classmates.\nWhen she entered junior high school, Rie's life changed drastically. Her parents divorced, and she began to have trouble making friends because she wasn't able to relate to them anymore. Instead, she became more withdrawn and quiet. At home, she spent most of her time in her room, reading manga or surfing the internet. She had very few friends in school, and most of those she did make were from a small clique of girls who only hung out with her because of her popularity.\nAfter middle school, her grades plummeted. She barely passed the exams to get into high school, and once there, she was ostracized for her lack of talent.\nThe one thing that saved her was her love for idols. She loved how they dressed and acted on stage, and how beautiful they were. She worked hard to keep her body in shape and bought all the idol magazines she could find.\nRie was determined to become an idol, so when she graduated from high school, she applied to a number of talent agencies in Tokyo. They all turned her down, but she kept applying, believing that her dream would come true. With her tall body and impeccable fashion sense, she was sure to make an impression.",
+        "contextConfig": {
+          "prefix": "----\n",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 350,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1722784051702,
+        "displayName": "*Fashionista Idol: Rie Namba",
+        "id": "f899427a-5e21-4dc3-8ed1-7a061232b950",
+        "keys": [
+          "Rie",
+          "Namba"
+        ],
+        "searchRange": 8000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "fbcbb104-8605-4df8-85e3-8410219f06e7",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "Sayaka Nakagawa\nType: character\nSetting: original\nAge: 18\nOccupation: idol, singer, dancer\nHair: black\nBody: hourglass, athletic\nSummary: Sayaka Nakagawa was born to a middle-class family, and her father worked as a banker. Her mother was a stay-at-home mom who took care of the house and raised Sayaka.\nSayaka had always been a bit of a tomboy, and she enjoyed playing sports with her brothers and other neighborhood children. She was also very interested in music, especially idol music, and she was an avid fan of various idol groups. Sayaka's parents encouraged her interests and allowed her to try out many different activities as she grew older. She had joined the basketball club and the soccer club, but she didn't feel like she fit in with her peers.\nInstead, Sayaka had been a huge fan of a certain idol group that was active about five years ago. It had disbanded due to scandals that were later discovered. She dreamed of one day being a member of that group, but it had already happened, and her dream was gone. But she found out that the producer was forming a new group. When her best friend told her about an upcoming idol audition, she decided to try it out.\nSayaka was a petite, but well-proportioned girl. She had a small, round face, a full set of lips, and large blue eyes that stood out on her Asian features. Her body was a classic hourglass, but due to all the swimming she did with her brothers as a child, her body had toned up more than what the average girl had. Sayaka was also an excellent singer. She had been practicing for years, and she had won several singing competitions at her school.",
+        "contextConfig": {
+          "prefix": "----\n",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 350,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1722783390393,
+        "displayName": "*Singer/Dance Idol: Sayaka Nakagawa",
+        "id": "7aa5480c-94f3-4df0-ac67-4155c1c11fae",
+        "keys": [
+          "Sayaka",
+          "Nakagawa"
+        ],
+        "searchRange": 8000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "fbcbb104-8605-4df8-85e3-8410219f06e7",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "Hiromi Aki\nType: character\nSetting: original\nAge: 20\nOccupation: hostess, idol candidate\nHair: brown, shoulder-length\nBody: sexy, attractive\nSummary: Hiromi Aki was born and raised in Kyoto to lower-middle class parents. Hiromi's mother worked as a hostess, and her father worked as a sales clerk in a store.\nHiromi's parents didn't pay much attention to their daughter, leaving her to grow up alone with her two younger sisters, and she grew up without knowing any love or affection from anyone. Because of her family's low income, Hiromi was unable to attend a prestigious school, and her mother told her that she wouldn't be able to make anything of herself if she didn't become an idol.\nSo, she began practicing dancing and singing at home when she was around 12 years old, and when she got older, she started working as a backup dancer for various artists. Unfortunately or fortunately, depending on your perspective, her body started developing earlier than most other girls, and because of that, her family often dressed her in revealing outfits, causing Hiromi to receive a lot of unwanted attention from older boys.\nDespite her appearance, Hiromi didn't have any interest in sex. But she continued to dress in sexy outfits as a way of getting attention from boys. It was the only way she could get attention, since most girls were not as developed as she was.\nShe continued doing this into high school, where her friends told her that she would look even sexier if she did more than just dance. They gave her a makeover, showing her how to dress sexily, what makeup to wear, and how to style her hair. Her new look gained her popularity at school, and boys were constantly trying to get her number.\nHiromi knew that she was a bit of a sex symbol in her school, but she didn't think it was anything special. She knew that she was attractive and that she had a nice body, and that's all that mattered to her. When she graduated, she started working as a hostess at a club in Kyoto. She would make an excellent gravure idol.",
+        "contextConfig": {
+          "prefix": "----\n",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 350,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1722784056281,
+        "displayName": "*Hostess Idol: Hiromi Aki",
+        "id": "0edeecd6-a75c-49fa-a9f9-1726accd10e7",
+        "keys": [
+          "Hiromi",
+          "Aki"
+        ],
+        "searchRange": 8000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "fbcbb104-8605-4df8-85e3-8410219f06e7",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "Mai Oomura\nType: character\nSetting: original\nAge: 21\nOccupation: idol, beautiful face of group\nHair: black, long, ponytail\nHeight: 175 cm\nBody: tall, well-proportioned\nSummary: Mai was born in Hokkaido to an affluent family. Her father was a businessman, and her mother was an heiress. Mai's parents never paid much attention to their only child, who spent most of her time alone.\nAt the age of fourteen, she found herself attracted to her high school teacher, and she was convinced that he was attracted to her as well. But when she confessed her feelings, the teacher rebuffed her. Angry, she cut off her hair, changed her makeup, and changed her wardrobe so that she could be unrecognizable to her former friends.\nOne day, her parents came home unexpectedly to find her in the kitchen, and they were horrified at how she had transformed herself. Her father slapped her, called her ugly, and sent her to her room without any dinner.\nIn an attempt to punish her further, her parents tried to enroll her in a boarding school far away from home. However, she refused and locked herself in her room, threatening to jump off the balcony. Eventually, her mother convinced her father that Mai should stay at home, but she had to find a job. She began working as a part-timer at a restaurant in the evening while continuing with school.\nMai decided that her teacher had rebuffed her because she was not pretty or attractive enough. So, she was determined to never be rejected agin, and took steps to transform herself into an attractive young woman. Her body changed as she worked to lose weight, and she bought the sexiest clothes she could afford.\nBy her third year in high school, she was considered one of the most beautiful girls at her school. But that wasn't enough to overcome her fear of rejection, and so she decided to become even more irresistible: by becoming an idol.\nMai was very tall and well-proportioned for a Japanese girl, with long, straight black hair that she usually kept in a ponytail or braid. She had large, expressive eyes that seemed to sparkle with joy, full lips, and a cute, button nose. She wears clothes that show off her slender legs and her large bust, which gives her an impressive, statuesque look. Her skin is pale and smooth.",
+        "contextConfig": {
+          "prefix": "----\n",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 350,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1722783361161,
+        "displayName": "*Beauty Idol: Mai Oomura",
+        "id": "216a2759-e402-4123-ae5d-70c020c92946",
+        "keys": [
+          "Mai",
+          "Oomura"
+        ],
+        "searchRange": 8000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "fbcbb104-8605-4df8-85e3-8410219f06e7",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "Aimi Kobayashi\nType: character\nSetting: original\nAge: 22\nOccupation: idol, singer, center candidate\nHeight: 175 cm (5'9\")\nWeight: 50 kg (110 lbs)\nBWH: 89-57-86\nTalents: singing (jazz)\nBody: tall, slim, curvy\nHair: dark black, shoulder-length\nEyes: hazel\nPersonality: introverted\nPhysical Description: Aimi Kobayashi's striking height combined with her slim and curvy figure is the first thing that catches most people's eyes. Her dark black, shoulder-length hair frames a face with striking hazel eyes, giving her an air of understated beauty. Despite the slender physique ideal for an idol that she maintains, her body is feminine with a perfect hourglass shape.\nSummary: Aimi Kobayashi is a 22-year-old aspiring idol and singer, who was born and raised in Yokohama, Aimi's early life was marked by her parents' divorce when she was just five years old. The abandonment by her mother left a lasting impact on her personality, contributing to her introverted nature. Despite this emotional setback, Aimi found solace in music, particularly singing, which she began training in at the age of seven. After being raped by her father at 16, she ran away from home.\nAimi's talent for jazz singing is exceptional, setting her apart in a industry often dominated by pop and rock styles. Her unique vocal abilities, combined with her stunning looks (89-57-86 measurements), make her a standout candidate for idol stardom. However, her shy demeanor and lack of stage presence have been obstacles in her path to success.\nAfter high school, Aimi pursued her passion by taking singing classes in college while working part-time as a jazz singer. Her dedication to her craft is evident in her continuous efforts to improve, even after failing her first major audition due to stage fright. This setback only fueled her determination, leading her to seek out opportunities in the entertainment industry, including her current position at a production company. She hopes for a second chance, and would leap at any auditions that come her way at this company.\nDespite her reserved nature, Aimi possesses a sweet and gentle disposition that endears her to those who get to know her. When comfortable, she reveals a more expressive side of herself, showcasing the depth of her personality. Her combination of beauty, talent, and perseverance makes her a promising candidate for stardom, provided she can overcome her shyness and fully embrace the spotlight.\nAimi's journey from a child of divorce to a potential idol star is a testament to her resilience and passion for music. As she continues to develop her skills and confidence, Aimi Kobayashi stands on the brink of potentially becoming a unique and captivating presence in the idol world.",
+        "contextConfig": {
+          "prefix": "----\n",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 350,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1722784182521,
+        "displayName": "*Singer Idol: Aimi Kobayashi",
+        "id": "0a370037-7f4e-4ab8-af09-c3aad8b6e233",
+        "keys": [
+          "Aimi Kobayashi",
+          "Aimi",
+          "Kobayashi"
+        ],
+        "searchRange": 8000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "fbcbb104-8605-4df8-85e3-8410219f06e7",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "Mariko Watanabe\nType: character\nSetting: original\nAge: 32\nOccupation: dance instructor, idol coach\nHeight: 175 cm (5'10\")\nWeight: 52 kg (115 lbs)\nBody type: fit, lean, toned body\nTalents: dancing, choreography, singing\nPersonality: friendly, flirtatious, perceptive, playful\nHair: black, shoulder-length\nEyes: brown, expressive\nDescription: Mariko has a lovely face with almond-shaped eyes and a pretty smile. She has dark eyes, a pert little nose, and long lashes that makes her eyes look bright. She also has full, sensual lips, a heart-shaped face, and high cheekbones. Her makeup is expertly applied to accentuate all of these features.\nMariko has a tall, statuesque build that made her a favorite in many people's eyes. Taking after her Korean father at 175cm, she was taller than most Japanese men, with curves were in proportion. Mariko was extremely toned and fit, and had an athletic build, with long legs, a well-shaped rear, and narrow waist.\nSummary: Mariko Watanabe, born to a Japanese father and a Korean mother, grew up in Tokyo. Her father was a businessman, and her mother was a dancer. She showed an aptitude for dancing from a young age, and her mother encouraged her to pursue it as a career. Mariko was also very athletic and was in the top ranks of her school's volleyball and tennis teams.\nShe is a former idol who graduated from the industry to be a dancer and idol coach. She was hired as a coach for the idols of White Rose by the producer. Mariko was an excellent choice as a coach for the idol group, given her past experience in the industry.\nShe was the center of the producer's first idol group, and a former lover. She is always trying to seduce, even though the producer tells her that she should find a husband before it is too late.",
+        "contextConfig": {
+          "prefix": "----\n",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 350,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -2
+        },
+        "lastUpdatedAt": 1723237788024,
+        "displayName": "Coach: Mariko Watanabe",
+        "id": "f05559cc-d4d9-4e3d-9fec-5f1baa5c197d",
+        "keys": [
+          "Watanabe",
+          "Mariko"
+        ],
+        "searchRange": 4000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "0772be57-04c3-4225-ba1c-25ad8db2b300",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "Rina Koyuki\nType: character\nSetting: original\nAge: 22\nOccupation: hostess, nightclub singer\nHeight: 155 cm\nWeight: 44 kg\nTalents: singing (jazz and pop)\nPersonality: hard working, submissive\nHair: navy blue (shoulder-length)\nEyes: sapphire blue\nBWH: 84-58-83\nSummary: Rina is a talented singer who has trained to sing opera from an early age. However, she lacks the vocal strength and presence of an idol center like Aimi. But that is not a fair comparison, as Aimi's voice is as perfect as a nightingale's, and her beauty is legendary. Rina, though, is an incredible backup singer, and her lovely face and body make her perfect to support another idol.\nSpeaking of her body, the former idol has a short, slender figure with curves in the right places. She has small but pert breasts and lovely thighs with a perfectly shaped ass that makes her irresistible. Her skin is smooth, her face is soft and beautiful, and her voice is as dark and smoky as her hair.\nShe was the center of a disbanded idol group called the Koyuki Stars, and Rina's voice is smoky, deep, and has a slight nasal quality to it that makes her incredibly erotic and enticing. With a combination of those voices in concert, the fans would go crazy.",
+        "contextConfig": {
+          "prefix": "----\n",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -2
+        },
+        "lastUpdatedAt": 1721509090693,
+        "displayName": "Hostess: Rina Koyuki",
+        "id": "fae8cb5a-35a3-457a-b755-37e4aa4de318",
+        "keys": [
+          "Rina",
+          "Koyuki"
+        ],
+        "searchRange": 8000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "38fce802-083a-4541-a06a-74322c3e6046",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "Dramatis Personae\nProduction Staff:\n- Bunzo Matsumoto (m, 26, photographer)\n- Daijin Nakitama (m, 25, production assistant)\n- Chikage Kanzaki (f, 23, producer's personal assistant)\n- Hiro Sashiko (m, 26, writer, composer, screenwriter)\n- Mariko Watanabe (f, 32, dance coach)\n- Yuki Tanaka (f, 29, dance coach)\nIdols and Idol Candidates:\n- Ayane Nakamura (f, 20, idol): petite, shoulder-length raven hair, attention-seeker\n- Mizuki Aozora (f, 20, idol): short, long brunette, fashionista\n- Aiko Hoshikawa (f, 20, idol): tall, long blonde, brat, flirtatious\n- Aimi Kobayashi (f, 22, idol): slim, curvy, shoulder-length dark black hair, virtuoso singer and dancer\n- Emi Sakomoto (f, 21, idol): tall, athletic, waist-length chocolate hair, excellent dancer\n- Mei Fujimoto (f, 21, idol): petite, athletic, braided red hair, dancer\n- Yume Liu (f, 19, idol): petite, hourglass, black hime-cut hair, brown eyes, Chinese-American-Japanese heritage\n- Mai Oomura (f, 21, idol): tall, long black hair, well-proportioned, beauty, good 'face' of group.\n- Sayaka Nakagawa (f, 18, idol): athletic with hourglass curves, black hair, very good dancer\n- Akane Aizawa (f, 24, idol): small, voluptuous, long light brown hair, brown eyes, flirtatious, good gravure idol\n- Hiromi Aki (f, 20, idol-hostess): sexy, attractive, shoulder-length brown hair, hostess experience\n- Rie Namba (f, 18, idol) tall and elegant, brown hair, fashonista\nHostesses:\n- Hitomi Sasaki (f, 26, hostess club manager, hostess)\n- Hiromi Aki (f, 20, hostess, idol candidate)\n- Kozue Hattori (hostess, charismatic, charmer) tall, golden hair, voluptuous\n- Kanae Taro (hostess, mixed race, seductress)\n- Rei Nakajima (hostess, elegant, smart, redhead)\n- Rina Koyuki (hostess, Nightclub singer)\n- Yukiko Takaesu (hostess, genius, conversationalist)",
+        "contextConfig": {
+          "prefix": "----\n",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 500,
+          "budgetPriority": 800,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1722784035246,
+        "displayName": "Dramatis Personae",
+        "id": "611085f6-1c85-455e-ba4d-60ff4df73282",
+        "keys": [
+          "White Roses",
+          "Idol"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": true,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "Kozue Hattori\nType: character\nSetting: original\nAge: 23\nOccupation: hostess, charmer\nHair: black\nEyes: dark\nHeight: 154 cm (5'1\")\nWeight: 45 kg (100 lbs)\nPersonality: bold, perceptive\nSummary: Kozue is one of the hostesses at the Black Petals Nightclub. A pretty girl who has been with two men and has no interest in more men in her life. She was a very capable hostess, who had worked in that job for years prior to being employed by Hidoro Takeshi.\nKozue's last two engagements with men had both ended quite badly for her. The first was when she was younger, and more naive. She was quite in love with the boy, and they had dated since high school. But when she moved in with him, he demanded sex as proof of her love for him, and it turned out that he had slept with several of Kozue's friends. Kozue realized she meant nothing to the man, and she ended things with him and left his house.\nThe second engagement was with a coworker at a nightclub, where Kozue had taken work as a hostess. He was a sweet and gentle man, but not suited to her personality or desires. She is attracted to strong men, and he was very passive and submissive. Eventually, they split up because they were not well matched.\nShe recently interviewed with Takeshi Hidoro and Aimi Kobayashi. Takeshi has given her a position as a hostess at his new nightclub, and Kozue is looking forward to working there. Takeshi's style of business management and personal morals have impressed Kozue. She already has a crush on him and had subtly told him that she'd do anything he asked her to do. Kozue enjoys being an entertainment hostess for men, and has taken that role for life, as she has no interest in a family.\nKozue's dark midnight hair flowed around her face, falling gently around the shoulders of her thin white blouse. Her pretty black eyes were wide open, watching me. Her lips were full, and painted a bright cherry red. Her slender body was wrapped in a blouse and short black skirt, with a black belt accentuating the slight but feminine curves of her waist and hips. Her breasts, pushing gently out from the tight confines of her white blouse, were hardly more than a modest handful, but Kozue carried herself proudly.",
+        "contextConfig": {
+          "prefix": "----\n",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -2
+        },
+        "lastUpdatedAt": 1721508262016,
+        "displayName": "Hostess: Kozue Hattori",
+        "id": "37245afb-a1fb-4863-a78d-afc75a5eee6b",
+        "keys": [
+          "Kozue",
+          "Hattori"
+        ],
+        "searchRange": 8000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "38fce802-083a-4541-a06a-74322c3e6046",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "Rei Nakajima\nType: character\nSetting: original\nAge: 19\nOccupation: hostess, eye-candy\nHeight: 161 cm\nWeight: 49 kg\nHair: red, Ainu ancestry\nEyes: dark brown\nBody type: slender but gravure curves\nPersonality: playful, confident\nSummary: Rei Nakajima was born to two professors at Hokkaido University, and she has a mixed cultural background that included both heritages. Her red hair and elegant beauty came from her mother, a woman who was also a model.\nShe grew up to have gravure style curves on her petite body, and when she finished high school she moved to Tokyo where she lived with her uncle. He owned a modeling agency. Her parents moved down there for work as well and all of them have continued to live there ever since.\nShe studied at Tokyo University, and graduated with a degree in mathematics and a minor in physics. Her hobbies include poetry and music, and she loves singing and playing instruments. She speaks fluent Japanese, Ainu, English, and Russian, having picked it up when visiting relatives. Her goal was to become a performer and idol.\nBut she didn't make it as an idol. Her first job in that field was a gravure model for one of the entertainment magazines. The man she was working with was very professional. But when she asked about moving into idol work, he gave her a blunt reply, \"I'll tell you the truth. You're too sexy looking. If you try to become an idol, you'll get stuck being the sexy idol girl, who has to take off her clothes and look good for the fans. If you're okay with that, I'll set it up.\" But Rei's dream had been to perform and sing on stage. She'd seen her mother used and abused, and Rei decided she wouldn't go through the same thing.\nInstead, she decided that if she couldn't become a star on stage, then she'd do something else. She knew that she was enormously sexy, beautiful, and smart. So she became a hostess. She has a refined beauty and a lovely face, and with her curves, she makes every man turn their heads and stare at her body as she walks by. She wears all manner of clothes from casual jeans and t-shirts to elegant dresses.",
+        "contextConfig": {
+          "prefix": "----\n",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -2
+        },
+        "lastUpdatedAt": 1721508441347,
+        "displayName": "Hostess: Rei Nakajima",
+        "id": "d475ce27-778a-46cd-9805-3b9e294d5c17",
+        "keys": [
+          "Rei",
+          "Nakajima"
+        ],
+        "searchRange": 8000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "38fce802-083a-4541-a06a-74322c3e6046",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "Kanae Taro\nType: character\nSetting: original\nAge: 21\nOccupation: hostess, seductress\nAttributes: female, tall, slender, fit, long blonde hair, blue eyes\nGender: female\nAge: early twenties\nOccupation: economics student, hostess\nHeight: 170 cm\nHair: blonde, waist-length, wavy\nEyes: blue\nBuild: slender, voluptuous\nWears: lipstick (pink or red), high heels\nPersonality: haughty, snobbish, classy, flirtatious, perceptive, romantic, masochistic\nSummary: Kanae Taro first met the producer when she came to him to request that she be put under consideration to be one of the members of the idol group, six years ago. She had been a new idol and had recently turned sixteen at the time. Kanae was an aspiring idol with dreams of fame and wealth, and she had tried to convince the producer to make her the next top idol and she had been rejected bluntly. She was too young, and despite being exotic and having an attractive appearance, her look was not quite marketable as an idol.\nAt that time she had been a very young girl, despite her looks, and she had been somewhat immature for an idol. Although she was pretty and had some natural talent in singing and dancing, Kanae didn't fit the idol image that the producer was seeking. It wasn't until after she went home to her father that she realized her own reasons for wanting to be an idol: to please people like the producer.\nWhen Kanae returned to Tokyo she'd grown up to be a beautiful young woman, no longer the cute little girl who liked to play on the beach. She resolved to be exactly the kind of woman that the producer would want, studying economics, knowing how to dance, and becoming the perfect hostess in terms of skill and education. But she was also very beautiful, having mixed blood from an American, tall, with an hourglass figure and large breasts. There is a lot of prejudice towards gaijin in Japan, and the only way a foreigner could succeed is with an impressive body that no man can refuse. Her hard work eventually did pay off. She had matured, both in terms of her body, and her mind since she was sixteen years old.\nNow twenty-two and having just graduated from college with a degree in economics and international business with a minor in foreign language, Kanae is working as a hostess at a high class gentlemen's club.",
+        "contextConfig": {
+          "prefix": "----\n",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -2
+        },
+        "lastUpdatedAt": 1721943826051,
+        "displayName": "Hostess: Kanae Taro",
+        "id": "f06f0886-1cbc-4851-8395-50209a647238",
+        "keys": [
+          "Taro",
+          "Kanae"
+        ],
+        "searchRange": 8000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "38fce802-083a-4541-a06a-74322c3e6046",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "Yukiko Takaesu\nType: character\nSetting: original\nAge: 19\nAKA: Professor-chan\nOccupation: hostess, conversationalist\nAttributes: female, human, classy, flirty, genius, reserved, repressed, tall, black hair (long)\nGender: female\nAge: mid-twenties\nHair: black, waist-length, braided\nBuild: slender, voluptuous\nEyes: violet, piercing\nWears: lipstick (pink or purple), backless dress\nSummary: The woman's face was stunningly beautiful; it held an exquisite beauty, like a sculpture created by a master. Her skin was pale and creamy, her features elegant and lovely. She had a slim, straight nose, and her lips were plump and had a natural pink color to them, not the pale of someone with bad circulation or ill health.\nHer eyes were large and expressive, with a bit of green flecks in her irises, framed by delicate brows and her glasses. Her hair was long, falling down to her waist, a dark raven color with a few streaks of lighter purple highlights running down the sides. The light smell of jasmine drifted from her.\nShe was dressed in a fashionable backless dress that was black with red trim. It showed a generous amount of her cleavage, revealing her bust to be quite large. It fell along her curves before flowing out around her legs, leaving only the tips of her high heels poking out.\nYukiko Takaesu was born with an innate talent, she possessed an incredible level of perception. When she looks at someone, she sees so much more than others. When she looks in the mirror, she can't help but see her own self-doubt and her own lies. This has caused her to become very withdrawn, even as she's able to mimic the personality that others expect of her and blend in with them. She also has the ability to know the lies that people speak to her, as well as knowing their truths, which has made her become very introverted.\nA prodigy and child genius, Yukiko was recognized as a brilliant mind by the age of 10 and had graduated high school by the age of 12. She then received a scholarship to one of Tokyo's prestigious universities, where she studied theoretical physics. It was fortunate that she finished her Ph.D at sixteen, because soon after, her body blossomed and her libido went into overdrive. By the time she reached 18, she could not stand it any longer.\nShe became desperate to satisfy the cravings in her body. She tried to hire a male escort, but her perceptions drove him away. The same happened with every other escort she tried to hire, until she started stalking random men, looking for an easy mark. It was then that she met a man named Kenji, who took her out and seduced her. She thought she was in love, and he manipulated her into becoming a stripper, which was when he betrayed her by bringing several other men to her debut at the strip club and forcing her to service them all.\nThe betrayal left her very traumatized, and her psyche fragmented, splitting off the identity of her old innocent and naïve self into an independent being, a \"spirit\" she calls Shirasagi. Now, she works as a part-time professor at a small local college while still continuing to strip at night. By day, she teaches and tries to find new and innovative ways to advance scientific knowledge; by night, she dances to entertain the patrons of the gentlemen's club and services the clientele with her body.\nAlthough she is currently a respected and established professor in her early twenties, Yukiko feels a large degree of insecurity about herself, exacerbated by her ability to see people's true intentions and emotions. She recently heard about the Black Petal Nightclub, and decided she wanted to become one of the girls there. Her instincts told her it was what she'd always been looking for: a place where she could be accepted for all of herself, including her abilities.",
+        "contextConfig": {
+          "prefix": "----\n",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -2
+        },
+        "lastUpdatedAt": 1721508398371,
+        "displayName": "Hostess: Yukiko Takaesu",
+        "id": "de8e8060-57b8-45a1-9dc6-351d0271ca86",
+        "keys": [
+          "Yukiko",
+          "Takaesu"
+        ],
+        "searchRange": 8000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "38fce802-083a-4541-a06a-74322c3e6046",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "Yuki Tanaka\nType: character\nSetting: original\nAge: 29\nOccupation: dance coach, instructor\nHeight: 168 cm\nWeight: 55 kg\nBWH: 84-60-86\nBody type: athletic, toned\nTalents: dancing (various styles), choreography\nPersonality: strict but encouraging\nHair: dark brown, usually in a tight bun\nEyes: dark brown\nSummary: Yuki Tanaka grew up in Osaka, the daughter of a former ballerina and a salaryman. From the age of four, she was enrolled in ballet classes, showing natural talent and grace. As she grew older, Yuki expanded her dance repertoire to include jazz, hip-hop, and contemporary styles.\nAt 16, Yuki won a national youth dance competition, which led to opportunities to train abroad. She spent two years in New York, honing her skills and learning from world-renowned choreographers. Upon returning to Japan at 18, she began working as a backup dancer for various J-pop acts.\nBy 23, Yuki had transitioned into choreography, creating routines for up-and-coming idol groups. Her unique blend of traditional and modern dance styles caught the eye of several major entertainment companies. However, a knee injury at 25 threatened to end her career prematurely.\nDetermined to stay in the industry, Yuki threw herself into rehabilitation and dance theory. She emerged from this setback with an even deeper understanding of body mechanics and a passion for teaching. This led her to become one of the most sought-after dance coaches in the idol industry.\nYuki's teaching style is known for being demanding but fair. She pushes her students to their limits but always with their best interests at heart. Her experience with injury has made her particularly attentive to proper technique and injury prevention.\nDespite her stern demeanor during practice, Yuki genuinely cares for her students. She often acts as a confidante and mentor, helping young idols navigate the pressures of the industry. Her own experiences have made her protective of her charges, and she's not afraid to stand up to management if she feels they're pushing the girls too hard.\nPhysically, Yuki maintains the lean, athletic build of a dancer. Her body is a testament to years of rigorous training and discipline. While not conventionally glamorous like many in the idol world, she carries herself with a quiet confidence that commands respect.\nYuki's dedication to her craft and her students has made her an invaluable asset to the idol group. Her choreography is known for bringing out the best in each member, highlighting their strengths while masking their weaknesses. Under her guidance, even the most inexperienced dancers have blossomed into polished performers.",
+        "contextConfig": {
+          "prefix": "----\n",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 350,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -2
+        },
+        "lastUpdatedAt": 1721509182984,
+        "displayName": "Coach: Yuki Tanaka",
+        "id": "498ac27f-0759-422e-b69c-dfa9ae261c8d",
+        "keys": [
+          "Yuki",
+          "Tanaka",
+          "Coach"
+        ],
+        "searchRange": 4000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "0772be57-04c3-4225-ba1c-25ad8db2b300",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "Akane Aizawa\nType: character\nSetting: original\nOccupation: idol, gravure\nAge: 24\nHeight: 158 cm\nWeight: 45 kg\nBWH: 92-58-88\nBody type: petite with large breasts\nTalents: modeling, swimming\nPersonality: bubbly, flirtatious\nHair: light brown, long, wavy\nEyes: large, dark brown\nSummary: Akane Aizawa was born in Okinawa to a Japanese mother and an American father who was stationed at the local US military base. Growing up by the sea, Akane developed a love for swimming and spent most of her childhood on the beach. Her mixed heritage blessed her with exotic looks that would later become her trademark in the entertainment industry.\nAt 16, Akane was scouted by a talent agency while participating in a local beauty pageant. Despite her parents' initial reservations, they eventually agreed to let her pursue a career in modeling. Akane moved to Tokyo at 18 to chase her dreams, starting with small gigs in fashion magazines.\nIt wasn't long before Akane's curvaceous figure and innocent charm caught the attention of gravure magazines. Her first photobook, titled \"Tropical Dream,\" was an instant hit, showcasing her ample assets in skimpy bikinis against the backdrop of her native Okinawa. The success launched her career as a gravure idol, leading to more photoshoots, magazine covers, and even appearances in variety shows.\nAkane's popularity stems not just from her physical attributes but also from her bubbly personality. She's known for her infectious laugh and flirtatious nature, which have made her a favorite guest on late-night TV shows. However, this public persona masks a shrewd business sense - Rina is well aware of the short shelf life of gravure idols and has been carefully planning for her future.\nBehind the scenes, Rina has been taking acting classes and voice lessons, hoping to transition into mainstream entertainment. She's also leveraged her swimming background to land sponsorship deals with swimwear brands, ensuring a steady income stream beyond gravure work.\nDespite her success, Akane has faced her share of challenges. The gravure industry's focus on youth and physical appearance has led to constant pressure to maintain her figure. She's also had to deal with overzealous fans and the occasional scandal, including a leaked photo incident that she managed to turn into a career boost through clever PR management.\nAs she approaches her mid-twenties, Akane is at a crossroads in her career. She's still in high demand for gravure work, but she's increasingly looking for opportunities to showcase her other talents. Whether she can successfully transition to a broader entertainment career remains to be seen, but Rina is determined to leave her mark beyond just being a pretty face with a nice figure.",
+        "contextConfig": {
+          "prefix": "----\n",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 350,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1722783965287,
+        "displayName": "*Gravure Idol: Akane Aizawa",
+        "id": "9affe4ca-ddc2-4a9f-8852-4399c6a9dc92",
+        "keys": [
+          "Aizawa",
+          "Akane"
+        ],
+        "searchRange": 8000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "fbcbb104-8605-4df8-85e3-8410219f06e7",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "Bunzo Matsumoto\nType: character\nSetting: original\nAge: 26\nOccupation: freelance photographer\nHeight: 178 cm\nWeight: 70 kg\nHair: black\nEyes: dark brown\nSummary: Bunzo Nakamura grew up in Tokyo as the son of a photographer father and a model mother. His father was a renowned photographer who had worked with many famous Japanese idols, and his mother was a former model who had been in a few magazines. His parents divorced when he was young, and he lived with his mother for most of his childhood.\nGrowing up around photography and fashion, Bunzo developed a passion for photography at an early age. He loved to take photos of people, especially beautiful women, and he dreamed of becoming a famous photographer like his father.\nHe studied photography in college and learned all the technical aspects of photography, as well as how to create a beautiful photo. After graduating, he started working as an assistant photographer for a famous fashion photographer. He learned a lot from this mentor and developed his own style of photography, which was bold and edgy, yet elegant and refined.\nBunzo worked hard and eventually became a freelance photographer. He specialized in fashion photography and worked for various magazines and clients. He was known for his ability to create stunning photos that showcased the beauty and elegance of his models. He was also known for being a perfectionist and a bit arrogant, but he always got the best results. He works with the idol group to take pictures of the members.\nBunzo is a handsome man with a tall and slender build. He has short black hair and dark brown eyes. He usually dresses in stylish and fashionable outfits, and carries a camera everywhere he goes. He is confident and charming, but also a bit selfish and arrogant.",
+        "contextConfig": {
+          "prefix": "----\n",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 350,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -2
+        },
+        "lastUpdatedAt": 1721942996488,
+        "displayName": "Photographer: Bunzo Matsumoto",
+        "id": "a1c237b4-1059-4059-b52b-6131664fa0a5",
+        "keys": [
+          "Bunzo",
+          "Matsumoto",
+          "photographer"
+        ],
+        "searchRange": 4000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "0772be57-04c3-4225-ba1c-25ad8db2b300",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "Chikage Kanzaki\nType: character\nSetting: original\nAge: 23\nOccupation: producer's personal assistant\nHeight: 165 cm\nWeight: 52 kg\nBody type: slender, toned\nTalents: organization, efficiency, problem-solving\nPersonality: serious, responsible, loyal, organized\nHair: dark brown, long, usually worn in a braid\nEyes: dark brown\nSummary: Chikage was born an only child of two business executives, who were rarely home in Tokyo. As a result, she grew up with a lot of independence and responsibility. She was a very organized and efficient person, and she had a knack for solving problems.\nChikage was an excellent student, and she excelled in all of her classes. She was a model student, and she was popular among her peers. The young woman was also a talented athlete who played on the volleyball team.\nAfter graduating from high school, Chikage attended a prestigious university in Tokyo. She majored in business administration, and she graduated with honors. She then worked as a personal assistant for a successful businessman. She was responsible for his schedule, correspondence, and other miscellaneous tasks. What makes her effective was her efficiency and organization skills which allowed her to handle any task thrown her way.\nChikage is a very serious person. Despite this, she is beautiful and charming, and she knows how to use her looks to get what she wants. Her loyalty to her employer is remarkable, and she will do anything to protect him. Chikage is also a very responsible person.\nShe was recently hired as the producer's assistant and is still trying to find her footing.",
+        "contextConfig": {
+          "prefix": "----\n",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 350,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -2
+        },
+        "lastUpdatedAt": 1723237958822,
+        "displayName": "Personal Assistant: Chikage Kanzaki",
+        "id": "48844aab-f7a4-4c82-addb-940b4ea43e97",
+        "keys": [
+          "Chikage",
+          "Kanzaki",
+          "Assistant"
+        ],
+        "searchRange": 4000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "0772be57-04c3-4225-ba1c-25ad8db2b300",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "Hiro Sashiko\nType: character\nSetting: original\nAge: 26\nOccupation: writer, composer, screenwriter\nHeight: 170 cm\nWeight: 63 kg\nBody type: slim, delicate\nTalents: writing, composing music, creative thinking\nPersonality: quiet, shy, introverted, creative\nHair: black, long, usually tied back\nEyes: dark brown\nSummary: Born and raised in Tokyo, Hiro Sashiko grew up in a creative family. His father was a painter, and his mother was a writer. He had two older sisters who were both musicians. Hiro was a quiet child who spent most of his time reading or writing stories. He was shy and introverted, and he had trouble making friends.\nHe attended a private arts academy where he studied writing and music composition. He graduated with honors and went on to write and compose for various media outlets. He worked on several TV dramas and movies, and he published a few books of poetry.\nHiro is a very talented writer and composer. He was recently hired by the idol group to write lyrics for their songs. He is a bit shy around people, but he has a great talent for writing and composing. He tends to keep to himself, preferring to spend his time alone with his writing and composing.\nHe is definitely out of his comfort zone when he has to work with the idols and tends to get flustered when he's around them. He's not sure how to react when they flirt with him, or when they ask him for advice on their singing or dancing.",
+        "contextConfig": {
+          "prefix": "----\n",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 350,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -2
+        },
+        "lastUpdatedAt": 1721942989177,
+        "displayName": "Composer: Hiro Sashiko",
+        "id": "a93f2ee2-bcc3-4764-ac26-003c39789c14",
+        "keys": [
+          "Hiro",
+          "Sashiko",
+          "Writer",
+          "Composer",
+          "Screenwriter"
+        ],
+        "searchRange": 4000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "0772be57-04c3-4225-ba1c-25ad8db2b300",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "Daijin Nakitama\nType: character\nSetting: original\nAge: 25\nOccupation: production assistant\nHeight: 172 cm\nWeight: 68 kg\nBody type: slim, toned\nTalents: organization, problem-solving\nPersonality: professional, efficient, sometimes overly serious\nHair: black, short, tidy\nEyes: dark brown\nSummary: Born and raised in Nagoya, Daijin Nakitama was the youngest child and only son of a middle-class family. His father was an accountant for a small manufacturing company, and his mother worked as a nurse at a local hospital.\nDaijin was a quiet child who preferred to read books or study rather than play sports or games. He excelled in school, particularly in math and science, and was often at the top of his class. His parents encouraged his academic pursuits and saved diligently to send him to university.\nHe graduated from the prestigious University of Tokyo with a degree in Business Administration and a minor in Film Studies. While in university, he worked part-time as a production assistant for an independent film production company, where he learned the ropes of the film industry and developed a keen interest in filmmaking.\nHe finds himself flustered surrounded by beautiful women, and has difficulty concentrating on his work when they're around.",
+        "contextConfig": {
+          "prefix": "----\n",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 350,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -2
+        },
+        "lastUpdatedAt": 1721943004279,
+        "displayName": "Production Assistant: Daijin Nakitama",
+        "id": "65590c66-89d2-4550-a447-c5acd8934e3f",
+        "keys": [
+          "Nakitama",
+          "Daijin"
+        ],
+        "searchRange": 4000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "0772be57-04c3-4225-ba1c-25ad8db2b300",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "Hitomi Sasaki\nType: character\nSetting: original\nAge: 26\nOccupation: hostess, hostess club floor manager\nHeight: 165 cm (5'5\")\nWeight: 54 kg (120 lbs)\nBody type: fit, slender, athletic\nTalents: management, business, accounting\nPersonality: friendly, strict, ambitious, flirtatious\nHair: dark brown, shoulder-length\nEyes: light brown, large, expressive\nSummary: Hitomi Sasaki grew up in a small town in Hokkaido, the daughter of a shop owner and a housewife. She was known for her energetic personality and knack for getting people to do what she wanted.\nIn school, Hitomi excelled in leadership roles, managing school events and clubs. She also discovered her talent for hosting and entertaining, often being the life of the party among her friends. After graduating from a vocational school with a focus on hospitality, she moved to Tokyo at 18 to pursue a career in the entertainment industry.\nHitomi started as a waitress in a hostess club, quickly moving up the ranks to become one of the top hostesses. She was known for her ability to make guests feel welcome and comfortable, as well as her talent for managing the club floor. Her ambition and talent didn't go unnoticed, and she was promoted to assistant manager within a few years.\nHitomi's ambition and talent for management led her to be hired as a hostess and floor manager by the owner of the Black Petal Nightclub. Despite being management, she is quite attractive with large, expressive eyes, long, thick eyelashes, and a very pretty face with a pert nose and sensual lips. Her hair is dark brown, and she wears it down at shoulder-length, styled with bangs that frame her face. Her figure is slender but fit and athletic, with toned limbs, a tight stomach, and breasts that are a little larger than one would expect from her frame. She is quite attractive and can easily work as a hostess if needed. But her real talent is in management, and she has the skills to keep a hostess club running smoothly.",
+        "contextConfig": {
+          "prefix": "----\n",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -2
+        },
+        "lastUpdatedAt": 1721509102719,
+        "displayName": "Manager: Hitomi Sasaki",
+        "id": "e0c8533f-55c6-45c7-92b5-ba8f5a82918d",
+        "keys": [
+          "Hitomi",
+          "Sasaki",
+          "Hostess",
+          "Black Petals"
+        ],
+        "searchRange": 8000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "38fce802-083a-4541-a06a-74322c3e6046",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "Possible Plot Situations:\n• Producer holds auditions among idol candidates\n• Producer observes idols teasing composer\n• Coach teaching dance to idols while the producer observes\n• Producer goes to the Black Petals hostess club with photographer or production assistant\n• Idols are rehearsing dance, photographer is taking photos\n• Idols are practicing singing, composer is present\n• Idols and hostesses are interacting in the nightclub\n• Hostesses are entertaining guests\n• Producer is meeting with composer to discuss songwriting\n• Idols have conflict with each other\n• Producer has to resolve a problem between the idol group and management\n• Hostess club manager and producer discussing business\n• Idol group preparing for a performance\n• Idol group performs on stage\n• Media interviews the idol group\n• Idol group receives award or recognition",
+        "contextConfig": {
+          "prefix": "----\n",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 500,
+          "budgetPriority": 700,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1721527414911,
+        "displayName": "Plot Situations",
+        "id": "673c7c0c-34c4-46da-a9b7-28ea421bd5bd",
+        "keys": [],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": true,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "Locations:\n• Nightclub\n• Office\n• Dance rehearsal room\n• Recording studio\n• Audition room\n• Dressing room\n• Idol dorm\n• Hostess club\n• Stage\n• Restaurant",
+        "contextConfig": {
+          "prefix": "----\n",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 500,
+          "budgetPriority": 750,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1721527419662,
+        "displayName": "Locations",
+        "id": "7d3e3d09-c8a4-4202-9919-3a0ccfbf2dc0",
+        "keys": [],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": true,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "Yume Liu\nType: character\nSetting: original\nAge: 19\nOccupation: idol, dancer, singer\nTalents: dancing, singing\nHeight: 152 cm (5'0\")\nWeight: 42 kg (93 lb)\nHair: black, long, hime-cut\nEyes: brown, slightly Asian\nBody: thin, hourglass, petite, tight\nDescription: Yume Liu was a beautiful woman with an alluring and seductive presence, possessing an exotic charm due to her mixed heritage of Chinese, American, and Japanese. Her physical appearance was that of a slim, hourglass-shaped body with long black hair, brown eyes, and fair skin.\nHer most striking feature was her doll-like face that often draws attention from those around her. She was petite in stature with an alluring hourglass figure that many women envy and draws the gaze of many men. She had a lovely smile that can melt hearts and captivate people's souls.\nSummary: Yume Liu was born in a small town in Kansai, Japan. Her father was a Chinese-American businessman, and her mother was a Japanese national. From an early age, Yume showed an interest in music and began taking singing and dancing lessons.\nYume Liu's father is a Chinese-American businessman who moved to Japan for work. He fell in love with Yume's mother, a Japanese national, and they got married. However, when Yume was a teenager, her father lost his job due to the economic downturn. Despite facing financial difficulties, Yume's father remained supportive of her dream to become an idol.\nYume's mother, on the other hand, struggled to come to terms with her daughter's decision to pursue a career in the entertainment industry. During this time, Yume learned to be resourceful and independent, often finding ways to make money to help support her family. Despite facing rejection and setbacks, she remained determined to succeed in the idol industry.\nYume Liu attended a local school where she was known for her singing and dancing skills. She participated in various talent shows and competitions, winning several of them. Despite her talents, she faced discrimination from some of her classmates who were jealous of her mixed heritage and beauty. Yume faced significant challenges in her early years as she tried to make it in the entertainment industry. Her mixed heritage often made her stand out, but not always in a positive way.\nIn Japan, where conformity is valued, Yume's exotic looks and upbringing often made her a target of bullying. She was mocked for her accent and teased for not fitting in. Yume also struggled with language barriers, having grown up speaking Mandarin at home and attending an English-speaking school. She often felt like an outsider, trying to navigate the complexities of Japanese culture and society.\nDespite these challenges, Yume's passion for singing and dancing kept her going. She joined local talent shows and competed in various competitions, slowly honing her skills and building a following.",
+        "contextConfig": {
+          "prefix": "----\n",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 350,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1723237323880,
+        "displayName": "*Exotic Idol: Yume Liu",
+        "id": "996034eb-2194-42e7-8648-53803d886218",
+        "keys": [
+          "Yume",
+          "Liu"
+        ],
+        "searchRange": 8000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "fbcbb104-8605-4df8-85e3-8410219f06e7",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      }
+    ],
+    "settings": {
+      "orderByKeyLocations": false
+    },
+    "categories": [
+      {
+        "name": "Characters: Hostesses",
+        "id": "38fce802-083a-4541-a06a-74322c3e6046",
+        "enabled": true,
+        "createSubcontext": false,
+        "subcontextSettings": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1721489574443,
+          "displayName": "New Lorebook Entry",
+          "id": "ea3c9c51-f175-40a6-a249-4ff49a9779f0",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "useCategoryDefaults": true,
+        "categoryDefaults": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "----\n",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -2
+          },
+          "lastUpdatedAt": 1721527122503,
+          "displayName": "New Lorebook Entry",
+          "id": "36585faa-7eb3-4976-895b-bb60bbf65120",
+          "keys": [],
+          "searchRange": 8000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "categoryBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ],
+        "open": false
+      },
+      {
+        "name": "Characters: Idols",
+        "id": "fbcbb104-8605-4df8-85e3-8410219f06e7",
+        "enabled": true,
+        "createSubcontext": true,
+        "subcontextSettings": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 350,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1704487906824,
+          "displayName": "New Lorebook Entry",
+          "id": "f9d612d9-b166-4f0d-a832-01329db424ee",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "useCategoryDefaults": true,
+        "categoryDefaults": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "----\n",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 350,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1721527302031,
+          "displayName": "New Lorebook Entry",
+          "id": "56331244-386a-48f3-a612-efef83d17244",
+          "keys": [],
+          "searchRange": 8000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "categoryBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ],
+        "open": false
+      },
+      {
+        "name": "Characters: Staff",
+        "id": "0772be57-04c3-4225-ba1c-25ad8db2b300",
+        "enabled": true,
+        "createSubcontext": false,
+        "subcontextSettings": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1721489574443,
+          "displayName": "New Lorebook Entry",
+          "id": "3dab8134-a7de-440a-9d38-65f5e4482f3f",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "useCategoryDefaults": true,
+        "categoryDefaults": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "----\n",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 350,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -2
+          },
+          "lastUpdatedAt": 1721527115142,
+          "displayName": "New Lorebook Entry",
+          "id": "bb2049c6-7d64-47d1-9251-3c0e0493f89a",
+          "keys": [],
+          "searchRange": 4000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "categoryBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ],
+        "open": false
+      }
+    ]
+  },
+  "author": "Wes Brown",
+  "storyContextConfig": {
+    "prefix": "***\n",
+    "suffix": "",
+    "tokenBudget": 1,
+    "reservedTokens": 512,
+    "budgetPriority": 0,
+    "trimDirection": "trimTop",
+    "insertionType": "newline",
+    "maximumTrimType": "sentence",
+    "insertionPosition": -1,
+    "allowInsertionInside": true
+  },
+  "contextDefaults": {
+    "ephemeralDefaults": [
+      {
+        "text": "",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 1,
+          "budgetPriority": -10000,
+          "trimDirection": "doNotTrim",
+          "insertionType": "newline",
+          "maximumTrimType": "newline",
+          "insertionPosition": -2
+        },
+        "startingStep": 1,
+        "delay": 0,
+        "duration": 1,
+        "repeat": false,
+        "reverse": false
+      }
+    ],
+    "loreDefaults": [
+      {
+        "text": "",
+        "contextConfig": {
+          "prefix": "----\n",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1704471988305,
+        "displayName": "New Lorebook Entry",
+        "id": "fce95fb5-3e6f-45cf-b5cd-43dcf1633c8d",
+        "keys": [],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      }
+    ]
+  },
+  "phraseBiasGroups": [
+    {
+      "phrases": [],
+      "ensureSequenceFinish": false,
+      "generateOnce": true,
+      "bias": 0,
+      "enabled": true,
+      "whenInactive": false
+    }
+  ],
+  "bannedSequenceGroups": [
+    {
+      "sequences": [],
+      "enabled": true
+    }
+  ]
+}
